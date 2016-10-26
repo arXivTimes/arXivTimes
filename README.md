@@ -1,5 +1,7 @@
 # arXivTimes
 
+![arXivTimesLogo.PNG](./arXivTimesLogo.PNG)
+
 機械学習関係の論文を調査し、共有するためのリポジトリです。
 
 ## How to use
