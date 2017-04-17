@@ -8,6 +8,10 @@
 
 [@arxivtimes](https://twitter.com/arxivtimes)
 
+論文輪講も併せて実施しています。輪講の内容はこちらから
+
+[arXivTimes Medium](https://medium.com/@arxivtimes)
+
 # How to use
 
 * 登録したい論文は、Issueに登録を行ってください。
