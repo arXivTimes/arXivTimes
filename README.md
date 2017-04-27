@@ -12,7 +12,7 @@
 
 [arXivTimes Medium](https://medium.com/@arxivtimes)
 
-# How to use
+# How to Contribute
 
 * 登録したい論文は、Issueに登録を行ってください。
 * Issueのタイトルを論文とし、内容はIssue Templateに従ってください。登録時必須なのは以下点のみです
@@ -24,7 +24,10 @@
 * 論文の内容に応じて、Labelをつけてください(現時点ではContributorのみ付与可能なので、投稿頂いた場合こちらで付与を行わせていただきます)
 * コメントには、論文を読んでの所感や評価、また理解が難しい点などがあったらその旨を記載してください
 
-# Improvement flow
-
 タグを増やしたい、テンプレートを変えたい、という要望は`proposal`のタグをつけてIssueにあげてください。
+
+# Additional Resource
+
+* [Datasets](https://github.com/arXivTimes/arXivTimes/wiki/Datasets)
+  * 機械学習に利用可能なデータセットをまとめています
 
