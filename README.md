@@ -12,7 +12,16 @@
 
 [arXivTimes Medium](https://medium.com/@arxivtimes)
 
+# Contents
+
+* [Article Summaries](https://github.com/arXivTimes/arXivTimes/issues)
+  * 論文の一言まとめ、また概要をIssueで管理しています。
+* [Datasets](https://github.com/arXivTimes/arXivTimes/tree/master/datasets)
+  * 機械学習に利用可能なデータセットをまとめています。
+
 # How to Contribute
+
+論文のまとめを投稿する際は、以下の要領でお願いいたします。
 
 * 登録したい論文は、Issueに登録を行ってください。
 * Issueのタイトルを論文とし、内容はIssue Templateに従ってください。登録時必須なのは以下点のみです
@@ -26,8 +35,4 @@
 
 タグを増やしたい、テンプレートを変えたい、という要望は`proposal`のタグをつけてIssueにあげてください。
 
-# Additional Resource
-
-* [Datasets](https://github.com/arXivTimes/arXivTimes/wiki/Datasets)
-  * 機械学習に利用可能なデータセットをまとめています
-
+また、その他のコンテンツについては他のOSS同様、Pull Requestにてお願いいたします。
