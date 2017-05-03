@@ -78,6 +78,9 @@
 * [A Large Self-Annotated Corpus for Sarcasm](https://arxiv.org/pdf/1704.05579.pdf)
   * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと) 
   * ダウンロードは[こちらから](http://nlp.cs.princeton.edu/SARC/)
+* [BookCorpus](http://yknzhu.wixsite.com/mbweb)
+  * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
+  * こちらはさすがに利用申請が必要で、また研究用途のみOK。
 
 # Audio
 
