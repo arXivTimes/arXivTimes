@@ -76,6 +76,10 @@
 * [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
   * Googleから公開された、論理推論を学習するための大規模データセット。与えられた情報の中で推論に重要な点は何か、各推論間の依存関係、そこから導かれる結論は何か、などといったものがタスクとして挙げられている。
   * [HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving](https://arxiv.org/abs/1703.00426)
+* [SCONE: Sequential CONtext-dependent Execution dataset](https://nlp.stanford.edu/projects/scone/)
+  * Stanfordから公開されている論理推論のためのデータセット。
+  * 各シナリオには状況が設定されており(ビーカーがn個ある、絵がn個並んでいる、など)、それに対して5つの連続した操作が自然言語で記述されており(猫の絵を右にずらす、犬の絵をはずす、など)、それらを実行した場合の最後の状態を推定させるのがタスクになる。
+  * [Simpler Context-Dependent Logical Forms via Model Projections](https://arxiv.org/abs/1606.05378)
 * [DeepMind Q&A Dataset](http://cs.nyu.edu/~kcho/DMQA/)
   * CNN/Daily Mailのデータセット。その記事に関する質問のデータもある
   * Stanfordの研究で、だいぶ簡単な質問しかないことが明らかになっているので利用は注意->[文章を読み、理解する機能の獲得に向けて-Machine Comprehensionの研究動向-](https://www.slideshare.net/takahirokubo7792/machine-comprehension)
