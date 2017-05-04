@@ -20,6 +20,7 @@
   * 20万件の顔画像データと、それに撮影場所や40の特性(笑っているとか、ヒゲがあるとか)がセットになったデータ。また一万件程度は身元のデータがある(有名人などの画像)。
 * [MS COCO](http://mscoco.org/home/)
   * 認識・セグメンテーション等のデータを含む物体認識のための統合的なデータセット
+  * 画像に対する5つの説明(キャプション)も含む
 * [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html)
   * 物理シミュレーターでシーン(部屋の中にものが散らばった環境)を作り、そこでカメラの軌跡を設定し映像を作製、その映像のRGB+Depthをデータ化、という感じで生成
   * [SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth](https://arxiv.org/abs/1612.05079)
@@ -42,6 +43,9 @@
 * [VisDial Dataset](https://visualdialog.org/data)
   * MS COCOの画像をベースに、それについてのQとAが付与されている。Training用に8万、Validation用に4万が利用可能
   * [アノテーションツールまで公開されている](https://github.com/batra-mlp-lab/visdial-amt-chat)ので、さらに集めることも可能。
+* [STAIR Captions](https://stair-lab-cit.github.io/STAIR-captions-web/)
+  * MS COCOの画像につけられた5つのキャプションについて、日本語でもキャプションをつけたもの(翻訳したわけではなく、独自にアノテートしている)。
+  * [STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset](https://arxiv.org/abs/1705.00823)
 
 # NLP
 
