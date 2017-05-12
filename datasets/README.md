@@ -48,6 +48,9 @@
 * [STAIR Captions](https://stair-lab-cit.github.io/STAIR-captions-web/)
   * MS COCOの画像につけられた5つのキャプションについて、日本語でもキャプションをつけたもの(翻訳したわけではなく、独自にアノテートしている)。
   * [STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset](https://arxiv.org/abs/1705.00823)
+* [Cornell NLVR](http://lic.nlp.cornell.edu/nlvr/)
+  * 図と、その図の状態を記述した自然言語のデータセット(具体的には、「少なくとも一つの黒い三角形がある」とか)。
+  * [A Corpus of Natural Language for Visual Reasoning](http://alanesuhr.com/suhr2017.pdf)
 
 # NLP
 
