@@ -36,6 +36,11 @@
   * 同様のデータセットに、[ISPRS](http://www.cvlibs.net/projects/autonomous_vision_survey/)、[MOT](https://motchallenge.net/)、[Cityscapes](https://www.cityscapes-dataset.com/)等がある。自動運転は画像認識の複合的なタスクなので、画像でデータがないと思ったら一度目を通してみるといいかもしれない。
 * [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas)
   * 自動運転のための、路上画像のデータセット。25,000のアノテーション済みの高解像度データを提供。現在も増え続けており、しかも世界各国の画像が含まれている(日本の道路の画像もある)。
+* [quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset)
+  * 345カテゴリ、5千万のイラスト描画データ。描画データという名の通り、時系列の筆跡データが提供されている
+  * 追加のための学習データセットとして、漢字や羊、象形文字?のデータも公開されている。[sketch-rnn-datasets](https://github.com/hardmaru/sketch-rnn-datasets)
+  * 本体のモデルは[こちら](https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn)。
+  * [A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477)
 
 ## Visual x NLP
 
@@ -122,6 +127,8 @@
 * [MoleculeNet](https://arxiv.org/abs/1703.00564)
   * MoleculeNetという、新薬発見のための分子・分子物理・生体物理・生体？という4種類のデータを包含したデータセットが公開。
   * [DeepChem](https://github.com/deepchem/deepchem)という化学特化のライブラリに組込済
+* [grocery-shopping-2017](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
+  * Instacartという食品のオンラインショップの購買データのデータセットが公開。時間のデータも、時間(0~24時)だけながら利用可能。
 
 # Dataset Summary Page
 
@@ -140,6 +147,8 @@
   * NFLの試合結果や人口統計など、様々なデータが提供されている(有料なものもあるたが、無料も多い)。
 * [ikegami-yukino/dataset-list](https://github.com/ikegami-yukino/dataset-list/blob/master/free_corpus.md)
   * 日本語・英語のテキストコーパスのまとめ
+* [beamandrew/medical-data](https://github.com/beamandrew/medical-data)
+  * 機械学習のための化学系のデータセットのまとめ
 
 # To make your own
 
