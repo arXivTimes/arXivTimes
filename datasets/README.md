@@ -41,6 +41,9 @@
   * 追加のための学習データセットとして、漢字や羊、象形文字?のデータも公開されている。[sketch-rnn-datasets](https://github.com/hardmaru/sketch-rnn-datasets)
   * 本体のモデルは[こちら](https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn)。
   * [A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477)
+* [SpaceNet](https://github.com/SpaceNetChallenge/utilities/tree/master/content/download_instructions)
+  * 衛星写真のデータセット。建物の領域などがラベル付けされている
+  * データを提供しているリポジトリで、可視化のためのツールなども提供されている
 
 ## Visual x NLP
 
