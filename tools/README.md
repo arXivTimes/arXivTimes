@@ -46,6 +46,15 @@
 * [日本語自動品詞分解ツール](http://tool.konisimple.net/text/hinshi_keitaiso)
   * オンラインでさっと品詞分解ができるツール。手軽なのでよく使う
 
+# Audio
+
+* [Magenta](https://github.com/tensorflow/magenta)
+  * Googleが開発を進める、機械学習をアートに適用するためのプロジェクト。音楽生成や、スタイルトランスファーなどのコードが組み込まれている
+  * 特に音声系では、MIDIファイルを扱うためのAPIなども提供されているので、単純にデモを動かすだけでなく開発のベースとしても利用ができる。
+* [librosa](https://github.com/librosa/librosa)
+  * 音声データを読み込み、特徴量(MFCCなど)を算出するなどを行ってくれるライブラリ。tempoの推定なども行える。
+
+
 # Reinforcement Learning
 
 * [OpenAI Gym](https://gym.openai.com/)

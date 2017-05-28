@@ -18,6 +18,8 @@
   * 論文の一言まとめ、また概要をIssueで管理しています。
 * [Datasets](https://github.com/arXivTimes/arXivTimes/tree/master/datasets)
   * 機械学習に利用可能なデータセットをまとめています。
+* [Tools](https://github.com/arXivTimes/arXivTimes/tree/master/tools)
+  * 機械学習モデルの実装に役立つツールをまとめています。
 
 # How to Contribute
 
