@@ -44,6 +44,12 @@
 * [SpaceNet](https://github.com/SpaceNetChallenge/utilities/tree/master/content/download_instructions)
   * 衛星写真のデータセット。建物の領域などがラベル付けされている
   * データを提供しているリポジトリで、可視化のためのツールなども提供されている
+* [Describable Textures Dataset (DTD)](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
+  * 画像の認識において、単に映っているものを認識するだけでなく、質感などの情報も重要なはず、ということで様々なテクスチャを収集しタグ付したデータセット
+  * 全5640画像で、47のカテゴリがアノテーションされている
+* [Painter by Numbers(PBN)](https://www.kaggle.com/c/painter-by-numbers/data)
+  * 画家・タイトル・画風・ジャンルなどがアノテーションされた画像のデータセット
+  * 全23817画像あるが、かなり重たいので(学習用データセットが36GB)アノテーションの配分が均等になるように分けられた13グループのファイル(各1400~2000画像くらい)が用意されている
 
 ## Visual x NLP
 
