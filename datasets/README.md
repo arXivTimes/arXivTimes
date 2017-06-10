@@ -50,12 +50,19 @@
 * [Painter by Numbers(PBN)](https://www.kaggle.com/c/painter-by-numbers/data)
   * 画家・タイトル・画風・ジャンルなどがアノテーションされた画像のデータセット
   * 全23817画像あるが、かなり重たいので(学習用データセットが36GB)アノテーションの配分が均等になるように分けられた13グループのファイル(各1400~2000画像くらい)が用意されている
+* [SUN database](http://groups.csail.mit.edu/vision/SUN/)
+  * 物体認識・シーン認識のタスクにおいてベースラインとなるようなデータセットを提供している。
+  * SUN397: 397のシーンでタグ付けされたデータセット
+  * SUN2012: (おそらく2012の)タグ付けがされたデータセット
 
 ## Visual x NLP
 
 * [VQA](http://www.visualqa.org/index.html)
   * 画像を見て質問に答えるタスクでは、学習した画像についてだけ答えられる、良くある答え(「2つ」とか)を多めに繰り出して精度が上がっているなど明らかな過適合が見られた。そこで真実見たことない画像(Zero-Shot)に回答可能かをテストするためのデータとベースラインモデルの提案 
   * [Zero-Shot Visual Question Answering](https://arxiv.org/abs/1611.05546)
+* [CLEVR](http://cs.stanford.edu/people/jcjohns/clevr/)
+  * 画像理解のためのデータセット。きちんと理解しているかを診断するために、シンプルな画像(物体がいくつか置いてあるような画像)に対し、様々な内容(物体の色や形といった属性、個数、位置など)を問う質問が用意されている
+  * 質問は自然言語の形式だけでなく、プログラムの表現に近い形での形式も用意されている(関数をつなげているような形)。
 * [VisDial Dataset](https://visualdialog.org/data)
   * MS COCOの画像をベースに、それについてのQとAが付与されている。Training用に8万、Validation用に4万が利用可能
   * [アノテーションツールまで公開されている](https://github.com/batra-mlp-lab/visdial-amt-chat)ので、さらに集めることも可能。
@@ -96,6 +103,11 @@
   * 大規模なQAのデータセット(65万件)。QAだけでなく、Evidence(Answerの根拠となる複数のWebページ、またWikipedia)が付属。
   * 公開時点(2017/5)では、人間の精度80%に対してSQuADで良い成績を収めているモデルでも40%なので、歯ごたえのあるデータセットに仕上がっている。
   * [TriviaQA: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension](http://nlp.cs.washington.edu/triviaqa/docs/triviaQA.pdf)
+* [WebQuestions/Free917](https://nlp.stanford.edu/software/sempre/)
+  * 5W(When/Where/Who/What/Why)で始まる質問に対する回答を集めたデータセット。
+  * WebQuestionsは学習/テスト=3,778/2,032の質問が、Free917は641/276のデータが登録されている
+* [TREC QA](http://trec.nist.gov/data/qa.html)
+  * 1999年から続く質問回答のタスクで使用されているデータセット。質問はオープンドメインで、回答はクローズドなもの(答えが決まっている(日本の首都は?->東京、のような))
 * [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
   * Googleから公開された、論理推論を学習するための大規模データセット。与えられた情報の中で推論に重要な点は何か、各推論間の依存関係、そこから導かれる結論は何か、などといったものがタスクとして挙げられている。
   * [HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving](https://arxiv.org/abs/1703.00426)
@@ -112,6 +124,10 @@
 * [BookCorpus](http://yknzhu.wixsite.com/mbweb)
   * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
   * こちらはさすがに利用申請が必要で、また研究用途のみOK。
+* [bAbI](https://research.fb.com/downloads/babi/)
+  * Facebook AI Researchが進める自然言語理解のためのプロジェクト(bAbI)で利用されているデータセット
+  * 質問応答・対話・言語モデルといった様々なタスクのデータセットが提供されている。
+
 
 # Audio
 
