@@ -54,7 +54,9 @@
   * 物体認識・シーン認識のタスクにおいてベースラインとなるようなデータセットを提供している。
   * SUN397: 397のシーンでタグ付けされたデータセット
   * SUN2012: (おそらく2012の)タグ付けがされたデータセット
-
+* [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
+  * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
+  
 ## Visual x NLP
 
 * [VQA](http://www.visualqa.org/index.html)
