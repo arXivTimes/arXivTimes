@@ -64,6 +64,9 @@
   * 協調するマルチエージェントの学習に特化した学習プラットフォーム。
   * Microsoftが公開しており、Minecraftの上で動く
   * Python、Lua、C#、C++、Javaなど多様なインタフェースを持つ
+* [TorchCraft](https://github.com/TorchCraft/TorchCraft)
+  * StarCraftを学習するためのフレームワーク
+  * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
 
 # Others
 
@@ -90,6 +93,8 @@
   * 高次元のデータの可視化に特化したツール
 * [Picasso](https://medium.com/merantix/picasso-a-free-open-source-visualizer-for-cnns-d8ed3a35cfc5)
   * CNNの層を可視化するためのツール。Keras/TensorFlowのチェックポイントファイルをベースに動く。
+* [scattertext](https://github.com/JasonKessler/scattertext)
+  * コーパス内の単語を使って散布図を作れるビジュアライゼーションツール。どの分類にどの単語が効いているかなどを、視覚的にみることができる
 
 ## Official Implementation
 
@@ -99,3 +104,5 @@
 * [Memory-Augmented Neural Networks](https://github.com/facebook/MemNN)
 * [Neural-Dialogue-Generation](https://github.com/jiweil/Neural-Dialogue-Generation)
 * [PixelCNN++](https://github.com/openai/pixel-cnn)
+* [benchmark_results](https://github.com/foolwood/benchmark_results)
+  * Visual Trackingのベンチマーク集
