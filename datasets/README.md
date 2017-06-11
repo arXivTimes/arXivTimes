@@ -154,6 +154,8 @@
 * [MoleculeNet](https://arxiv.org/abs/1703.00564)
   * MoleculeNetという、新薬発見のための分子・分子物理・生体物理・生体？という4種類のデータを包含したデータセットが公開。
   * [DeepChem](https://github.com/deepchem/deepchem)という化学特化のライブラリに組込済
+* [Tox21](https://tripod.nih.gov/tox21/challenge/data.jsp)
+  * 化学化合物の構造からその毒性(toxic effects)を推定するタスクのためのデータセット。化合物数は12,000、毒性は12の毒性についての値が用意されている。
 * [grocery-shopping-2017](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
   * Instacartという食品のオンラインショップの購買データのデータセットが公開。時間のデータも、時間(0~24時)だけながら利用可能。
 
