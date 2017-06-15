@@ -158,10 +158,10 @@
   * 化学化合物の構造からその毒性(toxic effects)を推定するタスクのためのデータセット。化合物数は12,000、毒性は12の毒性についての値が用意されている。
 * [grocery-shopping-2017](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
   * Instacartという食品のオンラインショップの購買データのデータセットが公開。時間のデータも、時間(0~24時)だけながら利用可能。
-* SARD Dataset
+* [SARD Dataset](https://samate.nist.gov/SRD/testsuite.php)
   * SARD(Software Assurance Reference Dataset)にて提供されている、ソフトウェアの脆弱性を検証するためのデータセット
   * 脆弱性を含むC/Javaのコードなどが提供されている
-* PHP Security vulnerability dataset
+* [PHP Security vulnerability dataset](https://seam.cs.umd.edu/webvuldata/data.html)
   * PHPのアプリケーションの脆弱性(CVEのIDなど)と、そのコードから抽出された機械学習で利用する特徴量のデータセット。PHPアプリケーションはPHPMyAdmin、Moodle、Drupalの3点
 
 
