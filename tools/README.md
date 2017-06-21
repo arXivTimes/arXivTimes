@@ -16,6 +16,9 @@
 * [self-driving-car](https://github.com/udacity/self-driving-car/)
   * Udacityで自動運転車の講座が開講されるに伴い公開された、オープンソースの自動運転車の実装
   * 他の公開されている実装としては、[comma.ai](https://github.com/commaai/research)の実装などがある。
+* [YOLO](https://pjreddie.com/darknet/yolo/)
+  * You only look once (YOLO)と名付けられた、リアルタイムでの物体認識を行うソフトウェア。
+  * C言語性のDNNのフレームワーク[darknet](https://pjreddie.com/darknet/)で構築されている
 
 # NLP
 
