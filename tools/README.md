@@ -70,6 +70,8 @@
 * [TorchCraft](https://github.com/TorchCraft/TorchCraft)
   * StarCraftを学習するためのフレームワーク
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
+* [Learning to run](https://github.com/stanfordnmbl/osim-rl)
+  * 観測情報から足の筋肉を操作するモデルを構築し、歩行を学習させるための環境。OpenAI Gym + Kerasで構築されている。
 
 # Others
 
@@ -109,3 +111,7 @@
 * [PixelCNN++](https://github.com/openai/pixel-cnn)
 * [benchmark_results](https://github.com/foolwood/benchmark_results)
   * Visual Trackingのベンチマーク集
+* [chainerrl](https://github.com/chainer/chainerrl)
+  * Chainerで実装された強化学習のアルゴリズム集
+* [keras-rl](https://github.com/matthiasplappert/keras-rl)
+  * Kerasで実装された強化学習のアルゴリズム集
