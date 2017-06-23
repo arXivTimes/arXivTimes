@@ -56,6 +56,8 @@
   * SUN2012: (おそらく2012の)タグ付けがされたデータセット
 * [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
   * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
+* [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
+  * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
 * [AnimeFace Character Dataset](http://www.nurs.or.jp/~nagadomi/animeface-character-dataset/README.html)
   * アニメのキャラクターの顔を集めたデータセット。サイズは160x160で、1キャラクター平均80前後の画像が用意されている
 
@@ -158,6 +160,9 @@
   * [DeepChem](https://github.com/deepchem/deepchem)という化学特化のライブラリに組込済
 * [Tox21](https://tripod.nih.gov/tox21/challenge/data.jsp)
   * 化学化合物の構造からその毒性(toxic effects)を推定するタスクのためのデータセット。化合物数は12,000、毒性は12の毒性についての値が用意されている。
+* [dSPP: Database of structural propensities of proteins](https://peptone.io/dspp)
+  * タンパク質(アミノ酸の鎖のベクトル)から構造的傾向スコア(structural propensity score)を予測するためのデータセット。
+  * Kerasから使うためのユーティリティも提供されている([dspp-keras](https://github.com/PeptoneInc/dspp-keras))。
 * [grocery-shopping-2017](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
   * Instacartという食品のオンラインショップの購買データのデータセットが公開。時間のデータも、時間(0~24時)だけながら利用可能。
 * [SARD Dataset](https://samate.nist.gov/SRD/testsuite.php)
