@@ -37,6 +37,9 @@
   * モデル評価のためにAmazon Mechanical Turkとの連携も兼ね備えるなど、対話研究を行うならとても便利なフレームワークになっている。
 * [NeuroNER](http://neuroner.com/)
   * TensorFlowベースの固有表現抽出ツール。学習済みモデルが利用できるほか、追加データによる学習も可能。
+* [OpenNMT](http://opennmt.net/)
+  * オープンソースの機械翻訳の実装。Torch/PyTorchで実装されている。
+  * 幾つかの言語間では、学習済みモデルも提供されている。
 * [chazutsu](https://github.com/chakki-works/chazutsu)
   * 自然言語関係のデータセットを簡単にダウンロードし、使えるようにできるツール
   * データをダウンロード、展開して、整形して・・・という作業は以外と時間がかかるもので、その個所をスキップできる
