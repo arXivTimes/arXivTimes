@@ -31,6 +31,16 @@
   * [Semantic Understanding of Scenes through the ADE20K Dataset](https://github.com/arXivTimes/arXivTimes/issues/291)
 * [ShapeNet](http://shapenet.cs.stanford.edu/)
   * 3Dモデルのデータセット。家具から飛行機までと、色々な種類のモデルがそろっている。
+  * メジャーなカテゴリを集めた[Core55](https://shapenet.cs.stanford.edu/shrec17/)もある
+* [ModelNet](http://modelnet.cs.princeton.edu/)
+  * シーン/オブジェクト認識のデータセットである[SUN database](http://sun.cs.princeton.edu/)からメジャーなオブジェクトを抜き出して、そのCADイメージを収集したもの。
+  * カテゴリ数10のModelNet10と、40のModelNet40がある。
+* [SHREC 2014](http://www.itl.nist.gov/iad/vug/sharp/contest/2014/Generic3D/)
+  * 既存の3Dモデルのデータセットから、ベンチマークになるような新たなデータセットを構築したもの。
+  * PSB/SHREC12GTB/TSB/CCCC/WMB/MSB/BAB/ESBの計8つのデータセットが統合されている(詳細はリンク先のTable1参照)。
+  * 最終的には、171クラス8,987モデルのデータセットとなっている。
+* [Yobi3D](https://www.yobi3d.com/)
+  * フリーの3Dモデル検索エンジン。3Dデータ自体は様々なところから収集されている。データセットという形でまとまってはいないが、用途に合わせて検索し、モデルデータのリンク先を得ることができる。
 * [KITTI](http://www.cvlibs.net/datasets/kitti/)
   * 自動運転車のためのデータセット。ドイツの中規模都市であるカールスルーエ周辺～高速道路での運転から得られた画像が提供されている。画像は、最大15台の車と30人の歩行者が映っている。
   * 同様のデータセットに、[ISPRS](http://www.cvlibs.net/projects/autonomous_vision_survey/)、[MOT](https://motchallenge.net/)、[Cityscapes](https://www.cityscapes-dataset.com/)等がある。自動運転は画像認識の複合的なタスクなので、画像でデータがないと思ったら一度目を通してみるといいかもしれない。
