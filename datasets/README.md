@@ -165,6 +165,8 @@
   * YouTubeから抽出した10秒程度の音に、人の声や車の音といった632のラベル(人の声→シャウト、ささやき、など階層上に定義されている)が付与されている(人手で)。その数その数200万！
 * [NSynth Dataset](https://magenta.tensorflow.org/nsynth)
   * 1006の楽器による単音が30万ほど収録されているデータセット
+* [Yamaha e-Piano Competition dataset](http://www.piano-e-competition.com/midi_2004.asp)
+  * 公式にデータセットとして配布されているわけではないが、YAMAHAのジュニアコンペティションで実際に演奏されたピアノのMIDIデータが公開されている。[Performance RNN](https://magenta.tensorflow.org/performance-rnn)で使用されていたデータセット。
 
 # Knowledge Base
 
