@@ -79,6 +79,8 @@
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
 * [Learning to run](https://github.com/stanfordnmbl/osim-rl)
   * 観測情報から足の筋肉を操作するモデルを構築し、歩行を学習させるための環境。OpenAI Gym + Kerasで構築されている。
+* [mujoco-py](https://github.com/openai/mujoco-py)
+  * 物理エンジンであるMujocoをPythonから操作できるライブラリ
 
 # Others
 
