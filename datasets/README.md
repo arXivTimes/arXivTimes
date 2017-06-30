@@ -18,9 +18,6 @@
   * Googleが公開した900万、ImageNetをこえる6000カテゴリのアノテーション済みデータ。こちらから利用可能。中身はURL+ラベルになっているので、怖がらずにcloneして大丈夫。
 * [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
   * 20万件の顔画像データと、それに撮影場所や40の特性(笑っているとか、ヒゲがあるとか)がセットになったデータ。また一万件程度は身元のデータがある(有名人などの画像)。
-* [MS COCO](http://mscoco.org/home/)
-  * 認識・セグメンテーション等のデータを含む物体認識のための統合的なデータセット
-  * 画像に対する5つの説明(キャプション)も含む
 * [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html)
   * 物理シミュレーターでシーン(部屋の中にものが散らばった環境)を作り、そこでカメラの軌跡を設定し映像を作製、その映像のRGB+Depthをデータ化、という感じで生成
   * [SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth](https://arxiv.org/abs/1612.05079)
@@ -87,6 +84,11 @@
 * [CLEVR](http://cs.stanford.edu/people/jcjohns/clevr/)
   * 画像理解のためのデータセット。きちんと理解しているかを診断するために、シンプルな画像(物体がいくつか置いてあるような画像)に対し、様々な内容(物体の色や形といった属性、個数、位置など)を問う質問が用意されている
   * 質問は自然言語の形式だけでなく、プログラムの表現に近い形での形式も用意されている(関数をつなげているような形)。
+* [MS COCO](http://mscoco.org/home/)
+  * 認識・セグメンテーション等のデータを含む物体認識のための統合的なデータセット
+  * 画像に対する5つの説明(キャプション)も含む
+* [COCO-Stuff 10K](https://github.com/nightrome/cocostuff)
+  * COCOのデータセット(の一部)にピクセルレベルのアノテーションを行ったデータセットが公開。10,000の画像に91の物体(人や船、象など)がピクセル単位でアノテーションされている。
 * [VisDial Dataset](https://visualdialog.org/data)
   * MS COCOの画像をベースに、それについてのQとAが付与されている。Training用に8万、Validation用に4万が利用可能
   * [アノテーションツールまで公開されている](https://github.com/batra-mlp-lab/visdial-amt-chat)ので、さらに集めることも可能。
