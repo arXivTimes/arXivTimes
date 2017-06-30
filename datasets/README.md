@@ -137,6 +137,12 @@
   * WebQuestionsは学習/テスト=3,778/2,032の質問が、Free917は641/276のデータが登録されている
 * [TREC QA](http://trec.nist.gov/data/qa.html)
   * 1999年から続く質問回答のタスクで使用されているデータセット。質問はオープンドメインで、回答はクローズドなもの(答えが決まっている(日本の首都は?->東京、のような))
+* [DeepMind Q&A Dataset](http://cs.nyu.edu/~kcho/DMQA/)
+  * CNN/Daily Mailのデータセット。その記事に関する質問のデータもある
+  * Stanfordの研究で、だいぶ簡単な質問しかないことが明らかになっているので利用は注意->[文章を読み、理解する機能の獲得に向けて-Machine Comprehensionの研究動向-](https://www.slideshare.net/takahirokubo7792/machine-comprehension)
+* [E2E NLG](http://www.macs.hw.ac.uk/InteractionLab/E2E/)
+  * End-to-Endの対話システムを構築するためのデータセットが公開。50万発話でが含まれ、ドメインはレストラン検索となっている。発話に対しては固有表現(slot)的なアノテーションもされている(「フレンチが食べたい。500円くらいで」なら、種別=フレンチ、予算=500円など)。
+  * [The E2E Dataset: New Challenges For End-to-End Generation](https://arxiv.org/abs/1706.09254)
 * [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
   * Googleから公開された、論理推論を学習するための大規模データセット。与えられた情報の中で推論に重要な点は何か、各推論間の依存関係、そこから導かれる結論は何か、などといったものがタスクとして挙げられている。
   * [HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving](https://arxiv.org/abs/1703.00426)
@@ -144,9 +150,6 @@
   * Stanfordから公開されている論理推論のためのデータセット。
   * 各シナリオには状況が設定されており(ビーカーがn個ある、絵がn個並んでいる、など)、それに対して5つの連続した操作が自然言語で記述されており(猫の絵を右にずらす、犬の絵をはずす、など)、それらを実行した場合の最後の状態を推定させるのがタスクになる。
   * [Simpler Context-Dependent Logical Forms via Model Projections](https://arxiv.org/abs/1606.05378)
-* [DeepMind Q&A Dataset](http://cs.nyu.edu/~kcho/DMQA/)
-  * CNN/Daily Mailのデータセット。その記事に関する質問のデータもある
-  * Stanfordの研究で、だいぶ簡単な質問しかないことが明らかになっているので利用は注意->[文章を読み、理解する機能の獲得に向けて-Machine Comprehensionの研究動向-](https://www.slideshare.net/takahirokubo7792/machine-comprehension)
 * [A Large Self-Annotated Corpus for Sarcasm](https://arxiv.org/pdf/1704.05579.pdf)
   * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと) 
   * ダウンロードは[こちらから](http://nlp.cs.princeton.edu/SARC/)
