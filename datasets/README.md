@@ -18,6 +18,9 @@
   * Googleが公開した900万、ImageNetをこえる6000カテゴリのアノテーション済みデータ。こちらから利用可能。中身はURL+ラベルになっているので、怖がらずにcloneして大丈夫。
 * [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
   * 20万件の顔画像データと、それに撮影場所や40の特性(笑っているとか、ヒゲがあるとか)がセットになったデータ。また一万件程度は身元のデータがある(有名人などの画像)。
+* [MegaFace and MF2: Million-Scale Face Recognition](http://megaface.cs.washington.edu/)
+  * 約500万の画像からなる顔のデータセット。70万人分あり、一人当たり平均7画像が用意されている(最小3、最大2500近くとばらつきは結構大きい)
+  * 顔を囲ったBounding Boxのデータも併せて提供されている。
 * [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html)
   * 物理シミュレーターでシーン(部屋の中にものが散らばった環境)を作り、そこでカメラの軌跡を設定し映像を作製、その映像のRGB+Depthをデータ化、という感じで生成
   * [SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth](https://arxiv.org/abs/1612.05079)
