@@ -66,6 +66,10 @@
 * [OpenAI Gym](https://gym.openai.com/)
   * 強化学習モデルのトレーニング環境を提供するフレームワーク
   * OpenAI Gym自体にも多くの環境(Atariのゲーム)などが入っているが、Open AI GymのAPIを備えたサードパーティー製の環境も追加でインストールできる([gym_pull](https://github.com/openai/gym/wiki/Environments#gym_pull)参照)。
+* [OpenAI Universe](https://universe.openai.com/)
+  * VNCを利用し、まさに人間が操作するようにPCを操作させられる強化学習のプラットフォーム。これによって、画面操作をエージェントに学習させることができる。
+* [μniverse](https://github.com/unixpickle/muniverse)
+  * OpenAI Universeの重たい所(VNCでリモート操作)、難しい所(画面がFlashで読み取りむずい)を改善したmuniverseが開発中とのこと。こちらはHTML5のゲームに限定することで、上記の問題点を回避している。
 * [malmo](https://github.com/Microsoft/malmo)
   * 協調するマルチエージェントの学習に特化した学習プラットフォーム。
   * Microsoftが公開しており、Minecraftの上で動く
