@@ -68,8 +68,12 @@
   * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
 * [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
   * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
+* [Manga109](http://www.manga109.org/ja/)
+  * 1970年代から2010年代に、実際に出版された109冊の漫画のデータセット。一部の巻についてはページ毎のセリフデータも用意されている。
+  * 利用は学術目的限りで、論文などにデータセットの漫画を掲載する際は作者の著作権「©作者名」とManga109の利用であることを明示すること(詳細は上記サイト参照)。
 * [AnimeFace Character Dataset](http://www.nurs.or.jp/~nagadomi/animeface-character-dataset/README.html)
   * アニメのキャラクターの顔を集めたデータセット。サイズは160x160で、1キャラクター平均80前後の画像が用意されている
+
 
 ## Visual x NLP
 
