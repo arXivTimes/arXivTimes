@@ -167,6 +167,9 @@
   * 1006の楽器による単音が30万ほど収録されているデータセット
 * [Yamaha e-Piano Competition dataset](http://www.piano-e-competition.com/midi_2004.asp)
   * 公式にデータセットとして配布されているわけではないが、YAMAHAのジュニアコンペティションで実際に演奏されたピアノのMIDIデータが公開されている。[Performance RNN](https://magenta.tensorflow.org/performance-rnn)で使用されていたデータセット。
+* [声優統計コーパス](http://voice-statistics.github.io/)
+  * 独自に構築された音素バランス文を、プロの女性声優3名が読み上げたものを録音したコーパス。
+  * 3パターンの感情(通常・喜び・怒り)での読み上げが含まれる。48kHz/16bitのWAVファイルで、総長約2時間、総ファイルサイズ720MB。
 
 # Knowledge Base
 
