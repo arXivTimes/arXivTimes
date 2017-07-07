@@ -218,6 +218,10 @@
   * PHPのアプリケーションの脆弱性(CVEのIDなど)と、そのコードから抽出された機械学習で利用する特徴量のデータセット。PHPアプリケーションはPHPMyAdmin、Moodle、Drupalの3点
 * [気象庁：過去の気象データ](http://www.data.jma.go.jp/gmd/risk/obsdl/index.php)
   * 地点毎になるが(複数選択可能)、過去の気象データをCSV形式でダウンロードできる。
+* [GoGoD](http://senseis.xmp.net/?GoGoDCD)
+  * プロの囲碁棋士の対局データセット。85,000局分が含まれており、お値段は15USD
+* [wangjinzhuo/pgd](https://github.com/wangjinzhuo/pgd)
+  * プロの囲碁棋士の対局データセット。GitHub上でフリーで公開されており、約25万局が収録されている。
 
 # Dataset Summary Page
 
