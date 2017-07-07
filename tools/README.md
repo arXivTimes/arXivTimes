@@ -15,7 +15,7 @@
   * ライセンスは独自のもので、商用利用については応相談
 * [self-driving-car](https://github.com/udacity/self-driving-car/)
   * Udacityで自動運転車の講座が開講されるに伴い公開された、オープンソースの自動運転車の実装
-  * 他の公開されている実装としては、[comma.ai](https://github.com/commaai/research)の実装などがある。
+  * 他の公開されている実装としては、[comma.ai](https://github.com/commaai/research)、Baiduが公開した[Appolo](http://apollo.auto/index.html)などがある。
 * [YOLO](https://pjreddie.com/darknet/yolo/)
   * You only look once (YOLO)と名付けられた、リアルタイムでの物体認識を行うソフトウェア。
   * C言語性のDNNのフレームワーク[darknet](https://pjreddie.com/darknet/)で構築されている
@@ -40,6 +40,8 @@
 * [OpenNMT](http://opennmt.net/)
   * オープンソースの機械翻訳の実装。Torch/PyTorchで実装されている。
   * 幾つかの言語間では、学習済みモデルも提供されている。
+* [SentEval](https://github.com/facebookresearch/SentEval)
+  * 文のベクトル表現の品質を計測するためのプラットフォーム。SentimentやQuestion-typeの推定など、様々なタスクで評価ができる。
 * [chazutsu](https://github.com/chakki-works/chazutsu)
   * 自然言語関係のデータセットを簡単にダウンロードし、使えるようにできるツール
   * データをダウンロード、展開して、整形して・・・という作業は以外と時間がかかるもので、その個所をスキップできる

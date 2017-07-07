@@ -109,6 +109,9 @@
   * 京都大学から適用されている自然言語処理のためのデータセット。毎日新聞のデータに対する各種言語情報である[京都大学テキストコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9)(※本文データは別途入手する必要がある)、さまざまなウェブ文書のリード文に対し各種言語情報のアノテーションを行った[京都大学ウェブ文書リードコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?KWDLC)等がある。
 * [解析済みブログコーパス](http://nlp.ist.i.kyoto-u.ac.jp/kuntt/)
   * 京都大学と、NTTコミュニケーションの共同研究ユニットで作成されたコーパス。4テーマ（京都観光、携帯電話、スポーツ、グルメ）、249記事、4,186文の解析済みブログコーパス。形態素、構文、格・省略・照応、評判情報がアノテーションされている。
+* [Tanaka Corpus](http://www.edrdg.org/wiki/index.php/Tanaka_Corpus)
+  * 日英翻訳のためのパラレルコーパス。約15万文の日英の分のペアが収録されている。
+  * こちらから単語数が4~16である文約5万件を抽出した、単語分割済みのコーパスが別途公開されている([small_parallel_enja](https://github.com/odashi/small_parallel_enja))。
 * [livedoor ニュースコーパス](https://www.rondhuit.com/download.html)
   * トピックニュース、Sportsなどの9分野のニュース記事のコーパス
 * [青空文庫](http://www.aozora.gr.jp/)
@@ -119,6 +122,14 @@
   * Stanfordの公開している、意味表現ツリーのデータセット
 * [Crowdflower](https://www.kaggle.com/crowdflower/datasets)
   * 機械学習プラットフォームのCrowdflowerから提供された、感情タグ付け済みのTwitterデータ。 
+* [WNUT17 Emerging and Rare entity recognition](https://noisy-text.github.io/2017/emerging-rare-entities.html)
+  * SNSでの投稿などで瞬時に出てくる新語の固有表現を特定するチャレンジ。
+  * 人・場所・企業・製品(iPhineとか)・創作物(「君の名は」とか)・グループ(アジカンとか)の計6つのタグがアノテーションされている。
+* [WNUT Named Entity Recognition](https://github.com/aritter/twitter_nlp/tree/master/data/annotated/wnut16)
+  * TwitterなどのSNSの投稿に対して固有表現を特定するチャレンジ。
+* [W-NUT Geolocation Prediction in Twitter](https://noisy-text.github.io/2016/geo-shared-task.html)
+  * Twitterの投稿から位置情報を推定するタスク。100万ユーザー分のツイートが収録されている。
+  * User-levelとMessage-levelの2種類のタスクが設定されている。
 * [The Ubuntu Dialogue Corpus](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)
   * Ubuntuのテクニカルサポートの対話データ
 * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
@@ -173,6 +184,10 @@
   * 1006の楽器による単音が30万ほど収録されているデータセット
 * [Yamaha e-Piano Competition dataset](http://www.piano-e-competition.com/midi_2004.asp)
   * 公式にデータセットとして配布されているわけではないが、YAMAHAのジュニアコンペティションで実際に演奏されたピアノのMIDIデータが公開されている。[Performance RNN](https://magenta.tensorflow.org/performance-rnn)で使用されていたデータセット。
+* [The Largest MIDI Collection on the Internet](https://www.reddit.com/r/WeAreTheMusicMakers/comments/3ajwe4/the_largest_midi_collection_on_the_internet/)
+  * 公開されているMIDIデータを収集した大規模なデータセット(※もちろん有料なコンテンツは含まれない)。
+  * ポップ、クラシック、ゲーム音楽など多彩なジャンルで構成されており、総ファイル数13万・約100時間分のデータとなっている。
+  * Tronto大学の[Song From PI](http://www.cs.toronto.edu/songfrompi/)で使用されたデータセット
 * [声優統計コーパス](http://voice-statistics.github.io/)
   * 独自に構築された音素バランス文を、プロの女性声優3名が読み上げたものを録音したコーパス。
   * 3パターンの感情(通常・喜び・怒り)での読み上げが含まれる。48kHz/16bitのWAVファイルで、総長約2時間、総ファイルサイズ720MB。
@@ -201,7 +216,8 @@
   * 脆弱性を含むC/Javaのコードなどが提供されている
 * [PHP Security vulnerability dataset](https://seam.cs.umd.edu/webvuldata/data.html)
   * PHPのアプリケーションの脆弱性(CVEのIDなど)と、そのコードから抽出された機械学習で利用する特徴量のデータセット。PHPアプリケーションはPHPMyAdmin、Moodle、Drupalの3点
-
+* [気象庁：過去の気象データ](http://www.data.jma.go.jp/gmd/risk/obsdl/index.php)
+  * 地点毎になるが(複数選択可能)、過去の気象データをCSV形式でダウンロードできる。
 
 # Dataset Summary Page
 
