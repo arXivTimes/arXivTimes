@@ -188,6 +188,9 @@
   * 公開されているMIDIデータを収集した大規模なデータセット(※もちろん有料なコンテンツは含まれない)。
   * ポップ、クラシック、ゲーム音楽など多彩なジャンルで構成されており、総ファイル数13万・約100時間分のデータとなっている。
   * Tronto大学の[Song From PI](http://www.cs.toronto.edu/songfrompi/)で使用されたデータセット
+* [The MagnaTagATune Dataset](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
+  * [TagATune](http://www.cs.cmu.edu/~elaw/papers/tagatune.pdf)というゲームを通じて音楽データを収集する試みにより、[Magnatune](http://magnatune.com/)という音楽サイトから収集されたデータセット。
+  * 約3万曲に対し、音楽ジャンルなどのタグが付与されている。
 * [声優統計コーパス](http://voice-statistics.github.io/)
   * 独自に構築された音素バランス文を、プロの女性声優3名が読み上げたものを録音したコーパス。
   * 3パターンの感情(通常・喜び・怒り)での読み上げが含まれる。48kHz/16bitのWAVファイルで、総長約2時間、総ファイルサイズ720MB。
