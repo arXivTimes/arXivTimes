@@ -54,6 +54,9 @@
 * [SpaceNet](https://github.com/SpaceNetChallenge/utilities/tree/master/content/download_instructions)
   * 衛星写真のデータセット。建物の領域などがラベル付けされている
   * データを提供しているリポジトリで、可視化のためのツールなども提供されている
+* [ABCD (AIST Building Change Detection) dataset](https://github.com/faiton713/ABCDdataset)
+  * 津波の被害を受けた建物について、無事だったもの(surviving)と洗い流されたもの(washed-away)それぞれについて津波前後の衛星画像を収めたデータセット。
+  * 画像は東日本大震災での被害が対象となっており、建物のダメージの判定は震災後の国土交通省の調査に基づいている。
 * [Describable Textures Dataset (DTD)](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
   * 画像の認識において、単に映っているものを認識するだけでなく、質感などの情報も重要なはず、ということで様々なテクスチャを収集しタグ付したデータセット
   * 全5640画像で、47のカテゴリがアノテーションされている
