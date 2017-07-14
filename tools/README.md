@@ -19,6 +19,9 @@
 * [YOLO](https://pjreddie.com/darknet/yolo/)
   * You only look once (YOLO)と名付けられた、リアルタイムでの物体認識を行うソフトウェア。
   * C言語性のDNNのフレームワーク[darknet](https://pjreddie.com/darknet/)で構築されている
+* [OpenZoonz](https://opentoonz.github.io/)
+  * 2Dアニメーションの制作ソフトウェア(ジブリでの使用実績もあり)だが、ラスタライズ画像をベクター画像に変換できるという機能がある。
+  * sketch-RNNなど、ベクターデータが必要な場合に役に立つ。
 
 # NLP
 
@@ -42,6 +45,9 @@
   * 幾つかの言語間では、学習済みモデルも提供されている。
 * [SentEval](https://github.com/facebookresearch/SentEval)
   * 文のベクトル表現の品質を計測するためのプラットフォーム。SentimentやQuestion-typeの推定など、様々なタスクで評価ができる。
+* [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy)
+  * 文の類似度スコアを計算してくれるツール(レーベンシュタイン距離をベースにしているよう)。表記ゆれなどを解消する際に役に立つ。
+  * なぜかRustの実装もある。
 * [chazutsu](https://github.com/chakki-works/chazutsu)
   * 自然言語関係のデータセットを簡単にダウンロードし、使えるようにできるツール
   * データをダウンロード、展開して、整形して・・・という作業は以外と時間がかかるもので、その個所をスキップできる
