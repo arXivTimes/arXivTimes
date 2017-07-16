@@ -57,6 +57,9 @@
 * [ABCD (AIST Building Change Detection) dataset](https://github.com/faiton713/ABCDdataset)
   * 津波の被害を受けた建物について、無事だったもの(surviving)と洗い流されたもの(washed-away)それぞれについて津波前後の衛星画像を収めたデータセット。
   * 画像は東日本大震災での被害が対象となっており、建物のダメージの判定は震災後の国土交通省の調査に基づいている。
+* [Dublin LiDAR dataset](https://geo.nyu.edu/catalog?f%5Bdct_isPartOf_sm%5D%5B%5D=2015+Dublin+LiDAR)
+  * ダブリンの上空からLiDARセンサーで取得した点群のデータセット。300点/m2の密度で、上空以外にも垂直面の情報も提供されているので、3Dモデルを作ることも可能。
+  * ダウンロードは範囲ごとになっており、各範囲のページに遷移すると右側の「Tools」の中に「All Downloads」が表示されているので、そこからダウンロードできる。
 * [Describable Textures Dataset (DTD)](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
   * 画像の認識において、単に映っているものを認識するだけでなく、質感などの情報も重要なはず、ということで様々なテクスチャを収集しタグ付したデータセット
   * 全5640画像で、47のカテゴリがアノテーションされている
