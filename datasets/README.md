@@ -164,7 +164,11 @@
 * [E2E NLG](http://www.macs.hw.ac.uk/InteractionLab/E2E/)
   * End-to-Endの対話システムを構築するためのデータセットが公開。50万発話でが含まれ、ドメインはレストラン検索となっている。発話に対しては固有表現(slot)的なアノテーションもされている(「フレンチが食べたい。500円くらいで」なら、種別=フレンチ、予算=500円など)。
   * [The E2E Dataset: New Challenges For End-to-End Generation](https://arxiv.org/abs/1706.09254)
-* [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
+* [A Multi-Turn, Multi-Domain, Task-Oriented Dialogue Dataset](https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/)
+  * 複数ドメインにおける、複数ターンの会話のデータセット。
+  * 車内のエージェントへの適用を想定しており、スケジュール調整・天気・目的地検索の3つのドメインが用意されている。
+  * データ件数は学習用が約2500対話、検証/テスト用がそれぞれ300の総計約3000
+ [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
   * Googleから公開された、論理推論を学習するための大規模データセット。与えられた情報の中で推論に重要な点は何か、各推論間の依存関係、そこから導かれる結論は何か、などといったものがタスクとして挙げられている。
   * [HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving](https://arxiv.org/abs/1703.00426)
 * [SCONE: Sequential CONtext-dependent Execution dataset](https://nlp.stanford.edu/projects/scone/)
