@@ -235,6 +235,9 @@
   * PHPのアプリケーションの脆弱性(CVEのIDなど)と、そのコードから抽出された機械学習で利用する特徴量のデータセット。PHPアプリケーションはPHPMyAdmin、Moodle、Drupalの3点
 * [気象庁：過去の気象データ](http://www.data.jma.go.jp/gmd/risk/obsdl/index.php)
   * 地点毎になるが(複数選択可能)、過去の気象データをCSV形式でダウンロードできる。
+* [Global Terrorism Database](https://www.kaggle.com/START-UMD/gtd)
+  * 1970~2016年(なぜか2013年だけない)の間の世界で発生したテロ事件のデータセット。その数17万件。
+  * STARTというテロ対策を研究する団体がメンテナンスを行っており、特徴量として発生した場所や犯人や手口などが含まれている。
 * [GoGoD](http://senseis.xmp.net/?GoGoDCD)
   * プロの囲碁棋士の対局データセット。85,000局分が含まれており、お値段は15USD
 * [wangjinzhuo/pgd](https://github.com/wangjinzhuo/pgd)
