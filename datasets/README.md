@@ -111,6 +111,10 @@
 * [Cornell NLVR](http://lic.nlp.cornell.edu/nlvr/)
   * 図と、その図の状態を記述した自然言語のデータセット(具体的には、「少なくとも一つの黒い三角形がある」とか)。
   * [A Corpus of Natural Language for Visual Reasoning](http://alanesuhr.com/suhr2017.pdf)
+* [Recipe1M dataset](http://im2recipe.csail.mit.edu/)
+  * 100万にも及ぶ、料理画像とそのレシピのペアのデータセット(料理の種類としては80万)。
+  * なお、利用は研究用途に限る。
+
 
 # NLP
 
