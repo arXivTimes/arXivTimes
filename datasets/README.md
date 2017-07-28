@@ -22,6 +22,9 @@
 * [MegaFace and MF2: Million-Scale Face Recognition](http://megaface.cs.washington.edu/)
   * 約500万の画像からなる顔のデータセット。70万人分あり、一人当たり平均7画像が用意されている(最小3、最大2500近くとばらつきは結構大きい)
   * 顔を囲ったBounding Boxのデータも併せて提供されている。
+* [Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/)
+  * 食品の画像データセット。カテゴリ数は101、画像数は101,000と小粋に数字がそろっている。
+  * 各食品は250のテストデータと750の学習用データを持っており、双方人が確認している。画像サイズは全て512pxにリスケールされている
 * [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html)
   * 物理シミュレーターでシーン(部屋の中にものが散らばった環境)を作り、そこでカメラの軌跡を設定し映像を作製、その映像のRGB+Depthをデータ化、という感じで生成
   * [SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth](https://arxiv.org/abs/1612.05079)
