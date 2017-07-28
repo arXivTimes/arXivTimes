@@ -139,6 +139,12 @@
   * Stanfordの公開している、意味表現ツリーのデータセット
 * [Crowdflower](https://www.kaggle.com/crowdflower/datasets)
   * 機械学習プラットフォームのCrowdflowerから提供された、感情タグ付け済みのTwitterデータ。 
+* [MovieLens 1M Dataset](https://grouplens.org/datasets/movielens/1m/)
+  * MovieLensから取得された、映画のレーティングのデータセット。ユーザー数は6040、3900ほどの映画についての100万のレーティングが提供されている。
+  * ユーザー属性(年齢や性別)、映画属性(タイトルなど)、レーティングの3点からなる。推薦システム用のデータセット。
+* [MovieTweetings](https://github.com/sidooms/MovieTweetings)
+  * IMDBでレートをした時のツイート(`"I rated The Matrix 9/10 http://www.imdb.com/title/tt0133093/ #IMDb"`というような感じの)から収集したデータセット
+  * TwitterのユーザーID、映画の情報、レーティングの3点からなる推薦システム用のデータセット。
 * [WNUT17 Emerging and Rare entity recognition](https://noisy-text.github.io/2017/emerging-rare-entities.html)
   * SNSでの投稿などで瞬時に出てくる新語の固有表現を特定するチャレンジ。
   * 人・場所・企業・製品(iPhineとか)・創作物(「君の名は」とか)・グループ(アジカンとか)の計6つのタグがアノテーションされている。
