@@ -200,6 +200,9 @@
 * [boxscore-data](http://lstm.seas.harvard.edu/docgen/)
   * バスケットボールの試合のスコアと、試合結果についての要約をペアとしたデータセット。数値表現をテキストにする試み。
   * Rotowire/SBNationといったスポーツサイトからデータを収集しており、総計約15000のペアが収録されている。
+* [Noun Compositionality Judgements](https://www.kaggle.com/rtatman/noun-compositionality-judgements)
+  * 2語の組み合わせが、逐語的か否か(literal or not literal)をスコアリングしたデータセット。
+  * 例えばred appleは赤い・リンゴでそれぞれ独自の意味を持っているが(逐語的)、search engineは「検索エンジン」で一塊の意味となるなど。
 
 
 # Audio
