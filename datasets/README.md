@@ -184,6 +184,9 @@
 * [bAbI](https://research.fb.com/downloads/babi/)
   * Facebook AI Researchが進める自然言語理解のためのプロジェクト(bAbI)で利用されているデータセット
   * 質問応答・対話・言語モデルといった様々なタスクのデータセットが提供されている。
+* [boxscore-data](http://lstm.seas.harvard.edu/docgen/)
+  * バスケットボールの試合のスコアと、試合結果についての要約をペアとしたデータセット。数値表現をテキストにする試み。
+  * Rotowire/SBNationといったスポーツサイトからデータを収集しており、総計約15000のペアが収録されている。
 
 
 # Audio
