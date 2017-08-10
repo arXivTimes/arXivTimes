@@ -269,6 +269,9 @@
   * プロの囲碁棋士の対局データセット。85,000局分が含まれており、お値段は15USD
 * [wangjinzhuo/pgd](https://github.com/wangjinzhuo/pgd)
   * プロの囲碁棋士の対局データセット。GitHub上でフリーで公開されており、約25万局が収録されている。
+* [TorchCraft/StarData](https://github.com/TorchCraft/StarData)
+  * StarCraftのプレイデータ。約6万5千プレイ、フレーム数にして15億(!!)という大規模なデータセット。
+
 
 # Dataset Summary Page
 
