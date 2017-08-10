@@ -90,6 +90,14 @@
   * データセットを作るためのアノテーションツールも公開されており、データセットの拡張に貢献できる。
 * [AnimeFace Character Dataset](http://www.nurs.or.jp/~nagadomi/animeface-character-dataset/README.html)
   * アニメのキャラクターの顔を集めたデータセット。サイズは160x160で、1キャラクター平均80前後の画像が用意されている
+* [MASSVIS DATASET](http://massvis.mit.edu/)
+  * グラフや図といったビジュアライゼーションの効果を検証するためのデータセット。
+  * 具体的には、政府の統計、インフォグラフィックス、ニュースや科学雑誌などから抽出したグラフや図に対し、その種類や説明といったものを付与している。
+  * 特徴的なのはアイトラッキングのデータで、これにより図表のどこに注目しているかなどを知ることができる。
+* [GDI (Graphic Design Importance) Dataset](http://www.dgp.toronto.edu/~donovan/layout/index.html)
+  * グラフィックデザインのどこに注目するかという、いわゆるヒートマップのデータセット。
+  * ぼやけたグラフックを提示し、見たいところをクリックで開けていくという[BubbleView](https://namwkim.github.io/bubbleview/)という手法でデータを取得している
+  * 2017/8時点では公式ページでまだ未公開だが、[こちら](https://github.com/cvzoya/visimportance/tree/master/data)から手に入るもよう
 
 
 ## Visual x NLP
