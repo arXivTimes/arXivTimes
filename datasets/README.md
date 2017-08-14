@@ -277,6 +277,9 @@
 
 * [kaggle](https://www.kaggle.com/)
   * データ解析のコンペティションサイト。モデルの精度を競い合うことができ、データも提供されている。[Kaggle Datasets](https://www.kaggle.com/datasets)でデータの検索、また公開もできるようになった。
+* [人文学オープンデータ共同利用センター](http://codh.rois.ac.jp/)
+  * 日本の古典(徒然草や源氏物語)の書籍画像、また本文テキストなどのデータを公開しているサイト。中にはレシピ本などの面白いものもある。
+  * 機械学習への応用をきちんと想定しており、古文字の画像認識用データセットなども公開している。
 * [国立情報学研究所](http://www.nii.ac.jp/dsc/idr/datalist.html)
   * 日本国内で公開されているデータセットはたいていここを見れば手に入る。ただ研究用途のみで申請書が必要。
 * [Harvard Dataverse](https://dataverse.harvard.edu/)
