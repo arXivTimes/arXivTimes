@@ -81,6 +81,10 @@
 * [AISL HDIBPL (Human Depth Images with Body Part Labels) Database](http://www.aisl.cs.tut.ac.jp/database_HDIBPL.html)
   * 深度データから姿勢を推定するためのデータセット。
   * 212x212の深度データに対し、ピクセル単位で10クラスのラベルが付与されている(胴、頭、右上腕、左上腕など・・・)。
+* [The Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
+  * イベントベースのカメラで撮影した動画に対して、実際のモーションキャプチャの情報をセットにしたデータセット。
+  * 通常のカメラは一定間隔で画像を撮影するいわゆるパラパラ漫画の方式だが、イベントベースのカメラは画像におけるピクセル変化(イベント)を検出する形のカメラになる。
+  * これにより、レイテンシを上げることなく高頻度に変化の検知を行うことができる(ファイルサイズも小さくできる)。[詳細はこちら参照](http://www.rit.edu/kgcoe/iros15workshop/papers/IROS2015-WASRoP-Invited-04-slides.pdf)。
 * [Manga109](http://www.manga109.org/ja/)
   * 1970年代から2010年代に、実際に出版された109冊の漫画のデータセット。一部の巻についてはページ毎のセリフデータも用意されている。
   * 利用は学術目的限りで、論文などにデータセットの漫画を掲載する際は作者の著作権「©作者名」とManga109の利用であることを明示すること(詳細は上記サイト参照)。
