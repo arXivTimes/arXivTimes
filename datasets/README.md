@@ -145,6 +145,9 @@
   * トピックニュース、Sportsなどの9分野のニュース記事のコーパス
 * [青空文庫](http://www.aozora.gr.jp/)
   * 著作権の消滅した作品、また「自由に読んでもらってかまわない」とされたものをテキストとXHTML(一部HTML)形式に電子化した上で揃えている
+* [青空文庫形態素解析データ集](http://aozora-word.hahasoha.net/index.html)
+  * 青空文庫に収録されている作品に対し形態素解析を行ったデータ。CCライセンスで、商用利用も可能。
+  * 対象の作品は2012/12時点で公開されており、著作権フラグのない11,176作品。
 * [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
   * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。 
 * [Sentiment Treebank](https://nlp.stanford.edu/sentiment/code.html)
