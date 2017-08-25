@@ -208,6 +208,12 @@
 * [A Large Self-Annotated Corpus for Sarcasm](https://arxiv.org/pdf/1704.05579.pdf)
   * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと) 
   * ダウンロードは[こちらから](http://nlp.cs.princeton.edu/SARC/)
+* [SemEval-2017 Task 8 RumourEval](http://alt.qcri.org/semeval2017/task8/)
+  * 噂の真偽を判定するためのデータセット。審議判定以外に、スタンスの特定のためのデータセットも提供されている。
+  * スタンスは特定の情報に対する支持(Support)・否定(Deny)・追加情報の要求(Query)・コメント(Comment)の4種類に分けられている。
+* [PHEME rumour dataset: support, certainty and evidentiality](https://www.pheme.eu/2016/06/13/pheme-rumour-dataset-support-certainty-and-evidentiality/)
+  * 噂の真偽を判定するためのデータセット。9つのニュースに関連した噂のツイート、及びそれに対する会話が収録されている(会話数が330で、総ツイート数が4,842)。
+  * ツイートには、支持(support)・確実性についての確認(certainty)・証拠性についての確認(evidentiality)の3つのスタンスのラベルが付与されている。
 * [BookCorpus](http://yknzhu.wixsite.com/mbweb)
   * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
   * こちらはさすがに利用申請が必要で、また研究用途のみOK。
