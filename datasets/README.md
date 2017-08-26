@@ -10,6 +10,9 @@
   * 言わずと知れた10クラス(airplane, automobileなど)にラベル付された画像集。CIFAR-100というより詳細なラベル付けがされたものもある
 * [The Oxford-IIIT Pet Dataset](http://www.robots.ox.ac.uk/~vgg/data/pets/)
   * CIFAR-10と同様、ラベル付きのデータ。その名の通り動物系
+* [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/blob/master/README.md)
+  * ファッション画像のMNIST、を表したデータセット。クラス数はMNISTと同様10クラスで、画像は28x28(グレースケール)、学習：評価データ数は60,000：10,000。
+  * MNISTは簡単すぎる、濫用されているといった問題を克服するという側面も意識されている。
 * [YouTube-8M](https://research.google.com/youtube8m/)
   * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。 
 * [YouTube-BoundingBoxes](https://research.google.com/youtube-bb/)
