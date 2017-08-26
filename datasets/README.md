@@ -107,6 +107,10 @@
   * グラフィックデザインのどこに注目するかという、いわゆるヒートマップのデータセット。
   * ぼやけたグラフックを提示し、見たいところをクリックで開けていくという[BubbleView](https://namwkim.github.io/bubbleview/)という手法でデータを取得している
   * 2017/8時点では公式ページでまだ未公開だが、[こちら](https://github.com/cvzoya/visimportance/tree/master/data)から手に入るもよう
+* [LLD - Large Logo Dataset](https://data.vision.ee.ethz.ch/cvl/lld/)
+  * 50万overの、ロゴ画像のデータセット。Webサイトのfaviconから収集されている。
+  * GANでの利用を想定しており、GAN用にロゴっぽくないものなどを除いたClean versionの提供も行われている。
+  * 他のロゴ画像のデータセットとしては、Kaggleで公開されている[Favicons](https://www.kaggle.com/colinmorris/favicons)がある。
 
 
 ## Visual x NLP
