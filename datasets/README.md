@@ -281,6 +281,9 @@
 * [dSPP: Database of structural propensities of proteins](https://peptone.io/dspp)
   * タンパク質(アミノ酸の鎖のベクトル)から構造的傾向スコア(structural propensity score)を予測するためのデータセット。
   * Kerasから使うためのユーティリティも提供されている([dspp-keras](https://github.com/PeptoneInc/dspp-keras))。
+* [MIMIC](https://mimic.physionet.org/)
+  * 40,000人のケアが必要な重篤な患者についてのデータセット。人口統計、バイタルサイン、検査結果、医薬品情報などが含まれる。
+  * 利用にあたってはまずCITIの"Data or Specimens Only Research"というオンライン講座を受講する必要がある([こちら](https://mimic.physionet.org/gettingstarted/access/)参照)。
 * [grocery-shopping-2017](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
   * Instacartという食品のオンラインショップの購買データのデータセットが公開。時間のデータも、時間(0~24時)だけながら利用可能。
 * [SARD Dataset](https://samate.nist.gov/SRD/testsuite.php)
