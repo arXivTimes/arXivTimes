@@ -235,6 +235,9 @@
 * [boxscore-data](http://lstm.seas.harvard.edu/docgen/)
   * バスケットボールの試合のスコアと、試合結果についての要約をペアとしたデータセット。数値表現をテキストにする試み。
   * Rotowire/SBNationといったスポーツサイトからデータを収集しており、総計約15000のペアが収録されている。
+* [WikiSQL](https://github.com/salesforce/WikiSQL)
+  * 自然言語をSQLに対応付けたデータセット。なお、SQLは選択用(SELECT)のみ。
+  * 自然言語とSQLの条件・列選択・集計対象列との対応データと、テーブルの定義が提供されている。
 
 
 # Audio
