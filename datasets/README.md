@@ -163,6 +163,9 @@
   * Stanfordの公開している、意味表現ツリーのデータセット
 * [Crowdflower](https://www.kaggle.com/crowdflower/datasets)
   * 機械学習プラットフォームのCrowdflowerから提供された、感情タグ付け済みのTwitterデータ。 
+* [PersonaBank](https://nlds.soe.ucsc.edu/personabank)
+  * 個々人のペルソナを推定するためのコーパスで、個人ブログから抽出された108の個人的なストーリーからなる。
+  * 各ストーリーに対しては、意図グラフ(xをyしてzにしようとした、というのがノードとエッジで表現されている)がアノテーションされている。
 * [MovieLens 1M Dataset](https://grouplens.org/datasets/movielens/1m/)
   * MovieLensから取得された、映画のレーティングのデータセット。ユーザー数は6040、3900ほどの映画についての100万のレーティングが提供されている。
   * ユーザー属性(年齢や性別)、映画属性(タイトルなど)、レーティングの3点からなる。推薦システム用のデータセット。
