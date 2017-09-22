@@ -16,6 +16,8 @@
 * [self-driving-car](https://github.com/udacity/self-driving-car/)
   * Udacityで自動運転車の講座が開講されるに伴い公開された、オープンソースの自動運転車の実装
   * 他の公開されている実装としては、[comma.ai](https://github.com/commaai/research)、Baiduが公開した[Appolo](http://apollo.auto/index.html)などがある。
+* [europilot](https://github.com/marshq/europilot)
+  * オープンソースの自動運転シミュレーター。Euro Truck Simulatorというトラックシミュレーションゲームと接続して動作する。
 * [YOLO](https://pjreddie.com/darknet/yolo/)
   * You only look once (YOLO)と名付けられた、リアルタイムでの物体認識を行うソフトウェア。
   * C言語性のDNNのフレームワーク[darknet](https://pjreddie.com/darknet/)で構築されている
@@ -89,6 +91,8 @@
   * 観測情報から足の筋肉を操作するモデルを構築し、歩行を学習させるための環境。OpenAI Gym + Kerasで構築されている。
 * [mujoco-py](https://github.com/openai/mujoco-py)
   * 物理エンジンであるMujocoをPythonから操作できるライブラリ  
+* [Unity ML - Agents](https://github.com/Unity-Technologies/ml-agents)
+  * Unityが公式に公開した、Unityで強化学習を行うための環境・エージェントを作成できるSDK
 
 # Others
 

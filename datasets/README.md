@@ -36,6 +36,10 @@
 * [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
   * 物体認識のためのデータセット。MITの[Scene Parsing Challenge](http://sceneparsing.csail.mit.edu/)で使用されている。20,000のセグメンテーション、またさらにその中のパーツといった細かいデータも提供されている。
   * [Semantic Understanding of Scenes through the ADE20K Dataset](https://github.com/arXivTimes/arXivTimes/issues/291)
+* [Places365](http://places2.csail.mit.edu/download.html)
+  * 365カテゴリーのシーンのタグ付け（kitchen、lagoon、yardなど）がされているデータセット
+  * 訓練済みモデルが[公開されている](https://github.com/CSAILVision/places365)
+  * Plces365は、[Places2](http://places2.csail.mit.edu/) というデータベースのサブセット
 * [ShapeNet](http://shapenet.cs.stanford.edu/)
   * 3Dモデルのデータセット。家具から飛行機までと、色々な種類のモデルがそろっている。
   * メジャーなカテゴリを集めた[Core55](https://shapenet.cs.stanford.edu/shrec17/)もある
@@ -117,10 +121,6 @@
   * 50万overの、ロゴ画像のデータセット。Webサイトのfaviconから収集されている。
   * GANでの利用を想定しており、GAN用にロゴっぽくないものなどを除いたClean versionの提供も行われている。
   * 他のロゴ画像のデータセットとしては、Kaggleで公開されている[Favicons](https://www.kaggle.com/colinmorris/favicons)がある。
-* [Places365](http://places2.csail.mit.edu/download.html)
-  * 365カテゴリーのシーンのタグ付け（kitchen、lagoon、yardなど）がされているデータセット
-  * 訓練済みモデルが[公開されている](https://github.com/CSAILVision/places365)
-  * Plces365は、[Places2](http://places2.csail.mit.edu/) というデータベースのサブセット
 
 ## Visual x NLP
 
@@ -250,6 +250,16 @@
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
   * 自然言語をSQLに対応付けたデータセット。なお、SQLは選択用(SELECT)のみ。
   * 自然言語とSQLの条件・列選択・集計対象列との対応データと、テーブルの定義が提供されている。
+* [Automated Analysis of Cybercriminal Markets](https://evidencebasedsecurity.org/forums/)
+  * インターネット上の犯罪取引掲示板のデータセット。取引されているブツに対してアノテーションが行われており、さらに4つの掲示板からデータを取得しているため、異なるドメインでもブツの検知ができるかというドメイン転化の検証にも使用できる。
+  * ただ、アノテーション自体はそう多くなく、最大でも700程度(Hack Forums)で最小は80(Blackhat)。
+* [AESW](http://textmining.lt/aesw/index.html)
+  * 文書校正前後の論文を集めたデータセット。
+  * 学習データには約100万文が含まれ、そのうち46万件ほどに校正による修正が入っている。
+* [Lang-8 dataset](http://cl.naist.jp/nldata/lang-8/)
+  * 語学学習を行うSNSであるLang-8から収集されたデータセット。Lang-8では学習している言語で作文を行うと、その言語を母国語としている人から添削を受けることができる。この学習者の作文と訂正された作文のペアがデータセットとして収録されている。
+  * 10言語のデータが含まれており、総数は約58万文書に及ぶ。
+  * 実はNAISTが公開しており、詳細はこちらから参照できる。[語学学習 SNS の添削ログからの母語訳付き学習者コーパスの構築に向けて](https://www.ninjal.ac.jp/event/specialists/project-meeting/files/JCLWorkshop_no6_papers/JCLWorkshop_No6_27.pdf)
 
 
 # Audio
@@ -341,6 +351,9 @@
   * 日本語・英語のテキストコーパスのまとめ
 * [beamandrew/medical-data](https://github.com/beamandrew/medical-data)
   * 機械学習のための化学系のデータセットのまとめ
+* [Web Technology and Information Systems](https://www.uni-weimar.de/en/media/chairs/computer-science-and-media/webis/corpora/)
+  * Web Technology and Information Systemsの研究で使用されたコーパス集
+
 
 # To make your own
 
