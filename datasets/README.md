@@ -117,7 +117,10 @@
   * 50万overの、ロゴ画像のデータセット。Webサイトのfaviconから収集されている。
   * GANでの利用を想定しており、GAN用にロゴっぽくないものなどを除いたClean versionの提供も行われている。
   * 他のロゴ画像のデータセットとしては、Kaggleで公開されている[Favicons](https://www.kaggle.com/colinmorris/favicons)がある。
-
+* [Places365](http://places2.csail.mit.edu/download.html)
+  * 365カテゴリーのシーンのタグ付け（kitchen、lagoon、yardなど）がされているデータセット
+  * 訓練済みモデルが[公開されている](https://github.com/CSAILVision/places365)
+  * Plces365は、[Places2](http://places2.csail.mit.edu/) というデータベースのサブセット
 
 ## Visual x NLP
 
