@@ -87,6 +87,9 @@
   * アノテーションとして、アイテムごとに色付けしたセグメンテーション画像と、アイテムの四隅の位置(バウンディングボックス)を記録したテキストファイルが提供されている
   * 学習用データは全400シーンx各2回撮影した800枚＋アイテム一つのみ棚に入れた画像(アイテム数40x各10回撮影で400枚、だが公式サイトでは410となっているので何も入っていない棚の画像がある可能性あり)
   * テスト用データは棚にアイテムを入れた全100シーンx各2回撮影の計200枚
+* [Matterport3D: Learning from RGB-D Data in Indoor Environments](https://niessner.github.io/Matterport/)
+  * 大規模なシーン認識のためのデータセット。90の建物から抽出された10800のパノラマビューに対してオブジェクト/セグメントがアノテーションされている。画像(RGB-D)数は約20万。
+  * データセットを扱うためのコードも公開されている([niessner/Matterport](https://github.com/niessner/Matterport))。ここには、ベンチマークも含まれる。
 * [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
   * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
 * [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
