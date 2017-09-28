@@ -80,6 +80,9 @@
   * VNCを利用し、まさに人間が操作するようにPCを操作させられる強化学習のプラットフォーム。これによって、画面操作をエージェントに学習させることができる。
 * [μniverse](https://github.com/unixpickle/muniverse)
   * OpenAI Universeの重たい所(VNCでリモート操作)、難しい所(画面がFlashで読み取りむずい)を改善したmuniverseが開発中とのこと。こちらはHTML5のゲームに限定することで、上記の問題点を回避している。
+* [SerpentAI](https://github.com/SerpentAI/SerpentAI)
+  * 手元のゲームを強化学習のための環境に使えるというライブラリ。Universeへの不満から生まれたとのこと。
+  * ネイティブで動作し、ゲームに接続するAPIを作る機能が内包されているためゲーム側の対応を待つ必要がない。チュートリアルではSteamのゲームを使う手順を公開している。
 * [malmo](https://github.com/Microsoft/malmo)
   * 協調するマルチエージェントの学習に特化した学習プラットフォーム。
   * Microsoftが公開しており、Minecraftの上で動く
