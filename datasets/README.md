@@ -13,26 +13,37 @@
 * [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/blob/master/README.md)
   * ファッション画像のMNIST、を表したデータセット。クラス数はMNISTと同様10クラスで、画像は28x28(グレースケール)、学習：評価データ数は60,000：10,000。
   * MNISTは簡単すぎる、濫用されているといった問題を克服するという側面も意識されている。
-* [YouTube-8M](https://research.google.com/youtube8m/)
-  * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。 
-* [YouTube-BoundingBoxes](https://research.google.com/youtube-bb/)
-  * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
 * [Open Images dataset](https://github.com/openimages/dataset)
   * Googleが公開した900万、ImageNetをこえる6000カテゴリのアノテーション済みデータ。こちらから利用可能。中身はURL+ラベルになっているので、怖がらずにcloneして大丈夫。
   * [2017/7/20にbounding boxのデータが追加された](https://research.googleblog.com/2017/07/an-update-to-open-images-now-with.html)。総計約200万で、学習データ中の120万は半自動で付与(人が確認済み)、validationデータ中の80万は人がアノテーションを行なっている。クラス数は600で一部にはラベルもついている。
+* [Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/)
+  * 食品の画像データセット。カテゴリ数は101、画像数は101,000と小粋に数字がそろっている。
+  * 各食品は250のテストデータと750の学習用データを持っており、双方人が確認している。画像サイズは全て512pxにリスケールされている
+
+## Faces
+
 * [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
   * 20万件の顔画像データと、それに撮影場所や40の特性(笑っているとか、ヒゲがあるとか)がセットになったデータ。また一万件程度は身元のデータがある(有名人などの画像)。
 * [MegaFace and MF2: Million-Scale Face Recognition](http://megaface.cs.washington.edu/)
   * 約500万の画像からなる顔のデータセット。70万人分あり、一人当たり平均7画像が用意されている(最小3、最大2500近くとばらつきは結構大きい)
   * 顔を囲ったBounding Boxのデータも併せて提供されている。
-* [Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/)
-  * 食品の画像データセット。カテゴリ数は101、画像数は101,000と小粋に数字がそろっている。
-  * 各食品は250のテストデータと750の学習用データを持っており、双方人が確認している。画像サイズは全て512pxにリスケールされている
+
+## Video
+
+* [YouTube-8M](https://research.google.com/youtube8m/)
+  * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。 
+* [YouTube-BoundingBoxes](https://research.google.com/youtube-bb/)
+  * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
+* [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
+  * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
+* [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
+  * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
+
+## Scene
+
 * [SceneNet RGB-D](https://robotvault.bitbucket.io/scenenet-rgbd.html)
   * 物理シミュレーターでシーン(部屋の中にものが散らばった環境)を作り、そこでカメラの軌跡を設定し映像を作製、その映像のRGB+Depthをデータ化、という感じで生成
   * [SceneNet RGB-D: 5M Photorealistic Images of Synthetic Indoor Trajectories with Ground Truth](https://arxiv.org/abs/1612.05079)
-* [ScanNet](http://www.scan-net.org/)
-  * 1500以上のスキャンで得られた250万もの3D(RGB-D)画像のデータセット。カメラ位置・サーフェス・セグメンテーションなどのアノテーションがされている。
 * [ADE20K](http://groups.csail.mit.edu/vision/datasets/ADE20K/)
   * 物体認識のためのデータセット。MITの[Scene Parsing Challenge](http://sceneparsing.csail.mit.edu/)で使用されている。20,000のセグメンテーション、またさらにその中のパーツといった細かいデータも提供されている。
   * [Semantic Understanding of Scenes through the ADE20K Dataset](https://github.com/arXivTimes/arXivTimes/issues/291)
@@ -40,43 +51,14 @@
   * 365カテゴリーのシーンのタグ付け（kitchen、lagoon、yardなど）がされているデータセット
   * 訓練済みモデルが[公開されている](https://github.com/CSAILVision/places365)
   * Plces365は、[Places2](http://places2.csail.mit.edu/) というデータベースのサブセット
-* [ShapeNet](http://shapenet.cs.stanford.edu/)
-  * 3Dモデルのデータセット。家具から飛行機までと、色々な種類のモデルがそろっている。
-  * メジャーなカテゴリを集めた[Core55](https://shapenet.cs.stanford.edu/shrec17/)もある
-* [ModelNet](http://modelnet.cs.princeton.edu/)
-  * シーン/オブジェクト認識のデータセットである[SUN database](http://sun.cs.princeton.edu/)からメジャーなオブジェクトを抜き出して、そのCADイメージを収集したもの。
-  * カテゴリ数10のModelNet10と、40のModelNet40がある。
-* [SHREC 2014](http://www.itl.nist.gov/iad/vug/sharp/contest/2014/Generic3D/)
-  * 既存の3Dモデルのデータセットから、ベンチマークになるような新たなデータセットを構築したもの。
-  * PSB/SHREC12GTB/TSB/CCCC/WMB/MSB/BAB/ESBの計8つのデータセットが統合されている(詳細はリンク先のTable1参照)。
-  * 最終的には、171クラス8,987モデルのデータセットとなっている。
-* [Yobi3D](https://www.yobi3d.com/)
-  * フリーの3Dモデル検索エンジン。3Dデータ自体は様々なところから収集されている。データセットという形でまとまってはいないが、用途に合わせて検索し、モデルデータのリンク先を得ることができる。
 * [KITTI](http://www.cvlibs.net/datasets/kitti/)
   * 自動運転車のためのデータセット。ドイツの中規模都市であるカールスルーエ周辺～高速道路での運転から得られた画像が提供されている。画像は、最大15台の車と30人の歩行者が映っている。
   * 同様のデータセットに、[ISPRS](http://www.cvlibs.net/projects/autonomous_vision_survey/)、[MOT](https://motchallenge.net/)、[Cityscapes](https://www.cityscapes-dataset.com/)等がある。自動運転は画像認識の複合的なタスクなので、画像でデータがないと思ったら一度目を通してみるといいかもしれない。
 * [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas)
   * 自動運転のための、路上画像のデータセット。25,000のアノテーション済みの高解像度データを提供。現在も増え続けており、しかも世界各国の画像が含まれている(日本の道路の画像もある)。
-* [quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset)
-  * 345カテゴリ、5千万のイラスト描画データ。描画データという名の通り、時系列の筆跡データが提供されている
-  * 追加のための学習データセットとして、漢字や羊、象形文字?のデータも公開されている。[sketch-rnn-datasets](https://github.com/hardmaru/sketch-rnn-datasets)
-  * 本体のモデルは[こちら](https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn)。
-  * [A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477)
-* [SpaceNet](https://github.com/SpaceNetChallenge/utilities/tree/master/content/download_instructions)
-  * 衛星写真のデータセット。建物の領域などがラベル付けされている
-  * データを提供しているリポジトリで、可視化のためのツールなども提供されている
-* [ABCD (AIST Building Change Detection) dataset](https://github.com/faiton713/ABCDdataset)
-  * 津波の被害を受けた建物について、無事だったもの(surviving)と洗い流されたもの(washed-away)それぞれについて津波前後の衛星画像を収めたデータセット。
-  * 画像は東日本大震災での被害が対象となっており、建物のダメージの判定は震災後の国土交通省の調査に基づいている。
-* [Dublin LiDAR dataset](https://geo.nyu.edu/catalog?f%5Bdct_isPartOf_sm%5D%5B%5D=2015+Dublin+LiDAR)
-  * ダブリンの上空からLiDARセンサーで取得した点群のデータセット。300点/m2の密度で、上空以外にも垂直面の情報も提供されているので、3Dモデルを作ることも可能。
-  * ダウンロードは範囲ごとになっており、各範囲のページに遷移すると右側の「Tools」の中に「All Downloads」が表示されているので、そこからダウンロードできる。
 * [Describable Textures Dataset (DTD)](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
   * 画像の認識において、単に映っているものを認識するだけでなく、質感などの情報も重要なはず、ということで様々なテクスチャを収集しタグ付したデータセット
   * 全5640画像で、47のカテゴリがアノテーションされている
-* [Painter by Numbers(PBN)](https://www.kaggle.com/c/painter-by-numbers/data)
-  * 画家・タイトル・画風・ジャンルなどがアノテーションされた画像のデータセット
-  * 全23817画像あるが、かなり重たいので(学習用データセットが36GB)アノテーションの配分が均等になるように分けられた13グループのファイル(各1400~2000画像くらい)が用意されている
 * [SUN database](http://groups.csail.mit.edu/vision/SUN/)
   * 物体認識・シーン認識のタスクにおいてベースラインとなるようなデータセットを提供している。
   * SUN397: 397のシーンでタグ付けされたデータセット
@@ -90,10 +72,6 @@
 * [Matterport3D: Learning from RGB-D Data in Indoor Environments](https://niessner.github.io/Matterport/)
   * 大規模なシーン認識のためのデータセット。90の建物から抽出された10800のパノラマビューに対してオブジェクト/セグメントがアノテーションされている。画像(RGB-D)数は約20万。
   * データセットを扱うためのコードも公開されている([niessner/Matterport](https://github.com/niessner/Matterport))。ここには、ベンチマークも含まれる。
-* [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
-  * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
-* [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
-  * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
 * [AISL HDIBPL (Human Depth Images with Body Part Labels) Database](http://www.aisl.cs.tut.ac.jp/database_HDIBPL.html)
   * 深度データから姿勢を推定するためのデータセット。
   * 212x212の深度データに対し、ピクセル単位で10クラスのラベルが付与されている(胴、頭、右上腕、左上腕など・・・)。
@@ -103,6 +81,46 @@
   * これにより、レイテンシを上げることなく高頻度に変化の検知を行うことができる(ファイルサイズも小さくできる)。[詳細はこちら参照](http://www.rit.edu/kgcoe/iros15workshop/papers/IROS2015-WASRoP-Invited-04-slides.pdf)。
 * [MPI Dynamic FAUST(D-FAUST)](http://dfaust.is.tue.mpg.de/)
   * 人体の3次元データに時間を加えた、4次元のモーションデータ(60fpsで撮影)。
+
+## 3D
+
+* [ScanNet](http://www.scan-net.org/)
+  * 1500以上のスキャンで得られた250万もの3D(RGB-D)画像のデータセット。カメラ位置・サーフェス・セグメンテーションなどのアノテーションがされている。
+* [ShapeNet](http://shapenet.cs.stanford.edu/)
+  * 3Dモデルのデータセット。家具から飛行機までと、色々な種類のモデルがそろっている。
+  * メジャーなカテゴリを集めた[Core55](https://shapenet.cs.stanford.edu/shrec17/)もある
+* [ModelNet](http://modelnet.cs.princeton.edu/)
+  * シーン/オブジェクト認識のデータセットである[SUN database](http://sun.cs.princeton.edu/)からメジャーなオブジェクトを抜き出して、そのCADイメージを収集したもの。
+  * カテゴリ数10のModelNet10と、40のModelNet40がある。
+* [SHREC 2014](http://www.itl.nist.gov/iad/vug/sharp/contest/2014/Generic3D/)
+  * 既存の3Dモデルのデータセットから、ベンチマークになるような新たなデータセットを構築したもの。
+  * PSB/SHREC12GTB/TSB/CCCC/WMB/MSB/BAB/ESBの計8つのデータセットが統合されている(詳細はリンク先のTable1参照)。
+  * 最終的には、171クラス8,987モデルのデータセットとなっている。
+* [Yobi3D](https://www.yobi3d.com/)
+  * フリーの3Dモデル検索エンジン。3Dデータ自体は様々なところから収集されている。データセットという形でまとまってはいないが、用途に合わせて検索し、モデルデータのリンク先を得ることができる。
+
+## Satellite
+
+* [SpaceNet](https://github.com/SpaceNetChallenge/utilities/tree/master/content/download_instructions)
+  * 衛星写真のデータセット。建物の領域などがラベル付けされている
+  * データを提供しているリポジトリで、可視化のためのツールなども提供されている
+* [ABCD (AIST Building Change Detection) dataset](https://github.com/faiton713/ABCDdataset)
+  * 津波の被害を受けた建物について、無事だったもの(surviving)と洗い流されたもの(washed-away)それぞれについて津波前後の衛星画像を収めたデータセット。
+  * 画像は東日本大震災での被害が対象となっており、建物のダメージの判定は震災後の国土交通省の調査に基づいている。
+* [Dublin LiDAR dataset](https://geo.nyu.edu/catalog?f%5Bdct_isPartOf_sm%5D%5B%5D=2015+Dublin+LiDAR)
+  * ダブリンの上空からLiDARセンサーで取得した点群のデータセット。300点/m2の密度で、上空以外にも垂直面の情報も提供されているので、3Dモデルを作ることも可能。
+  * ダウンロードは範囲ごとになっており、各範囲のページに遷移すると右側の「Tools」の中に「All Downloads」が表示されているので、そこからダウンロードできる。
+
+## Art
+
+* [Painter by Numbers(PBN)](https://www.kaggle.com/c/painter-by-numbers/data)
+  * 画家・タイトル・画風・ジャンルなどがアノテーションされた画像のデータセット
+  * 全23817画像あるが、かなり重たいので(学習用データセットが36GB)アノテーションの配分が均等になるように分けられた13グループのファイル(各1400~2000画像くらい)が用意されている
+* [quickdraw-dataset](https://github.com/googlecreativelab/quickdraw-dataset)
+  * 345カテゴリ、5千万のイラスト描画データ。描画データという名の通り、時系列の筆跡データが提供されている
+  * 追加のための学習データセットとして、漢字や羊、象形文字?のデータも公開されている。[sketch-rnn-datasets](https://github.com/hardmaru/sketch-rnn-datasets)
+  * 本体のモデルは[こちら](https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn)。
+  * [A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477)
 * [Manga109](http://www.manga109.org/ja/)
   * 1970年代から2010年代に、実際に出版された109冊の漫画のデータセット。一部の巻についてはページ毎のセリフデータも用意されている。
   * 利用は学術目的限りで、論文などにデータセットの漫画を掲載する際は作者の著作権「©作者名」とManga109の利用であることを明示すること(詳細は上記サイト参照)。
@@ -112,10 +130,6 @@
   * データセットを作るためのアノテーションツールも公開されており、データセットの拡張に貢献できる。
 * [AnimeFace Character Dataset](http://www.nurs.or.jp/~nagadomi/animeface-character-dataset/README.html)
   * アニメのキャラクターの顔を集めたデータセット。サイズは160x160で、1キャラクター平均80前後の画像が用意されている
-* [MASSVIS DATASET](http://massvis.mit.edu/)
-  * グラフや図といったビジュアライゼーションの効果を検証するためのデータセット。
-  * 具体的には、政府の統計、インフォグラフィックス、ニュースや科学雑誌などから抽出したグラフや図に対し、その種類や説明といったものを付与している。
-  * 特徴的なのはアイトラッキングのデータで、これにより図表のどこに注目しているかなどを知ることができる。
 * [GDI (Graphic Design Importance) Dataset](http://www.dgp.toronto.edu/~donovan/layout/index.html)
   * グラフィックデザインのどこに注目するかという、いわゆるヒートマップのデータセット。
   * ぼやけたグラフックを提示し、見たいところをクリックで開けていくという[BubbleView](https://namwkim.github.io/bubbleview/)という手法でデータを取得している
@@ -124,8 +138,21 @@
   * 50万overの、ロゴ画像のデータセット。Webサイトのfaviconから収集されている。
   * GANでの利用を想定しており、GAN用にロゴっぽくないものなどを除いたClean versionの提供も行われている。
   * 他のロゴ画像のデータセットとしては、Kaggleで公開されている[Favicons](https://www.kaggle.com/colinmorris/favicons)がある。
+* [MASSVIS DATASET](http://massvis.mit.edu/)
+  * グラフや図といったビジュアライゼーションの効果を検証するためのデータセット。
+  * 具体的には、政府の統計、インフォグラフィックス、ニュースや科学雑誌などから抽出したグラフや図に対し、その種類や説明といったものを付与している。
+  * 特徴的なのはアイトラッキングのデータで、これにより図表のどこに注目しているかなどを知ることができる。
 
-## Visual x NLP
+## Medical
+
+* [Annotated lymph node CT data](https://wiki.cancerimagingarchive.net/display/Public/CT+Lymph+Nodes)
+  * リンパ節の位置がアノテーションされたCT画像。画像数は縦隔90、腹部86。
+* [Annotated pancreas CT data](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT)
+  * すい臓がアノテーションされた、コントラストを強調した腹部のCT画像。画像数は82。
+* [Chest radiograph dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC)
+  * 肺の病気について、その位置と病名をアノテーションしたデータセット。30,805人の患者のX線画像112,120枚。
+
+## Captioning
 
 * [VQA](http://www.visualqa.org/index.html)
   * 画像を見て質問に答えるタスクでは、学習した画像についてだけ答えられる、良くある答え(「2つ」とか)を多めに繰り出して精度が上がっているなど明らかな過適合が見られた。そこで真実見たことない画像(Zero-Shot)に回答可能かをテストするためのデータとベースラインモデルの提案 
@@ -154,23 +181,47 @@
 
 # NLP
 
-* [日本語対訳データ](http://phontron.com/japanese-translation-data.php?lang=ja)
 * [自然言語処理のためのリソース](http://nlp.ist.i.kyoto-u.ac.jp/index.php?NLP%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9#g63a7f30)
   * 京都大学から適用されている自然言語処理のためのデータセット。毎日新聞のデータに対する各種言語情報である[京都大学テキストコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9)(※本文データは別途入手する必要がある)、さまざまなウェブ文書のリード文に対し各種言語情報のアノテーションを行った[京都大学ウェブ文書リードコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?KWDLC)等がある。
 * [解析済みブログコーパス](http://nlp.ist.i.kyoto-u.ac.jp/kuntt/)
   * 京都大学と、NTTコミュニケーションの共同研究ユニットで作成されたコーパス。4テーマ（京都観光、携帯電話、スポーツ、グルメ）、249記事、4,186文の解析済みブログコーパス。形態素、構文、格・省略・照応、評判情報がアノテーションされている。
-* [Tanaka Corpus](http://www.edrdg.org/wiki/index.php/Tanaka_Corpus)
-  * 日英翻訳のためのパラレルコーパス。約15万文の日英の分のペアが収録されている。
-  * こちらから単語数が4~16である文約5万件を抽出した、単語分割済みのコーパスが別途公開されている([small_parallel_enja](https://github.com/odashi/small_parallel_enja))。
-* [livedoor ニュースコーパス](https://www.rondhuit.com/download.html)
-  * トピックニュース、Sportsなどの9分野のニュース記事のコーパス
+* [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
+  * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。 
+* [WikiSQL](https://github.com/salesforce/WikiSQL)
+  * 自然言語をSQLに対応付けたデータセット。なお、SQLは選択用(SELECT)のみ。
+  * 自然言語とSQLの条件・列選択・集計対象列との対応データと、テーブルの定義が提供されている。
 * [青空文庫](http://www.aozora.gr.jp/)
   * 著作権の消滅した作品、また「自由に読んでもらってかまわない」とされたものをテキストとXHTML(一部HTML)形式に電子化した上で揃えている
 * [青空文庫形態素解析データ集](http://aozora-word.hahasoha.net/index.html)
   * 青空文庫に収録されている作品に対し形態素解析を行ったデータ。CCライセンスで、商用利用も可能。
   * 対象の作品は2012/12時点で公開されており、著作権フラグのない11,176作品。
-* [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
-  * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。 
+* [BookCorpus](http://yknzhu.wixsite.com/mbweb)
+  * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
+  * こちらはさすがに利用申請が必要で、また研究用途のみOK。
+
+## Parallel Corpus
+
+* [日本語対訳データ](http://phontron.com/japanese-translation-data.php?lang=ja)
+* [Tanaka Corpus](http://www.edrdg.org/wiki/index.php/Tanaka_Corpus)
+  * 日英翻訳のためのパラレルコーパス。約15万文の日英の分のペアが収録されている。
+  * こちらから単語数が4~16である文約5万件を抽出した、単語分割済みのコーパスが別途公開されている([small_parallel_enja](https://github.com/odashi/small_parallel_enja))。
+
+## Classification
+
+* [livedoor ニュースコーパス](https://www.rondhuit.com/download.html)
+  * トピックニュース、Sportsなどの9分野のニュース記事のコーパス
+* [SemEval-2017 Task 8 RumourEval](http://alt.qcri.org/semeval2017/task8/)
+  * 噂の真偽を判定するためのデータセット。審議判定以外に、スタンスの特定のためのデータセットも提供されている。
+  * スタンスは特定の情報に対する支持(Support)・否定(Deny)・追加情報の要求(Query)・コメント(Comment)の4種類に分けられている。
+* [PHEME rumour dataset: support, certainty and evidentiality](https://www.pheme.eu/2016/06/13/pheme-rumour-dataset-support-certainty-and-evidentiality/)
+  * 噂の真偽を判定するためのデータセット。9つのニュースに関連した噂のツイート、及びそれに対する会話が収録されている(会話数が330で、総ツイート数が4,842)。
+  * ツイートには、支持(support)・確実性についての確認(certainty)・証拠性についての確認(evidentiality)の3つのスタンスのラベルが付与されている。
+* [Noun Compositionality Judgements](https://www.kaggle.com/rtatman/noun-compositionality-judgements)
+  * 2語の組み合わせが、逐語的か否か(literal or not literal)をスコアリングしたデータセット。
+  * 例えばred appleは赤い・リンゴでそれぞれ独自の意味を持っているが(逐語的)、search engineは「検索エンジン」で一塊の意味となるなど。
+
+## Sentiment
+
 * [Sentiment Treebank](https://nlp.stanford.edu/sentiment/code.html)
   * Stanfordの公開している、意味表現ツリーのデータセット
 * [Crowdflower](https://www.kaggle.com/crowdflower/datasets)
@@ -184,6 +235,12 @@
 * [MovieTweetings](https://github.com/sidooms/MovieTweetings)
   * IMDBでレートをした時のツイート(`"I rated The Matrix 9/10 http://www.imdb.com/title/tt0133093/ #IMDb"`というような感じの)から収集したデータセット
   * TwitterのユーザーID、映画の情報、レーティングの3点からなる推薦システム用のデータセット。
+* [A Large Self-Annotated Corpus for Sarcasm](https://arxiv.org/pdf/1704.05579.pdf)
+  * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと) 
+  * ダウンロードは[こちらから](http://nlp.cs.princeton.edu/SARC/)
+
+## Entity Recognition
+
 * [WNUT17 Emerging and Rare entity recognition](https://noisy-text.github.io/2017/emerging-rare-entities.html)
   * SNSでの投稿などで瞬時に出てくる新語の固有表現を特定するチャレンジ。
   * 人・場所・企業・製品(iPhineとか)・創作物(「君の名は」とか)・グループ(アジカンとか)の計6つのタグがアノテーションされている。
@@ -192,8 +249,19 @@
 * [W-NUT Geolocation Prediction in Twitter](https://noisy-text.github.io/2016/geo-shared-task.html)
   * Twitterの投稿から位置情報を推定するタスク。100万ユーザー分のツイートが収録されている。
   * User-levelとMessage-levelの2種類のタスクが設定されている。
-* [The Ubuntu Dialogue Corpus](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)
-  * Ubuntuのテクニカルサポートの対話データ
+* [Automated Analysis of Cybercriminal Markets](https://evidencebasedsecurity.org/forums/)
+  * インターネット上の犯罪取引掲示板のデータセット。取引されているブツに対してアノテーションが行われており、さらに4つの掲示板からデータを取得しているため、異なるドメインでもブツの検知ができるかというドメイン転化の検証にも使用できる。
+  * ただ、アノテーション自体はそう多くなく、最大でも700程度(Hack Forums)で最小は80(Blackhat)。
+
+## Knowledge Base
+
+* [Visual Genome](http://visualgenome.org/)
+  * 画像とその物体の名前、それらの関係性、またQAなどを含む認識理解に必要なデータを包括しているデータセット
+* [Microsoft Concept Graph](https://concept.research.microsoft.com/Home/Introduction)
+  * Microfostが公開した、エンティティ間の関係をについてのデータセット。最初はIsA関係(AはBだ的な)のデータで、1,200万のインスタンスと、500万のコンセプト間の、8500万(!)のisA関係を含んでいる。 
+
+## Q&A
+
 * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
   * Stanfordの公開してる質問応答の大規模データセット
 * [Maluuba News QA](http://datasets.maluuba.com/NewsQA)
@@ -213,6 +281,12 @@
 * [DeepMind Q&A Dataset](http://cs.nyu.edu/~kcho/DMQA/)
   * CNN/Daily Mailのデータセット。その記事に関する質問のデータもある
   * Stanfordの研究で、だいぶ簡単な質問しかないことが明らかになっているので利用は注意->[文章を読み、理解する機能の獲得に向けて-Machine Comprehensionの研究動向-](https://www.slideshare.net/takahirokubo7792/machine-comprehension)
+
+
+## Dialog
+
+* [The Ubuntu Dialogue Corpus](https://github.com/rkadlec/ubuntu-ranking-dataset-creator)
+  * Ubuntuのテクニカルサポートの対話データ
 * [E2E NLG](http://www.macs.hw.ac.uk/InteractionLab/E2E/)
   * End-to-Endの対話システムを構築するためのデータセットが公開。50万発話でが含まれ、ドメインはレストラン検索となっている。発話に対しては固有表現(slot)的なアノテーションもされている(「フレンチが食べたい。500円くらいで」なら、種別=フレンチ、予算=500円など)。
   * [The E2E Dataset: New Challenges For End-to-End Generation](https://arxiv.org/abs/1706.09254)
@@ -220,6 +294,12 @@
   * 複数ドメインにおける、複数ターンの会話のデータセット。
   * 車内のエージェントへの適用を想定しており、スケジュール調整・天気・目的地検索の3つのドメインが用意されている。
   * データ件数は学習用が約2500対話、検証/テスト用がそれぞれ300の総計約3000
+* [bAbI](https://research.fb.com/downloads/babi/)
+  * Facebook AI Researchが進める自然言語理解のためのプロジェクト(bAbI)で利用されているデータセット
+  * 質問応答・対話・言語モデルといった様々なタスクのデータセットが提供されている。
+
+## Reasoning
+
 * [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
   * Googleから公開された、論理推論を学習するための大規模データセット。与えられた情報の中で推論に重要な点は何か、各推論間の依存関係、そこから導かれる結論は何か、などといったものがタスクとして挙げられている。
   * [HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving](https://arxiv.org/abs/1703.00426)
@@ -227,35 +307,14 @@
   * Stanfordから公開されている論理推論のためのデータセット。
   * 各シナリオには状況が設定されており(ビーカーがn個ある、絵がn個並んでいる、など)、それに対して5つの連続した操作が自然言語で記述されており(猫の絵を右にずらす、犬の絵をはずす、など)、それらを実行した場合の最後の状態を推定させるのがタスクになる。
   * [Simpler Context-Dependent Logical Forms via Model Projections](https://arxiv.org/abs/1606.05378)
-* [A Large Self-Annotated Corpus for Sarcasm](https://arxiv.org/pdf/1704.05579.pdf)
-  * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと) 
-  * ダウンロードは[こちらから](http://nlp.cs.princeton.edu/SARC/)
-* [SemEval-2017 Task 8 RumourEval](http://alt.qcri.org/semeval2017/task8/)
-  * 噂の真偽を判定するためのデータセット。審議判定以外に、スタンスの特定のためのデータセットも提供されている。
-  * スタンスは特定の情報に対する支持(Support)・否定(Deny)・追加情報の要求(Query)・コメント(Comment)の4種類に分けられている。
-* [PHEME rumour dataset: support, certainty and evidentiality](https://www.pheme.eu/2016/06/13/pheme-rumour-dataset-support-certainty-and-evidentiality/)
-  * 噂の真偽を判定するためのデータセット。9つのニュースに関連した噂のツイート、及びそれに対する会話が収録されている(会話数が330で、総ツイート数が4,842)。
-  * ツイートには、支持(support)・確実性についての確認(certainty)・証拠性についての確認(evidentiality)の3つのスタンスのラベルが付与されている。
-* [BookCorpus](http://yknzhu.wixsite.com/mbweb)
-  * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
-  * こちらはさすがに利用申請が必要で、また研究用途のみOK。
-* [bAbI](https://research.fb.com/downloads/babi/)
-  * Facebook AI Researchが進める自然言語理解のためのプロジェクト(bAbI)で利用されているデータセット
-  * 質問応答・対話・言語モデルといった様々なタスクのデータセットが提供されている。
-* [Noun Compositionality Judgements](https://www.kaggle.com/rtatman/noun-compositionality-judgements)
-  * 2語の組み合わせが、逐語的か否か(literal or not literal)をスコアリングしたデータセット。
-  * 例えばred appleは赤い・リンゴでそれぞれ独自の意味を持っているが(逐語的)、search engineは「検索エンジン」で一塊の意味となるなど。
+
+## Summarization/Correction
+
 * [DUC 2004](http://www.cis.upenn.edu/~nlp/corpora/sumrepo.html)
   * 文章要約のためのデータセット。ベースラインとなるアルゴリズムによる要約結果も収録されており、それらのROUGEスコアと比較が可能。
 * [boxscore-data](http://lstm.seas.harvard.edu/docgen/)
   * バスケットボールの試合のスコアと、試合結果についての要約をペアとしたデータセット。数値表現をテキストにする試み。
   * Rotowire/SBNationといったスポーツサイトからデータを収集しており、総計約15000のペアが収録されている。
-* [WikiSQL](https://github.com/salesforce/WikiSQL)
-  * 自然言語をSQLに対応付けたデータセット。なお、SQLは選択用(SELECT)のみ。
-  * 自然言語とSQLの条件・列選択・集計対象列との対応データと、テーブルの定義が提供されている。
-* [Automated Analysis of Cybercriminal Markets](https://evidencebasedsecurity.org/forums/)
-  * インターネット上の犯罪取引掲示板のデータセット。取引されているブツに対してアノテーションが行われており、さらに4つの掲示板からデータを取得しているため、異なるドメインでもブツの検知ができるかというドメイン転化の検証にも使用できる。
-  * ただ、アノテーション自体はそう多くなく、最大でも700程度(Hack Forums)で最小は80(Blackhat)。
 * [AESW](http://textmining.lt/aesw/index.html)
   * 文書校正前後の論文を集めたデータセット。
   * 学習データには約100万文が含まれ、そのうち46万件ほどに校正による修正が入っている。
@@ -291,13 +350,6 @@
   * TensorFlowとAIYのチームから公開された、30種類のYes, No, Up, Downなどといった短い音声による指示/応答を集めたデータセット。総数は65,000。
   * このデータセットを利用した音声認識モデルの構築手順が、TensorFlowのチュートリアルとして提供されている。
 
-
-# Knowledge Base
-
-* [Visual Genome](http://visualgenome.org/)
-  * 画像とその物体の名前、それらの関係性、またQAなどを含む認識理解に必要なデータを包括しているデータセット
-* [Microsoft Concept Graph](https://concept.research.microsoft.com/Home/Introduction)
-  * Microfostが公開した、エンティティ間の関係をについてのデータセット。最初はIsA関係(AはBだ的な)のデータで、1,200万のインスタンスと、500万のコンセプト間の、8500万(!)のisA関係を含んでいる。 
 
 # Other
 
