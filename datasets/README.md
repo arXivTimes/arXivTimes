@@ -150,7 +150,8 @@
 * [Annotated pancreas CT data](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT)
   * すい臓がアノテーションされた、コントラストを強調した腹部のCT画像。画像数は82。
 * [Chest radiograph dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC)
-  * 肺の病気について、その位置と病名をアノテーションしたデータセット。30,805人の患者のX線画像112,120枚。
+  * 肺のX線画像データに対して、病名とその位置をアノテーションしたデータセット。30,805人の患者のX線画像112,120枚。
+  * [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
 
 ## Captioning
 
