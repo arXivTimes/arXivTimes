@@ -38,6 +38,9 @@
   * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
 * [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
   * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
+* [TRECVID datasets](http://www-nlpir.nist.gov/projects/trecvid/past.data.table.html)
+  * TRECの動画を対象とした情報検索(Video Retrieval)の評価用データセット。
+  * 動画中のショット単位(Shot Boundary Detection)、シーン単位(Semantic Indexing)の認識や物体追跡(Instance Search)のためのデータセットが公開されている。
 
 ## Scene
 
