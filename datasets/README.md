@@ -19,6 +19,9 @@
 * [Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/)
   * 食品の画像データセット。カテゴリ数は101、画像数は101,000と小粋に数字がそろっている。
   * 各食品は250のテストデータと750の学習用データを持っており、双方人が確認している。画像サイズは全て512pxにリスケールされている
+* [Columbia University Image Library (COIL-20)](http://www.cs.columbia.edu/CAVE/software/softlib/coil-20.php)
+  * 物体を一軸回転させて撮影したデータセット。
+  * 20種類の物体を5度刻みで時計回りに回転。画像サイズは128x128。
 
 ## Faces
 
