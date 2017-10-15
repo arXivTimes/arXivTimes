@@ -78,6 +78,9 @@
 * [Matterport3D: Learning from RGB-D Data in Indoor Environments](https://niessner.github.io/Matterport/)
   * 大規模なシーン認識のためのデータセット。90の建物から抽出された10800のパノラマビューに対してオブジェクト/セグメントがアノテーションされている。画像(RGB-D)数は約20万。
   * データセットを扱うためのコードも公開されている([niessner/Matterport](https://github.com/niessner/Matterport))。ここには、ベンチマークも含まれる。
+* [3D_Street_View](https://github.com/amir32002/3D_Street_View)
+  * Googleのストリートビューから作成したデータセット。同じ地点をカメラ位置を変えて複数回撮影した画像が収録されており、カメラ位置推定や特徴点一致などのタスクに利用できる(118セットで、総画像数は約2500万)。
+  * また、都市全体の3Dモデルも提供されている。
 * [AISL HDIBPL (Human Depth Images with Body Part Labels) Database](http://www.aisl.cs.tut.ac.jp/database_HDIBPL.html)
   * 深度データから姿勢を推定するためのデータセット。
   * 212x212の深度データに対し、ピクセル単位で10クラスのラベルが付与されている(胴、頭、右上腕、左上腕など・・・)。
@@ -389,7 +392,9 @@
   * プロの囲碁棋士の対局データセット。GitHub上でフリーで公開されており、約25万局が収録されている。
 * [TorchCraft/StarData](https://github.com/TorchCraft/StarData)
   * StarCraftのプレイデータ。約6万5千プレイ、フレーム数にして15億(!!)という大規模なデータセット。
-
+* [THE STANFORD OPEN POLICING PROJECT](https://openpolicing.stanford.edu/)
+  * スタンフォードが取り組んでいる、法的機関(警察)による交通取り締まりのオープンデータプロジェクト。
+  * データには、違反日時や場所、ドライバーの年齢や性別などが記録されている(Jupyterのサンプルも公開されている)。
 
 # Dataset Summary Page
 
