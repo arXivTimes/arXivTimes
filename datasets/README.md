@@ -359,7 +359,9 @@
 * [Speech Commands Dataset](https://www.tensorflow.org/versions/master/tutorials/audio_recognition)
   * TensorFlowとAIYのチームから公開された、30種類のYes, No, Up, Downなどといった短い音声による指示/応答を集めたデータセット。総数は65,000。
   * このデータセットを利用した音声認識モデルの構築手順が、TensorFlowのチュートリアルとして提供されている。
-
+* [The Spoken Wikipedia Corpora](http://nats.gitlab.io/swc/)
+  * Wikipediaの記事を読み上げたデータセット。音声と単語の対応、単語と文中語の対応がアノテーションされている(単語がfive, hundredだった場合、文中語の500に対応、など)。
+  * しかも多言語のデータセットで、英語・ドイツ語・オランダ語が提供されている。
 
 # Other
 
