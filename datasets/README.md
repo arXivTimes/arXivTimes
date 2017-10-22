@@ -39,6 +39,10 @@
   * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
 * [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
   * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
+* [Atomic Visual Actions (AVA)](https://research.google.com/ava/)
+  * Googleが公開した人の動作を認識するためのデータセット。YouTubeからの抜粋で作成されており、長さは3秒にそろえられている。
+  * 動作ラベルは80、57000の動画に21万件のラベルが付与されている(人単位の付与で人物数は約9万)
+  * [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](https://arxiv.org/abs/1705.08421)
 * [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
   * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
 * [TRECVID datasets](http://www-nlpir.nist.gov/projects/trecvid/past.data.table.html)
