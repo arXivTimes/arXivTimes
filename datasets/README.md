@@ -302,6 +302,9 @@
 * [DeepMind Q&A Dataset](http://cs.nyu.edu/~kcho/DMQA/)
   * CNN/Daily Mailのデータセット。その記事に関する質問のデータもある
   * Stanfordの研究で、だいぶ簡単な質問しかないことが明らかになっているので利用は注意->[文章を読み、理解する機能の獲得に向けて-Machine Comprehensionの研究動向-](https://www.slideshare.net/takahirokubo7792/machine-comprehension)
+* [QAngaroo](http://qangaroo.cs.ucl.ac.uk/)
+  * 文書間のリンクをたどって回答するような質問回答のデータセット。例えば、「スカイツリーは東京にある」「東京は日本の首都である」⇒スカイツリーがある国は？=日本、といった具合。
+  * [Constructing Datasets for Multi-hop Reading Comprehension Across Documents](https://arxiv.org/abs/1710.06481)
 
 
 ## Dialog
