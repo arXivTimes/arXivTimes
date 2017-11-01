@@ -236,6 +236,10 @@
 * [Noun Compositionality Judgements](https://www.kaggle.com/rtatman/noun-compositionality-judgements)
   * 2語の組み合わせが、逐語的か否か(literal or not literal)をスコアリングしたデータセット。
   * 例えばred appleは赤い・リンゴでそれぞれ独自の意味を持っているが(逐語的)、search engineは「検索エンジン」で一塊の意味となるなど。
+* [Enron Email Dataset](https://www.cs.cmu.edu/~enron/)
+  * エンロン事件の捜査のさなか、米連邦エネルギー規制委員会(FERC)がインターネット上に公開した実際のエンロン社内のメールデータ。
+  * 件数は50万件ほどで、主にエンロンのシニアマネージャーの人達が送ったもの。ユーザー数的には150名ほど。なお添付ファイルは削除されている。
+  * メールのデータセットに対して、その意図("要求"か"提案"か)をアノテートしたデータセットが公開されている([EmailIntentDataSet](https://github.com/ParakweetLabs/EmailIntentDataSet))。
 
 ## Sentiment
 
