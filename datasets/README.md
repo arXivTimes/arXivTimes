@@ -39,6 +39,10 @@
   * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
 * [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
   * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
+* [Atomic Visual Actions (AVA)](https://research.google.com/ava/)
+  * Googleが公開した人の動作を認識するためのデータセット。YouTubeからの抜粋で作成されており、長さは3秒にそろえられている。
+  * 動作ラベルは80、57000の動画に21万件のラベルが付与されている(人単位の付与で人物数は約9万)
+  * [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](https://arxiv.org/abs/1705.08421)
 * [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
   * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
 * [TRECVID datasets](http://www-nlpir.nist.gov/projects/trecvid/past.data.table.html)
@@ -195,6 +199,9 @@
   * 京都大学から適用されている自然言語処理のためのデータセット。毎日新聞のデータに対する各種言語情報である[京都大学テキストコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9)(※本文データは別途入手する必要がある)、さまざまなウェブ文書のリード文に対し各種言語情報のアノテーションを行った[京都大学ウェブ文書リードコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?KWDLC)等がある。
 * [解析済みブログコーパス](http://nlp.ist.i.kyoto-u.ac.jp/kuntt/)
   * 京都大学と、NTTコミュニケーションの共同研究ユニットで作成されたコーパス。4テーマ（京都観光、携帯電話、スポーツ、グルメ）、249記事、4,186文の解析済みブログコーパス。形態素、構文、格・省略・照応、評判情報がアノテーションされている。
+* [日本語単語類似度データセット(JapaneseWordSimilarityDataset)](https://github.com/tmu-nlp/JapaneseWordSimilarityDataset)
+  * Stanford Rare Word Similarity Datasetを参考に作成された日本語の単語類似度データセット。
+  * 動詞・形容詞・名詞・副詞が対象となっており、クラウドソーシングを利用し10名のアノテータに11段階で単語ペアの類似度をスコアしてもらっている。 
 * [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
   * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。 
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
@@ -356,6 +363,9 @@
 * [声優統計コーパス](http://voice-statistics.github.io/)
   * 独自に構築された音素バランス文を、プロの女性声優3名が読み上げたものを録音したコーパス。
   * 3パターンの感情(通常・喜び・怒り)での読み上げが含まれる。48kHz/16bitのWAVファイルで、総長約2時間、総ファイルサイズ720MB。
+* [JSUT(Japanese speech corpus of Saruwatari Lab, University of Tokyo)](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
+  * 日本語テキストと読み上げ音声からなるコーパス。一人の日本語女性話者の発音を無響室で録音。録音時間は10時間で、サンプリングレートは48kHz。
+  * 常用漢字の音読み/訓読みを全てカバーするといった網羅性だけでなく、旅行ドメインのフレーズといったドメイン特化のものも収録されている。
 * [Speech Commands Dataset](https://www.tensorflow.org/versions/master/tutorials/audio_recognition)
   * TensorFlowとAIYのチームから公開された、30種類のYes, No, Up, Downなどといった短い音声による指示/応答を集めたデータセット。総数は65,000。
   * このデータセットを利用した音声認識モデルの構築手順が、TensorFlowのチュートリアルとして提供されている。
