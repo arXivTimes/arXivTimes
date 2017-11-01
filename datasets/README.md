@@ -222,6 +222,10 @@
 * [Tanaka Corpus](http://www.edrdg.org/wiki/index.php/Tanaka_Corpus)
   * 日英翻訳のためのパラレルコーパス。約15万文の日英の分のペアが収録されている。
   * こちらから単語数が4~16である文約5万件を抽出した、単語分割済みのコーパスが別途公開されている([small_parallel_enja](https://github.com/odashi/small_parallel_enja))。
+* [JESC: Japanese-English Subtitle Corpus](http://cs.stanford.edu/~rpryzant/jesc/)
+  * インターネット上から取得した映画・テレビ番組の字幕に対して作成された日英のパラレルコーパス。
+  * 320万文が含まれる
+  * [JESC: Japanese-English Subtitle Corpus](https://arxiv.org/abs/1710.10639)
 
 ## Classification
 
@@ -240,6 +244,10 @@
   * エンロン事件の捜査のさなか、米連邦エネルギー規制委員会(FERC)がインターネット上に公開した実際のエンロン社内のメールデータ。
   * 件数は50万件ほどで、主にエンロンのシニアマネージャーの人達が送ったもの。ユーザー数的には150名ほど。なお添付ファイルは削除されている。
   * メールのデータセットに対して、その意図("要求"か"提案"か)をアノテートしたデータセットが公開されている([EmailIntentDataSet](https://github.com/ParakweetLabs/EmailIntentDataSet))。
+* [PubMed 200k RCT dataset](https://github.com/Franck-Dernoncourt/pubmed-rct)
+  * 連続する文の分類を行うためのデータセット。具体的には、論文のAbstractに対してこの文は背景、この文は目的、この文は手法・・・といった具合にアノテーションされている。
+  * 20万のAbstractに含まれる、230万文にアノテーションが行われている。
+  * [PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts](https://arxiv.org/abs/1710.06071)
 
 ## Sentiment
 
