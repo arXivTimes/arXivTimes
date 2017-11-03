@@ -215,6 +215,10 @@
 * [BookCorpus](http://yknzhu.wixsite.com/mbweb)
   * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
   * こちらはさすがに利用申請が必要で、また研究用途のみOK。
+* [csi-corpus](https://github.com/EdinburghNLP/csi-corpus)
+  * 実世界における自然言語タスク、をテーマに作成されたデータセット。具体的には会話から犯人を推定するもので、CSI:科学捜査班の発話文と文中の犯人・容疑者・その他の人、また実際人がそのシーンで思っていた犯人がアノテーションされている
+  * なお、実際のドラマのシーンを確認するには当然購入が必要。
+  * [Whodunnit? Crime Drama as a Case for Natural Language Understanding](https://arxiv.org/pdf/1710.11601.pdf)
 
 ## Parallel Corpus
 
