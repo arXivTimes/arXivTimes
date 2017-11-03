@@ -69,7 +69,9 @@
   * 特に音声系では、MIDIファイルを扱うためのAPIなども提供されているので、単純にデモを動かすだけでなく開発のベースとしても利用ができる。
 * [librosa](https://github.com/librosa/librosa)
   * 音声データを読み込み、特徴量(MFCCなど)を算出するなどを行ってくれるライブラリ。tempoの推定なども行える。
-
+* [sprocket](https://github.com/k2kobayashi/sprocket)
+  * 統計的音声変換を行うライブラリ。Python3ベース。
+  * GMMを用いた基礎的な手法が実装されており、Voice Conversion Challenge2018でベースラインシステムとして採用されている。
 
 # Reinforcement Learning
 
