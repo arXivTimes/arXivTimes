@@ -385,6 +385,7 @@
 * [JSUT(Japanese speech corpus of Saruwatari Lab, University of Tokyo)](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
   * 日本語テキストと読み上げ音声からなるコーパス。一人の日本語女性話者の発音を無響室で録音。録音時間は10時間で、サンプリングレートは48kHz。
   * 常用漢字の音読み/訓読みを全てカバーするといった網羅性だけでなく、旅行ドメインのフレーズといったドメイン特化のものも収録されている。
+  * [前処理の方法についての紹介ブログ](http://r9y9.github.io/blog/2017/11/12/jsut_ver1/)
 * [Speech Commands Dataset](https://www.tensorflow.org/versions/master/tutorials/audio_recognition)
   * TensorFlowとAIYのチームから公開された、30種類のYes, No, Up, Downなどといった短い音声による指示/応答を集めたデータセット。総数は65,000。
   * このデータセットを利用した音声認識モデルの構築手順が、TensorFlowのチュートリアルとして提供されている。
