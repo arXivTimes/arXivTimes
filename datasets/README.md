@@ -298,6 +298,9 @@
 * [BabelNet](http://babelnet.org/download)
   * 1400万Entity、271言語に対応するという巨大なナレッジグラフ。WordNet、Wikipedia、Wikidata、ImageNet・・・といった既存のナレッジグラフと統合している(連携は自動的な模様)。
   * [SPARQLのエンドポイントも提供されている](http://babelnet.org/sparql/)
+* [YAGO](https://github.com/yago-naga/yago3)
+  * Wikipedia, WordNet, WikiData, GeoNamesなどから抽出されたナレッジグラフのデータセット。1700万エンティティと1億5千万のエンティティに対するファクトを含んでいる。
+  * 10言語のWikipediaからデータを抽出しており、多言語にも対応してる(残念ながら日本語は含まれていない)
 
 
 ## Q&A
