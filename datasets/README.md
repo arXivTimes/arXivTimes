@@ -292,6 +292,13 @@
   * 画像とその物体の名前、それらの関係性、またQAなどを含む認識理解に必要なデータを包括しているデータセット
 * [Microsoft Concept Graph](https://concept.research.microsoft.com/Home/Introduction)
   * Microfostが公開した、エンティティ間の関係をについてのデータセット。最初はIsA関係(AはBだ的な)のデータで、1,200万のインスタンスと、500万のコンセプト間の、8500万(!)のisA関係を含んでいる。 
+* [FB15K-237](https://www.microsoft.com/en-us/download/details.aspx?id=52312)
+  * FreebaseというWikipediaの記事をベースにしたナレッジグラフのデータから抽出した、知識のトリプルと知識へのリンクがアノテーションされたテキストのデータセット
+  * なお、FreebaseはMetawebという会社が運営していたが、2010年にGoogleに買収された。2014年にはその知識グラフの資産がWikipedia本体に統合され、Googleから提供されていたAPIは2015年にKnowledge Graph APIと衣替えし、Freebase APIは2016年に停止された。
+* [BabelNet](http://babelnet.org/download)
+  * 1400万Entity、271言語に対応するという巨大なナレッジグラフ。WordNet、Wikipedia、Wikidata、ImageNet・・・といった既存のナレッジグラフと統合している(連携は自動的な模様)。
+  * [SPARQLのエンドポイントも提供されている](http://babelnet.org/sparql/)
+
 
 ## Q&A
 
