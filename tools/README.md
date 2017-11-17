@@ -82,6 +82,8 @@
   * VNCを利用し、まさに人間が操作するようにPCを操作させられる強化学習のプラットフォーム。これによって、画面操作をエージェントに学習させることができる。
 * [μniverse](https://github.com/unixpickle/muniverse)
   * OpenAI Universeの重たい所(VNCでリモート操作)、難しい所(画面がFlashで読み取りむずい)を改善したmuniverseが開発中とのこと。こちらはHTML5のゲームに限定することで、上記の問題点を回避している。
+* [Microsoft/AirSim](https://github.com/microsoft/airsim)
+  * Microsoftが公開したシミュレーター。自動運転や、ドローンといった実世界で動かすようなものの学習を行うことができる。
 * [SerpentAI](https://github.com/SerpentAI/SerpentAI)
   * 手元のゲームを強化学習のための環境に使えるというライブラリ。Universeへの不満から生まれたとのこと。
   * ネイティブで動作し、ゲームに接続するAPIを作る機能が内包されているためゲーム側の対応を待つ必要がない。チュートリアルではSteamのゲームを使う手順を公開している。
@@ -96,6 +98,8 @@
   * 観測情報から足の筋肉を操作するモデルを構築し、歩行を学習させるための環境。OpenAI Gym + Kerasで構築されている。
 * [mujoco-py](https://github.com/openai/mujoco-py)
   * 物理エンジンであるMujocoをPythonから操作できるライブラリ  
+* [pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)
+  * Pythonから使える物理シミュレーター。OpenAI Gym/TensorFlowにも対応していて、これらを利用した歩行トレーニングを行う[チュートリアルも提供されている](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#heading=h.2ye70wns7io3)。
 * [Unity ML - Agents](https://github.com/Unity-Technologies/ml-agents)
   * Unityが公式に公開した、Unityで強化学習を行うための環境・エージェントを作成できるSDK
 

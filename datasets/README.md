@@ -292,16 +292,6 @@
   * 画像とその物体の名前、それらの関係性、またQAなどを含む認識理解に必要なデータを包括しているデータセット
 * [Microsoft Concept Graph](https://concept.research.microsoft.com/Home/Introduction)
   * Microfostが公開した、エンティティ間の関係をについてのデータセット。最初はIsA関係(AはBだ的な)のデータで、1,200万のインスタンスと、500万のコンセプト間の、8500万(!)のisA関係を含んでいる。 
-* [FB15K-237](https://www.microsoft.com/en-us/download/details.aspx?id=52312)
-  * FreebaseというWikipediaの記事をベースにしたナレッジグラフのデータから抽出した、知識のトリプルと知識へのリンクがアノテーションされたテキストのデータセット
-  * なお、FreebaseはMetawebという会社が運営していたが、2010年にGoogleに買収された。2014年にはその知識グラフの資産がWikipedia本体に統合され、Googleから提供されていたAPIは2015年にKnowledge Graph APIと衣替えし、Freebase APIは2016年に停止された。
-* [BabelNet](http://babelnet.org/download)
-  * 1400万Entity、271言語に対応するという巨大なナレッジグラフ。WordNet、Wikipedia、Wikidata、ImageNet・・・といった既存のナレッジグラフと統合している(連携は自動的な模様)。
-  * [SPARQLのエンドポイントも提供されている](http://babelnet.org/sparql/)
-* [YAGO](https://github.com/yago-naga/yago3)
-  * Wikipedia, WordNet, WikiData, GeoNamesなどから抽出されたナレッジグラフのデータセット。1700万エンティティと1億5千万のエンティティに対するファクトを含んでいる。
-  * 10言語のWikipediaからデータを抽出しており、多言語にも対応してる(残念ながら日本語は含まれていない)
-
 
 ## Q&A
 
@@ -395,7 +385,6 @@
 * [JSUT(Japanese speech corpus of Saruwatari Lab, University of Tokyo)](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
   * 日本語テキストと読み上げ音声からなるコーパス。一人の日本語女性話者の発音を無響室で録音。録音時間は10時間で、サンプリングレートは48kHz。
   * 常用漢字の音読み/訓読みを全てカバーするといった網羅性だけでなく、旅行ドメインのフレーズといったドメイン特化のものも収録されている。
-  * [前処理の方法についての紹介ブログ](http://r9y9.github.io/blog/2017/11/12/jsut_ver1/)
 * [Speech Commands Dataset](https://www.tensorflow.org/versions/master/tutorials/audio_recognition)
   * TensorFlowとAIYのチームから公開された、30種類のYes, No, Up, Downなどといった短い音声による指示/応答を集めたデータセット。総数は65,000。
   * このデータセットを利用した音声認識モデルの構築手順が、TensorFlowのチュートリアルとして提供されている。
