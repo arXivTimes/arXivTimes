@@ -317,7 +317,8 @@
 * [QAngaroo](http://qangaroo.cs.ucl.ac.uk/)
   * 文書間のリンクをたどって回答するような質問回答のデータセット。例えば、「スカイツリーは東京にある」「東京は日本の首都である」⇒スカイツリーがある国は？=日本、といった具合。
   * [Constructing Datasets for Multi-hop Reading Comprehension Across Documents](https://arxiv.org/abs/1710.06481)
-
+* [FigureQA](https://datasets.maluuba.com/FigureQA)
+  * グラフやプロットといった図に関する質問回答がセットになったデータセット。質問はYes/Noで回答できるものだが、様々なバリエーションが用意されている(XはYより大きいですか、Xは最も小さい値ですか、etc)。また、特徴が偏らないよう質問や図の色が上手く分散するように設計されている。
 
 ## Dialog
 
