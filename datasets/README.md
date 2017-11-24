@@ -23,14 +23,6 @@
   * 物体を一軸回転させて撮影したデータセット。
   * 20種類の物体を5度刻みで時計回りに回転。画像サイズは128x128。
 
-## Faces
-
-* [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
-  * 20万件の顔画像データと、それに撮影場所や40の特性(笑っているとか、ヒゲがあるとか)がセットになったデータ。また一万件程度は身元のデータがある(有名人などの画像)。
-* [MegaFace and MF2: Million-Scale Face Recognition](http://megaface.cs.washington.edu/)
-  * 約500万の画像からなる顔のデータセット。70万人分あり、一人当たり平均7画像が用意されている(最小3、最大2500近くとばらつきは結構大きい)
-  * 顔を囲ったBounding Boxのデータも併せて提供されている。
-
 ## Video
 
 * [YouTube-8M](https://research.google.com/youtube8m/)
@@ -85,15 +77,6 @@
 * [3D_Street_View](https://github.com/amir32002/3D_Street_View)
   * Googleのストリートビューから作成したデータセット。同じ地点をカメラ位置を変えて複数回撮影した画像が収録されており、カメラ位置推定や特徴点一致などのタスクに利用できる(118セットで、総画像数は約2500万)。
   * また、都市全体の3Dモデルも提供されている。
-* [AISL HDIBPL (Human Depth Images with Body Part Labels) Database](http://www.aisl.cs.tut.ac.jp/database_HDIBPL.html)
-  * 深度データから姿勢を推定するためのデータセット。
-  * 212x212の深度データに対し、ピクセル単位で10クラスのラベルが付与されている(胴、頭、右上腕、左上腕など・・・)。
-* [The Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
-  * イベントベースのカメラで撮影した動画に対して、実際のモーションキャプチャの情報をセットにしたデータセット。
-  * 通常のカメラは一定間隔で画像を撮影するいわゆるパラパラ漫画の方式だが、イベントベースのカメラは画像におけるピクセル変化(イベント)を検出する形のカメラになる。
-  * これにより、レイテンシを上げることなく高頻度に変化の検知を行うことができる(ファイルサイズも小さくできる)。[詳細はこちら参照](http://www.rit.edu/kgcoe/iros15workshop/papers/IROS2015-WASRoP-Invited-04-slides.pdf)。
-* [MPI Dynamic FAUST(D-FAUST)](http://dfaust.is.tue.mpg.de/)
-  * 人体の3次元データに時間を加えた、4次元のモーションデータ(60fpsで撮影)。
 
 ## 3D
 
@@ -123,6 +106,37 @@
 * [Dublin LiDAR dataset](https://geo.nyu.edu/catalog?f%5Bdct_isPartOf_sm%5D%5B%5D=2015+Dublin+LiDAR)
   * ダブリンの上空からLiDARセンサーで取得した点群のデータセット。300点/m2の密度で、上空以外にも垂直面の情報も提供されているので、3Dモデルを作ることも可能。
   * ダウンロードは範囲ごとになっており、各範囲のページに遷移すると右側の「Tools」の中に「All Downloads」が表示されているので、そこからダウンロードできる。
+
+## BodyParts
+
+* [CelebA Dataset](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)
+  * 20万件の顔画像データと、それに撮影場所や40の特性(笑っているとか、ヒゲがあるとか)がセットになったデータ。また一万件程度は身元のデータがある(有名人などの画像)。
+* [MegaFace and MF2: Million-Scale Face Recognition](http://megaface.cs.washington.edu/)
+  * 約500万の画像からなる顔のデータセット。70万人分あり、一人当たり平均7画像が用意されている(最小3、最大2500近くとばらつきは結構大きい)
+  * 顔を囲ったBounding Boxのデータも併せて提供されている。
+* [11k Hands](https://sites.google.com/view/11khands)
+  * 様々な年代・性別・肌の色の「手」を集めたデータセット(特に年代は18~75歳と幅広い)。
+  * 画像は指を開いたもの/閉じたもの/左右/表裏でそれぞれ取られている。
+  * データ総数は11,000件ほど。
+* [AISL HDIBPL (Human Depth Images with Body Part Labels) Database](http://www.aisl.cs.tut.ac.jp/database_HDIBPL.html)
+  * 深度データから姿勢を推定するためのデータセット。
+  * 212x212の深度データに対し、ピクセル単位で10クラスのラベルが付与されている(胴、頭、右上腕、左上腕など・・・)。
+* [The Event-Camera Dataset and Simulator](http://rpg.ifi.uzh.ch/davis_data.html)
+  * イベントベースのカメラで撮影した動画に対して、実際のモーションキャプチャの情報をセットにしたデータセット。
+  * 通常のカメラは一定間隔で画像を撮影するいわゆるパラパラ漫画の方式だが、イベントベースのカメラは画像におけるピクセル変化(イベント)を検出する形のカメラになる。
+  * これにより、レイテンシを上げることなく高頻度に変化の検知を行うことができる(ファイルサイズも小さくできる)。[詳細はこちら参照](http://www.rit.edu/kgcoe/iros15workshop/papers/IROS2015-WASRoP-Invited-04-slides.pdf)。
+* [MPI Dynamic FAUST(D-FAUST)](http://dfaust.is.tue.mpg.de/)
+  * 人体の3次元データに時間を加えた、4次元のモーションデータ(60fpsで撮影)。
+
+## Medical
+
+* [Annotated lymph node CT data](https://wiki.cancerimagingarchive.net/display/Public/CT+Lymph+Nodes)
+  * リンパ節の位置がアノテーションされたCT画像。画像数は縦隔90、腹部86。
+* [Annotated pancreas CT data](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT)
+  * すい臓がアノテーションされた、コントラストを強調した腹部のCT画像。画像数は82。
+* [Chest radiograph dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC)
+  * 肺のX線画像データに対して、病名とその位置をアノテーションしたデータセット。30,805人の患者のX線画像112,120枚。
+  * [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
 
 ## Art
 
@@ -155,16 +169,6 @@
   * グラフや図といったビジュアライゼーションの効果を検証するためのデータセット。
   * 具体的には、政府の統計、インフォグラフィックス、ニュースや科学雑誌などから抽出したグラフや図に対し、その種類や説明といったものを付与している。
   * 特徴的なのはアイトラッキングのデータで、これにより図表のどこに注目しているかなどを知ることができる。
-
-## Medical
-
-* [Annotated lymph node CT data](https://wiki.cancerimagingarchive.net/display/Public/CT+Lymph+Nodes)
-  * リンパ節の位置がアノテーションされたCT画像。画像数は縦隔90、腹部86。
-* [Annotated pancreas CT data](https://wiki.cancerimagingarchive.net/display/Public/Pancreas-CT)
-  * すい臓がアノテーションされた、コントラストを強調した腹部のCT画像。画像数は82。
-* [Chest radiograph dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC)
-  * 肺のX線画像データに対して、病名とその位置をアノテーションしたデータセット。30,805人の患者のX線画像112,120枚。
-  * [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
 
 ## Captioning
 
