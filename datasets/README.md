@@ -15,6 +15,7 @@
   * MNISTは簡単すぎる、濫用されているといった問題を克服するという側面も意識されている。
 * [Open Images dataset](https://github.com/openimages/dataset)
   * Googleが公開した900万、ImageNetをこえる6000カテゴリのアノテーション済みデータ。こちらから利用可能。中身はURL+ラベルになっているので、怖がらずにcloneして大丈夫。
+  * リリース後に更新が行われており、2017/11/16にリリースされたV3では370万のバウンディングボックス、970万のラベル付き画像のデータセット(training data)に拡大している。
   * [2017/7/20にbounding boxのデータが追加された](https://research.googleblog.com/2017/07/an-update-to-open-images-now-with.html)。総計約200万で、学習データ中の120万は半自動で付与(人が確認済み)、validationデータ中の80万は人がアノテーションを行なっている。クラス数は600で一部にはラベルもついている。
 * [Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/)
   * 食品の画像データセット。カテゴリ数は101、画像数は101,000と小粋に数字がそろっている。
