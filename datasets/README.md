@@ -276,6 +276,10 @@
 * [A Large Self-Annotated Corpus for Sarcasm](https://arxiv.org/pdf/1704.05579.pdf)
   * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと) 
   * ダウンロードは[こちらから](http://nlp.cs.princeton.edu/SARC/)
+* [SemEval-2016 Task 5: Aspect-Based Sentiment Analysis](http://alt.qcri.org/semeval2016/task5/)
+  * 単純な極性ではなく、対象と属性(Aspect)を加味したデータセット。
+  * 具体的には、「このパソコンの性能はいまいちだ」という場合、「パソコン#性能, negative」といった具合にアノテーションが行われている
+  * 様々な言語、ドメイン(レストラン、ホテル、家電、電話など)でのデータセットが提供されている。なお日本語はない。
 
 ## Entity Recognition
 
