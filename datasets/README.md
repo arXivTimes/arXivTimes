@@ -81,6 +81,10 @@
 * [3D_Street_View](https://github.com/amir32002/3D_Street_View)
   * Googleのストリートビューから作成したデータセット。同じ地点をカメラ位置を変えて複数回撮影した画像が収録されており、カメラ位置推定や特徴点一致などのタスクに利用できる(118セットで、総画像数は約2500万)。
   * また、都市全体の3Dモデルも提供されている。
+* [The German Traffic Sign Detection Benchmark](http://benchmark.ini.rub.de/?section=gtsdb&subsection=dataset)
+  * 道路標識を検知するモデルを学習させるためのデータセット。
+  * 認識する道路標識のサイズは16x16から128x128までと幅広く、また様々な光の状態(朝昼夜など)が加味されている。
+  * 学習用に900枚、1.6Gというボリューム。またオンラインでのモデル評価システムも完備されている。
 
 ## 3D
 
@@ -346,6 +350,11 @@
 * [bAbI](https://research.fb.com/downloads/babi/)
   * Facebook AI Researchが進める自然言語理解のためのプロジェクト(bAbI)で利用されているデータセット
   * 質問応答・対話・言語モデルといった様々なタスクのデータセットが提供されている。
+* [self_dialogue_corpus](https://github.com/jfainberg/self_dialogue_corpus)
+  * Amazon Alexa Prize用の対話ボットを作成するために収集した、「自己対話」のデータセット。
+  * 一人二役を演じる形で作成された対話データセットは、非常に自然でトピックに沿ったものになるので良いとのこと。
+  * 約2万5千対話ものデータが提供されている。
+  * [Edina: Building an Open Domain Socialbot with Self-dialogues](https://arxiv.org/abs/1709.09816)
 
 ## Reasoning
 
