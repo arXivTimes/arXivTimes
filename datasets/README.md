@@ -413,6 +413,9 @@
 * [The Spoken Wikipedia Corpora](http://nats.gitlab.io/swc/)
   * Wikipediaの記事を読み上げたデータセット。音声と単語の対応、単語と文中語の対応がアノテーションされている(単語がfive, hundredだった場合、文中語の500に対応、など)。
   * しかも多言語のデータセットで、英語・ドイツ語・オランダ語が提供されている。
+* [Common Voice](https://voice.mozilla.org/data)
+  * Mozillaが公開した、音声認識のためのデータセット。音声データは500時間分、2万人以上から録音という世界で二番目の規模。
+  * モデルも公開されている: [DeepSpeech](https://github.com/mozilla/DeepSpeech)
 
 # Other
 
