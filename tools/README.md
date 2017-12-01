@@ -102,6 +102,10 @@
   * Pythonから使える物理シミュレーター。OpenAI Gym/TensorFlowにも対応していて、これらを利用した歩行トレーニングを行う[チュートリアルも提供されている](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#heading=h.2ye70wns7io3)。
 * [Unity ML - Agents](https://github.com/Unity-Technologies/ml-agents)
   * Unityが公式に公開した、Unityで強化学習を行うための環境・エージェントを作成できるSDK
+* [HoME-Platform](https://github.com/HoME-Platform/home-platform)
+  * 家の中でエージェントを学習させられる学習環境。
+  * 環境内のオブジェクトにはセグメンテーションや「棚の上の花瓶」といった言語情報がアノテートされており、音響環境も整えられている。もちろん物理エンジン搭載で、オブジェクトの移動などもシミュレートできる。
+  * OpenAI Gymに対応
 
 # Others
 
