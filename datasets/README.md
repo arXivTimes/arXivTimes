@@ -30,6 +30,9 @@
   * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。 
 * [YouTube-BoundingBoxes](https://research.google.com/youtube-bb/)
   * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
+* [Moments in Time Dataset](http://moments.csail.mit.edu/)
+  * 3秒間の動画に、何をしているのかがアノテートされたデータセット(文字を書いている、ダイビングをしている、など)。
+  * データ数は100万、ラベル数は339で複数付けられる場合もある(歩きながら話している場合、walking+speakingなど)。1ラベルは必ず1000の動画を持つようにしてあり、平均は1757。
 * [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
   * 人の動作を検出するためのデータセット。400種類の人間の動作に該当する動画(YouTubeから取得したもの)が、各クラス最低400動画含まれるように構成されている。総件数は30万。
 * [Atomic Visual Actions (AVA)](https://research.google.com/ava/)
@@ -287,6 +290,9 @@
   * 単純な極性ではなく、対象と属性(Aspect)を加味したデータセット。		
   * 具体的には、「このパソコンの性能はいまいちだ」という場合、「パソコン#性能, negative」といった具合にアノテーションが行われている		
   * 様々な言語、ドメイン(レストラン、ホテル、家電、電話など)でのデータセットが提供されている。なお日本語はない。
+* [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/)
+  * Amazonのレビューのデータで、その総数一億四千万。1996年5月から、2014年7月までのレビューが収録されている。
+  * データが多すぎるので、各製品にk件以上レビューを持っているユーザーに限定したデータセット、レーティングのみ、またカテゴリごとにデータが提供されている。
 
 ## Entity Recognition
 
