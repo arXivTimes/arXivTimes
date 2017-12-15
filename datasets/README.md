@@ -214,6 +214,10 @@
   * 京都大学から適用されている自然言語処理のためのデータセット。毎日新聞のデータに対する各種言語情報である[京都大学テキストコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9)(※本文データは別途入手する必要がある)、さまざまなウェブ文書のリード文に対し各種言語情報のアノテーションを行った[京都大学ウェブ文書リードコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?KWDLC)等がある。
 * [解析済みブログコーパス](http://nlp.ist.i.kyoto-u.ac.jp/kuntt/)
   * 京都大学と、NTTコミュニケーションの共同研究ユニットで作成されたコーパス。4テーマ（京都観光、携帯電話、スポーツ、グルメ）、249記事、4,186文の解析済みブログコーパス。形態素、構文、格・省略・照応、評判情報がアノテーションされている。
+* [Stanford Rare Word (RW) Similarity Dataset](https://nlp.stanford.edu/~lmthang/morphoNLM/)
+  * 文中にあまり登場しない低頻度語について、余りレアではない単語とペアにして、その類似度を付けたデータセット
+  * 類似度の評価は、クラウドソーシングで0-10の11段階で評価をしてもらい、つけている。
+  * [信頼性について疑問符が付くという報告有り](https://medium.com/@taher.pilevar/is-the-stanford-rare-word-similarity-dataset-a-reliable-evaluation-benchmark-3fe409053011)。低頻度語がどんな語に似ているかは一定の知識が要求されるため、クラウドソーシングには向かないのではないかという指摘もある。
 * [日本語単語類似度データセット(JapaneseWordSimilarityDataset)](https://github.com/tmu-nlp/JapaneseWordSimilarityDataset)
   * Stanford Rare Word Similarity Datasetを参考に作成された日本語の単語類似度データセット。
   * 動詞・形容詞・名詞・副詞が対象となっており、クラウドソーシングを利用し10名のアノテータに11段階で単語ペアの類似度をスコアしてもらっている。 
