@@ -148,6 +148,7 @@
 * [Chest radiograph dataset](https://nihcc.app.box.com/v/ChestXray-NIHCC)
   * 肺のX線画像データに対して、病名とその位置をアノテーションしたデータセット。30,805人の患者のX線画像112,120枚。
   * [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
+  * データセットの信頼性について疑義あり。放射線技師の方が実際に画像を見て検証したところ、診断と異なるラベルが多く発見された(ものによると20~30%台の一致しかないものもある)。詳細はこちら=>[Exploring the ChestXray14 dataset: problems](https://lukeoakdenrayner.wordpress.com/2017/12/18/the-chestxray14-dataset-problems/)
 
 ## Art
 
