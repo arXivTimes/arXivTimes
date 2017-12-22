@@ -350,6 +350,11 @@
   * [Constructing Datasets for Multi-hop Reading Comprehension Across Documents](https://arxiv.org/abs/1710.06481)
 * [FigureQA](https://datasets.maluuba.com/FigureQA)
   * グラフやプロットといった図に関する質問回答がセットになったデータセット。質問はYes/Noで回答できるものだが、様々なバリエーションが用意されている(XはYより大きいですか、Xは最も小さい値ですか、etc)。また、特徴が偏らないよう質問や図の色が上手く分散するように設計されている。
+* [The NarrativeQA Reading Comprehension Challenge Dataset](https://github.com/deepmind/narrativeqa)
+  * 既存のMachine Readingのデータセットは、答えがばっちり入っている一文がありその周辺の情報しか回答に必要ないものが多かった。
+  * そこで、Q&Aを文から抽出する形でなく、サマリを読んで作成するという形にして、より読んだ内容をメタに理解していないと解けないデータセットを作成した。
+  * ストーリー数は1,567、Q&Aの個数は46,765となっている。回答はシンプルなものとされ、単語数の平均は4.73。
+
 
 ## Dialog
 
