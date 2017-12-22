@@ -48,9 +48,8 @@
   * 人の動作を検出するためのデータセット。101のクラスを持ち、13,320クリップ、27時間分のデータがある。
   * YouTube のデータを元にしている
 * [Playing for Benchmarks](http://playing-for-benchmarks.org/)
-  * Intel Vision Labが公開している高画質のゲーム動画に対してCVの各種手法のベンチマークを測定できるデータセット
-  * 総数25万枚、全フレームに対してGTがアノテーションされており、 semantic segmentation、semantic
-instance segmentation、3D scene layout、visual odometry、optical flowのベンチマークが測定可能
+  * Intel Vision Labが公開している高画質のゲーム動画に対してCVの各種手法のベンチマークを測定できるデータセット
+  * 総数25万枚、全フレームに対してGTがアノテーションされており、 semantic segmentation、semantic instance segmentation、3D scene layout、visual odometry、optical flowのベンチマークが測定可能
 
 
 ## Scene
