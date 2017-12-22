@@ -443,6 +443,19 @@
 
 # Other
 
+* [grocery-shopping-2017](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
+  * Instacartという食品のオンラインショップの購買データのデータセットが公開。時間のデータも、時間(0~24時)だけながら利用可能。
+* [気象庁：過去の気象データ](http://www.data.jma.go.jp/gmd/risk/obsdl/index.php)
+  * 地点毎になるが(複数選択可能)、過去の気象データをCSV形式でダウンロードできる。
+* [Global Terrorism Database](https://www.kaggle.com/START-UMD/gtd)
+  * 1970~2016年(なぜか2013年だけない)の間の世界で発生したテロ事件のデータセット。その数17万件。
+  * STARTというテロ対策を研究する団体がメンテナンスを行っており、特徴量として発生した場所や犯人や手口などが含まれている。
+* [THE STANFORD OPEN POLICING PROJECT](https://openpolicing.stanford.edu/)
+  * スタンフォードが取り組んでいる、法的機関(警察)による交通取り締まりのオープンデータプロジェクト。
+  * データには、違反日時や場所、ドライバーの年齢や性別などが記録されている(Jupyterのサンプルも公開されている)。
+
+## Chemical/Medical
+
 * [MoleculeNet](https://arxiv.org/abs/1703.00564)
   * MoleculeNetという、新薬発見のための分子・分子物理・生体物理・生体？という4種類のデータを包含したデータセットが公開。
   * [DeepChem](https://github.com/deepchem/deepchem)という化学特化のライブラリに組込済
@@ -454,27 +467,25 @@
 * [MIMIC](https://mimic.physionet.org/)
   * 40,000人のケアが必要な重篤な患者についてのデータセット。人口統計、バイタルサイン、検査結果、医薬品情報などが含まれる。
   * 利用にあたってはまずCITIの"Data or Specimens Only Research"というオンライン講座を受講する必要がある([こちら](https://mimic.physionet.org/gettingstarted/access/)参照)。
-* [grocery-shopping-2017](https://tech.instacart.com/3-million-instacart-orders-open-sourced-d40d29ead6f2)
-  * Instacartという食品のオンラインショップの購買データのデータセットが公開。時間のデータも、時間(0~24時)だけながら利用可能。
+
+## Security
+
 * [SARD Dataset](https://samate.nist.gov/SRD/testsuite.php)
   * SARD(Software Assurance Reference Dataset)にて提供されている、ソフトウェアの脆弱性を検証するためのデータセット
   * 脆弱性を含むC/Javaのコードなどが提供されている
 * [PHP Security vulnerability dataset](https://seam.cs.umd.edu/webvuldata/data.html)
   * PHPのアプリケーションの脆弱性(CVEのIDなど)と、そのコードから抽出された機械学習で利用する特徴量のデータセット。PHPアプリケーションはPHPMyAdmin、Moodle、Drupalの3点
-* [気象庁：過去の気象データ](http://www.data.jma.go.jp/gmd/risk/obsdl/index.php)
-  * 地点毎になるが(複数選択可能)、過去の気象データをCSV形式でダウンロードできる。
-* [Global Terrorism Database](https://www.kaggle.com/START-UMD/gtd)
-  * 1970~2016年(なぜか2013年だけない)の間の世界で発生したテロ事件のデータセット。その数17万件。
-  * STARTというテロ対策を研究する団体がメンテナンスを行っており、特徴量として発生した場所や犯人や手口などが含まれている。
+* [Passwords](https://wiki.skullsecurity.org/Passwords)
+  * パスワードの辞書、またこれまでにサイトから流出したパスワードのデータセットがダウンロードできる
+
+## Game
+
 * [GoGoD](http://senseis.xmp.net/?GoGoDCD)
   * プロの囲碁棋士の対局データセット。85,000局分が含まれており、お値段は15USD
 * [wangjinzhuo/pgd](https://github.com/wangjinzhuo/pgd)
   * プロの囲碁棋士の対局データセット。GitHub上でフリーで公開されており、約25万局が収録されている。
 * [TorchCraft/StarData](https://github.com/TorchCraft/StarData)
   * StarCraftのプレイデータ。約6万5千プレイ、フレーム数にして15億(!!)という大規模なデータセット。
-* [THE STANFORD OPEN POLICING PROJECT](https://openpolicing.stanford.edu/)
-  * スタンフォードが取り組んでいる、法的機関(警察)による交通取り締まりのオープンデータプロジェクト。
-  * データには、違反日時や場所、ドライバーの年齢や性別などが記録されている(Jupyterのサンプルも公開されている)。
 
 # Dataset Summary Page
 
