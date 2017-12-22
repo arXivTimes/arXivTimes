@@ -181,6 +181,10 @@
   * グラフや図といったビジュアライゼーションの効果を検証するためのデータセット。
   * 具体的には、政府の統計、インフォグラフィックス、ニュースや科学雑誌などから抽出したグラフや図に対し、その種類や説明といったものを付与している。
   * 特徴的なのはアイトラッキングのデータで、これにより図表のどこに注目しているかなどを知ることができる。
+* [AADB dataset](https://github.com/aimerykong/deepImageAestheticsAnalysis)
+  * 写真の審美性について1~5のスコアがつけられたデータセット。10,000の画像が含まれる。
+  * AVA(Image Aesthetic Visual Analysis) datasetよりも画像数は少ないが(255,000)、0/1でなく1~5でスコアがついている点が強味
+  * [Photo Aesthetics Ranking Network with Attributes and Content Adaptation](https://arxiv.org/abs/1606.01621)
 
 ## Captioning
 
