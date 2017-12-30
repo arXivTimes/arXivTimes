@@ -94,6 +94,8 @@
 * [TorchCraft](https://github.com/TorchCraft/TorchCraft)
   * StarCraftを学習するためのフレームワーク
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
+* [MAgent](https://github.com/geek-ai/MAgent)
+  * 複数、数百～数千のエージェントによる強化学習のシミュレーションに利用可能な環境。
 * [Learning to run](https://github.com/stanfordnmbl/osim-rl)
   * 観測情報から足の筋肉を操作するモデルを構築し、歩行を学習させるための環境。OpenAI Gym + Kerasで構築されている。
 * [mujoco-py](https://github.com/openai/mujoco-py)
