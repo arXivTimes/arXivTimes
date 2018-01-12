@@ -85,6 +85,10 @@
 * [dm_control](https://github.com/deepmind/dm_control)
   * DeepMind製の強化学習の学習環境。OpenAI GymよりもContinuous Controlなタスク(アームの上げ下げやステアリングといった、Action空間が連続的(実数値)になるタスク)を取り揃えており、モデルの評価環境として使える。ベースラインモデルも提供されている。
   * [DeepMind Control Suite](https://arxiv.org/abs/1801.00690)
+* [Ray](https://github.com/ray-project/ray)
+  * Berkeleyが公開した、分散実行を行うためのライブラリ。
+  * 動的グラフのサポート、環境/パラメーターの共有のサポートなど、分散学習に必要と思われる機能は全部入りになっている。
+  * しかも、タスクとして分散実行が必要なことが多い強化学習、ハイパーパラメーター探索には専用フレームワーク(それぞれRay RLlib/Ray.tune)が用意されている
 * [Microsoft/AirSim](https://github.com/microsoft/airsim)
   * Microsoftが公開したシミュレーター。自動運転や、ドローンといった実世界で動かすようなものの学習を行うことができる。
 * [SerpentAI](https://github.com/SerpentAI/SerpentAI)
