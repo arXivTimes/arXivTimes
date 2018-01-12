@@ -101,6 +101,9 @@
 * [TorchCraft](https://github.com/TorchCraft/TorchCraft)
   * StarCraftを学習するためのフレームワーク
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
+* [StarCraft I (BroodWar) docker images](https://github.com/Games-and-Simulations/sc-docker)
+  * StarCraftを利用した学習などを行いやすくするために、環境をDocker化したもの。
+  * Dockerの中にStarCraftとWindowsアプリケーションを動かすためのWineHQ、StarCraftを操作するためのBWAPIがまとめられており、Host側で面倒なセットアップを行うことなく操作ができる。
 * [MAgent](https://github.com/geek-ai/MAgent)
   * 複数、数百～数千のエージェントによる強化学習のシミュレーションに利用可能な環境。
 * [Learning to run](https://github.com/stanfordnmbl/osim-rl)
