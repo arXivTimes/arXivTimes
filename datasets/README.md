@@ -440,6 +440,9 @@
 * [Common Voice](https://voice.mozilla.org/data)
   * Mozillaが公開した、音声認識のためのデータセット。音声データは500時間分、2万人以上から録音という世界で二番目の規模。
   * モデルも公開されている: [DeepSpeech](https://github.com/mozilla/DeepSpeech)
+* [MUSDB18 dataset](https://sigsep.github.io/musdb)
+  * 音源分離を行うためのデータセット。マルチトラックのmp4でエンコードされており、0がAll track、1がトラム、2がバス、3がその他楽器、4がボーカルに割り振られている。
+  * 学習用に100曲、テスト用に50曲が提供されている。
 
 # Other
 
