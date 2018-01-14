@@ -50,7 +50,8 @@
 * [Playing for Benchmarks](http://playing-for-benchmarks.org/)
   * Intel Vision Labが公開している高画質のゲーム動画に対してCVの各種手法のベンチマークを測定できるデータセット
   * 総数25万枚、全フレームに対してGTがアノテーションされており、 semantic segmentation、semantic instance segmentation、3D scene layout、visual odometry、optical flowのベンチマークが測定可能
-
+* [SALSA Dataset](http://tev.fbk.eu/salsa)
+  * ACMMM15で公開された人物間の会話を解析するためのデータセット。18人のスタンディングディスカッションの動画、近接センサー,etc.のマルチモーダルなデータが提供されている。
 
 ## Scene
 
