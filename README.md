@@ -23,9 +23,11 @@
 * Conference Related Papers
   * arXivTimesに投稿された論文のうち、学会に提出された論文を年代ごとにまとめています。
   * [NIPS](https://github.com/arXivTimes/arXivTimes/projects/1)
-  * [ICML](https://github.com/arXivTimes/arXivTimes/projects/3)
   * [ICLR](https://github.com/arXivTimes/arXivTimes/projects/2)
+  * [ICML](https://github.com/arXivTimes/arXivTimes/projects/3)
+  * [CVPR](https://github.com/arXivTimes/arXivTimes/projects/6)
   * [ACL](https://github.com/arXivTimes/arXivTimes/projects/4)
+  * [AAAI](https://github.com/arXivTimes/arXivTimes/projects/5)
 
 # How to Contribute
 
