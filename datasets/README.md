@@ -130,6 +130,9 @@
 * [MegaFace and MF2: Million-Scale Face Recognition](http://megaface.cs.washington.edu/)
   * 約500万の画像からなる顔のデータセット。70万人分あり、一人当たり平均7画像が用意されている(最小3、最大2500近くとばらつきは結構大きい)
   * 顔を囲ったBounding Boxのデータも併せて提供されている。
+* [VGGFace2](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)
+  * 約300万の画像からなる顔のデータセット。9131人分あり、一人当たり平均362.6画像が用意されている。
+  * 画像はGoogle Image Searchから取得されたもので、ポーズや年齢、人種など多様な人の画像が含まれる。
 * [11k Hands](https://sites.google.com/view/11khands)
   * 様々な年代・性別・肌の色の「手」を集めたデータセット(特に年代は18~75歳と幅広い)。
   * 画像は指を開いたもの/閉じたもの/左右/表裏でそれぞれ取られている。
