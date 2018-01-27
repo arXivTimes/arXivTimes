@@ -70,13 +70,19 @@
   * 同様のデータセットに、[ISPRS](http://www.cvlibs.net/projects/autonomous_vision_survey/)、[MOT](https://motchallenge.net/)、[Cityscapes](https://www.cityscapes-dataset.com/)等がある。自動運転は画像認識の複合的なタスクなので、画像でデータがないと思ったら一度目を通してみるといいかもしれない。
 * [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas)
   * 自動運転のための、路上画像のデータセット。25,000のアノテーション済みの高解像度データを提供。現在も増え続けており、しかも世界各国の画像が含まれている(日本の道路の画像もある)。
-* [Describable Textures Dataset (DTD)](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
-  * 画像の認識において、単に映っているものを認識するだけでなく、質感などの情報も重要なはず、ということで様々なテクスチャを収集しタグ付したデータセット
-  * 全5640画像で、47のカテゴリがアノテーションされている
 * [SUN database](http://groups.csail.mit.edu/vision/SUN/)
   * 物体認識・シーン認識のタスクにおいてベースラインとなるようなデータセットを提供している。
   * SUN397: 397のシーンでタグ付けされたデータセット
   * SUN2012: (おそらく2012の)タグ付けがされたデータセット
+* [PASCAL-Context Dataset](https://www.cs.stanford.edu/~roozbeh/pascal-context/)
+  * 物体検出のデータセットである[PASCAL VOC 2010](http://host.robots.ox.ac.uk/pascal/VOC/voc2010/)にセグメンテーションのアノテーションを行ったもの。
+  * 400以上のオブジェクトが対象で、学習用に10,103、テスト用に9637枚の画像が用意されている。
+* [DAVIS: Densely Annotated VIdeo Segmentation](http://davischallenge.org/)
+  * 動画中の物体検知を行うためのデータセット。ビデオシーケンス中の各フレームについて、ピクセル単位のオブジェクトマスクがアノテートされている。
+  * DAVIS 2016, 2017と規模を増やしており、DAVIS 2017では学習/検証/テストデータセットでそれぞれ60, 30, 30のシーケンス(シーケンス中のフレーム数は平均69.8、物体数の平均は2.56)が用意されている。
+* [Youtube-Objects dataset](https://data.vision.ee.ethz.ch/cvl/youtube-objects/)
+  * 10のオブジェクトクラスの名前でYouTubeの動画を検索し、それに対しオブジェクトのバウンディングボックス、また動作領域(Tubes)をアノテートしたデータセット。
+  * 1オブジェクト当たりの動画数は9~24本で、動画の時間は30秒~3分とばらつきがある。
 * [Team MC^2 : ARC RGB-D Dataset 2017](http://mprg.jp/research/arc_dataset_2017_j)
   * 棚の中におさめられたオブジェクトをロボットに認識、ピッキングさせるAmazon Robotics Challengeのために作られたデータセット。
   * 画像はRGB画像と深度画像の2種類。これに加え、3Dモデルも提供されている
@@ -86,6 +92,9 @@
 * [Matterport3D: Learning from RGB-D Data in Indoor Environments](https://niessner.github.io/Matterport/)
   * 大規模なシーン認識のためのデータセット。90の建物から抽出された10800のパノラマビューに対してオブジェクト/セグメントがアノテーションされている。画像(RGB-D)数は約20万。
   * データセットを扱うためのコードも公開されている([niessner/Matterport](https://github.com/niessner/Matterport))。ここには、ベンチマークも含まれる。
+* [Describable Textures Dataset (DTD)](https://www.robots.ox.ac.uk/~vgg/data/dtd/)
+  * 画像の認識において、単に映っているものを認識するだけでなく、質感などの情報も重要なはず、ということで様々なテクスチャを収集しタグ付したデータセット
+  * 全5640画像で、47のカテゴリがアノテーションされている
 * [3D_Street_View](https://github.com/amir32002/3D_Street_View)
   * Googleのストリートビューから作成したデータセット。同じ地点をカメラ位置を変えて複数回撮影した画像が収録されており、カメラ位置推定や特徴点一致などのタスクに利用できる(118セットで、総画像数は約2500万)。
   * また、都市全体の3Dモデルも提供されている。
