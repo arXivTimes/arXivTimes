@@ -30,7 +30,7 @@
   * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。 
 * [YouTube-BoundingBoxes](https://research.google.com/youtube-bb/)
   * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
-* [Moments in Time Dataset](http://moments.csail.mit.edu/)
+* [Moments in Time Dataset](http://moments.csail.mit.edu/)  
   * 3秒間の動画に、何をしているのかがアノテートされたデータセット(文字を書いている、ダイビングをしている、など)。
   * データ数は100万、ラベル数は339で複数付けられる場合もある(歩きながら話している場合、walking+speakingなど)。1ラベルは必ず1000の動画を持つようにしてあり、平均は1757。
 * [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
@@ -41,6 +41,9 @@
   * [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](https://arxiv.org/abs/1705.08421)
 * [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
   * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
+* [Moments in Time Dataset](http://moments.csail.mit.edu/)
+  * 3秒の動画に、その動画で何をしているのか(action)のラベルを付与したデータセット。データ数は、100万ほど
+  * 人間だけでなく、動物や自然の動きについてもアノテーションされている
 * [TRECVID datasets](http://www-nlpir.nist.gov/projects/trecvid/past.data.table.html)
   * TRECの動画を対象とした情報検索(Video Retrieval)の評価用データセット。
   * 動画中のショット単位(Shot Boundary Detection)、シーン単位(Semantic Indexing)の認識や物体追跡(Instance Search)のためのデータセットが公開されている。
