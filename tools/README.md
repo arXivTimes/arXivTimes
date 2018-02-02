@@ -47,6 +47,8 @@
   * 幾つかの言語間では、学習済みモデルも提供されている。
 * [SentEval](https://github.com/facebookresearch/SentEval)
   * 文のベクトル表現の品質を計測するためのプラットフォーム。SentimentやQuestion-typeの推定など、様々なタスクで評価ができる。
+* [sumEval](https://github.com/chakki-works/sumeval)
+  * 文要約の評価指標であるROUGE/BLEUを測定することのできるツール
 * [FuzzyWuzzy](https://github.com/seatgeek/fuzzywuzzy)
   * 文の類似度スコアを計算してくれるツール(レーベンシュタイン距離をベースにしているよう)。表記ゆれなどを解消する際に役に立つ。
   * なぜかRustの実装もある。

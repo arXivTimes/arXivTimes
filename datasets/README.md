@@ -105,6 +105,11 @@
   * 道路標識を検知するモデルを学習させるためのデータセット。
   * 認識する道路標識のサイズは16x16から128x128までと幅広く、また様々な光の状態(朝昼夜など)が加味されている。
   * 学習用に900枚、1.6Gというボリューム。またオンラインでのモデル評価システムも完備されている。
+* [Road Damage Dataset](https://github.com/sekilab/RoadDamageDetector/)
+  * 道路の損傷(ひび割れや白線の掠れなど)の検知を学習するためのデータセット。
+  * 9,053の画像が収録されており、総計15,435の損傷がバウンディングボックスでアノテートされている。また、損傷の分類も行われている。
+  * なお、データは日本発で7つの自治体と掛け合い作成したとのこと。
+  * [Road Damage Detection Using Deep Neural Networks with Images Captured Through a Smartphone](https://arxiv.org/abs/1801.09454)
 
 ## 3D
 
