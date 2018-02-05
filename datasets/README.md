@@ -341,6 +341,10 @@
 * [Automated Analysis of Cybercriminal Markets](https://evidencebasedsecurity.org/forums/)
   * インターネット上の犯罪取引掲示板のデータセット。取引されているブツに対してアノテーションが行われており、さらに4つの掲示板からデータを取得しているため、異なるドメインでもブツの検知ができるかというドメイン転化の検証にも使用できる。
   * ただ、アノテーション自体はそう多くなく、最大でも700程度(Hack Forums)で最小は80(Blackhat)。
+* [Broad Twitter Corpus](https://gate.ac.uk/wiki/broad-twitter-corpus.html)
+  * Twitterのつぶやきに対して固有表現をアノテートしたデータセット。
+  * 多様な地域や年代、内容をカバーしているのが特徴であり、地域は英語圏だが年代は2012~2014年、内容は災害やニュース、フォロワーの多い著名人のものなど多岐にわたっている。
+  * アノテーション数は総計12,000。
 
 ## Knowledge Base
 
