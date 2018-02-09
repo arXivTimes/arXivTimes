@@ -408,6 +408,11 @@
   * 一人二役を演じる形で作成された対話データセットは、非常に自然でトピックに沿ったものになるので良いとのこと。
   * 約2万5千対話ものデータが提供されている。
   * [Edina: Building an Open Domain Socialbot with Self-dialogues](https://arxiv.org/abs/1709.09816)
+* [THE PERSONA-CHAT DATASET](https://github.com/facebookresearch/ParlAI/tree/master/parlai/tasks/personachat)
+  * ペルソナを維持した、一貫性のある対話を行うためのデータセット。
+  * クラウドソーシングを使い1155人文のペルソナ(猫を飼っている、など自分に関する5つ以上の文)を収集し、さらに語彙などが偏らないよう別の人による書き換えを行いペルソナを用意。
+  * そこから無作為に選んだペルソナで対話をしてもらい、総計10,981の対話を収録している。
+  * [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243)
 
 ## Reasoning
 
