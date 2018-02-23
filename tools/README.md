@@ -100,6 +100,13 @@
   * 協調するマルチエージェントの学習に特化した学習プラットフォーム。
   * Microsoftが公開しており、Minecraftの上で動く
   * Python、Lua、C#、C++、Javaなど多様なインタフェースを持つ
+* [Pommerman](https://www.pommerman.com/)
+  * ボンバーマンを模した、マルチエージェントによる強化学習を行うための環境。
+  * GitHubページ上ではnotebookによるチュートリアルも提供されている。
+  * 学習後にエージェントを動かすためのDockerコンテナを公式サイトにpushすると、評価スクリプトを流してランキングしてくれるよう
+* [multiagent-particle-envs](https://github.com/openai/multiagent-particle-envs)
+  * OpenAIが公開した、マルチエージェントの学習に利用可能な環境。ボール同士(赤 vs 緑)の追いかけっこゲームのような形になっており、赤は共同で追ったほうが、緑は二手に分かれて逃げたほうがいい、というようなことを学習する。
+  * [実装例はこちら](https://github.com/rohan-sawhney/multi-agent-rl)
 * [TorchCraft](https://github.com/TorchCraft/TorchCraft)
   * StarCraftを学習するためのフレームワーク
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
