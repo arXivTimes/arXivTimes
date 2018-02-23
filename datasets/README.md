@@ -4,7 +4,7 @@
 
 # Vision
 
-* [MNIST](http://yann.lecun.com/exdb/mnist/)  
+* [MNIST](http://yann.lecun.com/exdb/mnist/)
   * 言わずと知れた手書き文字のデータ
 * [CIFAR-10](http://www.cs.toronto.edu/~kriz/cifar.html)
   * 言わずと知れた10クラス(airplane, automobileなど)にラベル付された画像集。CIFAR-100というより詳細なラベル付けがされたものもある
@@ -27,14 +27,18 @@
 * [Columbia University Image Library (COIL-20)](http://www.cs.columbia.edu/CAVE/software/softlib/coil-20.php)
   * 物体を一軸回転させて撮影したデータセット。
   * 20種類の物体を5度刻みで時計回りに回転。画像サイズは128x128。
+* [Vehicle Make and Model Recognition Dataset (VMMRdb)](https://github.com/faezetta/VMMRdb)
+  * 1950年から2016年までに製造・発売された自動車の画像が、メーカ・モデル・年式の3階層で分類されている。画像数は291,752、クラス数9,170。
+  * 様々なユーザーが撮影した画像のため、画像サイズや撮影条件にバラツキがある。
+  * 3036クラスを使った学習済ResNet-50も公開されている。 
 
 ## Video
 
 * [YouTube-8M](https://research.google.com/youtube8m/)
-  * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。 
+  * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。
 * [YouTube-BoundingBoxes](https://research.google.com/youtube-bb/)
   * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
-* [Moments in Time Dataset](http://moments.csail.mit.edu/)  
+* [Moments in Time Dataset](http://moments.csail.mit.edu/)
   * 3秒間の動画に、何をしているのかがアノテートされたデータセット(文字を書いている、ダイビングをしている、など)。
   * データ数は100万、ラベル数は339で複数付けられる場合もある(歩きながら話している場合、walking+speakingなど)。1ラベルは必ず1000の動画を持つようにしてあり、平均は1757。
 * [Kinetics](https://deepmind.com/research/open-source/open-source-datasets/kinetics/)
@@ -218,7 +222,7 @@
 ## Captioning
 
 * [VQA](http://www.visualqa.org/index.html)
-  * 画像を見て質問に答えるタスクでは、学習した画像についてだけ答えられる、良くある答え(「2つ」とか)を多めに繰り出して精度が上がっているなど明らかな過適合が見られた。そこで真実見たことない画像(Zero-Shot)に回答可能かをテストするためのデータとベースラインモデルの提案 
+  * 画像を見て質問に答えるタスクでは、学習した画像についてだけ答えられる、良くある答え(「2つ」とか)を多めに繰り出して精度が上がっているなど明らかな過適合が見られた。そこで真実見たことない画像(Zero-Shot)に回答可能かをテストするためのデータとベースラインモデルの提案
   * [Zero-Shot Visual Question Answering](https://arxiv.org/abs/1611.05546)
 * [CLEVR](http://cs.stanford.edu/people/jcjohns/clevr/)
   * 画像理解のためのデータセット。きちんと理解しているかを診断するために、シンプルな画像(物体がいくつか置いてあるような画像)に対し、様々な内容(物体の色や形といった属性、個数、位置など)を問う質問が用意されている
@@ -254,9 +258,9 @@
   * [信頼性について疑問符が付くという報告有り](https://medium.com/@taher.pilevar/is-the-stanford-rare-word-similarity-dataset-a-reliable-evaluation-benchmark-3fe409053011)。低頻度語がどんな語に似ているかは一定の知識が要求されるため、クラウドソーシングには向かないのではないかという指摘もある。
 * [日本語単語類似度データセット(JapaneseWordSimilarityDataset)](https://github.com/tmu-nlp/JapaneseWordSimilarityDataset)
   * Stanford Rare Word Similarity Datasetを参考に作成された日本語の単語類似度データセット。
-  * 動詞・形容詞・名詞・副詞が対象となっており、クラウドソーシングを利用し10名のアノテータに11段階で単語ペアの類似度をスコアしてもらっている。 
+  * 動詞・形容詞・名詞・副詞が対象となっており、クラウドソーシングを利用し10名のアノテータに11段階で単語ペアの類似度をスコアしてもらっている。
 * [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
-  * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。 
+  * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
   * 自然言語をSQLに対応付けたデータセット。なお、SQLは選択用(SELECT)のみ。
   * 自然言語とSQLの条件・列選択・集計対象列との対応データと、テーブルの定義が提供されている。
@@ -311,7 +315,7 @@
 * [Sentiment Treebank](https://nlp.stanford.edu/sentiment/code.html)
   * Stanfordの公開している、意味表現ツリーのデータセット
 * [Crowdflower](https://www.kaggle.com/crowdflower/datasets)
-  * 機械学習プラットフォームのCrowdflowerから提供された、感情タグ付け済みのTwitterデータ。 
+  * 機械学習プラットフォームのCrowdflowerから提供された、感情タグ付け済みのTwitterデータ。
 * [PersonaBank](https://nlds.soe.ucsc.edu/personabank)
   * 個々人のペルソナを推定するためのコーパスで、個人ブログから抽出された108の個人的なストーリーからなる。
   * 各ストーリーに対しては、意図グラフ(xをyしてzにしようとした、というのがノードとエッジで表現されている)がアノテーションされている。
@@ -322,11 +326,11 @@
   * IMDBでレートをした時のツイート(`"I rated The Matrix 9/10 http://www.imdb.com/title/tt0133093/ #IMDb"`というような感じの)から収集したデータセット
   * TwitterのユーザーID、映画の情報、レーティングの3点からなる推薦システム用のデータセット。
 * [A Large Self-Annotated Corpus for Sarcasm](https://arxiv.org/pdf/1704.05579.pdf)
-  * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと) 
+  * 皮肉を検出するための大規模コーパスの公開。Redditという掲示板のデータから、130万のデータが提供。アノテーションは投稿者自身が行っている(皮肉コメントには/sがついている)。Redditには皮肉に/sをつける文化があるらしい(HTMLのタグで囲むようにするのが発祥とのこと)
   * ダウンロードは[こちらから](http://nlp.cs.princeton.edu/SARC/)
-* [SemEval-2016 Task 5: Aspect-Based Sentiment Analysis](http://alt.qcri.org/semeval2016/task5/)		
-  * 単純な極性ではなく、対象と属性(Aspect)を加味したデータセット。		
-  * 具体的には、「このパソコンの性能はいまいちだ」という場合、「パソコン#性能, negative」といった具合にアノテーションが行われている		
+* [SemEval-2016 Task 5: Aspect-Based Sentiment Analysis](http://alt.qcri.org/semeval2016/task5/)
+  * 単純な極性ではなく、対象と属性(Aspect)を加味したデータセット。
+  * 具体的には、「このパソコンの性能はいまいちだ」という場合、「パソコン#性能, negative」といった具合にアノテーションが行われている
   * 様々な言語、ドメイン(レストラン、ホテル、家電、電話など)でのデータセットが提供されている。なお日本語はない。
 * [Amazon product data](http://jmcauley.ucsd.edu/data/amazon/)
   * Amazonのレビューのデータで、その総数一億四千万。1996年5月から、2014年7月までのレビューが収録されている。
@@ -355,14 +359,14 @@
 * [Visual Genome](http://visualgenome.org/)
   * 画像とその物体の名前、それらの関係性、またQAなどを含む認識理解に必要なデータを包括しているデータセット
 * [Microsoft Concept Graph](https://concept.research.microsoft.com/Home/Introduction)
-  * Microfostが公開した、エンティティ間の関係をについてのデータセット。最初はIsA関係(AはBだ的な)のデータで、1,200万のインスタンスと、500万のコンセプト間の、8500万(!)のisA関係を含んでいる。 
+  * Microfostが公開した、エンティティ間の関係をについてのデータセット。最初はIsA関係(AはBだ的な)のデータで、1,200万のインスタンスと、500万のコンセプト間の、8500万(!)のisA関係を含んでいる。
 
 ## Q&A
 
 * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
   * Stanfordの公開してる質問応答の大規模データセット
 * [Maluuba News QA](http://datasets.maluuba.com/NewsQA)
-  * CNNのニュース記事をベースにした質問応答のデータセット。質問数は10万overというサイズ。SQuAD同様、質問はクラウドソーシングで作成しており、回答は本文中の抜粋(一単語とは限らない)になる。しかも、答えられない可能性もあるという歯ごたえのある問題設定になっている。 
+  * CNNのニュース記事をベースにした質問応答のデータセット。質問数は10万overというサイズ。SQuAD同様、質問はクラウドソーシングで作成しており、回答は本文中の抜粋(一単語とは限らない)になる。しかも、答えられない可能性もあるという歯ごたえのある問題設定になっている。
 * [MS MARCO](http://www.msmarco.org/)
   * Microsoftが公開した質問応答のデータセット(10万件)。質問/回答が、人間のものである点が特徴(Bing=検索エンジンへの入力なのでどこまで質問っぽいかは要確認)。回答はBingの検索結果から抜粋して作成
   * [MS MARCO: A Human Generated MAchine Reading COmprehension Dataset](https://arxiv.org/pdf/1611.09268v1.pdf)
@@ -449,7 +453,7 @@
 * [DCASE](http://www.cs.tut.fi/sgn/arg/dcase2016/task-acoustic-scene-classification)
   * 自然音の分類を行うタスク(公園の音、オフィスの音など)で、学習・評価用データが公開されている。
 * [Freesound 4 seconds](https://archive.org/details/freesound4s)
-  * FreeSoundの音声データとそのメタデータをまとめたデータセットが公開(普通は頑張ってAPIを叩かないと行けなかった)。音響特徴を捉えるモデルの学習に役立ちそう(以前楽器の分類の学習に使ったことがある)。 
+  * FreeSoundの音声データとそのメタデータをまとめたデータセットが公開(普通は頑張ってAPIを叩かないと行けなかった)。音響特徴を捉えるモデルの学習に役立ちそう(以前楽器の分類の学習に使ったことがある)。
 * [AudioSet](https://research.google.com/audioset/)
   * YouTubeから抽出した10秒程度の音に、人の声や車の音といった632のラベル(人の声→シャウト、ささやき、など階層上に定義されている)が付与されている(人手で)。その数その数200万！
 * [NSynth Dataset](https://magenta.tensorflow.org/nsynth)
