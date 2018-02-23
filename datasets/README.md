@@ -62,7 +62,7 @@
   * Intel Vision Labが公開している高画質のゲーム動画に対してCVの各種手法のベンチマークを測定できるデータセット
   * 総数25万枚、全フレームに対してGTがアノテーションされており、 semantic segmentation、semantic instance segmentation、3D scene layout、visual odometry、optical flowのベンチマークが測定可能
 * [SALSA Dataset](http://tev.fbk.eu/salsa)
-  * ACMMM15で公開された人物間の会話を解析するためのデータセット。18人のスタンディングディスカッションの動画、近接センサー,etc.のマルチモーダルなデータが提供されている。
+  * ACMMM15で公開された人物間の会話を解析するためのデータセット。18人のスタンディングディスカッションの動画、近接センサー,etc.のマルチモーダルなデータが提供されている。
 
 ## Scene
 
@@ -118,6 +118,9 @@
   * 9,053の画像が収録されており、総計15,435の損傷がバウンディングボックスでアノテートされている。また、損傷の分類も行われている。
   * なお、データは日本発で7つの自治体と掛け合い作成したとのこと。
   * [Road Damage Detection Using Deep Neural Networks with Images Captured Through a Smartphone](https://arxiv.org/abs/1801.09454)
+* [SUNCG: A Large 3D Model Repository for Indoor Scenes](http://suncg.cs.princeton.edu/)
+  * 実物に近いよう家具などがレイアウトされた、屋内のモデルのデータセット。45,000の異なるシーンが収録されている。
+  * シミュレーター?画像だけでなく、実物に近い形にレンダリングした画像も提供されている。また、すべての画像にオブジェクトのラベルが付与されている。
 
 ## 3D
 
