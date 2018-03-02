@@ -312,6 +312,9 @@
   * 連続する文の分類を行うためのデータセット。具体的には、論文のAbstractに対してこの文は背景、この文は目的、この文は手法・・・といった具合にアノテーションされている。
   * 20万のAbstractに含まれる、230万文にアノテーションが行われている。
   * [PubMed 200k RCT: a Dataset for Sequential Sentence Classification in Medical Abstracts](https://arxiv.org/abs/1710.06071)
+* [FAKE NEWS CHALLENGE STAGE 1 (FNC-I): STANCE DETECTION](http://www.fakenewschallenge.org/)
+  * フェイクニュースの検知を目的としたデータセット。第一弾として、記事のスタンスの検知を行うデータを提供している。
+  * Inputは記事のタイトル/本文で、それに対し他の記事を賛成・反対・同じことを話しているがスタンスはとっていない、関係ないの4つに分類する。
 
 ## Sentiment
 
