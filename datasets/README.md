@@ -222,11 +222,15 @@
   * AVA(Image Aesthetic Visual Analysis) datasetよりも画像数は少ないが(255,000)、0/1でなく1~5でスコアがついている点が強味
   * [Photo Aesthetics Ranking Network with Attributes and Content Adaptation](https://arxiv.org/abs/1606.01621)
 
-## Captioning
+## Image Captioning/Visual QA
 
 * [VQA](http://www.visualqa.org/index.html)
   * 画像を見て質問に答えるタスクでは、学習した画像についてだけ答えられる、良くある答え(「2つ」とか)を多めに繰り出して精度が上がっているなど明らかな過適合が見られた。そこで真実見たことない画像(Zero-Shot)に回答可能かをテストするためのデータとベースラインモデルの提案
   * [Zero-Shot Visual Question Answering](https://arxiv.org/abs/1611.05546)
+* [VizWiz Dataset](http://vizwiz.org/data/#dataset)
+  * 画像を見て質問に答えるVQAを、盲目の人が周りを認識するという実用的なシーンで役立てるために作成されたデータセット。
+  * 画像、また質問は実際に盲目の人が(モバイル端末で)撮影、また質問したもので、それに対する回答をクラウドソーシングで収集している。
+  * 31,000の質問と、各質問に対する回答が10収録されている。
 * [CLEVR](http://cs.stanford.edu/people/jcjohns/clevr/)
   * 画像理解のためのデータセット。きちんと理解しているかを診断するために、シンプルな画像(物体がいくつか置いてあるような画像)に対し、様々な内容(物体の色や形といった属性、個数、位置など)を問う質問が用意されている
   * 質問は自然言語の形式だけでなく、プログラムの表現に近い形での形式も用意されている(関数をつなげているような形)。
