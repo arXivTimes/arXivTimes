@@ -229,6 +229,8 @@
 
 * [VQA](http://www.visualqa.org/index.html)
   * 画像を見て質問に答えるタスクでは、学習した画像についてだけ答えられる、良くある答え(「2つ」とか)を多めに繰り出して精度が上がっているなど明らかな過適合が見られた。そこで真実見たことない画像(Zero-Shot)に回答可能かをテストするためのデータとベースラインモデルの提案
+  * MS COCOから204,721画像、50,000のクリップアートが含まれる。各画像には最低3つ質問があり、各質問には10の回答がある
+  * 回答の種類にはバリエーションがあり、アノテーターが最も多く回答したもの(Correct)、画像を見ないで回答したもの(Plausible)、よくある回答(Popular: 2つ、とかyes、など)、回答からランダムに選択したもの、などがある。
   * [Zero-Shot Visual Question Answering](https://arxiv.org/abs/1611.05546)
 * [VizWiz Dataset](http://vizwiz.org/data/#dataset)
   * 画像を見て質問に答えるVQAを、盲目の人が周りを認識するという実用的なシーンで役立てるために作成されたデータセット。
@@ -245,6 +247,12 @@
 * [VisDial Dataset](https://visualdialog.org/data)
   * MS COCOの画像をベースに、それについてのQとAが付与されている。Training用に8万、Validation用に4万が利用可能
   * [アノテーションツールまで公開されている](https://github.com/batra-mlp-lab/visdial-amt-chat)ので、さらに集めることも可能。
+* [Toronto COCO-QA Dataset](http://www.cs.toronto.edu/~mren/imageqa/data/cocoqa/)
+  * MS COCOの123,287画像に対し、学習用に78,736、評価用に38,948と大量のQAを作成したデータセット。
+  * これにはカラクリがあり、QAはMS COCOのキャプションから自動生成されている(「椅子が二つある」というキャプションなら、Q:何個椅子があるか? A:2つ、など)。そのため、質問の種類は限定的で文法的におかしい質問も含まれる。
+* [DAQUAR - DAtaset for QUestion Answering on Real-world images](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/visual-turing-challenge/)
+  * [NYU Depth Dataset V2](https://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html)の画像について作成されたQAのデータセット。学習用に6794、評価用に5674の質問が用意されている(1画像当たり平均9個)。
+  * ただ、画像が屋内のもので角度/光の当たり的に回答がそもそも難しい質問も多くあり、人間の正答率も50.2%と低い。
 * [STAIR Captions](https://stair-lab-cit.github.io/STAIR-captions-web/)
   * MS COCOの画像につけられた5つのキャプションについて、日本語でもキャプションをつけたもの(翻訳したわけではなく、独自にアノテートしている)。
   * [STAIR Captions: Constructing a Large-Scale Japanese Image Caption Dataset](https://arxiv.org/abs/1705.00823)
