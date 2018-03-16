@@ -17,6 +17,10 @@
   * Googleが公開した900万、ImageNetをこえる6000カテゴリのアノテーション済みデータ。こちらから利用可能。中身はURL+ラベルになっているので、怖がらずにcloneして大丈夫。
   * リリース後に更新が行われており、2017/11/16にリリースされたV3では370万のバウンディングボックス、970万のラベル付き画像のデータセット(training data)に拡大している。
   * [2017/7/20にbounding boxのデータが追加された](https://research.googleblog.com/2017/07/an-update-to-open-images-now-with.html)。総計約200万で、学習データ中の120万は半自動で付与(人が確認済み)、validationデータ中の80万は人がアノテーションを行なっている。クラス数は600で一部にはラベルもついている。
+* [iNaturalist](https://sites.google.com/view/fgvc5/competitions/inaturalist)
+  * CVPR2018のワークショップFGVC5の開催に伴い公開されたデータセット。元データは、[iNaturalist](https://www.inaturalist.org/)という観察した生き物の写真を撮って記録するアプリから提供されている。
+  * 現実に近い状況での画像分類を行うことを目的としており、様々な状況での撮影、似たような種別、カテゴリ間のデータ数の偏りなどが特徴。
+  * ラベル数は8,000、総画像数は45万。
 * [HDR+ Burst Photography Dataset](http://hdrplusdata.org/dataset.html)
   * HDR+の写真のデータセット。写真の品質を上げるためのフレーム単位の画像(bursts)とそのマージ結果、最終的な処理結果の3つの種類の画像が包含される。
   * これらの写真は実際のAndroidの機種に搭載されているカメラで撮影したもので、現実に近いデータになっている。
