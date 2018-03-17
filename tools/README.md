@@ -133,6 +133,9 @@
 * [House3D](https://github.com/facebookresearch/House3D)
   * SUNCGをベースにした、屋内で動作するエージェントを学習させるための環境。
   * こちらもOpenAI Gymベース。
+* [VINE](https://github.com/uber-common/deep-neuroevolution)
+  * Uberが公開した進化戦略の学習過程を可視化するためのツール
+  * 各世代のスコア、また挙動の変化を確認できる。
 
 # Others
 
