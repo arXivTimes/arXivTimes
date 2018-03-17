@@ -24,6 +24,9 @@
 * [OpenZoonz](https://opentoonz.github.io/)
   * 2Dアニメーションの制作ソフトウェア(ジブリでの使用実績もあり)だが、ラスタライズ画像をベクター画像に変換できるという機能がある。
   * sketch-RNNなど、ベクターデータが必要な場合に役に立つ。
+* [Detectron](https://github.com/facebookresearch/Detectron)
+  * Facebookの公開した物体検出を行うためのオープンソースライブラリ。Caffe2ベースで稼働する
+  * Apache 2.0ライセンスで使用可能。
 
 # NLP
 
