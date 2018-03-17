@@ -86,6 +86,10 @@
 * [KITTI](http://www.cvlibs.net/datasets/kitti/)
   * 自動運転車のためのデータセット。ドイツの中規模都市であるカールスルーエ周辺～高速道路での運転から得られた画像が提供されている。画像は、最大15台の車と30人の歩行者が映っている。
   * 同様のデータセットに、[ISPRS](http://www.cvlibs.net/projects/autonomous_vision_survey/)、[MOT](https://motchallenge.net/)、[Cityscapes](https://www.cityscapes-dataset.com/)等がある。自動運転は画像認識の複合的なタスクなので、画像でデータがないと思ったら一度目を通してみるといいかもしれない。
+* [Apollo Scape](http://apolloscape.auto/scene.html)
+  * Baiduが公開した自動運転車用のデータセット。なお、Baiduは自動運転車用プラットフォームである[Apollo](http://apollo.auto/)も公開している。
+  * RGBの映像とそれに対するセグメンテーション、また3Dのレベルでも映像・セグメンテーションが提供されている。
+  * 画像数は20万でセグメンテーションクラス数は車や自転車、人など25種類。
 * [Mapillary Vistas Dataset](https://www.mapillary.com/dataset/vistas)
   * 自動運転のための、路上画像のデータセット。25,000のアノテーション済みの高解像度データを提供。現在も増え続けており、しかも世界各国の画像が含まれている(日本の道路の画像もある)。
 * [SUN database](http://groups.csail.mit.edu/vision/SUN/)
