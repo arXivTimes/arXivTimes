@@ -429,6 +429,9 @@
   * ブラジル農牧研究公社(Embrapa)への問い合わせを匿名化した2,657のQ&Aが収録されている(なお言語はポルトガル語)。
   * 既存のQ&Aのデータセットは少ない語や選択式でこたえられるものが多く、こちらはより現実的な質問回答のデータセットになっている
   * [MilkQA: a Dataset of Consumer Questions for the Task of Answer Selection](https://arxiv.org/abs/1801.03460)
+* [AI2 Reasoning Challenge Dataset](http://data.allenai.org/arc/)
+  * 小学生レベルの科学に関する選択式質問のデータセット。総質問数は7,787。
+  * ChallengingとEasyの2種類があり、前者は既存の情報抽出の手法・単語共起で回答できなかったものが収録されている。
 
 
 ## Dialog
