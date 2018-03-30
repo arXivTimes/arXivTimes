@@ -270,6 +270,9 @@
 * [Recipe1M dataset](http://im2recipe.csail.mit.edu/)
   * 100万にも及ぶ、料理画像とそのレシピのペアのデータセット(料理の種類としては80万)。
   * なお、利用は研究用途に限る。
+* [ShapeNet Text Descriptions](http://text2shape.stanford.edu/)
+  * ShapeNetの3D画像(椅子・テーブルのみ)について、説明文をペア付与したデータセット(茶色の椅子、など)。
+  * 研究では言語からの3D生成も行っており、ボクセルデータも付属している。
 
 
 # NLP
