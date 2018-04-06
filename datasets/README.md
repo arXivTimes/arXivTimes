@@ -596,6 +596,8 @@
   * 機械学習のための化学系のデータセットのまとめ
 * [Web Technology and Information Systems](https://www.uni-weimar.de/en/media/chairs/computer-science-and-media/webis/corpora/)
   * Web Technology and Information Systemsの研究で使用されたコーパス集
+* [niderhoff/nlp-datasets](https://github.com/niderhoff/nlp-datasets)
+  * 自然言語系のデータセットがまとめられたページ。更新も割と行われている。
 
 
 # To make your own
