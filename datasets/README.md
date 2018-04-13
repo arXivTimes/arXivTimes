@@ -54,6 +54,9 @@
   * Googleが公開した人の動作を認識するためのデータセット。YouTubeからの抜粋で作成されており、長さは3秒にそろえられている。
   * 動作ラベルは80、57000の動画に21万件のラベルが付与されている(人単位の付与で人物数は約9万)
   * [AVA: A Video Dataset of Spatio-temporally Localized Atomic Visual Actions](https://arxiv.org/abs/1705.08421)
+* [STAIR Actions](https://stair-lab-cit.github.io/STAIR-actions-web/)
+  * 100種類の人の日常動作を収録したデータセット。各カテゴリは、900~1200の動画を持ち、長さは5~6秒ほど。
+  * 動画はYouTubeから取得されている。
 * [20BN-JESTER/ 20BN-SOMETHING-SOMETHING](https://www.twentybn.com/datasets)
   * 20BN-JESTERはハンドジェスチャーの、20BN-SOMETHINGは日常のデバイス操作(コンセント入れたり冷蔵庫のドア閉めたりなど)のデータセットが公開。それぞれ15万、10万と計25万件というボリューム。
 * [Moments in Time Dataset](http://moments.csail.mit.edu/)
