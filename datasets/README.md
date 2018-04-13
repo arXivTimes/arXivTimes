@@ -291,8 +291,11 @@
 * [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
   * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
-  * 自然言語をSQLに対応付けたデータセット。なお、SQLは選択用(SELECT)のみ。
+  * 自然言語をSQLに対応づけたデータセット。なお、SQLは選択用(SELECT)のみ。
   * 自然言語とSQLの条件・列選択・集計対象列との対応データと、テーブルの定義が提供されている。
+* [ParaphraseBench](https://github.com/DataManagementLab/ParaphraseBench)
+  * 自然言語とSQLを対応づけたデータセット。結果となるSQLは同じだが、6つの異なる聞き方をした自然言語を収録している。
+  * データ件数は57とそれほど多くない。学習用というよりは、評価用のデータセット([論文中](https://arxiv.org/abs/1804.00401)では、こうしたフォーマットを元にデータを水増ししている)。
 * [青空文庫](http://www.aozora.gr.jp/)
   * 著作権の消滅した作品、また「自由に読んでもらってかまわない」とされたものをテキストとXHTML(一部HTML)形式に電子化した上で揃えている
 * [青空文庫形態素解析データ集](http://aozora-word.hahasoha.net/index.html)
