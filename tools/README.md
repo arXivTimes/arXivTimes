@@ -124,6 +124,12 @@
   * 物理エンジンであるMujocoをPythonから操作できるライブラリ  
 * [pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)
   * Pythonから使える物理シミュレーター。OpenAI Gym/TensorFlowにも対応していて、これらを利用した歩行トレーニングを行う[チュートリアルも提供されている](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#heading=h.2ye70wns7io3)。
+* [Dart](http://dartsim.github.io/)
+  * This libraray provides data structures and algorithms for kinematic and dynamic applications in robotics and computer animation. Its python bindings are [provided](https://github.com/sehoonha/pydart2), examples are [here](https://github.com/sehoonha/pydart2/tree/master/examples)
+* [Gazebo](http://www.gazebosim.org/)
+  * Gazebo is a robot simulation toolkit that supports the ODE, Bullet, Simbody and DART physics engines. Tutorials are [provided](http://www.gazebosim.org/tutorials)
+* [Competitive Multi-Agent Env](https://github.com/openai/multiagent-competition)
+  * provides multiple scenes for multiple agents to compete. Code base for the paper [Emergent Complexity via Multi-Agent Competition](https://arxiv.org/abs/1710.03748)
 * [Unity ML - Agents](https://github.com/Unity-Technologies/ml-agents)
   * Unityが公式に公開した、Unityで強化学習を行うための環境・エージェントを作成できるSDK
 * [HoME-Platform](https://github.com/HoME-Platform/home-platform)
