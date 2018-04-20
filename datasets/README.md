@@ -255,6 +255,7 @@
   * 画像に対する5つの説明(キャプション)も含む
 * [COCO-Stuff 10K](https://github.com/nightrome/cocostuff)
   * COCOのデータセット(の一部)にピクセルレベルのアノテーションを行ったデータセットが公開。10,000の画像に91の物体(人や船、象など)がピクセル単位でアノテーションされている。
+  * その後164,000に拡張され、インスタンスレベルでのアノテーション(同じクラスでも別々の個体なら区別する)も追加されている。
 * [VisDial Dataset](https://visualdialog.org/data)
   * MS COCOの画像をベースに、それについてのQとAが付与されている。Training用に8万、Validation用に4万が利用可能
   * [アノテーションツールまで公開されている](https://github.com/batra-mlp-lab/visdial-amt-chat)ので、さらに集めることも可能。
@@ -441,6 +442,9 @@
 * [AI2 Reasoning Challenge Dataset](http://data.allenai.org/arc/)
   * 小学生レベルの科学に関する選択式質問のデータセット。総質問数は7,787。
   * ChallengingとEasyの2種類があり、前者は既存の情報抽出の手法・単語共起で回答できなかったものが収録されている。
+* [MultiRC](http://cogcomp.org/multirc/)
+  * 短いパラグラフと、それについての質問からなるデータセット。パラグラフの数は800、質問数は6000程。
+  * 回答は多肢選択式で、パラグラフ中に言及がないものもある。また、パラグラフは、単一でなく7つのドメイン(ニュースや小説、歴史の文書など)から構成される。
 
 
 ## Dialog
@@ -500,6 +504,10 @@
   * 自然音の分類を行うタスク(公園の音、オフィスの音など)で、学習・評価用データが公開されている。
 * [Freesound 4 seconds](https://archive.org/details/freesound4s)
   * FreeSoundの音声データとそのメタデータをまとめたデータセットが公開(普通は頑張ってAPIを叩かないと行けなかった)。音響特徴を捉えるモデルの学習に役立ちそう(以前楽器の分類の学習に使ったことがある)。
+* [FSD is a large-scale, general-purpose audio dataset](https://datasets.freesound.org/fsd/)
+  * FreeSoundオフィシャルのデータセット。26万件のサウンドに、階層化された600のクラスラベルが付与されている(アノテーション件数自体は60万件に上る)。
+  * 音声には、楽器などの音以外に人間や動物の鳴き声など、多様な音声が含まれる。
+  * このデータセットを利用した、[Kaggleのコンペティション](https://www.kaggle.com/c/freesound-audio-tagging)も開催されている。
 * [AudioSet](https://research.google.com/audioset/)
   * YouTubeから抽出した10秒程度の音に、人の声や車の音といった632のラベル(人の声→シャウト、ささやき、など階層上に定義されている)が付与されている(人手で)。その数その数200万！
 * [NSynth Dataset](https://magenta.tensorflow.org/nsynth)
