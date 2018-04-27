@@ -152,6 +152,10 @@
   * 最終的には、171クラス8,987モデルのデータセットとなっている。
 * [Yobi3D](https://www.yobi3d.com/)
   * フリーの3Dモデル検索エンジン。3Dデータ自体は様々なところから収集されている。データセットという形でまとまってはいないが、用途に合わせて検索し、モデルデータのリンク先を得ることができる。
+* [MIRO](https://github.com/kanezaki/MIRO)
+  * オブジェクトを様々な角度から撮影したデータセット。
+  * カテゴリ数は12で、1カテゴリ10種類の物体が含まれる(コップなら、様々なコップが10種類含まれる)。各物体は、様々なアングルから撮影された160の画像を持つ。
+  * [RotationNet: Joint Object Categorization and Pose Estimation Using Multiviews from Unsupervised Viewpoints](https://kanezaki.github.io/rotationnet/)
 
 ## Satellite
 
@@ -312,6 +316,10 @@
   * 実世界における自然言語タスク、をテーマに作成されたデータセット。具体的には会話から犯人を推定するもので、CSI:科学捜査班の発話文と文中の犯人・容疑者・その他の人、また実際人がそのシーンで思っていた犯人がアノテーションされている
   * なお、実際のドラマのシーンを確認するには当然購入が必要。
   * [Whodunnit? Crime Drama as a Case for Natural Language Understanding](https://arxiv.org/pdf/1710.11601.pdf)
+* [The General Language Understanding Evaluation (GLUE) benchmark](https://gluebenchmark.com/)
+  * 自然言語理解を行うモデルの性能測定プラットフォームGLUE(データセットを含む)。
+  * 内容としては、質問回答や感情分類、テキスト間の関係推定などのタスクからなり、単一のモデルがこれら複数のタスクをどれだけこなせるかを測定する。
+  * [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://arxiv.org/abs/1804.07461)
 
 ## Parallel Corpus
 
