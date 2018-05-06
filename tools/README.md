@@ -87,6 +87,10 @@
   * VNCを利用し、まさに人間が操作するようにPCを操作させられる強化学習のプラットフォーム。これによって、画面操作をエージェントに学習させることができる。
 * [μniverse](https://github.com/unixpickle/muniverse)
   * OpenAI Universeの重たい所(VNCでリモート操作)、難しい所(画面がFlashで読み取りむずい)を改善したmuniverseが開発中とのこと。こちらはHTML5のゲームに限定することで、上記の問題点を回避している。
+* [ELF (Extensive, Lightweight and Flexible platform for game research)](https://github.com/facebookresearch/ELF)
+  * Facebookが公開したゲームで強化学習を行うためのフレームワーク
+  * ゲームの実行部分はC++のスレッドで高速に、学習部分はPythonでという形で役割分担している。
+  * また、PyTorchベースのベースライン実装を搭載している。
 * [dm_control](https://github.com/deepmind/dm_control)
   * DeepMind製の強化学習の学習環境。OpenAI GymよりもContinuous Controlなタスク(アームの上げ下げやステアリングといった、Action空間が連続的(実数値)になるタスク)を取り揃えており、モデルの評価環境として使える。ベースラインモデルも提供されている。
   * [DeepMind Control Suite](https://arxiv.org/abs/1801.00690)

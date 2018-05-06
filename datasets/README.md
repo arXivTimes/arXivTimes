@@ -13,10 +13,11 @@
 * [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/blob/master/README.md)
   * ファッション画像のMNIST、を表したデータセット。クラス数はMNISTと同様10クラスで、画像は28x28(グレースケール)、学習：評価データ数は60,000：10,000。
   * MNISTは簡単すぎる、濫用されているといった問題を克服するという側面も意識されている。
-* [Open Images dataset](https://github.com/openimages/dataset)
+* [Open Images dataset](https://storage.googleapis.com/openimages/web/index.html)
   * Googleが公開した900万、ImageNetをこえる6000カテゴリのアノテーション済みデータ。こちらから利用可能。中身はURL+ラベルになっているので、怖がらずにcloneして大丈夫。
   * リリース後に更新が行われており、2017/11/16にリリースされたV3では370万のバウンディングボックス、970万のラベル付き画像のデータセット(training data)に拡大している。
   * [2017/7/20にbounding boxのデータが追加された](https://research.googleblog.com/2017/07/an-update-to-open-images-now-with.html)。総計約200万で、学習データ中の120万は半自動で付与(人が確認済み)、validationデータ中の80万は人がアノテーションを行なっている。クラス数は600で一部にはラベルもついている。
+  * 2018/4/30にv4がリリースし、公式ページも一新された。バウンディングボックスが1540万/600クラス、総計1900万画像に拡大。
 * [iNaturalist](https://sites.google.com/view/fgvc5/competitions/inaturalist)
   * CVPR2018のワークショップFGVC5の開催に伴い公開されたデータセット。元データは、[iNaturalist](https://www.inaturalist.org/)という観察した生き物の写真を撮って記録するアプリから提供されている。
   * 現実に近い状況での画像分類を行うことを目的としており、様々な状況での撮影、似たような種別、カテゴリ間のデータ数の偏りなどが特徴。
@@ -239,6 +240,8 @@
   * 写真の審美性について1~5のスコアがつけられたデータセット。10,000の画像が含まれる。
   * AVA(Image Aesthetic Visual Analysis) datasetよりも画像数は少ないが(255,000)、0/1でなく1~5でスコアがついている点が強味
   * [Photo Aesthetics Ranking Network with Attributes and Content Adaptation](https://arxiv.org/abs/1606.01621)
+* [Cartoon Set](https://google.github.io/cartoonset/index.html)
+  * 二次元のアバターイメージのデータセット。顔は色違いやパーツの組み合わせ違いのパターンで作られており、各特性のラベルがついた1万/10万の2つのデータセットが提供されている。
 
 ## Image Captioning/Visual QA
 
@@ -320,6 +323,8 @@
   * 自然言語理解を行うモデルの性能測定プラットフォームGLUE(データセットを含む)。
   * 内容としては、質問回答や感情分類、テキスト間の関係推定などのタスクからなり、単一のモデルがこれら複数のタスクをどれだけこなせるかを測定する。
   * [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://arxiv.org/abs/1804.07461)
+* [PeerRead](https://github.com/allenai/PeerRead)
+  * ACL/NIPS/ICLRの論文の概要と、それに対するレビューを集めたデータセット(accept/rejectされたもの双方が含まれる)。論文数は14,000で、レビュー数は10,000。
 
 ## Parallel Corpus
 
@@ -356,6 +361,10 @@
 * [FAKE NEWS CHALLENGE STAGE 1 (FNC-I): STANCE DETECTION](http://www.fakenewschallenge.org/)
   * フェイクニュースの検知を目的としたデータセット。第一弾として、記事のスタンスの検知を行うデータを提供している。
   * Inputは記事のタイトル/本文で、それに対し他の記事を賛成・反対・同じことを話しているがスタンスはとっていない、関係ないの4つに分類する。
+* [STS Benchmark](http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark)
+  * 文書類似度のタスクのためのデータセット(SemEval2012~2017で使用されたもの)。画像のキャプションやニュース記事などが含まれる。
+* [The SICK data set](http://clic.cimec.unitn.it/composes/sick.html)
+  * 1万の英語の文書について、文間の類似性や関係性をアノテーションしたデータセット。
 
 ## Sentiment
 
@@ -504,6 +513,9 @@
   * 語学学習を行うSNSであるLang-8から収集されたデータセット。Lang-8では学習している言語で作文を行うと、その言語を母国語としている人から添削を受けることができる。この学習者の作文と訂正された作文のペアがデータセットとして収録されている。
   * 10言語のデータが含まれており、総数は約58万文書に及ぶ。
   * 実はNAISTが公開しており、詳細はこちらから参照できる。[語学学習 SNS の添削ログからの母語訳付き学習者コーパスの構築に向けて](https://www.ninjal.ac.jp/event/specialists/project-meeting/files/JCLWorkshop_no6_papers/JCLWorkshop_No6_27.pdf)
+* [CORNELL NEWSROOM](https://summari.es/)
+  * 要約のための大規模なデータセット。
+  * 38の代表的な出版/報道局から集められた130万記事について、記事と要約がセットになっている(発行年は1998年から2017年まで)。
 
 
 # Audio
