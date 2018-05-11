@@ -6,10 +6,10 @@
 
 * [Coursera Machine Learning](https://www.coursera.org/learn/machine-learning)
   * 最初はここから。ほかのどんな書籍やブログよりよい。
-* [CSC 321 Winter 2018 Intro to Neural Networks and Machine　Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
-  * トロント大学のニューラルネット講座。DNN実装ソフトウェアを意識した解説になっていて、理論的な解説の際も実装が意識されていて、ギャップが少なくなるよう意識されている。PyTorchのチュートリアルもあり。
 * [fast.ai](http://www.fast.ai/)
   * プログラマーのための機械学習講座といったコース。実践が多く、理論だけでなく手を動かして学びたいという方にお勧め。
+* [CSC 321 Winter 2018 Intro to Neural Networks and Machine　Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
+  * トロント大学のニューラルネット講座。DNN実装ソフトウェアを意識した解説になっていて、理論的な解説の際も実装が意識されていて、ギャップが少なくなるよう意識されている。PyTorchのチュートリアルもあり。
 * [深層学習 (機械学習プロフェッショナルシリーズ)](https://www.amazon.co.jp/dp/4061529021)
   * ディープラーニングについて良くまとまった書籍
 * [Python機械学習プログラミング](https://www.amazon.co.jp/dp/4844380605)
