@@ -350,6 +350,10 @@
 * [Noun Compositionality Judgements](https://www.kaggle.com/rtatman/noun-compositionality-judgements)
   * 2語の組み合わせが、逐語的か否か(literal or not literal)をスコアリングしたデータセット。
   * 例えばred appleは赤い・リンゴでそれぞれ独自の意味を持っているが(逐語的)、search engineは「検索エンジン」で一塊の意味となるなど。
+* [The Stanford Natural Language Inference (SNLI) Corpus](https://nlp.stanford.edu/projects/snli/)
+  * 二つの文の関係を推定するためのデータセット。論理的に同じ意味か、矛盾するものか、どちらともいえないかの3種類。「男は外でコーヒーを飲んでいる」vs「男は寝ている」の場合、矛盾している、など。
+  * 文だけでなく、構文解析した結果も含まれる。そのため、Recursiveなモデルによる意味獲得の評価などによく用いられる。
+  * ただし、データセットの作り方に問題があり、[片方の文だけで分類が推定されてしまうという点が指摘されている](https://github.com/arXivTimes/arXivTimes/issues/670)。
 * [Enron Email Dataset](https://www.cs.cmu.edu/~enron/)
   * エンロン事件の捜査のさなか、米連邦エネルギー規制委員会(FERC)がインターネット上に公開した実際のエンロン社内のメールデータ。
   * 件数は50万件ほどで、主にエンロンのシニアマネージャーの人達が送ったもの。ユーザー数的には150名ほど。なお添付ファイルは削除されている。
