@@ -181,6 +181,43 @@
 * [Normalizing Flows Tutorial, Part 1: Distributions and Determinants](https://blog.evjang.com/2018/01/nf1.html)
   * 正規分布のようななじみの分布は、簡単にサンプル生成が行えその確からしさも測りやすい。GANやVAEといった生成モデルはこうした解釈性が低いが生成性能はとても高い。シンプルさを保ちつつ生成精度を上げる両取りの方法であるNormalizing Flowについての解説記事。
 
+## Application Development
+
+最近の機械学習界隈では、単純にモデルを作成するだけでなくそれをデモとして仕上げる力も求められている印象があります。  
+そのため、アプリケーション開発について学ぶために有用な資料についてもここにまとめておきます。
+
+### Git
+
+アプリケーションの開発だけでなく、機械学習モデルのソースコードの管理にもバージョン管理ツールは欠かせません。  
+ここでは、数あるバージョン管理ツールのうちGitに絞り資料を紹介します。
+
+* [使い始める Git](https://qiita.com/icoxfog417/items/617094c6f9018149f41f)
+  * 特定のファイルをバージョン管理対象外にする`.gitignore`は必ず確認しましょう。よく、`.pyc`ファイルや`.ipynb_checkpoints`がリポジトリに入ってしまっている例を見ます。[こちら](https://github.com/github/gitignore)で言語や開発環境に応じたファイルを確認できます。
+* [Try Git](https://try.github.io/levels/1/challenges/1)
+  * GitHubオフィシャルのGitチュートリアルです
+
+### Coding
+
+* [python_exercises](https://github.com/icoxfog417/python_exercises)
+  * Pythonのトレーニング用リポジトリです
+* [良いコードとは](https://www.slideshare.net/nbykmatsui/ss-55961899)
+  * 動けばいいというコードでは、自分の実験の生産性が落ちる可能性があるだけでなく、他の人が再現を行うのも難しくなります。良いコードを書くよう心がけましょう。
+
+### Web
+
+* [Web Application Tutorial](https://docs.google.com/presentation/d/1whFnASJKNTblT6o2vF84Cd0j8vhICouXcJAnBdGmMCw/edit?usp=sharing)
+  * 基本的なMVCのアーキテクチャとそれを利用する際の注意点について解説しています。
+
+### UI/UX
+
+* [ITエンジニアに易しいUI/UXデザイン](https://www.slideshare.net/ksc1213/ituiux-16732374)
+
+### Docker
+
+機械学習エンジニアにとってDockerはもはや欠かせないツールになっているので、理解しておくとよいです。
+
+* [プログラマのためのDocker教科書 インフラの基礎知識＆コードによる環境構築の自動化](https://www.amazon.co.jp/dp/B017UGA7NG)
+
 ## Others
 
 * [A Kaggle Master Explains Gradient Boosting](http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/)
