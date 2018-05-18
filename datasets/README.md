@@ -503,13 +503,19 @@
   * 各シナリオには状況が設定されており(ビーカーがn個ある、絵がn個並んでいる、など)、それに対して5つの連続した操作が自然言語で記述されており(猫の絵を右にずらす、犬の絵をはずす、など)、それらを実行した場合の最後の状態を推定させるのがタスクになる。
   * [Simpler Context-Dependent Logical Forms via Model Projections](https://arxiv.org/abs/1606.05378)
 
-## Summarization/Correction
+## Summarization
 
 * [DUC 2004](http://www.cis.upenn.edu/~nlp/corpora/sumrepo.html)
   * 文章要約のためのデータセット。ベースラインとなるアルゴリズムによる要約結果も収録されており、それらのROUGEスコアと比較が可能。
 * [boxscore-data](http://lstm.seas.harvard.edu/docgen/)
   * バスケットボールの試合のスコアと、試合結果についての要約をペアとしたデータセット。数値表現をテキストにする試み。
   * Rotowire/SBNationといったスポーツサイトからデータを収集しており、総計約15000のペアが収録されている。
+* [CORNELL NEWSROOM](https://summari.es/)
+  * 要約のための大規模なデータセット。
+  * 38の代表的な出版/報道局から集められた130万記事について、記事と要約がセットになっている(発行年は1998年から2017年まで)。
+
+## Correction/Paraphras
+
 * [AESW](http://textmining.lt/aesw/index.html)
   * 文書校正前後の論文を集めたデータセット。
   * 学習データには約100万文が含まれ、そのうち46万件ほどに校正による修正が入っている。
@@ -517,10 +523,9 @@
   * 語学学習を行うSNSであるLang-8から収集されたデータセット。Lang-8では学習している言語で作文を行うと、その言語を母国語としている人から添削を受けることができる。この学習者の作文と訂正された作文のペアがデータセットとして収録されている。
   * 10言語のデータが含まれており、総数は約58万文書に及ぶ。
   * 実はNAISTが公開しており、詳細はこちらから参照できる。[語学学習 SNS の添削ログからの母語訳付き学習者コーパスの構築に向けて](https://www.ninjal.ac.jp/event/specialists/project-meeting/files/JCLWorkshop_no6_papers/JCLWorkshop_No6_27.pdf)
-* [CORNELL NEWSROOM](https://summari.es/)
-  * 要約のための大規模なデータセット。
-  * 38の代表的な出版/報道局から集められた130万記事について、記事と要約がセットになっている(発行年は1998年から2017年まで)。
-
+* [SNOW T15:やさしい日本語コーパス](http://www.jnlp.org/SNOW/T15)
+  * 日英対訳コーパス([small_parallel_enja](https://github.com/odashi/small_parallel_enja))の日本語を平易な日本語に書き換えたデータセット。
+  * 元がパラレルコーパスであるため、英語との対応もとれる。
 
 # Audio
 
