@@ -49,6 +49,8 @@
   * CVPR2017でのGANのチュートリアル資料。GAN以前の手法の問題点から紹介しており、GAN登場の背景から仕組み、学習方法までを習得できる完全盤的資料。
 * [A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
   * 画像内の領域認識を行うセグメンテーションについて、その問題設定と現在取り組まれている手法の網羅的な紹介。
+* [UNDERSTANDING DEEP LEARNING FOR OBJECT DETECTION](http://zoey4ai.com/2018/05/12/deep-learning-object-detection/)
+  * 物体検出についての解説記事。Two-stage/Single-stageにきちんと分けて仕組みの解説が行われているほか、速度/精度のトレードオフや今後の研究課題まできちんとまとめられている。
 
 ### Not Recommend :droplet:
 
@@ -98,6 +100,8 @@
 * [Representations for Language: From Word Embeddings to Sentence Meanings](https://nlp.stanford.edu/~manning/talks/Simons-Institute-Manning-2017.pdf)
   * 自然言語の表現学習について、分散表現(word2vec/GloVe)を皮切りに現時点の鉄板であるBidirectional-LSTM + Attention、またCNNの適用などの手法について解説している。この資料だけで、現在の表現学習を概観できる。
   * [Video](https://simons.berkeley.edu/talks/christopher-manning-2017-3-27)
+* [From Word to Sense Embeddings: A Survey on Vector Representations of Meaning](https://arxiv.org/abs/1805.04032)
+  * 単語分散表現の場合一つの単語は一つのベクトルで表現されるが、本来単語は多様な意味を持つ。そうした「意味」の表現の獲得を目指した研究のサーベイ。教師なし/知識ベースの大きく2つに分けて解説されており、その比較についても記載されている。
 * [Deep Learning for Semantic Composition](http://egrefen.com/docs/acl17tutorial.pdf)
   * 文の意味解釈を行うタスクにDNNを適用する際の手法について、体系的なまとめ。
 
@@ -207,6 +211,11 @@
 
 * [Web Application Tutorial](https://docs.google.com/presentation/d/1whFnASJKNTblT6o2vF84Cd0j8vhICouXcJAnBdGmMCw/edit?usp=sharing)
   * 基本的なMVCのアーキテクチャとそれを利用する際の注意点について解説しています。
+
+### Visualization
+
+* [DataVisualization](https://github.com/neerjad/DataVisualization)
+  * 実際のデータを利用した、データ可視化チュートリアル。各種ライブラリ(Seaborn/Bokeh/Plotly/Igraph)ごとに用意されていて使い方を比較できる。
 
 ### UI/UX
 
