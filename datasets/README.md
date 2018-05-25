@@ -605,6 +605,9 @@
   * PHPのアプリケーションの脆弱性(CVEのIDなど)と、そのコードから抽出された機械学習で利用する特徴量のデータセット。PHPアプリケーションはPHPMyAdmin、Moodle、Drupalの3点
 * [Passwords](https://wiki.skullsecurity.org/Passwords)
   * パスワードの辞書、またこれまでにサイトから流出したパスワードのデータセットがダウンロードできる
+* [EMBER: Endgame Malware BEnchmark for Research](https://github.com/endgameinc/ember)
+  * 悪意あるWindowsのPortable Executable file(PE file)を検知するためのデータセット。件数は100万近くあり、特徴抽出済み。
+  * 特徴抽出のスクリプトは公開されており、このため自分で集めたデータで拡張することが可能。
 
 ## Game
 
