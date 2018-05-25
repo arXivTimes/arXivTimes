@@ -641,7 +641,8 @@
   * Web Technology and Information Systemsの研究で使用されたコーパス集
 * [niderhoff/nlp-datasets](https://github.com/niderhoff/nlp-datasets)
   * 自然言語系のデータセットがまとめられたページ。更新も割と行われている。
-
+* [The Extreme Classification Repository: Multi-label Datasets & Code](http://manikvarma.org/downloads/XC/XMLRepository.html)
+  * 大量なラベルでデータを分類するExtreme Classificationにおけるデータセットと代表的手法の性能の紹介。EURLexやAmazonCat、Wiki10など様々なデータセットやいくつかの手法の実装へのリンクがある。
 
 # To make your own
 
