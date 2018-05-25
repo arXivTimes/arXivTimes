@@ -199,6 +199,7 @@
   * 機械学習を利用したいというニーズに応えていくには、機械学習モデルの構築作業を分業していく必要があるという提言。現在は一人の職人がデータ収集から前処理、モデルの構築まで全部を行い、そのプロセスが属人的になることが多い。なので、最低限アルゴリズム構築と学習は分けようという。
 * [Best Practices for Applying Deep Learning to Novel Applications](https://arxiv.org/abs/1704.01568)
   * 深層学習をアプリケーションで利用する際のすすめ方や注意点についての話。問題の定義(inとout)をしっかり行うこと、検証が済んでいるモデル(公開されているコードetc)からはじめること、結果の見える化をしとくこと、などが書かれている
+  * 読みやすい[Web版が公開された](https://developers.google.com/machine-learning/rules-of-ml/)
 * [Machine Learning: The High Interest Credit Card of Technical Debt](https://ai.google/research/pubs/pub43146)
   * 機械学習を使い始めた「後」に問題になる点がまとめられた資料。ハイパーパラメーターやデータへの依存、特徴量の劣化/散在に対応する必要性などが書かれている。
 * [Applied machine learning at facebook a datacenter infrastructure perspective (HPCA18)](https://research.fb.com/publications/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective/)
