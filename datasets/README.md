@@ -74,6 +74,10 @@
   * 総数25万枚、全フレームに対してGTがアノテーションされており、 semantic segmentation、semantic instance segmentation、3D scene layout、visual odometry、optical flowのベンチマークが測定可能
 * [SALSA Dataset](http://tev.fbk.eu/salsa)
   * ACMMM15で公開された人物間の会話を解析するためのデータセット。18人のスタンディングディスカッションの動画、近接センサー,etc.のマルチモーダルなデータが提供されている。
+* [BDD100K: A Large-scale Diverse Driving Video Database](http://bair.berkeley.edu/blog/2018/05/30/bdd/)
+  * 運転中の画像を収録したデータセット。名前の通り10万の動画から構成される。
+  * 各動画は40秒程度・アメリカの各地で撮影されており、様々な天候や時間帯なども加味されている。
+  * 動画中のキーフレームにはセグメンテーション/バウンディングボックスなどのアノテーションが施されており、総画像数は1億を超える。
 
 ## Scene
 

@@ -273,3 +273,9 @@
 
 * [ADVERSARIAL MACHINE LEARNING TUTORIAL](https://aaai18adversarial.github.io/)
   * AAAI2018で開催された、機械学習モデルの識別を誤らせるAdversarialな手法について、攻撃、防衛、検知といったテーマに分けて行われたチュートリアル。
+
+### Graph Structure
+
+* [Structured deep models: Deep learning on graphs and beyond](http://tkipf.github.io/misc/SlidesCambridge.pdf)
+  * グラフを扱わせたら右に出るものはいない[Thomas Kipf](https://twitter.com/thomaskipf)先生の講義資料。DNNでグラフを扱う際の基本的な考え方からその歴史、最近の研究動向までが網羅されている。
+  * グラフは質問回答における推論等に使われる一方、分子構造の推定などにも使われており、多様な分野で応用が広がる熱い分野
