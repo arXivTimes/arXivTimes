@@ -589,6 +589,12 @@
   * [DeepChem](https://github.com/deepchem/deepchem)という化学特化のライブラリに組込済
 * [Tox21](https://tripod.nih.gov/tox21/challenge/data.jsp)
   * 化学化合物の構造からその毒性(toxic effects)を推定するタスクのためのデータセット。化合物数は12,000、毒性は12の毒性についての値が用意されている。
+* [QM dataset](http://quantum-machine.org/datasets/)
+  * 有機分子を収録したGDBというデータセットのサブセットとしてリリースされているデータセット(※GDBに収録されている分子はどんどん増加しており
+  、GDB-13では10億、GDB-17では1660億ととんでもない数になっている)。
+  * QM7: 原子数23の分子に制限したデータセット(総分子数は7165)。13の特性をデータに足したQM7bもある。
+  * QM8: CONF(炭素・酸素・窒素・フッ素)原子8つまでで構成される、合成しやすい有機分子20,000の特性が収録されたデータセット。
+  * QM9: CHONF(炭素・水素・酸素・窒素・フッ素)で構成される13万の有機分子の特性が収録されたデータセット。
 * [dSPP: Database of structural propensities of proteins](https://peptone.io/dspp)
   * タンパク質(アミノ酸の鎖のベクトル)から構造的傾向スコア(structural propensity score)を予測するためのデータセット。
   * Kerasから使うためのユーティリティも提供されている([dspp-keras](https://github.com/PeptoneInc/dspp-keras))。
