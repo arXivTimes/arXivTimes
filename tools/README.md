@@ -80,6 +80,8 @@
 
 # Reinforcement Learning
 
+## OpenAI Gym Families
+
 * [OpenAI Gym](https://gym.openai.com/)
   * 強化学習モデルのトレーニング環境を提供するフレームワーク
   * OpenAI Gym自体にも多くの環境(Atariのゲーム)などが入っているが、Open AI GymのAPIを備えたサードパーティー製の環境も追加でインストールできる([gym_pull](https://github.com/openai/gym/wiki/Environments#gym_pull)参照)。
@@ -87,6 +89,59 @@
   * VNCを利用し、まさに人間が操作するようにPCを操作させられる強化学習のプラットフォーム。これによって、画面操作をエージェントに学習させることができる。
 * [μniverse](https://github.com/unixpickle/muniverse)
   * OpenAI Universeの重たい所(VNCでリモート操作)、難しい所(画面がFlashで読み取りむずい)を改善したmuniverseが開発中とのこと。こちらはHTML5のゲームに限定することで、上記の問題点を回避している。
+* [SerpentAI](https://github.com/SerpentAI/SerpentAI)
+  * 手元のゲームを強化学習のための環境に使えるというライブラリ。Universeへの不満から生まれたとのこと。
+  * ネイティブで動作し、ゲームに接続するAPIを作る機能が内包されているためゲーム側の対応を待つ必要がない。チュートリアルではSteamのゲームを使う手順を公開している。
+
+### gym envs
+
+* [Gym Retro](https://blog.openai.com/gym-retro/)
+  * 対応タイトル数1000というゲーム用の学習環境。収録されていないゲームと統合したり、プレイを録画/記録できるIntegration Toolも公開されている。なお、ゲームを扱うには当然ながらROMが必要。 
+* [Rocket Lander OpenAI Environment](https://github.com/arex18/rocket-lander)
+  * ロケット打ち上げがシミュレートできる環境が、OpenAI Gymで使える環境として登場。SpaceXのFalcon 9で得られたデータを元にしているようで、スラスターの角度を制御しロケットの打ち上げに挑戦できる(コントロールは連続値)。ベースラインとしてDDPGの実装が提供されている。 
+* [gym-duckietown](https://github.com/duckietown/gym-duckietown)
+  * OpenAI Gym対応の自動運転車シミュレーション環境が登場。シミュレーターベースのSimpleSim-v0と、物理デバイス(ラズパイを組み込んだラジコンであるDuckietown)と接続して遠隔操作ができるDuckiebot-v0の2つを提供している。
+* [Gym Robotics](https://gym.openai.com/envs/#robotics)
+  * OpenAI Gymに標準搭載されたロボットシミュレーション用環境。物理シミュレーターのMuJoCoと連携して動作する。
+* [pybullet-gym](https://github.com/benelot/pybullet-gym)
+  * 物理シミュレーターである(Py)Bulletを使用した、ロボティクスなどの連続値コントロール環境。具体的には、Gym MuJoCoとDeepMind Control Suiteに収録されている環境をエミュレートしたものが扱える。なぜすでにある環境をエミュレートしているのかというと、MuJoCoが実は商用ライセンスのソフトウェアで、購入する必要があるため。
+* [roboschool](https://github.com/openai/roboschool)
+  * OpenAI公式のロボットシミュレーション環境。前述の事情から、MuJoCoベースではなくBulletベースに切り替えている。マルチプレイヤーのゲームが搭載されている。
+* [Learning to run](https://github.com/stanfordnmbl/osim-rl)
+  * 観測情報から足の筋肉を操作するモデルを構築し、歩行を学習させるための環境。OpenAI Gym + Kerasで構築されている。
+* [gym-ple](https://github.com/lusob/gym-ple)
+  * PyGame製のゲーム集[PyGame-Learning-Environment](https://github.com/ntasfi/PyGame-Learning-Environment)をOpenAI Gymで学習させるためのプラグイン。
+* [multiagent-particle-envs](https://github.com/openai/multiagent-particle-envs)
+  * OpenAIが公開した、マルチエージェントの学習に利用可能な環境。ボール同士(赤 vs 緑)の追いかけっこゲームのような形になっており、赤は共同で追ったほうが、緑は二手に分かれて逃げたほうがいい、というようなことを学習する。
+  * [実装例はこちら](https://github.com/rohan-sawhney/multi-agent-rl)
+* [Competitive Multi-Agent Env](https://github.com/openai/multiagent-competition)
+  * 複数のエージェントを競争させられる強化学習環境。OpenAI GymとMuJoCoをベースに稼働する。こちらの論文で使用されている: [Emergent Complexity via Multi-Agent Competition](https://arxiv.org/abs/1710.03748).
+  * provides multiple scenes for multiple agents to compete. code base for the paper [Emergent Complexity via Multi-Agent Competition](https://arxiv.org/abs/1710.03748).
+* [HoME-Platform](https://github.com/HoME-Platform/home-platform)
+  * 家の中でエージェントを学習させられる学習環境。
+  * 環境内のオブジェクトにはセグメンテーションや「棚の上の花瓶」といった言語情報がアノテートされており、音響環境も整えられている。もちろん物理エンジン搭載で、オブジェクトの移動などもシミュレートできる。
+  * OpenAI Gymに対応
+* [House3D](https://github.com/facebookresearch/House3D)
+  * SUNCGをベースにした、屋内で動作するエージェントを学習させるための環境。
+  * こちらもOpenAI Gymベース。
+
+## Simulator Integration
+
+* [mujoco-py](https://github.com/openai/mujoco-py)
+  * 物理エンジンであるMujocoをPythonから操作できるライブラリ  
+* [pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)
+  * Pythonから使える物理シミュレーター。OpenAI Gym/TensorFlowにも対応していて、これらを利用した歩行トレーニングを行う[チュートリアルも提供されている](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#heading=h.2ye70wns7io3)。
+* [Dart](http://dartsim.github.io/)
+  * ロボットの動きや、動作アニメーションを作成するためのデータ構造やアルゴリズムを提供するためのライブラリ。C++制だが、Pythonバインディング([pydart2](https://github.com/sehoonha/pydart2))が提供されている。
+  * This libraray provides data structures and algorithms for kinematic and dynamic applications in robotics and computer animation. Its python bindings are [here](https://github.com/sehoonha/pydart2), examples are [provided](https://github.com/sehoonha/pydart2/tree/master/examples).
+* [Gazebo](http://www.gazebosim.org/)
+  * 3Dロボットシミュレーターで、使用する物理エンジンを切り替えることができる(ODE, Bullet, Simbody, DART)。豊富な[チュートリアル](http://gazebosim.org/tutorials)が提供されている。
+  * Gazebo is a robot simulation toolkit that supports the ODE, Bullet, Simbody and DART physics engines. Tutorials are [provided](http://www.gazebosim.org/tutorials).
+* [Unity ML - Agents](https://github.com/Unity-Technologies/ml-agents)
+  * Unityが公式に公開した、Unityで強化学習を行うための環境・エージェントを作成できるSDK
+
+## Others
+
 * [ELF (Extensive, Lightweight and Flexible platform for game research)](https://github.com/facebookresearch/ELF)
   * Facebookが公開したゲームで強化学習を行うためのフレームワーク
   * ゲームの実行部分はC++のスレッドで高速に、学習部分はPythonでという形で役割分担している。
@@ -100,20 +155,17 @@
   * しかも、タスクとして分散実行が必要なことが多い強化学習、ハイパーパラメーター探索には専用フレームワーク(それぞれRay RLlib/Ray.tune)が用意されている
 * [Microsoft/AirSim](https://github.com/microsoft/airsim)
   * Microsoftが公開したシミュレーター。自動運転や、ドローンといった実世界で動かすようなものの学習を行うことができる。
-* [SerpentAI](https://github.com/SerpentAI/SerpentAI)
-  * 手元のゲームを強化学習のための環境に使えるというライブラリ。Universeへの不満から生まれたとのこと。
-  * ネイティブで動作し、ゲームに接続するAPIを作る機能が内包されているためゲーム側の対応を待つ必要がない。チュートリアルではSteamのゲームを使う手順を公開している。
 * [malmo](https://github.com/Microsoft/malmo)
   * 協調するマルチエージェントの学習に特化した学習プラットフォーム。
   * Microsoftが公開しており、Minecraftの上で動く
   * Python、Lua、C#、C++、Javaなど多様なインタフェースを持つ
+* [VINE](https://github.com/uber-common/deep-neuroevolution)
+  * Uberが公開した進化戦略の学習過程を可視化するためのツール
+  * 各世代のスコア、また挙動の変化を確認できる。
 * [Pommerman](https://www.pommerman.com/)
   * ボンバーマンを模した、マルチエージェントによる強化学習を行うための環境。
   * GitHubページ上ではnotebookによるチュートリアルも提供されている。
   * 学習後にエージェントを動かすためのDockerコンテナを公式サイトにpushすると、評価スクリプトを流してランキングしてくれるよう
-* [multiagent-particle-envs](https://github.com/openai/multiagent-particle-envs)
-  * OpenAIが公開した、マルチエージェントの学習に利用可能な環境。ボール同士(赤 vs 緑)の追いかけっこゲームのような形になっており、赤は共同で追ったほうが、緑は二手に分かれて逃げたほうがいい、というようなことを学習する。
-  * [実装例はこちら](https://github.com/rohan-sawhney/multi-agent-rl)
 * [TorchCraft](https://github.com/TorchCraft/TorchCraft)
   * StarCraftを学習するためのフレームワーク
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
@@ -122,33 +174,6 @@
   * Dockerの中にStarCraftとWindowsアプリケーションを動かすためのWineHQ、StarCraftを操作するためのBWAPIがまとめられており、Host側で面倒なセットアップを行うことなく操作ができる。
 * [MAgent](https://github.com/geek-ai/MAgent)
   * 複数、数百～数千のエージェントによる強化学習のシミュレーションに利用可能な環境。
-* [Learning to run](https://github.com/stanfordnmbl/osim-rl)
-  * 観測情報から足の筋肉を操作するモデルを構築し、歩行を学習させるための環境。OpenAI Gym + Kerasで構築されている。
-* [mujoco-py](https://github.com/openai/mujoco-py)
-  * 物理エンジンであるMujocoをPythonから操作できるライブラリ  
-* [pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)
-  * Pythonから使える物理シミュレーター。OpenAI Gym/TensorFlowにも対応していて、これらを利用した歩行トレーニングを行う[チュートリアルも提供されている](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#heading=h.2ye70wns7io3)。
-* [Dart](http://dartsim.github.io/)
-  * ロボットの動きや、動作アニメーションを作成するためのデータ構造やアルゴリズムを提供するためのライブラリ。C++制だが、Pythonバインディング([pydart2](https://github.com/sehoonha/pydart2))が提供されている。
-  * This libraray provides data structures and algorithms for kinematic and dynamic applications in robotics and computer animation. Its python bindings are [here](https://github.com/sehoonha/pydart2), examples are [provided](https://github.com/sehoonha/pydart2/tree/master/examples).
-* [Gazebo](http://www.gazebosim.org/)
-  * 3Dロボットシミュレーターで、使用する物理エンジンを切り替えることができる(ODE, Bullet, Simbody, DART)。豊富な[チュートリアル](http://gazebosim.org/tutorials)が提供されている。
-  * Gazebo is a robot simulation toolkit that supports the ODE, Bullet, Simbody and DART physics engines. Tutorials are [provided](http://www.gazebosim.org/tutorials).
-* [Competitive Multi-Agent Env](https://github.com/openai/multiagent-competition)
-  * 複数のエージェントを競争させられる強化学習環境。OpenAI GymとMuJoCoをベースに稼働する。こちらの論文で使用されている: [Emergent Complexity via Multi-Agent Competition](https://arxiv.org/abs/1710.03748).
-  * provides multiple scenes for multiple agents to compete. code base for the paper [Emergent Complexity via Multi-Agent Competition](https://arxiv.org/abs/1710.03748).
-* [Unity ML - Agents](https://github.com/Unity-Technologies/ml-agents)
-  * Unityが公式に公開した、Unityで強化学習を行うための環境・エージェントを作成できるSDK
-* [HoME-Platform](https://github.com/HoME-Platform/home-platform)
-  * 家の中でエージェントを学習させられる学習環境。
-  * 環境内のオブジェクトにはセグメンテーションや「棚の上の花瓶」といった言語情報がアノテートされており、音響環境も整えられている。もちろん物理エンジン搭載で、オブジェクトの移動などもシミュレートできる。
-  * OpenAI Gymに対応
-* [House3D](https://github.com/facebookresearch/House3D)
-  * SUNCGをベースにした、屋内で動作するエージェントを学習させるための環境。
-  * こちらもOpenAI Gymベース。
-* [VINE](https://github.com/uber-common/deep-neuroevolution)
-  * Uberが公開した進化戦略の学習過程を可視化するためのツール
-  * 各世代のスコア、また挙動の変化を確認できる。
 
 # Others
 

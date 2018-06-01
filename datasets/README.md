@@ -169,6 +169,9 @@
 * [Dublin LiDAR dataset](https://geo.nyu.edu/catalog?f%5Bdct_isPartOf_sm%5D%5B%5D=2015+Dublin+LiDAR)
   * ダブリンの上空からLiDARセンサーで取得した点群のデータセット。300点/m2の密度で、上空以外にも垂直面の情報も提供されているので、3Dモデルを作ることも可能。
   * ダウンロードは範囲ごとになっており、各範囲のページに遷移すると右側の「Tools」の中に「All Downloads」が表示されているので、そこからダウンロードできる。
+* [Cars Overhead With Context (COWC) dataset](https://gdo152.llnl.gov/cowc/)
+  * 車を映した衛星写真のデータセット。解像度は15cm=1pixel単位で、カナダ・ニュージーランド・ドイツなど各国の画像が収録されている。
+  * 32,716の車がアノテーションされており、58,247の車ではない物体を含む。
 
 ## BodyParts
 
