@@ -82,6 +82,9 @@
 * [SAILORS 2017 NLP project](https://github.com/abisee/sailors2017)
   * Stanfordで行われている、女子高校生を対象として機械学習/自然言語処理を教えるプログラム[SAILOR](http://ai4all.stanford.edu/)で使用された教材。
   * 学習の手始めとしてもよいが、チュートリアル教材を作る際の参考にもなる。
+* [CS 4650 and 7650](https://github.com/jacobeisenstein/gt-nlp-class)
+  * ジョージア工科大学の自然言語処理の授業で使われる教科書。扱っているテーマは、完全版と思えるほど幅広い。
+  * 図は少なめだが、シンプルな疑似コード的な記述が随所にあり分かりやすく解説されている。
 
 ### Information Retrieval
 
