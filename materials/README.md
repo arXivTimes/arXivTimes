@@ -79,6 +79,9 @@
   * [簡単な日本語解説記事](http://englishforhackers.com/oxford-cs-deepnlp-2017-summary.html)
 * [Document Clustering with Python](http://brandonrose.org/clustering)
   * 自然言語の基本的な特徴量の抽出方法から、各クラスタリングのアルゴリズムを実際試してみるところまでを紹介している。
+* [SAILORS 2017 NLP project](https://github.com/abisee/sailors2017)
+  * Stanfordで行われている、女子高校生を対象として機械学習/自然言語処理を教えるプログラム[SAILOR](http://ai4all.stanford.edu/)で使用された教材。
+  * 学習の手始めとしてもよいが、チュートリアル教材を作る際の参考にもなる。
 
 ### Information Retrieval
 
