@@ -431,6 +431,10 @@
   * 画像とその物体の名前、それらの関係性、またQAなどを含む認識理解に必要なデータを包括しているデータセット
 * [Microsoft Concept Graph](https://concept.research.microsoft.com/Home/Introduction)
   * Microfostが公開した、エンティティ間の関係をについてのデータセット。最初はIsA関係(AはBだ的な)のデータで、1,200万のインスタンスと、500万のコンセプト間の、8500万(!)のisA関係を含んでいる。
+* [mmkb](https://github.com/nle-ml/mmkb)
+  * 知識グラフとしてよく利用されるFB15k、YAGO15k、DBpedia15kについて、その数値データ(緯度経度など)を付与したもの。
+  * 画像データについても付与が行われている。
+
 
 ## Q&A
 
