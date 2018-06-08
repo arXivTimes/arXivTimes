@@ -49,6 +49,7 @@
   * CVPR2017でのGANのチュートリアル資料。GAN以前の手法の問題点から紹介しており、GAN登場の背景から仕組み、学習方法までを習得できる完全盤的資料。
 * [A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
   * 画像内の領域認識を行うセグメンテーションについて、その問題設定と現在取り組まれている手法の網羅的な紹介。
+  * [POSTDで日本語化された](https://postd.cc/semantic-segmentation-deep-learning-review/)
 * [UNDERSTANDING DEEP LEARNING FOR OBJECT DETECTION](http://zoey4ai.com/2018/05/12/deep-learning-object-detection/)
   * 物体検出についての解説記事。Two-stage/Single-stageにきちんと分けて仕組みの解説が行われているほか、速度/精度のトレードオフや今後の研究課題まできちんとまとめられている。
 * [畳み込みニューラルネットワークの研究動向](https://www.slideshare.net/ren4yu/ss-84282514)
