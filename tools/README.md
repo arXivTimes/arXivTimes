@@ -92,6 +92,10 @@
 * [SerpentAI](https://github.com/SerpentAI/SerpentAI)
   * 手元のゲームを強化学習のための環境に使えるというライブラリ。Universeへの不満から生まれたとのこと。
   * ネイティブで動作し、ゲームに接続するAPIを作る機能が内包されているためゲーム側の対応を待つ必要がない。チュートリアルではSteamのゲームを使う手順を公開している。
+* [EssexUniversityMCTS/gvgai](https://github.com/EssexUniversityMCTS/gvgai)
+  * 簡単にゲームが作れてOpenAI Gymと統合できるツール。
+  * これにより、強化学習のテストを行う際目的に応じたゲームを作成することができる。
+  * ただゲームはJavaで作る必要がある。同じ目的なら[Python Learning Environment](https://github.com/ntasfi/PyGame-Learning-Environment)を模してPyGameで作ってほうがましかもしれない。
 
 ### gym envs
 
