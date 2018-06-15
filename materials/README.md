@@ -50,6 +50,8 @@
 * [A 2017 Guide to Semantic Segmentation with Deep Learning](http://blog.qure.ai/notes/semantic-segmentation-deep-learning-review)
   * 画像内の領域認識を行うセグメンテーションについて、その問題設定と現在取り組まれている手法の網羅的な紹介。
   * [POSTDで日本語化された](https://postd.cc/semantic-segmentation-deep-learning-review/)
+* [Deep Learning for Videos: A 2018 Guide to Action Recognition](http://blog.qure.ai/notes/deep-learning-for-videos-action-recognition-review)
+  * 上記のブログと同じ筆者(団体?)の手による、動画中の動作認識に関するサーベイ。
 * [UNDERSTANDING DEEP LEARNING FOR OBJECT DETECTION](http://zoey4ai.com/2018/05/12/deep-learning-object-detection/)
   * 物体検出についての解説記事。Two-stage/Single-stageにきちんと分けて仕組みの解説が行われているほか、速度/精度のトレードオフや今後の研究課題まできちんとまとめられている。
 * [畳み込みニューラルネットワークの研究動向](https://www.slideshare.net/ren4yu/ss-84282514)
