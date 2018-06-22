@@ -39,6 +39,9 @@
   * 1950年から2016年までに製造・発売された自動車の画像が、メーカ・モデル・年式の3階層で分類されている。画像数は291,752、クラス数9,170。
   * 様々なユーザーが撮影した画像のため、画像サイズや撮影条件にバラツキがある。
   * 3036クラスを使った学習済ResNet-50も公開されている。 
+* [TASKONOMY Disentangling Task Transfer Learning](http://taskonomy.stanford.edu/)
+  * 全26の画像関連タスクについて、相互の転移しやすさを調べた研究で使用されたデータセット。
+  * この検証には当然1画像について全タスク分のアノテーションが必要だが、それが行われている。屋内の画像で、約400万画像が提供されている。
 
 ## Video
 
@@ -477,7 +480,9 @@
 * [MultiRC](http://cogcomp.org/multirc/)
   * 短いパラグラフと、それについての質問からなるデータセット。パラグラフの数は800、質問数は6000程。
   * 回答は多肢選択式で、パラグラフ中に言及がないものもある。また、パラグラフは、単一でなく7つのドメイン(ニュースや小説、歴史の文書など)から構成される。
-
+* [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github.io/)
+  * 自然言語からコードを生成するためのデータセット。
+  * 「ソートしたい」=>「配列xを大きい順に並び変えたい」=>「x.sort(reverse=True)」といった形で、要求・具体的な要求・コード(Python)の3点がセットになっている(クラウドソーシングで作成、データ元はStackOverflow)。
 
 ## Dialog
 
@@ -540,6 +545,8 @@
 
 # Audio
 
+## Sound
+
 * [DCASE](http://www.cs.tut.fi/sgn/arg/dcase2016/task-acoustic-scene-classification)
   * 自然音の分類を行うタスク(公園の音、オフィスの音など)で、学習・評価用データが公開されている。
 * [Freesound 4 seconds](https://archive.org/details/freesound4s)
@@ -550,6 +557,31 @@
   * このデータセットを利用した、[Kaggleのコンペティション](https://www.kaggle.com/c/freesound-audio-tagging)も開催されている。
 * [AudioSet](https://research.google.com/audioset/)
   * YouTubeから抽出した10秒程度の音に、人の声や車の音といった632のラベル(人の声→シャウト、ささやき、など階層上に定義されている)が付与されている(人手で)。その数その数200万！
+
+## Speech
+
+* [声優統計コーパス](http://voice-statistics.github.io/)
+  * 独自に構築された音素バランス文を、プロの女性声優3名が読み上げたものを録音したコーパス。
+  * 3パターンの感情(通常・喜び・怒り)での読み上げが含まれる。48kHz/16bitのWAVファイルで、総長約2時間、総ファイルサイズ720MB。
+* [JSUT(Japanese speech corpus of Saruwatari Lab, University of Tokyo)](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
+  * 日本語テキストと読み上げ音声からなるコーパス。一人の日本語女性話者の発音を無響室で録音。録音時間は10時間で、サンプリングレートは48kHz。
+  * 常用漢字の音読み/訓読みを全てカバーするといった網羅性だけでなく、旅行ドメインのフレーズといったドメイン特化のものも収録されている。
+  * 27曲の童謡の歌声データを収録したJUST-song、声真似(音声模倣)のデータを収録したJUST-viも併せて公開されている。
+* [Speech Commands Dataset](https://www.tensorflow.org/versions/master/tutorials/audio_recognition)
+  * TensorFlowとAIYのチームから公開された、30種類のYes, No, Up, Downなどといった短い音声による指示/応答を集めたデータセット。総数は65,000。
+  * このデータセットを利用した音声認識モデルの構築手順が、TensorFlowのチュートリアルとして提供されている。
+* [The Spoken Wikipedia Corpora](http://nats.gitlab.io/swc/)
+  * Wikipediaの記事を読み上げたデータセット。音声と単語の対応、単語と文中語の対応がアノテーションされている(単語がfive, hundredだった場合、文中語の500に対応、など)。
+  * しかも多言語のデータセットで、英語・ドイツ語・オランダ語が提供されている。
+* [Common Voice](https://voice.mozilla.org/data)
+  * Mozillaが公開した、音声認識のためのデータセット。音声データは500時間分、2万人以上から録音という世界で二番目の規模。
+  * モデルも公開されている: [DeepSpeech](https://github.com/mozilla/DeepSpeech)
+* [VoxCeleb2: Deep Speaker Recognition](http://www.robots.ox.ac.uk/~vgg/data/voxceleb2/)
+  * 6112名の著名人の、100万発話を収集したデータセット。収集は、顔認識のモデルを使いほぼ自動で行われている。
+  * 具体的には、VGGFace2に登録されている著名人のインタビュー動画をYoutubeからダウンロードし(人名+interviewで検索しダウンロード)、動画中の顔を認識＋話者推定(音声と唇の動きから推定するSyncNetを使用)を行い該当箇所の音声を切り出すという手法。
+
+## Music
+
 * [NSynth Dataset](https://magenta.tensorflow.org/nsynth)
   * 1006の楽器による単音が30万ほど収録されているデータセット
 * [Yamaha e-Piano Competition dataset](http://www.piano-e-competition.com/midi_2004.asp)
@@ -561,21 +593,6 @@
 * [The MagnaTagATune Dataset](http://mirg.city.ac.uk/codeapps/the-magnatagatune-dataset)
   * [TagATune](http://www.cs.cmu.edu/~elaw/papers/tagatune.pdf)というゲームを通じて音楽データを収集する試みにより、[Magnatune](http://magnatune.com/)という音楽サイトから収集されたデータセット。
   * 約3万曲に対し、音楽ジャンルなどのタグが付与されている。
-* [声優統計コーパス](http://voice-statistics.github.io/)
-  * 独自に構築された音素バランス文を、プロの女性声優3名が読み上げたものを録音したコーパス。
-  * 3パターンの感情(通常・喜び・怒り)での読み上げが含まれる。48kHz/16bitのWAVファイルで、総長約2時間、総ファイルサイズ720MB。
-* [JSUT(Japanese speech corpus of Saruwatari Lab, University of Tokyo)](https://sites.google.com/site/shinnosuketakamichi/publication/jsut)
-  * 日本語テキストと読み上げ音声からなるコーパス。一人の日本語女性話者の発音を無響室で録音。録音時間は10時間で、サンプリングレートは48kHz。
-  * 常用漢字の音読み/訓読みを全てカバーするといった網羅性だけでなく、旅行ドメインのフレーズといったドメイン特化のものも収録されている。
-* [Speech Commands Dataset](https://www.tensorflow.org/versions/master/tutorials/audio_recognition)
-  * TensorFlowとAIYのチームから公開された、30種類のYes, No, Up, Downなどといった短い音声による指示/応答を集めたデータセット。総数は65,000。
-  * このデータセットを利用した音声認識モデルの構築手順が、TensorFlowのチュートリアルとして提供されている。
-* [The Spoken Wikipedia Corpora](http://nats.gitlab.io/swc/)
-  * Wikipediaの記事を読み上げたデータセット。音声と単語の対応、単語と文中語の対応がアノテーションされている(単語がfive, hundredだった場合、文中語の500に対応、など)。
-  * しかも多言語のデータセットで、英語・ドイツ語・オランダ語が提供されている。
-* [Common Voice](https://voice.mozilla.org/data)
-  * Mozillaが公開した、音声認識のためのデータセット。音声データは500時間分、2万人以上から録音という世界で二番目の規模。
-  * モデルも公開されている: [DeepSpeech](https://github.com/mozilla/DeepSpeech)
 * [MUSDB18 dataset](https://sigsep.github.io/musdb)
   * 音源分離を行うためのデータセット。マルチトラックのmp4でエンコードされており、0がAll track、1がトラム、2がバス、3がその他楽器、4がボーカルに割り振られている。
   * 学習用に100曲、テスト用に50曲が提供されている。

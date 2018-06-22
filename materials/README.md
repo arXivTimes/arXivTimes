@@ -280,6 +280,8 @@
   * DNNの判断を理解するための研究のまとめ。ネットワークが反応する入力を見つける方法(Activation Maximizationなど)、判断根拠となった特徴を入力にマップする方法(Relevance Propagationなど)などを紹介、説明力の比較方法についても記載している
 * [Tutorial on Methods for Interpreting and Understanding Deep Neural Networks](http://iphome.hhi.de/samek/pdf/ICASSP2017_T9_3.pdf)
   * ICASSP 2017のチュートリアル資料。ネットワークを逆にたどる形で予測に寄与した点を算出するLayer-wise Relevance Propagationという手法について解説している。
+* [Awesome Interpretable Machine Learning](https://github.com/lopusz/awesome-interpretable-machine-learning)
+  * DNNを解釈する方法についての論文まとめ。
 
 ### Adversarial Attack
 
