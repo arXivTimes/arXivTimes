@@ -143,6 +143,10 @@
 * [SUNCG: A Large 3D Model Repository for Indoor Scenes](http://suncg.cs.princeton.edu/)
   * 実物に近いよう家具などがレイアウトされた、屋内のモデルのデータセット。45,000の異なるシーンが収録されている。
   * シミュレーター?画像だけでなく、実物に近い形にレンダリングした画像も提供されている。また、すべての画像にオブジェクトのラベルが付与されている。
+* [DeepDrive](http://bdd-data.berkeley.edu/)
+  * Berkleyの公開した自動運転車のためのデータセット。様々な天候や都市、時間帯を収録した10万のHD動画(計1100時間!)から構成される。
+  * 画像フレーム10万についてはバウンディングボックス(人、バスなど計10クラス)、運転可能領域、白線(走行可能なレーンや横断歩道)がアノテーションされている。
+  * 1万についてはピクセルレベルのセグメンテーションがアノテーションされている。
 
 ## 3D
 
@@ -668,6 +672,8 @@
   * ハーバード大学が公開している研究データのセット。自然音のクラス分類のデータ(ESC)などがある。
 * [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/index.html)
   * 機械学習のためのデータセットを集めているサイト。
+* [Microsoft Research Open Data](https://msropendata.com/)
+  * Microsoftが公開したオープンデータを検索、ダウンロードできるサイト。Azure連携機能があり、選択したデータセットをすぐに配置可能。
 * [20 Weird & Wonderful Datasets for Machine Learning](https://medium.com/@olivercameron/20-weird-wonderful-datasets-for-machine-learning-c70fc89b73d5)
   * 機械学習で使えるデータセットのまとめ集。UFOレポートとか面白いデータもある。
 * [自然言語/音声認識学習用データのまとめ](http://qiita.com/icoxfog417/items/44aeb9486ce1b7130f76)
