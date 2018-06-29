@@ -48,6 +48,15 @@
 * [OpenNMT](http://opennmt.net/)
   * オープンソースの機械翻訳の実装。Torch/PyTorchで実装されている。
   * 幾つかの言語間では、学習済みモデルも提供されている。
+* [marian](https://github.com/marian-nmt/marian)
+  * C++による高速な機械翻訳実装
+* [fairseq](https://github.com/pytorch/fairseq)
+  * Facebookが2017年に発表したCNNによる翻訳モデルの実装を、Torch=>PyTorchに実装しなおしたもの。
+  * Transformerなどその他の翻訳/生成モデルも実装されている。
+  * また事前学習済みモデルの提供、分散GPU/FP16での学習対応など活用しやすくする機能も実装されている。
+* [Tensor2Tensor](https://github.com/tensorflow/tensor2tensor)
+  * 先進的なEncoder-Decoderモデルを集めたモデル集。モデル以外にハイパーパラメーターの設定も収録されている。
+  * 翻訳のモデル(Transformer)で話題になったが、画像のEncoder-Decoderを行うことも可能。翻訳については、Attentionのビジュアライザも搭載している。
 * [SentEval](https://github.com/facebookresearch/SentEval)
   * 文のベクトル表現の品質を計測するためのプラットフォーム。SentimentやQuestion-typeの推定など、様々なタスクで評価ができる。
 * [sumEval](https://github.com/chakki-works/sumeval)

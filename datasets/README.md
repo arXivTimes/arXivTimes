@@ -321,6 +321,9 @@
 * [ParaphraseBench](https://github.com/DataManagementLab/ParaphraseBench)
   * 自然言語とSQLを対応づけたデータセット。結果となるSQLは同じだが、6つの異なる聞き方をした自然言語を収録している。
   * データ件数は57とそれほど多くない。学習用というよりは、評価用のデータセット([論文中](https://arxiv.org/abs/1804.00401)では、こうしたフォーマットを元にデータを水増ししている)。
+* [text2sql-data](https://github.com/jkkummerfeld/text2sql-data)
+  * これまで公開された7つのText2SQLのデータを統合し、かつ実際の大学生の質問から作成したデータセットを新たに追加。
+  * 各データの学習/評価データについては、結果として同じSQLになるものが互いに含まれないようにしている。
 * [青空文庫](http://www.aozora.gr.jp/)
   * 著作権の消滅した作品、また「自由に読んでもらってかまわない」とされたものをテキストとXHTML(一部HTML)形式に電子化した上で揃えている
 * [青空文庫形態素解析データ集](http://aozora-word.hahasoha.net/index.html)
@@ -487,6 +490,9 @@
 * [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github.io/)
   * 自然言語からコードを生成するためのデータセット。
   * 「ソートしたい」=>「配列xを大きい順に並び変えたい」=>「x.sort(reverse=True)」といった形で、要求・具体的な要求・コード(Python)の3点がセットになっている(クラウドソーシングで作成、データ元はStackOverflow)。
+* [ROCStories](http://cs.rochester.edu/nlp/rocstories/)
+  * 4つの文からなるストーリをコンテキストとして、その結末を回答するというタスクのデータセット。
+  * 例: 「カレンはアンとルームメイトになった」「アンはコンサートに行かない？と誘った」「カレンはそれに同意した」「コンサートは最高だった！」=>結末は「カレンとアンは親友になった」or「カレンはアンのことを嫌いになった」の何れか？(2者択一)
 
 ## Dialog
 
