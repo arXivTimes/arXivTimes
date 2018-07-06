@@ -168,6 +168,9 @@
   * オブジェクトを様々な角度から撮影したデータセット。
   * カテゴリ数は12で、1カテゴリ10種類の物体が含まれる(コップなら、様々なコップが10種類含まれる)。各物体は、様々なアングルから撮影された160の画像を持つ。
   * [RotationNet: Joint Object Categorization and Pose Estimation Using Multiviews from Unsupervised Viewpoints](https://kanezaki.github.io/rotationnet/)
+* [Disney Animation Dataset](https://www.disneyanimation.com/technology/datasets)
+  * ディズニーが公開しているアニメーションのデータセット
+  * 雲のデータセットと、「モアナと伝説の海」の舞台となるモトヌイ島(架空の島)のレンダリングに必要なデータが公開されている。
 
 ## Satellite
 
@@ -349,7 +352,7 @@
 * [Tanaka Corpus](http://www.edrdg.org/wiki/index.php/Tanaka_Corpus)
   * 日英翻訳のためのパラレルコーパス。約15万文の日英の分のペアが収録されている。
   * こちらから単語数が4~16である文約5万件を抽出した、単語分割済みのコーパスが別途公開されている([small_parallel_enja](https://github.com/odashi/small_parallel_enja))。
-* [JESC: Japanese-English Subtitle Corpus](http://cs.stanford.edu/~rpryzant/jesc/)
+* [JESC: Japanese-English Subtitle Corpus](https://nlp.stanford.edu/projects/jesc/)
   * インターネット上から取得した映画・テレビ番組の字幕に対して作成された日英のパラレルコーパス。
   * 320万文が含まれる
   * [JESC: Japanese-English Subtitle Corpus](https://arxiv.org/abs/1710.10639)
@@ -622,6 +625,9 @@
 * [THE STANFORD OPEN POLICING PROJECT](https://openpolicing.stanford.edu/)
   * スタンフォードが取り組んでいる、法的機関(警察)による交通取り締まりのオープンデータプロジェクト。
   * データには、違反日時や場所、ドライバーの年齢や性別などが記録されている(Jupyterのサンプルも公開されている)。
+* [Microsoft/USBuildingFootprints](https://github.com/Microsoft/USBuildingFootprints)
+  * Microsoftが公開した、アメリカの50の州における建物のfootprint(建物の占有領域をセグメンテーションしたようなもの)データ。OpenStreetMapをベースに作成されている。
+  * Microsoftはこのデータを利用して、[セグメンテーション=>ポリゴン化を行う研究を行っている](https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data)。
 
 ## Chemical/Medical
 
