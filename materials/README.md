@@ -60,9 +60,11 @@
 ### Not Recommend :droplet:
 
 * [はじめてのパターン認識](https://www.amazon.co.jp/dp/4627849710)
-  * 初心者には優しくない。輪講を途中でやめたことがある。
+  * 初心者にはあまり優しくない(輪講を途中でやめたことがある)。
 * [パターン認識と機械学習](https://www.amazon.co.jp/dp/4621061224)
-  * 読みたい方は、サポート資料として東大松尾研の方々がまとめた輪講用資料を参照するとよい=> [PRML輪読#1~#14](https://www.slideshare.net/matsuolab/)
+  * 同様に、初心者が最初のページから読んでいくには厳しい(分量の多さも挫折の要因となる)。
+  * 読みたい方は、サポート資料として東大松尾研の方々がまとめた輪講用資料を参照するとよい: [PRML輪読資料](http://deeplearning.jp/seminar-2/#1515565927378-9a11fdc4-798a)
+  * Numpyで紹介されているアルゴリズムを実装したリポジトリがある: [ctgk/PRML](https://github.com/ctgk/PRML)
 
 なお、上記2つの書籍を機械学習「入門」図書として挙げている記事は基本的に参照する価値はないと断言できる。
 
@@ -162,6 +164,12 @@
 * [CS 294: Deep Reinforcement Learning, Spring 2017](http://rll.berkeley.edu/deeprlcourse/)
 * [Deep RL Bootcamp](https://sites.google.com/view/deep-rl-bootcamp/lectures)
   * Berkeleyで開催された深層強化学習を2日で学ぶブートキャンプの資料。すべての講義の動画とスライドが公開されている。
+* [udacity/deep-reinforcement-learning](https://github.com/udacity/deep-reinforcement-learning)
+  * Udacityで公開されている深層学習講座にて使用されているサンプルコード。全てJupyter Notebookで参照可能。
+  * 他にない所としては、連続値を離散化するテクニックを紹介している。
+* [PythonRobotics](https://atsushisakai.github.io/PythonRobotics/)
+  * ロボティクスに関わるアルゴリズムと実装が学べるリポジトリ
+  * ロボットの操作では強化学習より既存のアルゴリズムが使われることが多いので、それを学ぶのに有用。
 
 ### Additional
 
