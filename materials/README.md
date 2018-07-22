@@ -24,6 +24,8 @@
 
 * [NIPS HIGHLIGHTS, LEARN HOW TO CODE A PAPER WITH STATE OF THE ART FRAMEWORKS](https://mltrain.cc/events/nips-highlights-learn-how-to-code-a-paper-with-state-of-the-art-frameworks/)
   * NIPS2017で開催された、最新の研究をどうTensorFlowやPyTorchといった機械学習フレームワークのコードに落とし込んでいくのかというワークショップの資料
+* [Seedbank](http://tools.google.com/seedbank/)
+  * インタラクティブに動かせる機械学習のコードを集めたサイト。事前学習済みのGANモデルの使い方やPerformance RNNによる音楽生成といった応用例から、ニューラルネットワークの仕組みといった基礎的な内容まで幅広い。pandasの使い方などもある。
 
 ### Not Recommend :droplet:
 
@@ -281,6 +283,8 @@
   * NIPS2017で開催された、少数のデータから学習を行う手法のワークショップ
 * [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)
   * メタラーニングについて、初歩的なところから解説をしている記事。PyTorchでの実装例も付属している。アニメーションを使った図解が豊富でとても分かりやすい。
+* [Hardware Accelerators for Machine Learning (CS 217)](https://cs217.github.io/)
+  * 機械学習を効率的に行うためのハードウェア実装を学ぶコースが開講(内容的には演算処理方法に近い)。機械学習の基礎からDNNまでの解説がまずあり、その上で効率的な計算法を学ぶ。もちろんハードウェアとしてFPGAの講義もあり、かなりしっかりしたコースの印象。
 
 ### Understanding DNN
 
