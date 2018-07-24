@@ -395,6 +395,9 @@
 
 * [Sentiment Treebank](https://nlp.stanford.edu/sentiment/code.html)
   * Stanfordの公開している、意味表現ツリーのデータセット
+* [Sentiment140 - A Twitter Sentiment Analysis Tool](http://help.sentiment140.com/for-students/)
+  * Tweetにネガポジのラベルを付与したデータセット。データ数は160万件で、ポジティブ80万・ネガティブ80万できちんとバランスしている。
+  * なお、Tweet関係のデータは[こちらの論文](https://arxiv.org/abs/1601.06971)によくまとまっている。
 * [Crowdflower](https://www.kaggle.com/crowdflower/datasets)
   * 機械学習プラットフォームのCrowdflowerから提供された、感情タグ付け済みのTwitterデータ。
 * [PersonaBank](https://nlds.soe.ucsc.edu/personabank)
