@@ -198,6 +198,9 @@
 * [VGGFace2](https://www.robots.ox.ac.uk/~vgg/data/vgg_face2/)
   * 約300万の画像からなる顔のデータセット。9131人分あり、一人当たり平均362.6画像が用意されている。
   * 画像はGoogle Image Searchから取得されたもので、ポーズや年齢、人種など多様な人の画像が含まれる。
+* [IMDb-Face](https://github.com/fwang91/IMDb-Face)
+  * IMDbに掲載されている映画のスクリーンショットやポスターから抽出した画像に、人手でアノテーションしたデータセット。
+  * 既存のデータセット(MegaFace/MS-Celeb-1Mなど)はラベルのノイズが多く、実際は20~30%の量で同等のパフォーマンスが出せる、とした研究で作成された([The Devil of Face Recognition is in the Noise](https://arxiv.org/abs/1807.11649))。
 * [11k Hands](https://sites.google.com/view/11khands)
   * 様々な年代・性別・肌の色の「手」を集めたデータセット(特に年代は18~75歳と幅広い)。
   * 画像は指を開いたもの/閉じたもの/左右/表裏でそれぞれ取られている。
@@ -225,6 +228,12 @@
 * [標準ディジタル画像データベース　胸部腫瘤陰影像(DICOM版)](http://imgcom.jsrt.or.jp/download/)
   * 154の小瘤のある画像と、93のない画像で構成されるデータセット。解像度は2048 x 2048。
   * 北里大学メディカルセンター放射線部 柳田 智先生のご尽力により作成された
+* [MIMIC](https://mimic.physionet.org/)
+  * 40,000人のケアが必要な重篤な患者についてのデータセット。人口統計、バイタルサイン、検査結果、医薬品情報などが含まれる。
+  * 利用にあたってはまずCITIの"Data or Specimens Only Research"というオンライン講座を受講する必要がある([こちら](https://mimic.physionet.org/gettingstarted/access/)参照)。
+* [DeepLesion](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images)
+  * 32,000枚のCTスキャン画像のデータセット。画像データセットとしてはかなり大規模。
+  * 匿名化された4,400名の患者の画像で、CTスキャンの後にチェックすべき箇所(病変)を画像に書き込むらしいのだが、そのチェックが付与されているとのこと。
 
 ## Art
 
@@ -350,6 +359,10 @@
   * [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://arxiv.org/abs/1804.07461)
 * [PeerRead](https://github.com/allenai/PeerRead)
   * ACL/NIPS/ICLRの論文の概要と、それに対するレビューを集めたデータセット(accept/rejectされたもの双方が含まれる)。論文数は14,000で、レビュー数は10,000。
+* [kanjivg-radical](https://github.com/yagays/kanjivg-radical)
+  * 漢字の部首、そして部首と漢字を対応付けたデータセット。
+  * 「脳」なら「月」「⺍」「凶」、また「月」という部首からなら「肝」「育」などが取れる。詳細は[記事](https://yag-ays.github.io/project/kanjivg-radical/)を参照。
+
 
 ## Parallel Corpus
 
@@ -640,7 +653,7 @@
   * Microsoftが公開した、アメリカの50の州における建物のfootprint(建物の占有領域をセグメンテーションしたようなもの)データ。OpenStreetMapをベースに作成されている。
   * Microsoftはこのデータを利用して、[セグメンテーション=>ポリゴン化を行う研究を行っている](https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data)。
 
-## Chemical/Medical
+## Chemical
 
 * [MoleculeNet](https://arxiv.org/abs/1703.00564)
   * MoleculeNetという、新薬発見のための分子・分子物理・生体物理・生体？という4種類のデータを包含したデータセットが公開。
@@ -656,9 +669,6 @@
 * [dSPP: Database of structural propensities of proteins](https://peptone.io/dspp)
   * タンパク質(アミノ酸の鎖のベクトル)から構造的傾向スコア(structural propensity score)を予測するためのデータセット。
   * Kerasから使うためのユーティリティも提供されている([dspp-keras](https://github.com/PeptoneInc/dspp-keras))。
-* [MIMIC](https://mimic.physionet.org/)
-  * 40,000人のケアが必要な重篤な患者についてのデータセット。人口統計、バイタルサイン、検査結果、医薬品情報などが含まれる。
-  * 利用にあたってはまずCITIの"Data or Specimens Only Research"というオンライン講座を受講する必要がある([こちら](https://mimic.physionet.org/gettingstarted/access/)参照)。
 
 ## Security
 
