@@ -57,6 +57,9 @@
 * [Tensor2Tensor](https://github.com/tensorflow/tensor2tensor)
   * 先進的なEncoder-Decoderモデルを集めたモデル集。モデル以外にハイパーパラメーターの設定も収録されている。
   * 翻訳のモデル(Transformer)で話題になったが、画像のEncoder-Decoderを行うことも可能。翻訳については、Attentionのビジュアライザも搭載している。
+* [Jack the Reader - A Machine Reading Framework](https://github.com/uclmr/jack)
+  * Machine Comprehensionを実装するためのフレームワーク。入力・モデル・出力というシンプルな3モジュール構成。TensorFlowとPyTorch双方をサポートしている
+  * QA、推論(NLI)、Link Predictionをサポートしており、評価用データセットをダウンロードする仕組みもある。
 * [SentEval](https://github.com/facebookresearch/SentEval)
   * 文のベクトル表現の品質を計測するためのプラットフォーム。SentimentやQuestion-typeの推定など、様々なタスクで評価ができる。
 * [sumEval](https://github.com/chakki-works/sumeval)
