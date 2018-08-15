@@ -652,6 +652,9 @@
 * [Microsoft/USBuildingFootprints](https://github.com/Microsoft/USBuildingFootprints)
   * Microsoftが公開した、アメリカの50の州における建物のfootprint(建物の占有領域をセグメンテーションしたようなもの)データ。OpenStreetMapをベースに作成されている。
   * Microsoftはこのデータを利用して、[セグメンテーション=>ポリゴン化を行う研究を行っている](https://blogs.bing.com/maps/2018-06/microsoft-releases-125-million-building-footprints-in-the-us-as-open-data)。
+* [DataShop](https://pslcdatashop.web.cmu.edu/)
+  * Pittsburgh Science of Learning Centerが公開している、教育用ソフトと生徒とのインタラクションデータ
+  * 350を超えるデータセットが公開されている。
 
 ## Chemical
 
