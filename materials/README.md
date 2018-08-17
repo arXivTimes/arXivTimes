@@ -211,6 +211,20 @@
 * [Normalizing Flows Tutorial, Part 1: Distributions and Determinants](https://blog.evjang.com/2018/01/nf1.html)
   * 正規分布のようななじみの分布は、簡単にサンプル生成が行えその確からしさも測りやすい。GANやVAEといった生成モデルはこうした解釈性が低いが生成性能はとても高い。シンプルさを保ちつつ生成精度を上げる両取りの方法であるNormalizing Flowについての解説記事。
 
+## Preprocessing/Feature Engineering
+
+* [alicezheng/feature-engineering-book](https://github.com/alicezheng/feature-engineering-book)
+  * オライリーの書籍"Feature Engineering for Machine Learning"のサンプルコード集
+* [Data Cleaning Challenge: Scale and Normalize Data](https://www.kaggle.com/rtatman/data-cleaning-challenge-scale-and-normalize-data)
+  * KaggleのKernelを使用して行われている、全5日のデータ前処理講座。欠損値の処理から正規化、文字エンコードの処理などよく使う前処理が実戦形式で学べる。 
+* [Real-World Machine Learning](https://www.manning.com/books/real-world-machine-learning)
+  * 機械学習を使用するにあたって、データの前処理やモデルの評価方法といった実践的な手法について書かれている本。しかもPython&R対応。
+* 自然言語処理
+  * [自然言語処理における前処理の種類とその威力](https://qiita.com/Hironsan/items/2466fe0f344115aff177)
+  * [自然言語処理の前処理・素性いろいろ](http://yukinoi.hatenablog.com/entry/2018/05/29/120000)
+* 画像
+  * [画像検索 (特定物体認識) — 古典手法、マッチング、深層学習、Kaggle](https://speakerdeck.com/smly/hua-xiang-jian-suo-te-ding-wu-ti-ren-shi-gu-dian-shou-fa-matutingu-shen-ceng-xue-xi-kaggle)
+
 ## Engineering
 
 機械学習モデルは作っておしまいではなく、実システムへの組み込みや組み込んだ後の運用も大きな課題となります。また、そもそもどう仕様を決めるのか、と言った点も大きな問題です。それについて学ぶための資料について記載します。

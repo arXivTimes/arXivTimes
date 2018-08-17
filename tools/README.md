@@ -99,6 +99,7 @@
   * OpenAI Gym自体にも多くの環境(Atariのゲーム)などが入っているが、Open AI GymのAPIを備えたサードパーティー製の環境も追加でインストールできる([gym_pull](https://github.com/openai/gym/wiki/Environments#gym_pull)参照)。
 * [OpenAI Universe](https://universe.openai.com/)
   * VNCを利用し、まさに人間が操作するようにPCを操作させられる強化学習のプラットフォーム。これによって、画面操作をエージェントに学習させることができる。
+  * **OpenAI Gym Retroのリリースに伴いリポジトリの更新が停止された**(Retroはゲーム特化で、PC操作のオペレーションとは異なるとは思うのだが・・・)。
 * [μniverse](https://github.com/unixpickle/muniverse)
   * OpenAI Universeの重たい所(VNCでリモート操作)、難しい所(画面がFlashで読み取りむずい)を改善したmuniverseが開発中とのこと。こちらはHTML5のゲームに限定することで、上記の問題点を回避している。
 * [SerpentAI](https://github.com/SerpentAI/SerpentAI)
