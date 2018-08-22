@@ -362,6 +362,9 @@
 * [kanjivg-radical](https://github.com/yagays/kanjivg-radical)
   * 漢字の部首、そして部首と漢字を対応付けたデータセット。
   * 「脳」なら「月」「⺍」「凶」、また「月」という部首からなら「肝」「育」などが取れる。詳細は[記事](https://yag-ays.github.io/project/kanjivg-radical/)を参照。
+* [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github.io/)
+  * 自然言語からコードを生成するためのデータセット。
+  * 「ソートしたい」=>「配列xを大きい順に並び変えたい」=>「x.sort(reverse=True)」といった形で、要求・具体的な要求・コード(Python)の3点がセットになっている(クラウドソーシングで作成、データ元はStackOverflow)。
 
 
 ## Parallel Corpus
@@ -374,6 +377,9 @@
   * インターネット上から取得した映画・テレビ番組の字幕に対して作成された日英のパラレルコーパス。
   * 320万文が含まれる
   * [JESC: Japanese-English Subtitle Corpus](https://arxiv.org/abs/1710.10639)
+* [SNOW T15:やさしい日本語コーパス](http://www.jnlp.org/SNOW/T15)
+  * 日英対訳コーパス([small_parallel_enja](https://github.com/odashi/small_parallel_enja))の日本語を平易な日本語に書き換えたデータセット。
+  * 元がパラレルコーパスであるため、英語との対応もとれる。
 
 ## Classification
 
@@ -472,7 +478,6 @@
   * 知識グラフとしてよく利用されるFB15k、YAGO15k、DBpedia15kについて、その数値データ(緯度経度など)を付与したもの。
   * 画像データについても付与が行われている。
 
-
 ## Q&A
 
 * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
@@ -514,12 +519,22 @@
 * [MultiRC](http://cogcomp.org/multirc/)
   * 短いパラグラフと、それについての質問からなるデータセット。パラグラフの数は800、質問数は6000程。
   * 回答は多肢選択式で、パラグラフ中に言及がないものもある。また、パラグラフは、単一でなく7つのドメイン(ニュースや小説、歴史の文書など)から構成される。
-* [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github.io/)
-  * 自然言語からコードを生成するためのデータセット。
-  * 「ソートしたい」=>「配列xを大きい順に並び変えたい」=>「x.sort(reverse=True)」といった形で、要求・具体的な要求・コード(Python)の3点がセットになっている(クラウドソーシングで作成、データ元はStackOverflow)。
+
+## Reasoning
+
+* [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
+  * Googleから公開された、論理推論を学習するための大規模データセット。与えられた情報の中で推論に重要な点は何か、各推論間の依存関係、そこから導かれる結論は何か、などといったものがタスクとして挙げられている。
+  * [HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving](https://arxiv.org/abs/1703.00426)
+* [SCONE: Sequential CONtext-dependent Execution dataset](https://nlp.stanford.edu/projects/scone/)
+  * Stanfordから公開されている論理推論のためのデータセット。
+  * 各シナリオには状況が設定されており(ビーカーがn個ある、絵がn個並んでいる、など)、それに対して5つの連続した操作が自然言語で記述されており(猫の絵を右にずらす、犬の絵をはずす、など)、それらを実行した場合の最後の状態を推定させるのがタスクになる。
+  * [Simpler Context-Dependent Logical Forms via Model Projections](https://arxiv.org/abs/1606.05378)
 * [ROCStories](http://cs.rochester.edu/nlp/rocstories/)
   * 4つの文からなるストーリをコンテキストとして、その結末を回答するというタスクのデータセット。
   * 例: 「カレンはアンとルームメイトになった」「アンはコンサートに行かない？と誘った」「カレンはそれに同意した」「コンサートは最高だった！」=>結末は「カレンとアンは親友になった」or「カレンはアンのことを嫌いになった」の何れか？(2者択一)
+* [SWAG: A Large-Scale Adversarial Dataset for Grounded Commonsense Inference](http://rowanzellers.com/swag/)
+  * 自然言語による推論を行うためのデータセット。ある状況に続くシーンとして想定されるものを選択肢から選ぶ形(「車に乗り込んだ」=>「アクセルを踏んだ」というような)。
+  * 工夫としては、正解以外の選択肢はモデルをだますよう人間が作成しているという点(見たところ文として自然だが意味が通らない印象)
 
 ## Dialog
 
@@ -546,16 +561,6 @@
   * そこから無作為に選んだペルソナで対話をしてもらい、総計10,981の対話を収録している。
   * [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243)
 
-## Reasoning
-
-* [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
-  * Googleから公開された、論理推論を学習するための大規模データセット。与えられた情報の中で推論に重要な点は何か、各推論間の依存関係、そこから導かれる結論は何か、などといったものがタスクとして挙げられている。
-  * [HolStep: A Machine Learning Dataset for Higher-order Logic Theorem Proving](https://arxiv.org/abs/1703.00426)
-* [SCONE: Sequential CONtext-dependent Execution dataset](https://nlp.stanford.edu/projects/scone/)
-  * Stanfordから公開されている論理推論のためのデータセット。
-  * 各シナリオには状況が設定されており(ビーカーがn個ある、絵がn個並んでいる、など)、それに対して5つの連続した操作が自然言語で記述されており(猫の絵を右にずらす、犬の絵をはずす、など)、それらを実行した場合の最後の状態を推定させるのがタスクになる。
-  * [Simpler Context-Dependent Logical Forms via Model Projections](https://arxiv.org/abs/1606.05378)
-
 ## Summarization
 
 * [DUC 2004](http://www.cis.upenn.edu/~nlp/corpora/sumrepo.html)
@@ -567,7 +572,7 @@
   * 要約のための大規模なデータセット。
   * 38の代表的な出版/報道局から集められた130万記事について、記事と要約がセットになっている(発行年は1998年から2017年まで)。
 
-## Correction/Paraphras
+## Correction
 
 * [AESW](http://textmining.lt/aesw/index.html)
   * 文書校正前後の論文を集めたデータセット。
@@ -576,9 +581,7 @@
   * 語学学習を行うSNSであるLang-8から収集されたデータセット。Lang-8では学習している言語で作文を行うと、その言語を母国語としている人から添削を受けることができる。この学習者の作文と訂正された作文のペアがデータセットとして収録されている。
   * 10言語のデータが含まれており、総数は約58万文書に及ぶ。
   * 実はNAISTが公開しており、詳細はこちらから参照できる。[語学学習 SNS の添削ログからの母語訳付き学習者コーパスの構築に向けて](https://www.ninjal.ac.jp/event/specialists/project-meeting/files/JCLWorkshop_no6_papers/JCLWorkshop_No6_27.pdf)
-* [SNOW T15:やさしい日本語コーパス](http://www.jnlp.org/SNOW/T15)
-  * 日英対訳コーパス([small_parallel_enja](https://github.com/odashi/small_parallel_enja))の日本語を平易な日本語に書き換えたデータセット。
-  * 元がパラレルコーパスであるため、英語との対応もとれる。
+
 
 # Audio
 
