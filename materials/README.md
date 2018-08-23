@@ -26,6 +26,8 @@
   * NIPS2017で開催された、最新の研究をどうTensorFlowやPyTorchといった機械学習フレームワークのコードに落とし込んでいくのかというワークショップの資料
 * [Seedbank](http://tools.google.com/seedbank/)
   * インタラクティブに動かせる機械学習のコードを集めたサイト。事前学習済みのGANモデルの使い方やPerformance RNNによる音楽生成といった応用例から、ニューラルネットワークの仕組みといった基礎的な内容まで幅広い。pandasの使い方などもある。
+* [Resources for CS 229 - Machine Learning](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning.html)
+  * 機械学習のポイントをまとめたチート集。あれなんだったかな、という時さっと見るのにとても良い。
 
 ### Not Recommend :droplet:
 
