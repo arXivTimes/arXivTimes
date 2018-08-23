@@ -177,6 +177,8 @@
 
 ### Additional
 
+* [A (Long) Peek into Reinforcement Learning](https://lilianweng.github.io/lil-log/2018/02/19/a-long-peek-into-reinforcement-learning.html#monte-carlo-methods)
+  * 速習強化学習ともいうべき記事。これで学ぶというより、学んだあとにポイントを振り返るのに大変便利。
 * [Evolutional Strategy](http://blog.otoro.net/2017/10/29/visual-evolution-strategies/)
   * 進化戦略を強化学習に適用する手法について、仕組みと実装を交えながら解説してくれている。
 * [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
