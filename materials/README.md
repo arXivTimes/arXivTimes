@@ -114,6 +114,8 @@
   * IJCNLP 2017での、オープンドメインな対話システムのチュートリアル資料。
 * [Introduction to Visual Question Answering: Datasets, Approaches and Evaluation](https://tryolabs.com/blog/2018/03/01/introduction-to-visual-question-answering/)
   * Visual QAのタスクについて、データセット、ベースライン、評価手法、将来の応用など研究を始めるのに必要なことが一通り書かれた記事(データセットについては問題点まで指摘されている)。
+* [End to-end goal-oriented question answering systems](https://www.slideshare.net/QiHe2/kdd-2018-tutorial-end-toend-goaloriented-question-answering-systems-110817295)
+  * 自然言語でQAを行う手法について、未だかったないほどに手法がまとめられた資料。LinkedInでの取り組みについても書いてあるというおまけ付き。
 
 ### Representation
 
@@ -306,6 +308,7 @@
 * [Model-Based Machine Learning](http://www.mbmlbook.com/index.html)
   * 機械学習を利用する際に、問題に対してアルゴリズムを適用するのでなく、問題をモデル化して、それを解くという逆の発想から機械学習の活用を提案している書籍("Model" basedな機械学習としている)。
   * 内容的には推論モデルの本となっていて、Infer.NETによるサンプルコードもあるとのこと。ただ、同じMicrosoftからPythonの因果推論パッケージが出たのでそちらで行ったほうがいいかもしれない([dowhy](https://github.com/Microsoft/dowhy))
+  * dowhyについては、因果推論の考え方も含めてまとめられたとても分かりやすい記事がある: [統計的因果推論のためのPythonライブラリDoWhyについて解説：なにができて、なにに注意すべきか](https://www.krsk-phs.com/entry/2018/08/22/060844)
   * 関連して、確率モデルを作成する際のワークフロー[A Principled Bayesian Workflow](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)も参考になる
 
 ### Understanding DNN
@@ -327,3 +330,8 @@
 * [Structured deep models: Deep learning on graphs and beyond](http://tkipf.github.io/misc/SlidesCambridge.pdf)
   * グラフを扱わせたら右に出るものはいない[Thomas Kipf](https://twitter.com/thomaskipf)先生の講義資料。DNNでグラフを扱う際の基本的な考え方からその歴史、最近の研究動向までが網羅されている。
   * グラフは質問回答における推論等に使われる一方、分子構造の推定などにも使われており、多様な分野で応用が広がる熱い分野
+
+### Network Optimization
+
+* [機械学習モデルのハイパパラメータ最適化](https://www.slideshare.net/greetech/ss-110811527/)
+  * ハイパーパラメータサーチの手法に関するまとめ。サーベイの量に圧倒される
