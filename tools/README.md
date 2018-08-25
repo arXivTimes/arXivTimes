@@ -48,6 +48,12 @@
 * [OpenNMT](http://opennmt.net/)
   * オープンソースの機械翻訳の実装。Torch/PyTorchで実装されている。
   * 幾つかの言語間では、学習済みモデルも提供されている。
+* [AllenNLP](https://allennlp.org/)
+  * PyTorchベースのNLPモデル構築のためのライブラリ
+* [GluonNLP](https://github.com/dmlc/gluon-nlp)
+  * MXNetベースのNLPモデル構築のためのライブラリ
+* [nlp-architect](https://github.com/NervanaSystems/nlp-architect)
+  * TensorFlow(Keras)/DyNetベースのNLPモデル構築のためのライブラリ
 * [marian](https://github.com/marian-nmt/marian)
   * C++による高速な機械翻訳実装
 * [fairseq](https://github.com/pytorch/fairseq)
