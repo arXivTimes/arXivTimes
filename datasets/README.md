@@ -245,6 +245,11 @@
   * 追加のための学習データセットとして、漢字や羊、象形文字?のデータも公開されている。[sketch-rnn-datasets](https://github.com/hardmaru/sketch-rnn-datasets)
   * 本体のモデルは[こちら](https://github.com/tensorflow/magenta/tree/master/magenta/models/sketch_rnn)。
   * [A Neural Representation of Sketch Drawings](https://arxiv.org/abs/1704.03477)
+* [How Do Humans Sketch Objects? (TU-Berlin dataset)](http://cybertron.cg.tu-berlin.de/eitz/projects/classifysketch/)
+  * 人の書いたスケッチのデータセット。20,000のイラストに対しカテゴリが付与されており、カテゴリ数は250上る。
+  * 人間がカテゴリを判別できる精度は73%(SVMだと56%)。
+* [SketchyScene](https://github.com/SketchyScene/SketchyScene)
+  * 7000超のシーンのテンプレート/写真に沿った、29000ほどのイラストが収録されている。さらに、セマンティック/インスタンスレベルのセグメンテーションデータが付属している。
 * [Manga109](http://www.manga109.org/ja/)
   * 1970年代から2010年代に、実際に出版された109冊の漫画のデータセット。一部の巻についてはページ毎のセリフデータも用意されている。
   * 利用は学術目的限りで、論文などにデータセットの漫画を掲載する際は作者の著作権「©作者名」とManga109の利用であることを明示すること(詳細は上記サイト参照)。
