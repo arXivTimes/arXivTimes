@@ -320,6 +320,9 @@
 * [ShapeNet Text Descriptions](http://text2shape.stanford.edu/)
   * ShapeNetの3D画像(椅子・テーブルのみ)について、説明文をペア付与したデータセット(茶色の椅子、など)。
   * 研究では言語からの3D生成も行っており、ボクセルデータも付属している。
+* [RecipeQA](https://hucvl.github.io/recipeqa/)
+  * レシピに関する対話データセット。レシピを読んで回答するというのが基本スタイルだが、4つの回答パターンが用意されている。
+  * Visual Coherence: レシピに一致しない画像の回答、Visual Cloze: 欠けたレシピ手順の画像選択、Visual Ordering: レシピ手順通りに並んだ画像の選択、Textual Cloze: レシピを完成させるための手順(テキスト)の選択、という4タスク。
 
 
 # NLP
