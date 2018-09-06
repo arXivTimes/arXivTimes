@@ -752,6 +752,8 @@
   * 自然言語系のデータセットがまとめられたページ。更新も割と行われている。
 * [The Extreme Classification Repository: Multi-label Datasets & Code](http://manikvarma.org/downloads/XC/XMLRepository.html)
   * 多量のラベルを予測するExtreme Classificationにおけるデータセットをまとめたページ(EURLexやAmazonCat、Wiki10など)。データセット以外に、代表的手法の性能評価や実装へのリンクがある。
+* [Google Dataset Search](https://toolbox.google.com/datasetsearch)
+  * Googleが公開するデータセットを検索するためのサービス。
 
 # To make your own
 
