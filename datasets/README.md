@@ -317,6 +317,8 @@
 * [Recipe1M dataset](http://im2recipe.csail.mit.edu/)
   * 100万にも及ぶ、料理画像とそのレシピのペアのデータセット(料理の種類としては80万)。
   * なお、利用は研究用途に限る。
+* [Food-Recipe-CNN](https://github.com/MURGIO/Food-Recipe-CNN)
+  * chefkoch.deというレシピサイトから収集された料理の画像40万、レシピ数30万という大規模なデータセット。カテゴリ数は230。
 * [ShapeNet Text Descriptions](http://text2shape.stanford.edu/)
   * ShapeNetの3D画像(椅子・テーブルのみ)について、説明文をペア付与したデータセット(茶色の椅子、など)。
   * 研究では言語からの3D生成も行っており、ボクセルデータも付属している。
