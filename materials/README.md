@@ -42,6 +42,8 @@
   * ケンブリッジで使用されている線形代数の教科書。実際にどんなところで利用されているのか、という解説までついていてわかりやすい。
 * [Reducing Dimensionality from Dimensionality Reduction Techniques](https://medium.com/towards-data-science/reducing-dimensionality-from-dimensionality-reduction-techniques-f658aec24dfe)
   * よく利用される、ただ誤用されがちな次元削除のテクニック(PCA/t-SNE/Auto Encoder)について、ゼロからの実装を交えて解説してくれている。
+* [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/)
+  * 画像認識で有名なCS231nにおける、Numpyのチュートリアル資料。線形代数的な解説はないが、Numpyの基本的な使い方が把握できる
 
 
 ## Vision
@@ -58,6 +60,9 @@
   * 上記のブログと同じ筆者(団体?)の手による、動画中の動作認識に関するサーベイ。
 * [UNDERSTANDING DEEP LEARNING FOR OBJECT DETECTION](http://zoey4ai.com/2018/05/12/deep-learning-object-detection/)
   * 物体検出についての解説記事。Two-stage/Single-stageにきちんと分けて仕組みの解説が行われているほか、速度/精度のトレードオフや今後の研究課題まできちんとまとめられている。
+* [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/abs/1809.02165)
+  * 物体検知の手法のまとめで、手法だけでなく物体検知というタスク自体についてもその歴史をたどり系統図にまとめている。そのため単純に近年の手法だけでなく、体系的な系譜を学ぶことができる。
+  * 図解も豊富で分かりやすく、まさに"Survey"の名を冠するにふさわしい出来。
 * [畳み込みニューラルネットワークの研究動向](https://www.slideshare.net/ren4yu/ss-84282514)
   * CNNの進化の歴史がまとめられている。これでCNNを学ぶというものではないが、学んだ後背後にある研究系統を体系的に知るには最適な資料。
 
@@ -139,6 +144,10 @@
   * トピックモデルについてはこちらの書籍がとても分かりやすい。
 * [All About NLP (AAN)](http://tangra.cs.yale.edu/newaan/)
   * 自然言語処理に関連する論文やチュートリアルなどを集めたポータルサイト。Yale大学が運営しており、共同プロジェクトの実施やデータセットの公開なども行っている。
+* [Algorithms - Lede 2018 @ Columbia Journalism School](https://github.com/jstray/lede-algorithms)
+  * コロンビア大学ジャーナリズム大学院における、ジャーナリズムで使用されるアルゴリズムについての講義資料。
+  * 前半は一般的な自然言語処理・機械学習の解説だが、後半はそれによりもたらされうるメディアバイアスやその原因となるデータ品質/予測結果の解釈方法などが解説されている。
+  * 「機械学習の基本的な内容とその利用に関する注意」を学ぶにはよい資料。
 
 ### Not Recommend :droplet:
 
