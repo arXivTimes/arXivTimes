@@ -163,6 +163,7 @@
   * Gazebo is a robot simulation toolkit that supports the ODE, Bullet, Simbody and DART physics engines. Tutorials are [provided](http://www.gazebosim.org/tutorials).
 * [Unity ML - Agents](https://github.com/Unity-Technologies/ml-agents)
   * Unityが公式に公開した、Unityで強化学習を行うための環境・エージェントを作成できるSDK
+  * [Unity: A General Platform for Intelligent Agents](https://arxiv.org/abs/1809.02627)
 
 ## Others
 
