@@ -303,6 +303,15 @@
 
 * [プログラマのためのDocker教科書 インフラの基礎知識＆コードによる環境構築の自動化](https://www.amazon.co.jp/dp/B017UGA7NG)
 
+### Scraping
+
+機械学習エンジニアにとって、データを取得するためのスクレイピング技術は欠かせないものになっているため、身に着けておくとよいです。
+
+* [Pythonで始めるウェブスクレイピング実践入門](https://speakerdeck.com/sin_tanaka_21/pythondeshi-meruuebusukureipingushi-jian-ru-men)
+* [PythonでWebスクレイピングする時の知見をまとめておく](https://vaaaaaanquish.hatenablog.com/entry/2017/06/25/202924)
+  * スクレイピングの技術的な面だけでなく、法律的な面についても触れられています。
+  * 著作権法については、2019/1/1からの施行で大幅な緩和が行われます。端的には、スクレイピングで収集したデータを著作権者の害にならない範囲で配布・販売を行うことが可能になります。詳細はこちらをご参考。[改正著作権法が日本のAI開発を加速するワケ　弁護士が解説 ](http://www.itmedia.co.jp/news/articles/1809/06/news017_4.html)。
+
 ## Others
 
 * [A Kaggle Master Explains Gradient Boosting](http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/)
