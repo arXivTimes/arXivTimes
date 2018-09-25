@@ -28,6 +28,9 @@
   * インタラクティブに動かせる機械学習のコードを集めたサイト。事前学習済みのGANモデルの使い方やPerformance RNNによる音楽生成といった応用例から、ニューラルネットワークの仕組みといった基礎的な内容まで幅広い。pandasの使い方などもある。
 * [Resources for CS 229 - Machine Learning](https://stanford.edu/~shervine/teaching/cs-229/cheatsheet-supervised-learning.html)
   * 機械学習のポイントをまとめたチート集。あれなんだったかな、という時さっと見るのにとても良い。
+* [Depth First Learning](http://www.depthfirstlearning.com/)
+  * ある一つの論文について、その論文中に登場する基本的な概念などを掘り下げて解説するというスタイルの記事。
+  * 機械学習の論文を読みたい、でも論文で前提知識とされている概念がわからない、普通の教科書を買って勉強して出直すしかないのか・・・そう感じている方にとってはベストな記事。
 
 ### Not Recommend :droplet:
 
