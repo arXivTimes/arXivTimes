@@ -197,8 +197,11 @@
 * [StarCraft I (BroodWar) docker images](https://github.com/Games-and-Simulations/sc-docker)
   * StarCraftを利用した学習などを行いやすくするために、環境をDocker化したもの。
   * Dockerの中にStarCraftとWindowsアプリケーションを動かすためのWineHQ、StarCraftを操作するためのBWAPIがまとめられており、Host側で面倒なセットアップを行うことなく操作ができる。
+* [pysc2](https://github.com/deepmind/pysc2)
+  * DeepMindの作成した、StarCraft IIで学習するための環境。
 * [MAgent](https://github.com/geek-ai/MAgent)
   * 複数、数百～数千のエージェントによる強化学習のシミュレーションに利用可能な環境。
+  * 動作確認はLinuxのみだが、Windows/Macでも動かせるよう。
 
 # Others
 
