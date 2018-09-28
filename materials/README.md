@@ -69,6 +69,12 @@
 * [畳み込みニューラルネットワークの研究動向](https://www.slideshare.net/ren4yu/ss-84282514)
   * CNNの進化の歴史がまとめられている。これでCNNを学ぶというものではないが、学んだ後背後にある研究系統を体系的に知るには最適な資料。
 
+### Additional
+
+* [shayneobrien/generative-models](https://github.com/shayneobrien/generative-models)
+  * VAE、また様々な/GANといった生成系モデルの解説実装を提供しているリポジトリ。コードがとても整理されていて、コードを読みながら学べる形。
+
+
 ### Not Recommend :droplet:
 
 * [はじめてのパターン認識](https://www.amazon.co.jp/dp/4627849710)
@@ -332,6 +338,8 @@
   * 内容的には推論モデルの本となっていて、Infer.NETによるサンプルコードもあるとのこと。ただ、同じMicrosoftからPythonの因果推論パッケージが出たのでそちらで行ったほうがいいかもしれない([dowhy](https://github.com/Microsoft/dowhy))
   * dowhyについては、因果推論の考え方も含めてまとめられたとても分かりやすい記事がある: [統計的因果推論のためのPythonライブラリDoWhyについて解説：なにができて、なにに注意すべきか](https://www.krsk-phs.com/entry/2018/08/22/060844)
   * 関連して、確率モデルを作成する際のワークフロー[A Principled Bayesian Workflow](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)も参考になる
+* [Deep Learning with Electronic Health Record (EHR) Systems](https://goku.me/blog/EHR)
+  * 医療データに対する機械学習の適用についてまとめた記事。医療への適用を考える際には、まず見ておくとよい。
 
 ### Understanding DNN
 
