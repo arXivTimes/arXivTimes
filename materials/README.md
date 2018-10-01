@@ -236,6 +236,16 @@
 * [Normalizing Flows Tutorial, Part 1: Distributions and Determinants](https://blog.evjang.com/2018/01/nf1.html)
   * 正規分布のようななじみの分布は、簡単にサンプル生成が行えその確からしさも測りやすい。GANやVAEといった生成モデルはこうした解釈性が低いが生成性能はとても高い。シンプルさを保ちつつ生成精度を上げる両取りの方法であるNormalizing Flowについての解説記事。
 
+## Causal Inference
+
+* [Introduction to Causal Inference](http://www.ucbbiostat.com/)
+  * UC Berkeley 生物統計学部の講義資料。初歩的なところから、実際に利用できるまでが丁寧に解説されている。Rを使った演習問題つき。
+* [Model-Based Machine Learning](http://www.mbmlbook.com/index.html)
+  * 機械学習を利用する際に、問題に対してアルゴリズムを適用するのでなく、問題をモデル化して、それを解くという逆の発想から機械学習の活用を提案している書籍("Model" basedな機械学習としている)。
+  * 内容的には推論モデルの本となっていて、Infer.NETによるサンプルコードもあるとのこと。ただ、同じMicrosoftからPythonの因果推論パッケージが出たのでそちらで行ったほうがいいかもしれない([dowhy](https://github.com/Microsoft/dowhy))
+  * dowhyについては、因果推論の考え方も含めてまとめられたとても分かりやすい記事がある: [統計的因果推論のためのPythonライブラリDoWhyについて解説：なにができて、なにに注意すべきか](https://www.krsk-phs.com/entry/2018/08/22/060844)
+  * 関連して、確率モデルを作成する際のワークフロー[A Principled Bayesian Workflow](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)も参考になる
+
 ## Preprocessing/Feature Engineering
 
 * [alicezheng/feature-engineering-book](https://github.com/alicezheng/feature-engineering-book)
@@ -333,11 +343,6 @@
   * メタラーニングについて、初歩的なところから解説をしている記事。PyTorchでの実装例も付属している。アニメーションを使った図解が豊富でとても分かりやすい。
 * [Hardware Accelerators for Machine Learning (CS 217)](https://cs217.github.io/)
   * 機械学習を効率的に行うためのハードウェア実装を学ぶコースが開講(内容的には演算処理方法に近い)。機械学習の基礎からDNNまでの解説がまずあり、その上で効率的な計算法を学ぶ。もちろんハードウェアとしてFPGAの講義もあり、かなりしっかりしたコースの印象。
-* [Model-Based Machine Learning](http://www.mbmlbook.com/index.html)
-  * 機械学習を利用する際に、問題に対してアルゴリズムを適用するのでなく、問題をモデル化して、それを解くという逆の発想から機械学習の活用を提案している書籍("Model" basedな機械学習としている)。
-  * 内容的には推論モデルの本となっていて、Infer.NETによるサンプルコードもあるとのこと。ただ、同じMicrosoftからPythonの因果推論パッケージが出たのでそちらで行ったほうがいいかもしれない([dowhy](https://github.com/Microsoft/dowhy))
-  * dowhyについては、因果推論の考え方も含めてまとめられたとても分かりやすい記事がある: [統計的因果推論のためのPythonライブラリDoWhyについて解説：なにができて、なにに注意すべきか](https://www.krsk-phs.com/entry/2018/08/22/060844)
-  * 関連して、確率モデルを作成する際のワークフロー[A Principled Bayesian Workflow](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)も参考になる
 * [Deep Learning with Electronic Health Record (EHR) Systems](https://goku.me/blog/EHR)
   * 医療データに対する機械学習の適用についてまとめた記事。医療への適用を考える際には、まず見ておくとよい。
 
