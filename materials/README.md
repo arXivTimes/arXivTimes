@@ -111,6 +111,10 @@
 * [CS 4650 and 7650](https://github.com/jacobeisenstein/gt-nlp-class)
   * ジョージア工科大学の自然言語処理の授業で使われる教科書。扱っているテーマは、完全版と思えるほど幅広い。
   * 図は少なめだが、シンプルな疑似コード的な記述が随所にあり分かりやすく解説されている。
+* [A Review of the Neural History of Natural Language Processing](http://blog.aylien.com/a-review-of-the-recent-history-of-natural-language-processing/)
+  * ニューラルネットで自然言語処理を扱う手法が発展してきた歴史を解説した記事。
+  * 時系列の流れと、マイルストンとなった論文がまとまっており発展の流れを概観するのにとても良い。
+  * スライドの資料がこちから参照できる: [Frontiers of Natural Language Processing](https://www.slideshare.net/SebastianRuder/frontiers-of-natural-language-processing)
 
 ### Information Retrieval
 
