@@ -148,6 +148,8 @@
 * [House3D](https://github.com/facebookresearch/House3D)
   * SUNCGをベースにした、屋内で動作するエージェントを学習させるための環境。
   * こちらもOpenAI Gymベース。
+* [SenseAct](https://www.kindred.ai/senseact)
+  * OpenAI Gym的なシミュレーション環境を、物理の世界へ拡張しようという試み。具体的には、一般に販売されているロボットを使ってタスクを定義し、それをOpenAI Gymライクなインタフェースで操作できるようにしている。
 
 ## Simulator Integration
 
