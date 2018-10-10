@@ -592,6 +592,8 @@
   * クラウドソーシングを使い1155人文のペルソナ(猫を飼っている、など自分に関する5つ以上の文)を収集し、さらに語彙などが偏らないよう別の人による書き換えを行いペルソナを用意。
   * そこから無作為に選んだペルソナで対話をしてもらい、総計10,981の対話を収録している。
   * [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243)
+* [CoCoA - CraigslistBargain](https://stanfordnlp.github.io/cocoa/)
+  * 価格交渉対話のデータセット。1402のアイテムについて、価格交渉を行っている6682対話が収録されている。
 
 ## Summarization
 
