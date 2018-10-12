@@ -594,6 +594,10 @@
   * [Personalizing Dialogue Agents: I have a dog, do you have pets too?](https://arxiv.org/abs/1801.07243)
 * [CoCoA - CraigslistBargain](https://stanfordnlp.github.io/cocoa/)
   * 価格交渉対話のデータセット。1402のアイテムについて、価格交渉を行っている6682対話が収録されている。
+* [SearchQA](https://github.com/nyu-dl/SearchQA)
+  * Jeopardy!のクイズをベースに、クイズに関連する情報を検索エンジンから集めたデータセット。決まったQAのコンテキストを、検索エンジンで補完した形になっている。
+  * QA数は14万、各QAは平均49.6のコンテキストを持つ。検索クエリも含まれているため、コンテキストの情報を取り直すことも可能。
+
 
 ## Summarization
 
@@ -615,7 +619,9 @@
   * 語学学習を行うSNSであるLang-8から収集されたデータセット。Lang-8では学習している言語で作文を行うと、その言語を母国語としている人から添削を受けることができる。この学習者の作文と訂正された作文のペアがデータセットとして収録されている。
   * 10言語のデータが含まれており、総数は約58万文書に及ぶ。
   * 実はNAISTが公開しており、詳細はこちらから参照できる。[語学学習 SNS の添削ログからの母語訳付き学習者コーパスの構築に向けて](https://www.ninjal.ac.jp/event/specialists/project-meeting/files/JCLWorkshop_no6_papers/JCLWorkshop_No6_27.pdf)
-
+* [Paralex Paraphrase-Driven Learning for Open Question Answering](http://knowitall.cs.washington.edu/paralex/)
+  * WikiAnswerから収集した、質問の言いかえデータセット。WikiAnswerでは、同じ質問をマージすることができるようで、そのデータを使用している。
+  * データ数は1800万
 
 # Audio
 
