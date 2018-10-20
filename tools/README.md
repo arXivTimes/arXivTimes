@@ -204,6 +204,9 @@
 * [MAgent](https://github.com/geek-ai/MAgent)
   * 複数、数百～数千のエージェントによる強化学習のシミュレーションに利用可能な環境。
   * 動作確認はLinuxのみだが、Windows/Macでも動かせるよう。
+* [trfl](https://github.com/deepmind/trfl/)
+  * TensorFlowで強化学習を実装するためのモジュール集ともいえるライブラリ。
+  * 様々なアルゴリズムで共通して利用されるアルゴリズムのパート(Q-learningやPolicy Gradientなど)の実装が提供されている。deepmind/trflこれを組み立てれば、実装ミスを最小限に抑えることができる。
 
 # Others
 

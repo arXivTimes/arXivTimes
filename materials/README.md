@@ -22,6 +22,8 @@
 
 ### Additional
 
+* [Stanford Artificial Intelligence Laboratory](http://ai.stanford.edu/courses/)
+  * Stanfordの、AI関連講座のリンク集。基本はずさない。
 * [NIPS HIGHLIGHTS, LEARN HOW TO CODE A PAPER WITH STATE OF THE ART FRAMEWORKS](https://mltrain.cc/events/nips-highlights-learn-how-to-code-a-paper-with-state-of-the-art-frameworks/)
   * NIPS2017で開催された、最新の研究をどうTensorFlowやPyTorchといった機械学習フレームワークのコードに落とし込んでいくのかというワークショップの資料
 * [Seedbank](http://tools.google.com/seedbank/)
@@ -31,6 +33,9 @@
 * [Depth First Learning](http://www.depthfirstlearning.com/)
   * ある一つの論文について、その論文中に登場する基本的な概念などを掘り下げて解説するというスタイルの記事。
   * 機械学習の論文を読みたい、でも論文で前提知識とされている概念がわからない、普通の教科書を買って勉強して出直すしかないのか・・・そう感じている方にとってはベストな記事。
+* [Fairness-Aware Data Mining](http://www.kamishima.net/archive/fadm.pdf)
+  * 機械学習を扱うなら知っておきたい、モデルに内在するバイアス(性別や人種といった特徴量による判断の偏りなど)についての解説資料。
+  * バイアスを生む要因、その避け方などがまとめられている。
 
 ### Not Recommend :droplet:
 
