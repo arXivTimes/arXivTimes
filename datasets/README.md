@@ -551,6 +551,10 @@
   * 複数文書にまたがった情報抽出(multi-hop)が求められるQAのデータセット。
   * multi-hopなデータセットは既存のものがあるが、知識グラフではなくWikipediaから作成されている点、また大きな差異として回答根拠になる文についてアノテーションが行われている。
   * 収集に際して単文書から回答可能な質問を一定量作成したワーカーの質問を除外、既存QAモデルで高いconfidenceで回答できる文を除外などの工夫がとられている
+* [ReviewQA](http://www.europe.naverlabs.com/Blog/ReviewQA-A-novel-relational-aspect-based-opinion-dataset-for-machine-reading)
+  * レビュー評価の観点に関するQAデータセット。
+  * レビューがあった場合、その評価は1~5の何れか、レビュー中でXXとYYはどちらが良いとされているか、等といった質問が収録されている。
+  * レビュー数は100,000、質問数は500,000。
 
 ## Reasoning
 

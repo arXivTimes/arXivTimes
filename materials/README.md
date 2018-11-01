@@ -36,6 +36,8 @@
 * [Fairness-Aware Data Mining](http://www.kamishima.net/archive/fadm.pdf)
   * 機械学習を扱うなら知っておきたい、モデルに内在するバイアス(性別や人種といった特徴量による判断の偏りなど)についての解説資料。
   * バイアスを生む要因、その避け方などがまとめられている。
+* [Imperial College Mathematics department Deep Learning course](https://github.com/pukkapies/dl-imperial-maths)
+  * PyTorchで深層学習を学ぶコース(TensorFlowもあるよう)。CNN、RNN、強化学習と扱っている話題が広く、コードも比較的きれいに書かれている。短いため、PyTorchがどんな感じかさくっと学びたい場合にお勧め。
 
 ### Not Recommend :droplet:
 
@@ -254,6 +256,8 @@
   * 内容的には推論モデルの本となっていて、Infer.NETによるサンプルコードもあるとのこと。ただ、同じMicrosoftからPythonの因果推論パッケージが出たのでそちらで行ったほうがいいかもしれない([dowhy](https://github.com/Microsoft/dowhy))
   * dowhyについては、因果推論の考え方も含めてまとめられたとても分かりやすい記事がある: [統計的因果推論のためのPythonライブラリDoWhyについて解説：なにができて、なにに注意すべきか](https://www.krsk-phs.com/entry/2018/08/22/060844)
   * 関連して、確率モデルを作成する際のワークフロー[A Principled Bayesian Workflow](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)も参考になる
+* [Tutorial on Causal Inference and Counterfactual Reasoning](https://causalinference.gitlab.io/kdd-tutorial/)
+  * DoWhyを使った、因果推論のチュートリアル(at [KDD2018](https://causalinference.gitlab.io/kdd-tutorial/))。
 
 ## Preprocessing/Feature Engineering
 
