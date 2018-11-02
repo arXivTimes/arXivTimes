@@ -314,6 +314,10 @@
   * Pythonのトレーニング用リポジトリです
 * [良いコードとは](https://www.slideshare.net/nbykmatsui/ss-55961899)
   * 動けばいいというコードでは、自分の実験の生産性が落ちる可能性があるだけでなく、他の人が再現を行うのも難しくなります。良いコードを書くよう心がけましょう。
+* [Writing Code for NLP Research](https://docs.google.com/presentation/d/17NoJY2SnC2UMbVegaRCWA7Oca7UCZ3vHnMqBV4SUayc/edit#slide=id.g44a8796521_0_233)
+  * 研究のための開発についてのテクニックについての解説資料(EMNLP2018)
+  * 実験(prototyping)か本格的なコンポーネント設計かきちんとわけ、前者ならスクラッチから始めず人のコードを借り修正するところから始めるべし、としている。テストや実験結果記録などにも触れておりかなり実践的。後者で行うべきCIなども解説している。
+  * 実際に深層学習系のコードを書く前に、必ず目を通しておきたい。
 
 ### Web
 

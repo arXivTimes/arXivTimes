@@ -157,6 +157,7 @@
   * 物理エンジンであるMujocoをPythonから操作できるライブラリ  
 * [pybullet](https://github.com/bulletphysics/bullet3/tree/master/examples/pybullet)
   * Pythonから使える物理シミュレーター。OpenAI Gym/TensorFlowにも対応していて、これらを利用した歩行トレーニングを行う[チュートリアルも提供されている](https://docs.google.com/document/d/10sXEhzFRSnvFcl3XxNGhnD4N2SedqwdAvK3dsihxVUA/edit#heading=h.2ye70wns7io3)。
+  * [pybullet_robots](https://github.com/bulletphysics/pybullet_robots): 環境内で、実際のロボットを模したエージェントを使うことができる。よく使われるTurtlebot以外に、Boston DynamicsのAtlasやBotlabなどもある。
 * [Dart](http://dartsim.github.io/)
   * ロボットの動きや、動作アニメーションを作成するためのデータ構造やアルゴリズムを提供するためのライブラリ。C++制だが、Pythonバインディング([pydart2](https://github.com/sehoonha/pydart2))が提供されている。
   * This libraray provides data structures and algorithms for kinematic and dynamic applications in robotics and computer animation. Its python bindings are [here](https://github.com/sehoonha/pydart2), examples are [provided](https://github.com/sehoonha/pydart2/tree/master/examples).
