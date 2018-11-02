@@ -42,6 +42,8 @@
 * [TASKONOMY Disentangling Task Transfer Learning](http://taskonomy.stanford.edu/)
   * 全26の画像関連タスクについて、相互の転移しやすさを調べた研究で使用されたデータセット。
   * この検証には当然1画像について全タスク分のアノテーションが必要だが、それが行われている。屋内の画像で、約400万画像が提供されている。
+* [The Art Institute of Chicago THE COLLECTION](https://www.artic.edu/collection)
+  * シカゴ美術館のコレクションをダウンロードできるサイト。52,000枚の歴史的なアート作品をダウンロードできる。
 
 ## Video
 
