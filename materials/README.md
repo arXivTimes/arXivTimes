@@ -151,6 +151,9 @@
   * 単語分散表現の場合一つの単語は一つのベクトルで表現されるが、本来単語は多様な意味を持つ。そうした「意味」の表現の獲得を目指した研究のサーベイ。教師なし/知識ベースの大きく2つに分けて解説されており、その比較についても記載されている。
 * [Deep Learning for Semantic Composition](http://egrefen.com/docs/acl17tutorial.pdf)
   * 文の意味解釈を行うタスクにDNNを適用する際の手法について、体系的なまとめ。
+* [Learning with Latent Linguistic Structure](http://www.phontron.com/slides/neubig18blackbox.pdf)
+  * 自然言語における構造を学ぶ手法についての解説資料。
+  * 論理推論やプログラムなどの複雑な構造をもつドメインではアノテーションを行うのが難しいため、潜在構造を推定しつつ半教師ありの手法を適用するStructVAEについて解説されている。
 
 ### Others
 
@@ -291,6 +294,9 @@
 * [Applied machine learning at facebook a datacenter infrastructure perspective (HPCA18)](https://research.fb.com/publications/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective/)
   * Facebookで ML as a Service(MLaaS)をどのように提供しており、FB内の機械学習のパイプラインのデザインについて解説している。
   * [解説スライド](https://www.slideshare.net/shunyaueta/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective-hpca18)
+* [実用化のための 機械学習の評価尺度の色々](https://docs.google.com/presentation/d/1r1dOVqfQaHh-vyemFO4Vzf5qFMomrf4-CdTYj7OwELE/edit#slide=id.g43c73f7812_0_11)
+  * 機械学習活用プロジェクトでよくある「精度が高ければ使える」といった話について、適用業務に合わせた「精度」の測り方をしようという話。
+  * 具体例を提示しながら解説されており、イメージがつきやすい。実際にモデルを作る前に目を通しておくと良い。
 
 
 ## Application Development
