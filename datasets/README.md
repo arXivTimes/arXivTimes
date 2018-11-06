@@ -649,6 +649,9 @@
   * このデータセットを利用した、[Kaggleのコンペティション](https://www.kaggle.com/c/freesound-audio-tagging)も開催されている。
 * [AudioSet](https://research.google.com/audioset/)
   * YouTubeから抽出した10秒程度の音に、人の声や車の音といった632のラベル(人の声→シャウト、ささやき、など階層上に定義されている)が付与されている(人手で)。その数その数200万！
+* [MAESTRO Dataset](https://storage.googleapis.com/magentadata/papers/maestro/index.html)
+  * ピアノ演奏と対応するMIDIデータのデータセット。
+  * ピアノの演奏は、インターネット上のピアノ演奏コンペティションであるInternational Piano-e-Competitionから取得されている。演奏数1,184，曲数430。
 
 ## Speech
 
