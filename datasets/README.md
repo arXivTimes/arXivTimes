@@ -717,6 +717,9 @@
   * これまで発生した地震のデータセット。アップロードによる更新も可能(ただMatlab形式)。
   * 東日本大震災・熊本地震も含まれており、日本の研究者によりきちんと更新されている。
   * [Googleがこちらのデータを使用し地震発生後の余震を予測しようと試みている。](https://www.blog.google/technology/ai/forecasting-earthquake-aftershock-locations-ai-assisted-science/)
+* [センター試験XMLデータ](https://21robot.org/dataset.html)
+  * 東ロボプロジェクトで使用されたデータセット。各教科のテスト問題が、XML形式で収録されている。
+  * ただ、著作権の問題からか国語の問題、またいくつかの科目での画像が含まれない。
 
 ## Chemical
 
