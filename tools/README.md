@@ -27,6 +27,9 @@
 * [Detectron](https://github.com/facebookresearch/Detectron)
   * Facebookの公開した物体検出を行うためのオープンソースライブラリ。Caffe2ベースで稼働する
   * Apache 2.0ライセンスで使用可能。
+* [rpg_esim](https://github.com/uzh-rpg/rpg_esim)
+  * 画像における光度変化をイベントとして捉えて描画するイベントカメラをシミュレートするオープンソース。
+  * C/C++で実装されておりリアルタイムで使用することが可能。
 
 # NLP
 
