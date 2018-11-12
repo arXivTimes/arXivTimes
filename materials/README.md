@@ -297,7 +297,9 @@
 * [実用化のための 機械学習の評価尺度の色々](https://docs.google.com/presentation/d/1r1dOVqfQaHh-vyemFO4Vzf5qFMomrf4-CdTYj7OwELE/edit#slide=id.g43c73f7812_0_11)
   * 機械学習活用プロジェクトでよくある「精度が高ければ使える」といった話について、適用業務に合わせた「精度」の測り方をしようという話。
   * 具体例を提示しながら解説されており、イメージがつきやすい。実際にモデルを作る前に目を通しておくと良い。
-
+* [Applying Deep Learning To Airbnb Search](https://github.com/arXivTimes/arXivTimes/issues/989)
+  * Airbnbにおける検索ランキングの改善に、ニューラルネットを適用したプロジェクトの記録資料。
+  * どんなモデルから始めるべきか、モデルの性能/状況をどう測るか、特徴エンジニアリングとどう組み合わせるのか、といった機械学習のプロジェクトを進める上で重要な知見が丁寧に書かれている。失敗談についても記載されている。
 
 ## Application Development
 
