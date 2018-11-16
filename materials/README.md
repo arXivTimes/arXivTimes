@@ -345,6 +345,8 @@
 
 機械学習エンジニアにとってDockerはもはや欠かせないツールになっているので、理解しておくとよいです。
 
+* [コンテナ未経験新人が学ぶコンテナ技術入門](https://www.slideshare.net/KoheiTokunaga/ss-122754942)
+  * VMからDocker、Kubernetesに到るまでの過程と周辺技術要素がとてもよくまとめられた資料。この資料だけで、仕組みの理解は済んでしまうと思う。
 * [プログラマのためのDocker教科書 インフラの基礎知識＆コードによる環境構築の自動化](https://www.amazon.co.jp/dp/B017UGA7NG)
 
 ### Scraping
@@ -370,6 +372,11 @@
   * 機械学習を効率的に行うためのハードウェア実装を学ぶコースが開講(内容的には演算処理方法に近い)。機械学習の基礎からDNNまでの解説がまずあり、その上で効率的な計算法を学ぶ。もちろんハードウェアとしてFPGAの講義もあり、かなりしっかりしたコースの印象。
 * [Deep Learning with Electronic Health Record (EHR) Systems](https://goku.me/blog/EHR)
   * 医療データに対する機械学習の適用についてまとめた記事。医療への適用を考える際には、まず見ておくとよい。
+* [メディカルAIコース オンライン講義資料](https://japan-medical-ai.github.io/medical-ai-course-materials/)
+  * 医療従事者のためのAI講座資料。CT/MRI画像のセグメンテーションや、心電図の時系列解析といった実践的な内容が解説されている。
+* [セキュリティエンジニアのための機械学習入門の入門](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Security_and_MachineLearning)
+  * セキュリティエンジニアのための機械学習入門記事。
+  * 侵入/スパム検知、通信ログの解析について基本的な機械学習手法を適用する方法が解説されている。
 
 ### Understanding DNN
 
