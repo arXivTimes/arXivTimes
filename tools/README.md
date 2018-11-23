@@ -202,6 +202,7 @@
 * [TorchCraft](https://github.com/TorchCraft/TorchCraft)
   * StarCraftを学習するためのフレームワーク
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
+  * 強化学習用エージェントを作りやすくした[TorchCraftAI](https://github.com/TorchCraft/TorchCraftAI)も公開された。
 * [StarCraft I (BroodWar) docker images](https://github.com/Games-and-Simulations/sc-docker)
   * StarCraftを利用した学習などを行いやすくするために、環境をDocker化したもの。
   * Dockerの中にStarCraftとWindowsアプリケーションを動かすためのWineHQ、StarCraftを操作するためのBWAPIがまとめられており、Host側で面倒なセットアップを行うことなく操作ができる。
