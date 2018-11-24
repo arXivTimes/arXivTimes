@@ -370,6 +370,9 @@
   * メタラーニングについて、初歩的なところから解説をしている記事。PyTorchでの実装例も付属している。アニメーションを使った図解が豊富でとても分かりやすい。
 * [Hardware Accelerators for Machine Learning (CS 217)](https://cs217.github.io/)
   * 機械学習を効率的に行うためのハードウェア実装を学ぶコースが開講(内容的には演算処理方法に近い)。機械学習の基礎からDNNまでの解説がまずあり、その上で効率的な計算法を学ぶ。もちろんハードウェアとしてFPGAの講義もあり、かなりしっかりしたコースの印象。
+
+### Domain Specific
+
 * [Deep Learning with Electronic Health Record (EHR) Systems](https://goku.me/blog/EHR)
   * 医療データに対する機械学習の適用についてまとめた記事。医療への適用を考える際には、まず見ておくとよい。
 * [メディカルAIコース オンライン講義資料](https://japan-medical-ai.github.io/medical-ai-course-materials/)
@@ -377,6 +380,9 @@
 * [セキュリティエンジニアのための機械学習入門の入門](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Security_and_MachineLearning)
   * セキュリティエンジニアのための機械学習入門記事。
   * 侵入/スパム検知、通信ログの解析について基本的な機械学習手法を適用する方法が解説されている。
+* [生命情報向けの機械学習入門](https://github.com/HumanomeLab/mlcourse)
+  * ゲノムの解析など生命情報分野の研究における機械学習の活用について解説したリポジトリ。
+  * 酵母の細胞周期の同定や、転写因子結合の有無といったタスクを機械学習で予測する方法が紹介されている。
 
 ### Understanding DNN
 
@@ -386,6 +392,7 @@
   * ICASSP 2017のチュートリアル資料。ネットワークを逆にたどる形で予測に寄与した点を算出するLayer-wise Relevance Propagationという手法について解説している。
 * [Awesome Interpretable Machine Learning](https://github.com/lopusz/awesome-interpretable-machine-learning)
   * DNNを解釈する方法についての論文まとめ。
+*
 
 ### Adversarial Attack
 
