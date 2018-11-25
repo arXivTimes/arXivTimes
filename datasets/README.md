@@ -44,6 +44,9 @@
   * この検証には当然1画像について全タスク分のアノテーションが必要だが、それが行われている。屋内の画像で、約400万画像が提供されている。
 * [The Art Institute of Chicago THE COLLECTION](https://www.artic.edu/collection)
   * シカゴ美術館のコレクションをダウンロードできるサイト。52,000枚の歴史的なアート作品をダウンロードできる。
+* [Tencent ML-Images](https://github.com/Tencent/tencent-ml-images)
+  * Tencentが大規模な画像データセットを公開。画像数は1700万、カテゴリ数は11000ほど。
+  * ImageNetとOpen Imagesの画像から構成され、カテゴリはWordNetをベースに階層構造が付与されている。
 
 ## Video
 
