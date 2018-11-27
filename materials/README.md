@@ -370,6 +370,8 @@
   * 機械学習を効率的に行うためのハードウェア実装を学ぶコースが開講(内容的には演算処理方法に近い)。機械学習の基礎からDNNまでの解説がまずあり、その上で効率的な計算法を学ぶ。もちろんハードウェアとしてFPGAの講義もあり、かなりしっかりしたコースの印象。
 * [Deep Learning with Electronic Health Record (EHR) Systems](https://goku.me/blog/EHR)
   * 医療データに対する機械学習の適用についてまとめた記事。医療への適用を考える際には、まず見ておくとよい。
+* [Towards Open-domain Generation of Programs from Natural Language](http://www.phontron.com/slides/neubig18austin.pdf)
+  * プログラムコードの生成に自然言語処理を応用する研究のまとめ。構文の潜在構造をとる、また要約のように抽出と組み合わせる試みなどが取り上げられている。
 
 ### Understanding DNN
 

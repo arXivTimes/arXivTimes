@@ -240,6 +240,9 @@
 * [DeepLesion](https://www.nih.gov/news-events/news-releases/nih-clinical-center-releases-dataset-32000-ct-images)
   * 32,000枚のCTスキャン画像のデータセット。画像データセットとしてはかなり大規模。
   * 匿名化された4,400名の患者の画像で、CTスキャンの後にチェックすべき箇所(病変)を画像に書き込むらしいのだが、そのチェックが付与されているとのこと。
+* [fastMRI](https://fastmri.med.nyu.edu/)
+  * 膝のMRI画像で、10,000の画像からサンプルされた1500件のデータが提供されている。
+  * フォーマットは、ベンダー中立のISMRMDが使われている。
 
 ## Art
 

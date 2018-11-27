@@ -213,6 +213,9 @@
 * [trfl](https://github.com/deepmind/trfl/)
   * TensorFlowで強化学習を実装するためのモジュール集ともいえるライブラリ。
   * 様々なアルゴリズムで共通して利用されるアルゴリズムのパート(Q-learningやPolicy Gradientなど)の実装が提供されている。deepmind/trflこれを組み立てれば、実装ミスを最小限に抑えることができる。
+* [Horizon](https://github.com/facebookresearch/Horizon)
+  * Facebookが強化学習を行うためのフレームワークを公開。プロトタイピングというより実用のための開発が意識されており、シミュレーターが遅いケースのために事前にとっておいた状態情報を使うなどの機能がある。
+  * White paperにはFacebookの通知で使用された実績が書かれている
 
 # Others
 
