@@ -202,6 +202,7 @@
 * [TorchCraft](https://github.com/TorchCraft/TorchCraft)
   * StarCraftを学習するためのフレームワーク
   * なぜかalibabaからPyTorchと連携できるようにするためのツールが公開されている([torchcraft-py](https://github.com/alibaba/torchcraft-py))
+  * 強化学習用エージェントを作りやすくした[TorchCraftAI](https://github.com/TorchCraft/TorchCraftAI)も公開された。
 * [StarCraft I (BroodWar) docker images](https://github.com/Games-and-Simulations/sc-docker)
   * StarCraftを利用した学習などを行いやすくするために、環境をDocker化したもの。
   * Dockerの中にStarCraftとWindowsアプリケーションを動かすためのWineHQ、StarCraftを操作するためのBWAPIがまとめられており、Host側で面倒なセットアップを行うことなく操作ができる。
@@ -214,8 +215,9 @@
   * TensorFlowで強化学習を実装するためのモジュール集ともいえるライブラリ。
   * 様々なアルゴリズムで共通して利用されるアルゴリズムのパート(Q-learningやPolicy Gradientなど)の実装が提供されている。deepmind/trflこれを組み立てれば、実装ミスを最小限に抑えることができる。
 * [Horizon](https://github.com/facebookresearch/Horizon)
-  * Facebookが強化学習を行うためのフレームワークを公開。プロトタイピングというより実用のための開発が意識されており、シミュレーターが遅いケースのために事前にとっておいた状態情報を使うなどの機能がある。
-  * White paperにはFacebookの通知で使用された実績が書かれている
+  * Facebookが公開した強化学習を行うためのフレームワーク。
+  * プロトタイピングというより実用のための開発が意識されており、シミュレーターが遅いケースのために事前にとっておいた状態情報を使うなどの機能がある。
+  * [White paper](https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform/)にはFacebookの通知で使用された実績が書かれている。
 
 # Others
 
