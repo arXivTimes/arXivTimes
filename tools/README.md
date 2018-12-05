@@ -218,6 +218,9 @@
   * Facebookが公開した強化学習を行うためのフレームワーク。
   * プロトタイピングというより実用のための開発が意識されており、シミュレーターが遅いケースのために事前にとっておいた状態情報を使うなどの機能がある。
   * [White paper](https://research.fb.com/publications/horizon-facebooks-open-source-applied-reinforcement-learning-platform/)にはFacebookの通知で使用された実績が書かれている。
+* [SenseAct](https://github.com/kindredresearch/SenseAct)
+  * OpenAI Gym的なシミュレーション環境を、物理の世界へ拡張しようという試み。
+  * 具体的には、一般に販売されているロボットを使ってタスクを定義し、それをOpenAI Gymライクなインタフェースで操作できるようにしている。 
 
 # Others
 
