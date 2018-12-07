@@ -155,6 +155,11 @@
   * 自然言語における構造を学ぶ手法についての解説資料。
   * 論理推論やプログラムなどの複雑な構造をもつドメインではアノテーションを行うのが難しいため、潜在構造を推定しつつ半教師ありの手法を適用するStructVAEについて解説されている。
 
+### Named Entity Recognition (NER)
+
+* [A Survey on Recent Advances in Named Entity Recognition from Deep Learning models](http://www.aclweb.org/anthology/C18-1182)
+  * 固有表現認識の手法に関するサーベイ。単に研究だけでなくデータセットや評価指標の解説もあり、Recentとついているが旧来の手法についても言及されていて既存のサーベイの紹介もしてくれているなど、短いながらよくまとめられた資料。
+
 ### Others
 
 * [Best Research articles on Deep Learning for Text classification (2015–2016)](https://medium.com/towards-data-science/best-research-articles-on-deep-learning-for-text-classification-2015-2016-aaa7950af775)
