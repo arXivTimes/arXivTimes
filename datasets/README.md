@@ -13,6 +13,10 @@
 * [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/blob/master/README.md)
   * ファッション画像のMNIST、を表したデータセット。クラス数はMNISTと同様10クラスで、画像は28x28(グレースケール)、学習：評価データ数は60,000：10,000。
   * MNISTは簡単すぎる、濫用されているといった問題を克服するという側面も意識されている。
+* [rois-codh/kmnist](https://github.com/rois-codh/kmnist)
+  * 日本語の崩し文字のMNIST(Kuzushiji-MNIST)。
+  * ひらがな全てを含むKuzushiji-49、漢字のデータセットであるKuzushiji-Kanjiも併せて公開されている。
+  * 論文中では、単純に認識だけでなくVAEを使った現代字への復元といった使い方も紹介されている。
 * [Open Images dataset](https://storage.googleapis.com/openimages/web/index.html)
   * Googleが公開した900万、ImageNetをこえる6000カテゴリのアノテーション済みデータ。こちらから利用可能。中身はURL+ラベルになっているので、怖がらずにcloneして大丈夫。
   * リリース後に更新が行われており、2017/11/16にリリースされたV3では370万のバウンディングボックス、970万のラベル付き画像のデータセット(training data)に拡大している。
