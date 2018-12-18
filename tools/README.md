@@ -155,6 +155,10 @@
   * OpenAI Gym的なシミュレーション環境を、物理の世界へ拡張しようという試み。具体的には、一般に販売されているロボットを使ってタスクを定義し、それをOpenAI Gymライクなインタフェースで操作できるようにしている。
 * [MAMEToolkit](https://github.com/M-J-Murray/MAMEToolkit)
   * アーケードゲームを強化学習環境として使えるようにするツールキット。当然ROMは購入する必要があるが(無料のものもいくつか紹介されている)、デモではストリートファイター3を使った学習を行っている。
+* [Nintendo Learning Environment](http://olab.is.s.u-tokyo.ac.jp/~kamil.rocki/nintendo/)
+  * ゲームボーイのゲームを、強化学習の環境として使えるようにした話(もちろん、実際動作させるにはROMが必要)。
+  * 強化学習における学習を高速化するために、エミュレーターの実行速度を上げるというアプローチをとっている。
+  * OpenAI Gymライクなインターフェースで使える。
 
 ## Simulator Integration
 
