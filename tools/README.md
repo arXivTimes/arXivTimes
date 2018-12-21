@@ -225,6 +225,8 @@
 * [SenseAct](https://github.com/kindredresearch/SenseAct)
   * OpenAI Gym的なシミュレーション環境を、物理の世界へ拡張しようという試み。
   * 具体的には、一般に販売されているロボットを使ってタスクを定義し、それをOpenAI Gymライクなインタフェースで操作できるようにしている。 
+* [Nevergrad: An open source tool for derivative-free optimization](https://github.com/facebookresearch/nevergrad)
+  * 進化戦略のような勾配を使わない最適化を行うライブラリ。ハイパーパラメーターサーチに使うことを想定しているよう。
 
 # Others
 
@@ -232,6 +234,8 @@
 
 * [visdial-amt-chat](https://github.com/batra-mlp-lab/visdial-amt-chat)
   * 画像に関する質問＋回答のデータを収集するためのアプリケーション。[実際のアプリケーション開発](https://visualdialog.org/)に使用したものを公開してくれている
+* [doccano](https://github.com/chakki-works/doccano)
+  * 自然言語処理のためのアノテーションツール。テキスト分類、系列ラベリング、系列変換(翻訳)という3つのタスクに対応している。
 
 ## DataAPI
 
