@@ -98,6 +98,9 @@
 * [sprocket](https://github.com/k2kobayashi/sprocket)
   * 統計的音声変換を行うライブラリ。Python3ベース。
   * GMMを用いた基礎的な手法が実装されており、Voice Conversion Challenge2018でベースラインシステムとして採用されている。
+* [wav2letter++](https://github.com/facebookresearch/wav2letter/)
+  * Facebookから公開された、CNNベースの音声認識ライブラリ。
+  * 独自開発されたC++ベースの機械学習ライブラリ[flashlight](https://github.com/facebookresearch/flashlight)上で動作する。
 
 # Reinforcement Learning
 
