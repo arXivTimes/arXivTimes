@@ -405,7 +405,8 @@
   * ICASSP 2017のチュートリアル資料。ネットワークを逆にたどる形で予測に寄与した点を算出するLayer-wise Relevance Propagationという手法について解説している。
 * [Awesome Interpretable Machine Learning](https://github.com/lopusz/awesome-interpretable-machine-learning)
   * DNNを解釈する方法についての論文まとめ。
-*
+* [Analysis Methods in Neural Language Processing: A Survey](https://boknilev.github.io/nlp-analysis-methods/)
+  * DNN系の自然言語処理のモデルを評価する方法についての体系的なまとめ。モデルの解析による評価(Attentionなど)、モデルのパフォーマンスによる評価(評価セットに対するスコア)、敵対的サンプルによる評価といった3つの観点で研究が整理されている。
 
 ### Adversarial Attack
 
