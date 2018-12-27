@@ -351,6 +351,10 @@
 * [Touchdown](https://github.com/clic-lab/touchdown)
   * 自然言語によるナビゲーションのデータセット。道案内だけでなく、たどり着いた場所に隠されたオブジェクト(🐻)を見つけるタスクになっている。
   * データはGoogle Street Viewからとられており、件数は9,326。 
+* [VSU: Visual Scenes with Utterances Dataset](https://github.com/yahoojapan/VSU-Dataset)
+  * 人の写っている画像に対し視線をアノテーションしたGazeFollowに対して、人物がなんと言っているかを追加アノテーションしたデータセット。
+  * クラウドソーシングを使って発話内容を作成しており、発話についてはダブルチェック/人手チェックを行なっている。
+  * 同様のデータセットとしては、[VCR: Visual Commonsense Reasoning](http://visualcommonsense.com/)がある
 
 # NLP
 
