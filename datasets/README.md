@@ -405,6 +405,9 @@
 * [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github.io/)
   * 自然言語からコードを生成するためのデータセット。
   * 「ソートしたい」=>「配列xを大きい順に並び変えたい」=>「x.sort(reverse=True)」といった形で、要求・具体的な要求・コード(Python)の3点がセットになっている(クラウドソーシングで作成、データ元はStackOverflow)。
+* [MLDoc](https://github.com/facebookresearch/MLDoc)
+  * 文書分類のデータセットであるReuters corpusを加工して作成されたデータセット。
+  * 各クラスのバランスがとられているほか、英語を含めた8言語への翻訳テキストも含んでいる(日本語も含まれる)。
 
 
 ## Parallel Corpus
