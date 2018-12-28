@@ -266,9 +266,9 @@
 * [Data Version Control Tutorial](https://blog.dataversioncontrol.com/data-version-control-tutorial-9146715eda46)
   * データとソースコードを紐付けてバージョン管理を行うことのできるツール
 
-## Official Implementation
+## Benchimark Implementation
 
-ベースラインとして利用できるような、オフィシャルの実装を紹介します。
+ベースラインとして利用できるような実装を紹介します。
 
 * [OpenAI Baselines](https://github.com/openai/baselines)
 * [Memory-Augmented Neural Networks](https://github.com/facebook/MemNN)
@@ -280,3 +280,5 @@
   * Chainerで実装された強化学習のアルゴリズム集
 * [keras-rl](https://github.com/matthiasplappert/keras-rl)
   * Kerasで実装された強化学習のアルゴリズム集
+* [Molecular Sets (MOSES)](https://github.com/molecularsets/moses)
+  * 創薬に使用されている代表的なアルゴリズムを実装したリポジトリ。
