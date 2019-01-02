@@ -10,6 +10,9 @@
   * プログラマーのための機械学習講座といったコース。実践が多く、理論だけでなく手を動かして学びたいという方にお勧め。
 * [CSC 321 Winter 2018 Intro to Neural Networks and Machine　Learning](http://www.cs.toronto.edu/~rgrosse/courses/csc321_2018/)
   * トロント大学のニューラルネット講座。DNNの実装に使用されるフレームワークを意識した解説になっていて、理論的な内容と実装のギャップが少なくなるよう工夫されている。PyTorchのチュートリアルもあり。
+* [CS 188 | Introduction to Artificial Intelligence](https://inst.eecs.berkeley.edu/~cs188/fa18/)
+  * Berkeleyで行われているAIに関する講義の資料。AIを合理的な行動=期待値を最大にする行動をとるエージェントとし、アルゴリズムによる最大化(CSP: 制約充足問題etc)、データによる知見からの最大化(強化学習、ベイジアン)、と展開している。
+  * 「AIとは」からきちんとかみ砕いて解説してくれている
 * [深層学習 (機械学習プロフェッショナルシリーズ)](https://www.amazon.co.jp/dp/4061529021)
   * ディープラーニングについて良くまとまった書籍
 * [Python機械学習プログラミング](https://www.amazon.co.jp/dp/4844380605)
