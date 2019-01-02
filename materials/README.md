@@ -54,6 +54,8 @@
   * よく利用される、ただ誤用されがちな次元削除のテクニック(PCA/t-SNE/Auto Encoder)について、ゼロからの実装を交えて解説してくれている。
 * [Python Numpy Tutorial](http://cs231n.github.io/python-numpy-tutorial/)
   * 画像認識で有名なCS231nにおける、Numpyのチュートリアル資料。線形代数的な解説はないが、Numpyの基本的な使い方が把握できる
+* [Seeing Theory](https://seeing-theory.brown.edu/index.html)
+  * 確率/統計についてインタラクティブに学べるサイト。可視化の技法がとてもうまく使われており、抜群にわかりやすい。
 
 
 ## Vision
