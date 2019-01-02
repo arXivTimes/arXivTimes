@@ -46,6 +46,9 @@
   * Facebookが発表した、対話モデルを開発するためのフレームワーク。
   * SQuADやbAbI、Ubuntu Dialogなど有名な質問応答/対話系のデータセットが簡単に扱えるようになっている
   * モデル評価のためにAmazon Mechanical Turkとの連携も兼ね備えるなど、対話研究を行うならとても便利なフレームワークになっている。
+* [Rasa](https://github.com/RasaHQ)
+  * 対話ボットが作成できるオープンソースのフレームワーク。対話の意図や固有表現の認識といった、発話意図を読み取るための機能が実装されている
+  * Fine Tuningが可能で、自前のデータで学習させることができる。
 * [NeuroNER](http://neuroner.com/)
   * TensorFlowベースの固有表現抽出ツール。学習済みモデルが利用できるほか、追加データによる学習も可能。
 * [OpenNMT](http://opennmt.net/)
