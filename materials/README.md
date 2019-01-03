@@ -181,6 +181,8 @@
 * [Neural Reading Comprehension and Beyond](https://purl.stanford.edu/gd576xb1833)
   * 機械学習で文書読解をさせるMachine Comprehensionについての体系的なまとめ。
   * 紹介されている手法自体は多くないが、特徴ベースの手法からニューラルまで解説されており、また周辺の議論(QAとの違いや、評価方法など)についてもきちんとまとめられている。
+* [MT-Reading-List](https://github.com/THUNLP-MT/MT-Reading-List)
+  * 機械翻訳について、まず読むべき論文とターニングポイントとなった手法の論文などをまとめたリポジトリ。よい研究のガイドとなっている。
 
 ### Not Recommend :droplet:
 
