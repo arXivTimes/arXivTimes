@@ -266,6 +266,9 @@
   * トロント大学の確率モデリングの授業。ガウス過程からニューラルネットを使ったベイジアンネットなどを扱い、しかもTensorFlowやStan、Edwardといったライブラリを使った実習もある。
 * [Normalizing Flows Tutorial, Part 1: Distributions and Determinants](https://blog.evjang.com/2018/01/nf1.html)
   * 正規分布のようななじみの分布は、簡単にサンプル生成が行えその確からしさも測りやすい。GANやVAEといった生成モデルはこうした解釈性が低いが生成性能はとても高い。シンプルさを保ちつつ生成精度を上げる両取りの方法であるNormalizing Flowについての解説記事。
+* [Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+  * プログラマーのための確率プログラミング、と題した本のコンテンツ。本文と実装が公開されており、Jupyterで動かしながらインタラクティブに学ぶことができる。
+  * もとはPyMCだが、TensorFlow probability版も提供されている。
 
 ## Causal Inference
 
