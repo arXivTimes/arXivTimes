@@ -286,8 +286,9 @@
 
 * [alicezheng/feature-engineering-book](https://github.com/alicezheng/feature-engineering-book)
   * オライリーの書籍"Feature Engineering for Machine Learning"のサンプルコード集
-* [Data Cleaning Challenge: Scale and Normalize Data](https://www.kaggle.com/rtatman/data-cleaning-challenge-scale-and-normalize-data)
-  * KaggleのKernelを使用して行われている、全5日のデータ前処理講座。欠損値の処理から正規化、文字エンコードの処理などよく使う前処理が実戦形式で学べる。 
+* Kaggle
+  * [Data Cleaning Challenge: Scale and Normalize Data](https://www.kaggle.com/rtatman/data-cleaning-challenge-scale-and-normalize-data): KaggleのKernelを使用して行われている、全5日のデータ前処理講座。欠損値の処理から正規化、文字エンコードの処理などよく使う前処理が実戦形式で学べる。 
+  * [My secret sauce to be in top 2% of a kaggle competition](https://towardsdatascience.com/my-secret-sauce-to-be-in-top-2-of-a-kaggle-competition-57cff0677d3c): Kaggleでトップ2%になるために行っているテクニックについての記事。特徴量の分析/可視化に関する手法がメインとなっていて、特徴量分析の重要性を教えてくれる。
 * [Real-World Machine Learning](https://www.manning.com/books/real-world-machine-learning)
   * 機械学習を使用するにあたって、データの前処理やモデルの評価方法といった実践的な手法について書かれている本。しかもPython&R対応。
 * 自然言語処理
