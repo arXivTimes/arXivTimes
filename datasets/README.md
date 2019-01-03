@@ -250,6 +250,9 @@
 * [fastMRI](https://fastmri.med.nyu.edu/)
   * 膝のMRI画像で、10,000の画像からサンプルされた1500件のデータが提供されている。
   * フォーマットは、ベンダー中立のISMRMDが使われている。
+* [MURA](https://stanfordmlgroup.github.io/competitions/mura/)
+  * 骨のX線画像のデータセット。
+  * 画像数は40,561で、肘、指など7つの部分に分かれる。正常/異常の判定がアノテーションされている。
 
 ## Art
 
@@ -380,6 +383,8 @@
 * [text2sql-data](https://github.com/jkkummerfeld/text2sql-data)
   * これまで公開された7つのText2SQLのデータを統合し、かつ実際の大学生の質問から作成したデータセットを新たに追加。
   * 各データの学習/評価データについては、結果として同じSQLになるものが互いに含まれないようにしている。
+* [Spider 1.0](https://yale-lily.github.io/spider)
+  * Text to SQLのデータセット。質問数は10,181で、対応付けられるSQL数は5,693。これらのSQLは、138の異なるドメインの200のデータベースに対するアクセスを行うものになる。
 * [青空文庫](http://www.aozora.gr.jp/)
   * 著作権の消滅した作品、また「自由に読んでもらってかまわない」とされたものをテキストとXHTML(一部HTML)形式に電子化した上で揃えている
   * [GitHubからダウンロードが可能になった](https://github.com/aozorabunko/aozorabunko)。
