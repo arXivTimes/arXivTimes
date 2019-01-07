@@ -82,7 +82,8 @@
 
 * [shayneobrien/generative-models](https://github.com/shayneobrien/generative-models)
   * VAE、また様々な/GANといった生成系モデルの解説実装を提供しているリポジトリ。コードがとても整理されていて、コードを読みながら学べる形。
-
+* [deep learning object detection](https://github.com/hoya012/deep_learning_object_detection)
+  * 物体検知に関する手法をまとめてくれているサイト。SOTAの更新履歴を追うことができる。論文のリンクと、公開されて入れば実装コードへのリンクも貼られている。
 
 ### Not Recommend :droplet:
 
