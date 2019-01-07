@@ -29,6 +29,10 @@
   * [ACL](https://github.com/arXivTimes/arXivTimes/projects/4)
   * [AAAI](https://github.com/arXivTimes/arXivTimes/projects/5)
 
+各学会の締め切り情報
+
+[AI Conference Deadlines](https://aideadlin.es/)
+
 # How to Contribute
 
 論文のまとめを投稿する際は、以下の要領でお願いいたします。
