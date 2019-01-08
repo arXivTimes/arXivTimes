@@ -269,6 +269,15 @@
 * [Data Version Control Tutorial](https://blog.dataversioncontrol.com/data-version-control-tutorial-9146715eda46)
   * データとソースコードを紐付けてバージョン管理を行うことのできるツール
 
+## Machine Learning PipeLine
+
+Auto MLについては、こちらの記事を参照。今後は、まずは基本的な前処理/可視化を終えた後は一旦自動化パイプラインに流して見るというのが基本になると考えられる。
+
+[その機械学習プロセス、自動化できませんか？](https://qiita.com/Hironsan/items/30fe09c85da8a28ebd63)
+
+* [featuretools](https://github.com/Featuretools/featuretools)
+  * データを渡すと、平均/最大/最小などをはじめとした各種統計量の特徴量を自動的に生成してくれるツール。
+
 ## Benchimark Implementation
 
 ベースラインとして利用できるような実装を紹介します。

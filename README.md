@@ -29,9 +29,10 @@
   * [ACL](https://github.com/arXivTimes/arXivTimes/projects/4)
   * [AAAI](https://github.com/arXivTimes/arXivTimes/projects/5)
 
-各学会の締め切り情報
+Conference Information
 
-[AI Conference Deadlines](https://aideadlin.es/)
+* 各学会の締め切り: [AI Conference Deadlines](https://aideadlin.es/)
+* 各学会のBest Paper: [Best Paper Awards in Computer Science](https://jeffhuang.com/best_paper_awards.html)
 
 # How to Contribute
 
