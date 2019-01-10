@@ -144,6 +144,8 @@
   * Visual QAのタスクについて、データセット、ベースライン、評価手法、将来の応用など研究を始めるのに必要なことが一通り書かれた記事(データセットについては問題点まで指摘されている)。
 * [End to-end goal-oriented question answering systems](https://www.slideshare.net/QiHe2/kdd-2018-tutorial-end-toend-goaloriented-question-answering-systems-110817295)
   * 自然言語でQAを行う手法について、未だかったないほどに手法がまとめられた資料。LinkedInでの取り組みについても書いてあるというおまけ付き。
+* [Advancing the State of the Art in Open Domain Dialog Systems through the Alexa Prize](https://arxiv.org/abs/1812.10757)
+  * 対話ボットの開発コンテストであるAmazon Alexa Prizeの中で生まれた開発ツールキット(CoBot)と、研究成果の紹介。対話システムにおける手法だけでなく、実践的なインフラ構成についてまで知ることができる良い資料。
 
 ### Representation
 
