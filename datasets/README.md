@@ -51,6 +51,9 @@
 * [Tencent ML-Images](https://github.com/Tencent/tencent-ml-images)
   * Tencentが大規模な画像データセットを公開。画像数は1700万、カテゴリ数は11000ほど。
   * ImageNetとOpen Imagesの画像から構成され、カテゴリはWordNetをベースに階層構造が付与されている。
+* [Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples](http://metalearning.ml/2018/papers/metalearn2018_paper42.pdf)
+  * Meta-Dataset: メタラーニングの性能を測るために、様々なデータセットを組み合わせたデータセット。
+  * ImageNet/Omniglotなど計10種のデータセットがミックスされている。
 
 ## Video
 
