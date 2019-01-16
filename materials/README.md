@@ -201,6 +201,11 @@
 * [Notes on Music Information Retrieval](https://musicinformationretrieval.com/index.html)
   * 音楽の検索を行うためのワークショップの資料。音楽の表現や特徴抽出、またテンポの推定や機械学習による分類方法などがipynb形式で解説されている。
 
+### Additional
+
+* [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html)
+  * フーリエ変換をアニメーションで理解する記事。基本的な内容から、3次元、画像への適用などの応用例も紹介されている。
+
 ## Reinforcement Learning
 
 * [UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
