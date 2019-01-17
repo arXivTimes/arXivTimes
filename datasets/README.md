@@ -752,6 +752,8 @@
 * [センター試験XMLデータ](https://21robot.org/dataset.html)
   * 東ロボプロジェクトで使用されたデータセット。各教科のテスト問題が、XML形式で収録されている。
   * ただ、著作権の問題からか国語の問題、またいくつかの科目での画像が含まれない。
+* [CRCNS - Collaborative Research in Computational Neuroscience](https://crcns.org/data-sets)
+  * 脳の神経活動を記録したデータセットの公開サイト。
 
 ## Chemical
 
