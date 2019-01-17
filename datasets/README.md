@@ -533,7 +533,11 @@
 * [mmkb](https://github.com/nle-ml/mmkb)
   * 知識グラフとしてよく利用されるFB15k、YAGO15k、DBpedia15kについて、その数値データ(緯度経度など)を付与したもの。
   * 画像データについても付与が行われている。
-
+* [The TAC Relation Extraction Dataset](https://nlp.stanford.edu/projects/tacred/)
+  * 大規模な関係認識のデータセット。アノテーションはNewswireなどのニュース記事やその他Web上の記事に対して行われている。
+  * 主語・述語をはじめとした様々な関係が付与されている。データ総数は約10万。
+  * ただし有料(LDC memberは無料、それ以外は$25)。
+  
 ## Q&A
 
 * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
