@@ -429,6 +429,9 @@
   * DNNを解釈する方法についての論文まとめ。
 * [Analysis Methods in Neural Language Processing: A Survey](https://boknilev.github.io/nlp-analysis-methods/)
   * DNN系の自然言語処理のモデルを評価する方法についての体系的なまとめ。モデルの解析による評価(Attentionなど)、モデルのパフォーマンスによる評価(評価セットに対するスコア)、敵対的サンプルによる評価といった3つの観点で研究が整理されている。
+* [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
+  * 機械学習において、説明力の高いモデルとモデルを外から解釈(診断)するための手法をまとめた書籍(ただ、ディープ系の話題はあまりカバーしていない)。
+  * 販売も行われているが、全文をWebで読むことができる。
 
 ### Adversarial Attack
 
