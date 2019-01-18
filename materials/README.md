@@ -186,6 +186,8 @@
   * 紹介されている手法自体は多くないが、特徴ベースの手法からニューラルまで解説されており、また周辺の議論(QAとの違いや、評価方法など)についてもきちんとまとめられている。
 * [MT-Reading-List](https://github.com/THUNLP-MT/MT-Reading-List)
   * 機械翻訳について、まず読むべき論文とターニングポイントとなった手法の論文などをまとめたリポジトリ。よい研究のガイドとなっている。
+* [Evaluating Text Output in NLP: BLEU at your own risk](https://medium.com/@rtatman/evaluating-text-output-in-nlp-bleu-at-your-own-risk-e8609665a213)
+  * 翻訳の評価指標であるBLEUの問題点について述べた記事。主要な論点がまとめられており、とても参考になる。また、派生メトリクスについてもかなりの量が網羅されている。
 
 ### Not Recommend :droplet:
 
