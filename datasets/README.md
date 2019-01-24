@@ -241,6 +241,9 @@
   * 肺のX線画像データに対して、病名とその位置をアノテーションしたデータセット。30,805人の患者のX線画像112,120枚。
   * [ChestX-ray8: Hospital-scale Chest X-ray Database and Benchmarks on Weakly-Supervised Classification and Localization of Common Thorax Diseases](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_ChestX-ray8_Hospital-Scale_Chest_CVPR_2017_paper.pdf)
   * データセットの信頼性について疑義あり。放射線技師の方が実際に画像を見て検証したところ、診断と異なるラベルが多く発見された(ものによると20~30%台の一致しかないものもある)。詳細はこちら=>[Exploring the ChestXray14 dataset: problems](https://lukeoakdenrayner.wordpress.com/2017/12/18/the-chestxray14-dataset-problems/)
+* [CheXpert](https://stanfordmlgroup.github.io/competitions/chexpert/)
+  * 胸部X線画像のデータセット。65,240人の患者から撮影した、224,316の画像が収録されている。
+  * 放射線技師の所見(テキスト)を解析し、14の病理について有無のラベルを付けている。
 * [標準ディジタル画像データベース　胸部腫瘤陰影像(DICOM版)](http://imgcom.jsrt.or.jp/download/)
   * 154の小瘤のある画像と、93のない画像で構成されるデータセット。解像度は2048 x 2048。
   * 北里大学メディカルセンター放射線部 柳田 智先生のご尽力により作成された
