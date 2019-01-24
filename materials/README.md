@@ -41,6 +41,9 @@
   * バイアスを生む要因、その避け方などがまとめられている。
 * [Imperial College Mathematics department Deep Learning course](https://github.com/pukkapies/dl-imperial-maths)
   * PyTorchで深層学習を学ぶコース(TensorFlowもあるよう)。CNN、RNN、強化学習と扱っている話題が広く、コードも比較的きれいに書かれている。短いため、PyTorchがどんな感じかさくっと学びたい場合にお勧め。
+* [第1回 ディープラーニング分散学習ハッカソン](https://www.cc.u-tokyo.ac.jp/events/lectures/111/?linkId=100000004406701)
+  * 東京大学情報基盤センターが主催する、マルチGPUを使った学習のハンズオン。
+  * 資料が公開されており、分散学習の仕組みと課題、そしてChainerMN/TensorFlowで実際に分散学習を行う方法までが解説されている。
 
 ### Not Recommend :droplet:
 
