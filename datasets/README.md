@@ -644,6 +644,9 @@
 * [SearchQA](https://github.com/nyu-dl/SearchQA)
   * Jeopardy!のクイズをベースに、クイズに関連する情報を検索エンジンから集めたデータセット。決まったQAのコンテキストを、検索エンジンで補完した形になっている。
   * QA数は14万、各QAは平均49.6のコンテキストを持つ。検索クエリも含まれているため、コンテキストの情報を取り直すことも可能。
+* [Natural Questions](https://ai.google.com/research/NaturalQuestions)
+  * Googleの検索データに基づいたデータセットで、質問はルール(who/when/whereから始まるなど)に合致する検索クエリから取得され、回答は長短の2つが用意されている(長: Wikipediaの該当パラグラフ、単: パラグラフ内の回答そのもの)。
+  * 学習データ数は307,373で各質問には1つの回答だが、validation(7,830)/test(7,842)では質問に対し複数(5つ)の回答が用意されている。
 
 
 ## Summarization
