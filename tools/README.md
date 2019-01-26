@@ -236,6 +236,9 @@
 
 # Others
 
+* [dgl](https://github.com/dmlc/dgl/)
+  * Graph Convolution/Neural Networkを簡単に使えるライブラリ。主要なアルゴリズムがサポートされている。PyTorch/MXNetバックエンドで作成されており、パフォーマンスも意識されている。
+
 ## Annotation Tool
 
 * [visdial-amt-chat](https://github.com/batra-mlp-lab/visdial-amt-chat)
