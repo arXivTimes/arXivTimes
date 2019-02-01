@@ -413,7 +413,7 @@
   * 機械学習のデータにおいて、ラベル間のサンプル数が不均衡であるケースについての対処法。少数派を増大させるoversampling、多数派を減少させるundersampling、これらより良い少数派を「生成」するSMOTEという手法、また異常検知の問題としてみなしてしまうなど、様々な手法が紹介されている。
 * [Troubleshooting Deep Neural Networks](http://josh-tobin.com/troubleshooting-deep-neural-networks)
   * DNNのモデルを構築する際に、上手くいかない場合の対応策をまとめた資料。実装の問題、ハイパーパラメーターの問題、学習の問題、データの問題という4つの観点から解説を行っている。
-＊ [AI開発を円滑に進めるための契約・法務・知財](https://www.slideshare.net/hironojumpei/ai-129527593)
+* [AI開発を円滑に進めるための契約・法務・知財](https://www.slideshare.net/hironojumpei/ai-129527593)
   * AI開発にまつわる法律の解釈などをまとめた資料。法律の説明だけでなくケーススタディが掲載されているので(この場合はOKなど)とても参考になる。
 
 ### Domain Specific
