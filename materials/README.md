@@ -334,6 +334,9 @@
 * [Applying Deep Learning To Airbnb Search](https://github.com/arXivTimes/arXivTimes/issues/989)
   * Airbnbにおける検索ランキングの改善に、ニューラルネットを適用したプロジェクトの記録資料。
   * どんなモデルから始めるべきか、モデルの性能/状況をどう測るか、特徴エンジニアリングとどう組み合わせるのか、といった機械学習のプロジェクトを進める上で重要な知見が丁寧に書かれている。失敗談についても記載されている。
+* [Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/)
+  * マイクロソフトが発行した、人間とのインタラクションを行う機械学習システムについてのデザインガイドライン。
+  * ECサイトや音声アシスタントなど様々なプロダクトから得られたフィードバックを参考に、インタラクションのフェーズごとにガイドラインを設定している。
 
 ## Application Development
 
