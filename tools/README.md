@@ -165,6 +165,9 @@
   * ゲームボーイのゲームを、強化学習の環境として使えるようにした話(もちろん、実際動作させるにはROMが必要)。
   * 強化学習における学習を高速化するために、エミュレーターの実行速度を上げるというアプローチをとっている。
   * OpenAI Gymライクなインターフェースで使える。
+* [Obstacle Tower Environment](https://github.com/Unity-Technologies/obstacle-tower-env)
+  * Unityで作成された、塔を登っていくタイプのゲーム環境。
+  * 各フロアでは上に登るための階段を見つけるのが目的で、フロア内の部屋には様々なタスクが用意されているという構成。
 
 ## Simulator Integration
 
