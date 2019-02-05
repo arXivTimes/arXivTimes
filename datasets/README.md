@@ -217,13 +217,16 @@
 * [IMDb-Face](https://github.com/fwang91/IMDb-Face)
   * IMDbに掲載されている映画のスクリーンショットやポスターから抽出した画像に、人手でアノテーションしたデータセット。
   * 既存のデータセット(MegaFace/MS-Celeb-1Mなど)はラベルのノイズが多く、実際は20~30%の量で同等のパフォーマンスが出せる、とした研究で作成された([The Devil of Face Recognition is in the Noise](https://arxiv.org/abs/1807.11649))。
+* [DiF: Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/)
+  * 件数100万件という、大規模な人の顔のデータセット。
+  * 顔だけでなく、顔の特徴のアノテーションも行われている(顔の長さ、鼻の長さなど)。
+* [Flickr-Faces-HQ Dataset (FFHQ)](https://github.com/NVlabs/ffhq-dataset)
+  * GANでの使用を想定した顔のデータセット。1024x1024という高解像度の画像が70,000枚収録されている。
+  * 画像は名前の通りFlickrから取得されており、メガネや帽子など様々なバリエーションが用意されている。
 * [11k Hands](https://sites.google.com/view/11khands)
   * 様々な年代・性別・肌の色の「手」を集めたデータセット(特に年代は18~75歳と幅広い)。
   * 画像は指を開いたもの/閉じたもの/左右/表裏でそれぞれ取られている。
   * データ総数は11,000件ほど。
-* [DiF: Diversity in Faces Dataset](https://www.research.ibm.com/artificial-intelligence/trusted-ai/diversity-in-faces/)
-  * 件数100万件という、大規模な人の顔のデータセット。
-  * 顔だけでなく、顔の特徴のアノテーションも行われている(顔の長さ、鼻の長さなど)。
 * [AISL HDIBPL (Human Depth Images with Body Part Labels) Database](http://www.aisl.cs.tut.ac.jp/database_HDIBPL.html)
   * 深度データから姿勢を推定するためのデータセット。
   * 212x212の深度データに対し、ピクセル単位で10クラスのラベルが付与されている(胴、頭、右上腕、左上腕など・・・)。
