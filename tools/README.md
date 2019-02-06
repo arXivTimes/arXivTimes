@@ -236,6 +236,8 @@
   * 具体的には、一般に販売されているロボットを使ってタスクを定義し、それをOpenAI Gymライクなインタフェースで操作できるようにしている。 
 * [Nevergrad: An open source tool for derivative-free optimization](https://github.com/facebookresearch/nevergrad)
   * 進化戦略のような勾配を使わない最適化を行うライブラリ。ハイパーパラメーターサーチに使うことを想定しているよう。
+* [CoinRun](https://github.com/openai/coinrun)
+  * 強化学習アルゴリズムの転移性能を検証するための環境を公開。OpenAIで以前行われたソニックのコンテストをベースとしており、学習時とは異なる難易度で評価が行えるようになっている(難易度は1~3で、難易度に応じてコースが生成される)。過学習を検出するのにも使える。
 
 # Others
 
