@@ -54,6 +54,9 @@
 * [Meta-Dataset: A Dataset of Datasets for Learning to Learn from Few Examples](http://metalearning.ml/2018/papers/metalearn2018_paper42.pdf)
   * Meta-Dataset: メタラーニングの性能を測るために、様々なデータセットを組み合わせたデータセット。
   * ImageNet/Omniglotなど計10種のデータセットがミックスされている。
+* [Large-scale Fashion (DeepFashion) Database](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
+  * ファッションの画像を集めたデータセット。画像数は80万、カテゴリ数は50で、これに加え1000の属性(同じ服でも、素材が皮かツイードかなど)が付与されている。
+  * これに加え、衣服のキーポイントをかなり細かくアノテーションした[DeepFashion2](https://github.com/switchablenorms/DeepFashion2)がリリースされている。
 
 ## Video
 
