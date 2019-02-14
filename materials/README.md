@@ -113,6 +113,9 @@
   * Oxford大学で行われた自然言語の講義資料。言語モデルや音声認識、QAタスクなど幅広く扱い、それらでDNNをどう利用するかも述べられている。
   * [講義動画](https://www.youtube.com/playlist?list=PL613dYIGMXoZBtZhbyiBqb0QtgK6oJbpm)もある。
   * [簡単な日本語解説記事](http://englishforhackers.com/oxford-cs-deepnlp-2017-summary.html)
+* [Natural Language Processing/Info 159/259. Fall 2018](http://people.ischool.berkeley.edu/~dbamman/nlp18.html)
+  * UC Berkeleyで行われている自然言語処理のコース資料。自然言語処理の大分基本的なところから、ニューラル系の手法まで幅広く解説されている。
+  * 資料内の事例も、テキスト分類ならTwitterやAmazonレビューなど興味を引くような題材で紹介されている。
 * [[最新版] JSAI2018 チュートリアル「"深層学習時代の" ゼロから始める自然言語処理」](https://www.slideshare.net/yukiarase/jsai2018-101054060/yukiarase/jsai2018-101054060)
   * 人工知能学会2018でのチュートリアル資料。DNN以降の自然言語処理の基礎が入力データ(単語等)の「ベクトル化」であるとして、ではベクトル化の手法としてどんなものがあるのか、といった形で解説がされている。
   * 学習データが少ない時や前処理の必要性などにも触れられている。
