@@ -193,6 +193,7 @@
   * Facebookが公開したゲームで強化学習を行うためのフレームワーク
   * ゲームの実行部分はC++のスレッドで高速に、学習部分はPythonでという形で役割分担している。
   * また、PyTorchベースのベースライン実装を搭載している。
+  * 2019年2月からは、[AlphaGoZero/AlphaZeroのオープンソース実装として再スタートしている](https://github.com/pytorch/ELF)
 * [dm_control](https://github.com/deepmind/dm_control)
   * DeepMind製の強化学習の学習環境。OpenAI GymよりもContinuous Controlなタスク(アームの上げ下げやステアリングといった、Action空間が連続的(実数値)になるタスク)を取り揃えており、モデルの評価環境として使える。ベースラインモデルも提供されている。
   * [DeepMind Control Suite](https://arxiv.org/abs/1801.00690)
