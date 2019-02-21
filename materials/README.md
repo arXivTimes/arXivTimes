@@ -250,6 +250,8 @@
   * 深層学習x強化学習でゲームを攻略する研究のまとめ。どんな手法がどんな種類のゲームに使われているかなどもまとめられている。
 * [Model-Based Reinforcement Learning](http://people.eecs.berkeley.edu/~cbfinn/_files/mbrl_cifar.pdf)
   * モデルベースの強化学習の解説資料。基本的なところから近年の手法まで解説されている。モデルベースはモデルフリーに比べ資料が少ないため、貴重。
+* [Meta-Learning in 50 Lines of JAX](https://blog.evjang.com/2019/02/maml-jax.html)
+  * メタラーニングのチュートリアルの記事。メタラーニングは色んな意味で使われているため、まず扱う対象の「メタラーニング」をきちんと定義してくれている。その後、Numpy+勾配計算といった趣のシンプルなライブラリ[JAX](https://github.com/google/jax)を使って実際に実装を行っている。
 
 ### Not Recommend :droplet:
 
