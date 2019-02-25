@@ -105,6 +105,8 @@
 * [wav2letter++](https://github.com/facebookresearch/wav2letter/)
   * Facebookから公開された、CNNベースの音声認識ライブラリ。
   * 独自開発されたC++ベースの機械学習ライブラリ[flashlight](https://github.com/facebookresearch/flashlight)上で動作する。
+* [nnmnkwii](https://github.com/r9y9/nnmnkwii)
+  * 音声合成システムの開発を支援するライブラリ(PyTorchベース)。既存の[Merlin](https://github.com/CSTR-Edinburgh/merlin)に比べて、モデルのカスタマイズが行いやすいよう設計されている。
 
 # Reinforcement Learning
 
