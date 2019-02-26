@@ -389,6 +389,8 @@
 * [日本語単語類似度データセット(JapaneseWordSimilarityDataset)](https://github.com/tmu-nlp/JapaneseWordSimilarityDataset)
   * Stanford Rare Word Similarity Datasetを参考に作成された日本語の単語類似度データセット。
   * 動詞・形容詞・名詞・副詞が対象となっており、クラウドソーシングを利用し10名のアノテータに11段階で単語ペアの類似度をスコアしてもらっている。
+* [The Japanese Bigger Analogy Test Set (jBATS)](http://vecto.space/projects/jBATS/)
+  * 日本語のアナロジータスク(王様-男+女=女王、など)のデータセット。本家のBATSに乗っ取り、4つの言語関係が収録されている。
 * [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
   * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
@@ -424,6 +426,7 @@
 * [kanjivg-radical](https://github.com/yagays/kanjivg-radical)
   * 漢字の部首、そして部首と漢字を対応付けたデータセット。
   * 「脳」なら「月」「⺍」「凶」、また「月」という部首からなら「肝」「育」などが取れる。詳細は[記事](https://yag-ays.github.io/project/kanjivg-radical/)を参照。
+  * 同様のデータセットとして、[IDS](https://github.com/cjkvi/cjkvi-ids)がある。ただ、こちらはライセンスがGPLv2なので注意。
 * [CoNaLa: The Code/Natural Language Challenge](https://conala-corpus.github.io/)
   * 自然言語からコードを生成するためのデータセット。
   * 「ソートしたい」=>「配列xを大きい順に並び変えたい」=>「x.sort(reverse=True)」といった形で、要求・具体的な要求・コード(Python)の3点がセットになっている(クラウドソーシングで作成、データ元はStackOverflow)。
