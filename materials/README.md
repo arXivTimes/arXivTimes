@@ -44,6 +44,8 @@
 * [第1回 ディープラーニング分散学習ハッカソン](https://www.cc.u-tokyo.ac.jp/events/lectures/111/?linkId=100000004406701)
   * 東京大学情報基盤センターが主催する、マルチGPUを使った学習のハンズオン。
   * 資料が公開されており、分散学習の仕組みと課題、そしてChainerMN/TensorFlowで実際に分散学習を行う方法までが解説されている。
+* [AI-Sys Spring 2019](https://ucbrise.github.io/cs294-ai-sys-sp19/)
+  * UC Berkeleyの、DNNを効率的に実行するための手法についての講義。実行の工夫として分散環境やネットワーク構造のコンパイル、モデル側の工夫として構造探索や蒸留(主に枝刈り)の話題が取り上げられている。
 
 ### Not Recommend :droplet:
 
