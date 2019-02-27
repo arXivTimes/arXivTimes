@@ -87,6 +87,8 @@
   * VAE、また様々な/GANといった生成系モデルの解説実装を提供しているリポジトリ。コードがとても整理されていて、コードを読みながら学べる形。
 * [deep learning object detection](https://github.com/hoya012/deep_learning_object_detection)
   * 物体検知に関する手法をまとめてくれているサイト。SOTAの更新履歴を追うことができる。論文のリンクと、公開されて入れば実装コードへのリンクも貼られている。
+* [敵対的生成ネットワーク（GAN）](https://www.slideshare.net/cvpaperchallenge/gan-133159239)
+  * GAN研究の体系的な整理、評価、応用、実装、研究を牽引している組織までがまとめられた資料。とても貴重。
 
 ### Not Recommend :droplet:
 
@@ -425,6 +427,8 @@
 * [ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
   * クラスタリングなどに用いられる、近似最近傍探索を行なってくれるライブラリをまとめたリポジトリ。理論はわかったので、実際導入したい、という場合にとても参考になる資料。
   * [日本語の解説記事はこちら](https://qiita.com/wasnot/items/20c4f30a529ae3ed5f52)
+* [初心者向けスポーツ分析チュートリアル「目標達成に導くデータ分析」/ Sports Analysis Tutorial](https://speakerdeck.com/upura/sports-analysis-tutorial)
+  * スポーツXデータサイエンスについての資料。単にテクニックだけでなく、アスリート/チームとのコミュニケーション方法などについてまで言及されている。また、iOSのヘルスケアのデータを使った実践チュートリアルもあり、とても参考になる。
 
 ### Domain Specific
 
