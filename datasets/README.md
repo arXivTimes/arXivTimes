@@ -206,6 +206,9 @@
 * [Cars Overhead With Context (COWC) dataset](https://gdo152.llnl.gov/cowc/)
   * 車を映した衛星写真のデータセット。解像度は15cm=1pixel単位で、カナダ・ニュージーランド・ドイツなど各国の画像が収録されている。
   * 32,716の車がアノテーションされており、58,247の車ではない物体を含む。
+* [Tellus Data Catalog](https://www.tellusxdp.com/ja/dev/data)
+  * 衛星データプラットフォームであるTellusで公開されているデータセットの一覧。
+  * 衛星画像はもちろん、標高、地表面温度、降雨量、また携帯電話の基地局アクセスを元にした人口統計情報など興味深いデータが多く公開されている。
 
 ## BodyParts
 
