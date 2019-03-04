@@ -381,6 +381,9 @@
 * [ActivityNet Captions dataset](https://cs.stanford.edu/people/ranjaykrishna/densevid/)
   * 動画に対するキャプションをつけたデータセット。動画全体で1つではなく、動画内の様々なパートに対しアノテーションが行われている。
   * 動画数は2万で、一動画あたり約3.65パートに文が付与されている。
+* [YouCook2 Dataset](http://youcook2.eecs.umich.edu/)
+  * 料理動画のデータセット。89のレシピ X 22動画/1レシピ = 計2000本ほどが収録されている。動画はYouTubeから取得され、手順に対しキャプションがつけられている。
+
 
 # NLP
 
