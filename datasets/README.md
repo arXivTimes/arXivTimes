@@ -378,6 +378,9 @@
   * 同様のデータセットとしては、[VCR: Visual Commonsense Reasoning](http://visualcommonsense.com/)がある
 * [GQA](https://cs.stanford.edu/people/dorarad/gqa/)
   * 既存のVQAデータセットは回答に偏りがあり(いくつ?ならtwoが多いなど)根拠に基づく学習をさせるのが難しく、根拠を意識したデータセット(CLEVR)は四角や三角などの抽象的なオブジェクトという問題があった。この2つを合流させたようなデータセットになっている。
+* [ActivityNet Captions dataset](https://cs.stanford.edu/people/ranjaykrishna/densevid/)
+  * 動画に対するキャプションをつけたデータセット。動画全体で1つではなく、動画内の様々なパートに対しアノテーションが行われている。
+  * 動画数は2万で、一動画あたり約3.65パートに文が付与されている。
 
 # NLP
 
