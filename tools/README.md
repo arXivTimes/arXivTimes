@@ -247,6 +247,8 @@
 * [Neural MMO](https://github.com/openai/neural-mmo)
   * 長時間、しかも多数のエージェントによる学習を行うための環境。
   * 比較的短いサイクルでリセットされる既存の環境と異なり長時間続くため、提供されている標準実装(素のPolicy Gradient)では生存時間を報酬としている。
+* [streetlearn](https://github.com/deepmind/streetlearn)
+  * 強化学習でナビゲーションを学習する環境。Google Street Viewをベースにしており、実世界に近い環境となっている。
 
 # Others
 
