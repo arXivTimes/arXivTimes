@@ -385,6 +385,10 @@
 
 * [DataVisualization](https://github.com/neerjad/DataVisualization)
   * 実際のデータを利用した、データ可視化チュートリアル。各種ライブラリ(Seaborn/Bokeh/Plotly/Igraph)ごとに用意されていて使い方を比較できる。
+* [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/)
+  * データの可視化を行う技法を、可視化したいメトリクス(差なのか共起なのかetc)に応じて分類、紹介してくれているサイト。
+* [UW Interactive Data Lab](https://idl.cs.washington.edu/)
+  * データの可視化による情報伝達について、実例などをまとめているサイト。
 
 ### UI/UX
 
