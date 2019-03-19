@@ -415,10 +415,6 @@
 
 ## Others
 
-* [A Kaggle Master Explains Gradient Boosting](http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/)
-  * XGBoostをブラックボックスに使っていませんか？ということで、Gradient Boostingの解説。簡単な例からステップをふんでわかりやすく解説している。
-* [A Practical Guide to Tree Based Learning Algorithms](https://sadanand-singh.github.io/posts/treebasedmodels/)
-  * コンペティションでもよく利用される木構造ベースのアルゴリズム(決定木やランダムフォレストなど)を初歩から学べるコンテンツ
 * [LEARNING WITH LIMITED LABELED DATA: WEAK SUPERVISION AND BEYOND](https://lld-workshop.github.io/#about)
   * NIPS2017で開催された、少数のデータから学習を行う手法のワークショップ
 * [From zero to research — An introduction to Meta-learning](https://medium.com/huggingface/from-zero-to-research-an-introduction-to-meta-learning-8e16e677f78a)
@@ -438,8 +434,16 @@
 * [ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
   * クラスタリングなどに用いられる、近似最近傍探索を行なってくれるライブラリをまとめたリポジトリ。理論はわかったので、実際導入したい、という場合にとても参考になる資料。
   * [日本語の解説記事はこちら](https://qiita.com/wasnot/items/20c4f30a529ae3ed5f52)
-* [初心者向けスポーツ分析チュートリアル「目標達成に導くデータ分析」/ Sports Analysis Tutorial](https://speakerdeck.com/upura/sports-analysis-tutorial)
-  * スポーツXデータサイエンスについての資料。単にテクニックだけでなく、アスリート/チームとのコミュニケーション方法などについてまで言及されている。また、iOSのヘルスケアのデータを使った実践チュートリアルもあり、とても参考になる。
+
+### XGBoost
+
+* [A Kaggle Master Explains Gradient Boosting](http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/)
+  * XGBoostをブラックボックスに使っていませんか？ということで、Gradient Boostingの解説。簡単な例からステップをふんでわかりやすく解説している。
+* [A Practical Guide to Tree Based Learning Algorithms](https://sadanand-singh.github.io/posts/treebasedmodels/)
+  * コンペティションでもよく利用される木構造ベースのアルゴリズム(決定木やランダムフォレストなど)を初歩から学べるコンテンツ
+* [Dive into XGBoost](https://speakerdeck.com/hoxomaxwell/dive-into-xgboost)
+  * XGBoostへと至る歴史的な背景/手法の進化がまとめられた資料。日本語でのXGBoost解説はあまり見たことがないので、とても貴重。
+* [XGBoostのアルゴリズム解説](https://speakerdeck.com/rsakata/santander-product-recommendationfalseapurotitoxgboostfalsexiao-neta?slide=44)
 
 ### Domain Specific
 
@@ -455,6 +459,8 @@
 * [生命情報向けの機械学習入門](https://github.com/HumanomeLab/mlcourse)
   * ゲノムの解析など生命情報分野の研究における機械学習の活用について解説したリポジトリ。
   * 酵母の細胞周期の同定や、転写因子結合の有無といったタスクを機械学習で予測する方法が紹介されている。
+* [初心者向けスポーツ分析チュートリアル「目標達成に導くデータ分析」/ Sports Analysis Tutorial](https://speakerdeck.com/upura/sports-analysis-tutorial)
+  * スポーツXデータサイエンスについての資料。単にテクニックだけでなく、アスリート/チームとのコミュニケーション方法などについてまで言及されている。また、iOSのヘルスケアのデータを使った実践チュートリアルもあり、とても参考になる。
 
 ### Understanding DNN
 
