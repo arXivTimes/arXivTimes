@@ -437,6 +437,8 @@
 * [ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
   * クラスタリングなどに用いられる、近似最近傍探索を行なってくれるライブラリをまとめたリポジトリ。理論はわかったので、実際導入したい、という場合にとても参考になる資料。
   * [日本語の解説記事はこちら](https://qiita.com/wasnot/items/20c4f30a529ae3ed5f52)
+* [スタートアップのための製品要求仕様書(MRD & PRD)の書き方](https://medium.com/@hirokishimada_80077/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E8%A3%BD%E5%93%81%E8%A6%81%E6%B1%82%E4%BB%95%E6%A7%98%E6%9B%B8-mrd-prd-%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9-d5088d795ba5)
+  * 作るべきものの決め方についての資料。エレベーターピッチの内容は参考になる。
 
 ### XGBoost
 
@@ -494,3 +496,12 @@
 
 * [機械学習モデルのハイパパラメータ最適化](https://www.slideshare.net/greetech/ss-110811527/)
   * ハイパーパラメータサーチの手法に関するまとめ。サーベイの量に圧倒される
+
+### How to Write
+
+* [松尾ぐみの論文の書き方](http://ymatsuo.com/japanese/ronbun_jpn.html)
+  * 論文を書く前に、まずはこちらに目を通しておいた方が良い。
+* [Stanford大学流科学技術論文の書き方](http://hontolab.org/tips-for-research-activity/tips-for-writing-technical-papers/)
+* [Good Citizen of CVPR](https://www.cc.gatech.edu/~parikh/citizenofcvpr/)
+  * CVPRで行われた、良き研究者になるためのガイド的なワークショップの資料。論文の書き方からTodoの管理といった細かいところまで、多くの資料がある。
+
