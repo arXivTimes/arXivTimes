@@ -94,6 +94,7 @@
 * [モダンな深層距離学習 (deep metric learning) 手法: SphereFace, CosFace, ArcFace](https://qiita.com/yu4u/items/078054dfb5592cbb80cc)
   * 分類ではなく、ベクトル表現間の距離を学習するMetric Learningの手法についての記事(距離学習は、顔認証など分類数が不定/事前のサンプルが難しいケースで有効)。
   * 距離を直接学習する手法が主流だったが、最近は分類問題を解きつつ学習できるようになってきたよう。既存の距離学習について解説された記事へのリンクもある。
+  * 基本的な手法であるTriplet Lossについてはこちらが詳しい: [Deep Metric Learning の定番⁈ Triplet Lossを徹底解説](https://qiita.com/tancoro/items/35d0925de74f21bfff14)
 * [画像キャプションの自動生成](https://www.slideshare.net/YoshitakaUshiku/ss-57148161)
   * 画像キャプションの自動生成について、歴史や研究、評価手法などについてまとめられた資料。
 
