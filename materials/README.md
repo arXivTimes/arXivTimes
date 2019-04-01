@@ -304,6 +304,8 @@
 
 * [Introduction to Causal Inference](http://www.ucbbiostat.com/)
   * UC Berkeley 生物統計学部の講義資料。初歩的なところから、実際に利用できるまでが丁寧に解説されている。Rを使った演習問題つき。
+* [Causal inference and the data-fusion problem](https://www.pnas.org/content/113/27/7345)
+  * 因果推論に関する基本的な内容がまとめられたチュートリアル。異なる出自のデータを統合して推論を行う過程について、課題と課題解決のための手法がきっちりまとめられている。
 * [Model-Based Machine Learning](http://www.mbmlbook.com/index.html)
   * 機械学習を利用する際に、問題に対してアルゴリズムを適用するのでなく、問題をモデル化して、それを解くという逆の発想から機械学習の活用を提案している書籍("Model" basedな機械学習としている)。
   * 内容的には推論モデルの本となっていて、Infer.NETによるサンプルコードもあるとのこと。ただ、同じMicrosoftからPythonの因果推論パッケージが出たのでそちらで行ったほうがいいかもしれない([dowhy](https://github.com/Microsoft/dowhy))
