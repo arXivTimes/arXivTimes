@@ -290,7 +290,7 @@
   * 確率/統計についてインタラクティブに学べるサイト。可視化の技法がとてもうまく使われており、抜群にわかりやすい。
 * [Introduction to Gaussian Processes - Part I](http://bridg.land/posts/gaussian-processes-1)
   * ガウス過程の解説記事
-* [A Visual Exploration of Gaussian Processes](https://www.jgoertler.com/visual-exploration-gaussian-processes/)
+* [A Visual Exploration of Gaussian Processes](https://distill.pub/2019/visual-exploration-gaussian-processes/)
   * ガウス過程についての解説記事。図、またパラメーターを操作してインタラクティブに試せるコンテンツを用いて解説されており分かりやすい。
 * [CSC2541: Scalable and Flexible Models of Uncertainty](https://csc2541-f17.github.io/)
   * トロント大学の確率モデリングの授業。ガウス過程からニューラルネットを使ったベイジアンネットなどを扱い、しかもTensorFlowやStan、Edwardといったライブラリを使った実習もある。
