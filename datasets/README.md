@@ -581,6 +581,8 @@
 * [WebQuestions/Free917](https://nlp.stanford.edu/software/sempre/)
   * 5W(When/Where/Who/What/Why)で始まる質問に対する回答を集めたデータセット。
   * WebQuestionsは学習/テスト=3,778/2,032の質問が、Free917は641/276のデータが登録されている
+* [WikiTableQuestions](https://github.com/ppasupat/WikiTableQuestions)
+  * テーブルを見て質問に回答するというタスクのデータセット。売上のテーブルがあったとしたら、20XX年のY事業部の売上は?などといった質問に回答する。
 * [TREC QA](http://trec.nist.gov/data/qa.html)
   * 1999年から続く質問回答のタスクで使用されているデータセット。質問はオープンドメインで、回答はクローズドなもの(答えが決まっている(日本の首都は?->東京、のような))
 * [DeepMind Q&A Dataset](http://cs.nyu.edu/~kcho/DMQA/)
