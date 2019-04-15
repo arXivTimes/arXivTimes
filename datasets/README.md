@@ -268,6 +268,8 @@
 * [fastMRI](https://fastmri.med.nyu.edu/)
   * 膝のMRI画像で、10,000の画像からサンプルされた1500件のデータが提供されている。
   * フォーマットは、ベンダー中立のISMRMDが使われている。
+* [MRNet Dataset](https://stanfordmlgroup.github.io/competitions/mrnet/)
+  * 膝のMRI画像データセット。データ数は1,370で、前十字靭帯/半月板の損傷についてアノテーションが行われている。
 * [MURA](https://stanfordmlgroup.github.io/competitions/mura/)
   * 骨のX線画像のデータセット。
   * 画像数は40,561で、肘、指など7つの部分に分かれる。正常/異常の判定がアノテーションされている。
