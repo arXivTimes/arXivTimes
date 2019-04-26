@@ -283,6 +283,8 @@
   * SGDを端緒とした、最適化アルゴリズムについての解説
 * [A birds-eye view of optimization algorithms](http://fa.bianp.net/teaching/2018/eecs227at/)
   * 最適化の手法について、図解付きの解説。
+* [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/)
+  * Andrej Karpathy先生による、ニューラルネットを学習させるときの心構えと手順についての解説記事。まずデータを徹底的に調べることから開始し、小さく(乱数固定・1バッチへのオーバーフィット確認など)/予測結果を可視化しながら学習を進めていくのが良いとしている。
 
 ## Probabilistic Modeling
 
