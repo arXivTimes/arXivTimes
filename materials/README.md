@@ -225,6 +225,8 @@
 
 * [An Interactive Introduction to Fourier Transforms](http://www.jezzamon.com/fourier/index.html)
   * フーリエ変換をアニメーションで理解する記事。基本的な内容から、3次元、画像への適用などの応用例も紹介されている。
+* [Deep Learning for Audio Signal Processing](https://arxiv.org/abs/1905.00078)
+  * 音声に対するDNNの適用についてまとめられた資料。音声と画像の性質的な違い(時系列/周波数という相関のない2軸で表現される点、時系列のため順次処理が必要など)を示しその違いを各手法がどう扱っているのかという観点からまとめられている。概要的な資料だが問題設定と手法が上手くまとめられている
 
 ## Reinforcement Learning
 
