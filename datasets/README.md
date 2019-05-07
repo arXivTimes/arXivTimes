@@ -33,6 +33,7 @@
 * [Google-Landmarks: A New Dataset and Challenge for Landmark Recognition](https://research.googleblog.com/2018/03/google-landmarks-new-dataset-and.html)
   * 世界各国のランドマークのデータセット。ランドマーク数は3万、写真総数は200万という規模。
   * 画像の局所特徴量を抽出する[DELF](https://github.com/tensorflow/models/tree/master/research/delf)も併せて公開されている。
+  * [2019/5/3にv2が公開された](https://ai.googleblog.com/2019/05/announcing-google-landmarks-v2-improved.html)。データ数が500万へと拡張された。
 * [Food-101](https://www.vision.ee.ethz.ch/datasets_extra/food-101/)
   * 食品の画像データセット。カテゴリ数は101、画像数は101,000と小粋に数字がそろっている。
   * 各食品は250のテストデータと750の学習用データを持っており、双方人が確認している。画像サイズは全て512pxにリスケールされている
