@@ -249,6 +249,9 @@
   * 比較的短いサイクルでリセットされる既存の環境と異なり長時間続くため、提供されている標準実装(素のPolicy Gradient)では生存時間を報酬としている。
 * [streetlearn](https://github.com/deepmind/streetlearn)
   * 強化学習でナビゲーションを学習する環境。Google Street Viewをベースにしており、実世界に近い環境となっている。
+* [purdue-biorobotics/flappy](https://github.com/purdue-biorobotics/flappy)
+  * 昆虫やハチドリのような、細かい羽ばたきによる飛行を学習するシミュレーター。空中を飛ぶ小型のロボットには不可欠だが、羽ばたき(=Action)が多い一方安定的な飛行を要求される。
+  * 実際にロボットを製作し、その挙動を再現している。
 
 # Others
 
