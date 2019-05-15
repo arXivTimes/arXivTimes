@@ -97,6 +97,8 @@
   * 基本的な手法であるTriplet Lossについてはこちらが詳しい: [Deep Metric Learning の定番⁈ Triplet Lossを徹底解説](https://qiita.com/tancoro/items/35d0925de74f21bfff14)
 * [画像キャプションの自動生成](https://www.slideshare.net/YoshitakaUshiku/ss-57148161)
   * 画像キャプションの自動生成について、歴史や研究、評価手法などについてまとめられた資料。
+* [三次元点群を取り扱うニューラルネットワークのサーベイ Ver. 2 / Point Cloud Deep Learning Survey Ver. 2](https://speakerdeck.com/nnchiba/point-cloud-deep-learning-survey-ver-2)
+  * 点群(Point Cloud)を扱う研究をまとめたサーベイ。基礎からカテゴリ別に膨大な量の論文が網羅されており、応用についてもまとめられている。
 
 ### Not Recommend :droplet:
 
