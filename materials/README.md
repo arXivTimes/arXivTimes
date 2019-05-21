@@ -501,6 +501,9 @@
 * [Structured deep models: Deep learning on graphs and beyond](http://tkipf.github.io/misc/SlidesCambridge.pdf)
   * グラフを扱わせたら右に出るものはいない[Thomas Kipf](https://twitter.com/thomaskipf)先生の講義資料。DNNでグラフを扱う際の基本的な考え方からその歴史、最近の研究動向までが網羅されている。
   * グラフは質問回答における推論等に使われる一方、分子構造の推定などにも使われており、多様な分野で応用が広がる熱い分野
+* [Deep Generative Models for Graphs: Methods & Applications](http://i.stanford.edu/~jure/pub/talks2/graph_gen-iclr-may19-long.pdf)
+  * グラフ生成に関するチュートリアル資料(ICLR2019)。与えられたデータが持つグラフ構造に似たグラフを生成する方式と、特定性質を持つグラフを生成する方式(化学物質など)の2種類にわけ解説されている。
+  * 前者は系列生成(RNN)ベース、後者はGraph Conv+強化学習ベース。
 
 ### Network Optimization
 
