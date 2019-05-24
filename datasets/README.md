@@ -722,6 +722,9 @@
 * [MAESTRO Dataset](https://storage.googleapis.com/magentadata/papers/maestro/index.html)
   * ピアノ演奏と対応するMIDIデータのデータセット。
   * ピアノの演奏は、インターネット上のピアノ演奏コンペティションであるInternational Piano-e-Competitionから取得されている。演奏数1,184，曲数430。
+* [Groove MIDI Dataset](https://magenta.tensorflow.org/datasets/groove)
+  * ドラム音源のデータセット。
+  * 8割プロで構成された総勢10名のドラマーによる音源が収録されており、総収録時間は13.6時間、MIDIファイル数は1150にもなる。
 
 ## Speech
 
