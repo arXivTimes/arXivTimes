@@ -451,6 +451,9 @@
   * コンピュータービジョンの大家である、金出先生が語るAI研究のあり方について。AI冬の時代の原因について「人工的に作られた“問題”を“手段”に押し込めようとすることが引き起こした」とし、解けて意味のある具体的な問題に取り組むことが必要としている。
 * [効率的な教師データ作成(アノテーション)のための研究サーベイ](https://tech-blog.abeja.asia/entry/annotation-survery)
   * データセットを作成するアノテーションを効率化するための研究の紹介。画像を中心に既存研究がまとめられている。
+* [Recent Advances on Transfer Learning and Related Topics](https://www.slideshare.net/KotaMatsui/recent-advances-on-transfer-learning-and-related-topics)
+  * 転移学習の手法とその理論的な解説がなされている資料。
+  * 混乱しがちなメタラーニングやFew-shotとの違いについても言及されており、この資料だけで転移学習周りの研究がかなりすっきりと整理できるようになっている。
 
 ### XGBoost
 
