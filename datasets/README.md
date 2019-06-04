@@ -809,6 +809,8 @@
   * QM7: 原子数23の分子に制限したデータセット(総分子数は7165)。13の特性をデータに足したQM7bもある。
   * QM8: CONF(炭素・酸素・窒素・フッ素)原子8つまでで構成される、合成しやすい有機分子20,000の特性が収録されたデータセット。
   * QM9: CHONF(炭素・水素・酸素・窒素・フッ素)で構成される13万の有機分子の特性が収録されたデータセット。
+* [Alchemy Dataset](https://alchemy.tencent.com/)
+  * 有機化合物のデータセットが公開。収録分子数はQM9とほぼ同程度だが、構成原子の種類として硫黄(S)/塩素(CI)などが追加されている。
 * [dSPP: Database of structural propensities of proteins](https://peptone.io/dspp)
   * タンパク質(アミノ酸の鎖のベクトル)から構造的傾向スコア(structural propensity score)を予測するためのデータセット。
   * Kerasから使うためのユーティリティも提供されている([dspp-keras](https://github.com/PeptoneInc/dspp-keras))。
