@@ -210,6 +210,8 @@
   * 自然言語処理における転移学習についての、体系的なまとめ。タスクが同じか/異なるかという観点から、同じ場合はDomain Adaptation(言語が異なる場合Cross-lingual)、異なる場合は異なるタスクを同時に学習するか(Multi-Task)・一つずつ学習するか(Sequential)といった形でわけ解説を行なっている。
 * [Deep Adversarial Learning for NLP](https://sites.cs.ucsb.edu/~william/papers/AdvNLP-NAACL2019.pdf)
   * 自然言語処理におけるAdversarial Trainingの解説＋研究の紹介を行なっている資料。適用が成功しているのは今の所対話ぐらいだが、まだ可能性は広がっているという内容。
+* [NLI with Deep Learning](https://nlitutorial.github.io/)
+  * 文関係推論(NLI)に関するデータセットと研究の紹介。SNLIなどで指摘されてるAnnotation Artifact(片方の文だけで推論できるなど)の問題も言及されている。
 
 ### Not Recommend :droplet:
 
