@@ -460,6 +460,8 @@
 * [SNOW T15:やさしい日本語コーパス](http://www.jnlp.org/SNOW/T15)
   * 日英対訳コーパス([small_parallel_enja](https://github.com/odashi/small_parallel_enja))の日本語を平易な日本語に書き換えたデータセット。
   * 元がパラレルコーパスであるため、英語との対応もとれる。
+* [TED-Parallel-Corpus](https://github.com/ajinkyakulkarni14/TED-Multilingual-Parallel-Corpus)
+  * TED Talkをベースにしたパラレルコーパス。対応言語が非常に多く、109言語のリソースが収録されている。
 
 ## Classification
 
