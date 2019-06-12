@@ -749,6 +749,9 @@
 * [VoxCeleb2: Deep Speaker Recognition](http://www.robots.ox.ac.uk/~vgg/data/voxceleb2/)
   * 6112名の著名人の、100万発話を収集したデータセット。収集は、顔認識のモデルを使いほぼ自動で行われている。
   * 具体的には、VGGFace2に登録されている著名人のインタビュー動画をYoutubeからダウンロードし(人名+interviewで検索しダウンロード)、動画中の顔を認識＋話者推定(音声と唇の動きから推定するSyncNetを使用)を行い該当箇所の音声を切り出すという手法。
+* [AVSpeech: Audio Visual Speech dataset](https://looking-to-listen.github.io/avspeech/explore.html)
+  * YouTubeの講義動画などから収集した、15万人以上、4700時間分の明瞭な発話及び話者動画データセット。
+  * 1つの動画は3~10秒からなり、単一の話者の顔が映りこんでいてかつ背景の雑音がない明瞭な音声のものが選ばれている。
 
 ## Music
 
