@@ -157,7 +157,7 @@
   * 9,053の画像が収録されており、総計15,435の損傷がバウンディングボックスでアノテートされている。また、損傷の分類も行われている。
   * なお、データは日本発で7つの自治体と掛け合い作成したとのこと。
   * [Road Damage Detection Using Deep Neural Networks with Images Captured Through a Smartphone](https://arxiv.org/abs/1801.09454)
-* [SUNCG: A Large 3D Model Repository for Indoor Scenes](http://suncg.cs.princeton.edu/)
+* [SUNCG: A Large 3D Model Repository for Indoor Scenes](https://sscnet.cs.princeton.edu/)
   * 実物に近いよう家具などがレイアウトされた、屋内のモデルのデータセット。45,000の異なるシーンが収録されている。
   * シミュレーター?画像だけでなく、実物に近い形にレンダリングした画像も提供されている。また、すべての画像にオブジェクトのラベルが付与されている。
 * [InteriorNet](https://interiornet.org/)
