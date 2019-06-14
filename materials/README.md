@@ -428,6 +428,21 @@
   * スクレイピングの技術的な面だけでなく、法律的な面についても触れられています。
   * 著作権法については、2019/1/1からの施行で大幅な緩和が行われます。端的には、スクレイピングで収集したデータを著作権者の害にならない範囲で配布・販売を行うことが可能になります。詳細はこちらをご参考。[改正著作権法が日本のAI開発を加速するワケ　弁護士が解説 ](http://www.itmedia.co.jp/news/articles/1809/06/news017_4.html)。
 
+### Product Design
+
+* [役にたちインパクトのある実世界AIを](http://ibisml.org/ibis2018/files/2018/11/kanade.pdf)
+  * コンピュータービジョンの大家である、金出先生が語るAI研究のあり方について。AI冬の時代の原因について「人工的に作られた“問題”を“手段”に押し込めようとすることが引き起こした」とし、解けて意味のある具体的な問題に取り組むことが必要としている。
+* [スタートアップのための製品要求仕様書(MRD & PRD)の書き方](https://medium.com/@hirokishimada_80077/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E8%A3%BD%E5%93%81%E8%A6%81%E6%B1%82%E4%BB%95%E6%A7%98%E6%9B%B8-mrd-prd-%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9-d5088d795ba5)
+  * 作るべきものの決め方についての資料。エレベーターピッチの内容は参考になる。
+
+### Others
+
+* [AI開発を円滑に進めるための契約・法務・知財](https://www.slideshare.net/hironojumpei/ai-129527593)
+  * AI開発にまつわる法律の解釈などをまとめた資料。法律の説明だけでなくケーススタディが掲載されているので(この場合はOKなど)とても参考になる。
+* [ライフサイエンス・ヘルスケア業界　未来予想図](https://www2.deloitte.com/jp/ja/pages/life-sciences-and-healthcare/articles/ls/predictions2020.html)
+  * ライフサイエンス・ヘルスケア業界の未来像について、当時の数値などから予想を行なった資料。
+  * 想像される世界像を提示し、そこで配信されているであろうニュース、具体的なシナリオ、標準化などの世界動向、という形でまとめていて調査資料としてとてもよくできている。
+
 ## Others
 
 * [LEARNING WITH LIMITED LABELED DATA: WEAK SUPERVISION AND BEYOND](https://lld-workshop.github.io/#about)
@@ -442,17 +457,11 @@
   * 機械学習のデータにおいて、ラベル間のサンプル数が不均衡であるケースについての対処法。少数派を増大させるoversampling、多数派を減少させるundersampling、これらより良い少数派を「生成」するSMOTEという手法、また異常検知の問題としてみなしてしまうなど、様々な手法が紹介されている。
 * [Troubleshooting Deep Neural Networks](http://josh-tobin.com/troubleshooting-deep-neural-networks)
   * DNNのモデルを構築する際に、上手くいかない場合の対応策をまとめた資料。実装の問題、ハイパーパラメーターの問題、学習の問題、データの問題という4つの観点から解説を行っている。
-* [AI開発を円滑に進めるための契約・法務・知財](https://www.slideshare.net/hironojumpei/ai-129527593)
-  * AI開発にまつわる法律の解釈などをまとめた資料。法律の説明だけでなくケーススタディが掲載されているので(この場合はOKなど)とても参考になる。
 * [Deep Learning for Anomaly Detection: A Survey](https://arxiv.org/abs/1901.03407)
   * 異常検知に深層学習を使用した研究のサーベイ。既存のサーベイは特定領域にフォーカスしたものが多かったが(動画や医療画像など)、本サーベイでは包括的なまとめを行い、また研究だけでなく産業などでの適用事例についてもまとめている。
 * [ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
   * クラスタリングなどに用いられる、近似最近傍探索を行なってくれるライブラリをまとめたリポジトリ。理論はわかったので、実際導入したい、という場合にとても参考になる資料。
   * [日本語の解説記事はこちら](https://qiita.com/wasnot/items/20c4f30a529ae3ed5f52)
-* [スタートアップのための製品要求仕様書(MRD & PRD)の書き方](https://medium.com/@hirokishimada_80077/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E8%A3%BD%E5%93%81%E8%A6%81%E6%B1%82%E4%BB%95%E6%A7%98%E6%9B%B8-mrd-prd-%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9-d5088d795ba5)
-  * 作るべきものの決め方についての資料。エレベーターピッチの内容は参考になる。
-* [役にたちインパクトのある実世界AIを](http://ibisml.org/ibis2018/files/2018/11/kanade.pdf)
-  * コンピュータービジョンの大家である、金出先生が語るAI研究のあり方について。AI冬の時代の原因について「人工的に作られた“問題”を“手段”に押し込めようとすることが引き起こした」とし、解けて意味のある具体的な問題に取り組むことが必要としている。
 * [効率的な教師データ作成(アノテーション)のための研究サーベイ](https://tech-blog.abeja.asia/entry/annotation-survery)
   * データセットを作成するアノテーションを効率化するための研究の紹介。画像を中心に既存研究がまとめられている。
 * [Recent Advances on Transfer Learning and Related Topics](https://www.slideshare.net/KotaMatsui/recent-advances-on-transfer-learning-and-related-topics)
