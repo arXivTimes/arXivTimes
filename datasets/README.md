@@ -13,6 +13,8 @@
 * [Fashion-MNIST](https://github.com/zalandoresearch/fashion-mnist/blob/master/README.md)
   * ファッション画像のMNIST、を表したデータセット。クラス数はMNISTと同様10クラスで、画像は28x28(グレースケール)、学習：評価データ数は60,000：10,000。
   * MNISTは簡単すぎる、濫用されているといった問題を克服するという側面も意識されている。
+* [iMaterialist Challenge on fashion](https://github.com/visipedia/imat_fashion_comp)
+  * 100万点をこえるファッション画像のデータセット。8グループ228のラベルがアノテーションされている。
 * [rois-codh/kmnist](https://github.com/rois-codh/kmnist)
   * 日本語の崩し文字のMNIST(Kuzushiji-MNIST)。
   * ひらがな全てを含むKuzushiji-49、漢字のデータセットであるKuzushiji-Kanjiも併せて公開されている。
