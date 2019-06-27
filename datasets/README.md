@@ -886,7 +886,9 @@
   * 多量のラベルを予測するExtreme Classificationにおけるデータセットをまとめたページ(EURLexやAmazonCat、Wiki10など)。データセット以外に、代表的手法の性能評価や実装へのリンクがある。
 * [Google Dataset Search](https://toolbox.google.com/datasetsearch)
   * Googleが公開するデータセットを検索するためのサービス。
-
+* [VisualData](https://www.visualdata.io/)
+  * 画像系のデータセットがまとめられたサイト。カテゴリやキーワードで検索することができる。
+  
 # To make your own
 
 * [ヒューマンコンピュテーションとクラウドソーシング ](https://www.amazon.co.jp/dp/4061529137)
