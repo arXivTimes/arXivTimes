@@ -173,6 +173,9 @@
   * 各フロアでは上に登るための階段を見つけるのが目的で、フロア内の部屋には様々なタスクが用意されているという構成。
 * [BTGym](https://github.com/Kismuz/btgym)
   * 投資におけるバックテスト(過去の値動きに対して、ある戦略がどれだけ有効かを調査する)を行うためのライブラリbacktraderをOpenAI Gymライクなインタフェースで使えるようにしたライブラリ。
+* [stable-baselines](https://github.com/hill-a/stable-baselines)
+  * よりユーザーフレンドリーなOpenAI Baselineの実装。
+  * 各アルゴリズムについて、きちんとドキュメント化されていたりカスタムの実装と比較したりできる。また、学習済みのエージェントも提供されている。
 
 ## Simulator Integration
 
