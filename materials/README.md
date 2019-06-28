@@ -411,6 +411,9 @@
 ### UI/UX
 
 * [ITエンジニアに易しいUI/UXデザイン](https://www.slideshare.net/ksc1213/ituiux-16732374)
+* [People + AI Guidebook](https://pair.withgoogle.com/)
+  * AIシステム開発における、にユーザーとのコミュニケーションの取り方について重点的に書かれた資料。なにをどの程度説明してどう関係を築いていくべきか、かなり実践的な内容。
+  * [日本語訳はこちら](http://storywriter.jp/pair/)
 
 ### Docker
 
