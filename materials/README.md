@@ -344,46 +344,46 @@
 
 機械学習モデルは作っておしまいではなく、実システムへの組み込みや組み込んだ後の運用も大きな課題となります。また、そもそもどう仕様を決めるのか、と言った点も大きな問題です。それについて学ぶための資料について記載します。
 
-* [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
-  * GoogleのMartinさんが書かれた、機械学習のベストプラクティスについて。単に手順だけでなく、学習が進まないときどうすればいいかなども書かれている。なお、ベストプラクティスその1は「機械学習を使わないことを恐れるな」
-* [What’s your ML test score? A rubric for ML production systems](https://ai.google/research/pubs/pub45742)
-  * 機械学習モデルのテストに関するチェックリスト。特徴量/データセット、モデルの開発・評価プロセス、モデルの運用保守インフラ、パフォーマンス監視の4つの観点でまとめられており、実運用を行う際は3-4ポイントでギリ、5ポイント-の獲得が望ましいとのこと。
-* [Machine Teaching: A New Paradigm for Building Machine Learning Systems](https://arxiv.org/abs/1707.06742)
-  * 機械学習を利用したいというニーズに応えていくには、機械学習モデルの構築作業を分業していく必要があるという提言。現在は一人の職人がデータ収集から前処理、モデルの構築まで全部を行い、そのプロセスが属人的になることが多い。なので、最低限アルゴリズム構築と学習は分けようという。
-* [Best Practices for Applying Deep Learning to Novel Applications](https://arxiv.org/abs/1704.01568)
-  * 深層学習をアプリケーションで利用する際のすすめ方や注意点についての話。問題の定義(inとout)をしっかり行うこと、検証が済んでいるモデル(公開されているコードetc)からはじめること、結果の見える化をしとくこと、などが書かれている
-  * 読みやすい[Web版が公開された](https://developers.google.com/machine-learning/rules-of-ml/)
-* [Machine Learning: The High Interest Credit Card of Technical Debt](https://ai.google/research/pubs/pub43146)
-  * 機械学習を使い始めた「後」に問題になる点がまとめられた資料。ハイパーパラメーターやデータへの依存、特徴量の劣化/散在に対応する必要性などが書かれている。
-* [Applied machine learning at facebook a datacenter infrastructure perspective (HPCA18)](https://research.fb.com/publications/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective/)
-  * Facebookで ML as a Service(MLaaS)をどのように提供しており、FB内の機械学習のパイプラインのデザインについて解説している。
-  * [解説スライド](https://www.slideshare.net/shunyaueta/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective-hpca18)
-* [実用化のための 機械学習の評価尺度の色々](https://docs.google.com/presentation/d/1r1dOVqfQaHh-vyemFO4Vzf5qFMomrf4-CdTYj7OwELE/edit#slide=id.g43c73f7812_0_11)
-  * 機械学習活用プロジェクトでよくある「精度が高ければ使える」といった話について、適用業務に合わせた「精度」の測り方をしようという話。
-  * 具体例を提示しながら解説されており、イメージがつきやすい。実際にモデルを作る前に目を通しておくと良い。
-* [Applying Deep Learning To Airbnb Search](https://github.com/arXivTimes/arXivTimes/issues/989)
-  * Airbnbにおける検索ランキングの改善に、ニューラルネットを適用したプロジェクトの記録資料。
-  * どんなモデルから始めるべきか、モデルの性能/状況をどう測るか、特徴エンジニアリングとどう組み合わせるのか、といった機械学習のプロジェクトを進める上で重要な知見が丁寧に書かれている。失敗談についても記載されている。
+### Product Design
+
+* [役にたちインパクトのある実世界AIを](http://ibisml.org/ibis2018/files/2018/11/kanade.pdf)
+  * コンピュータービジョンの大家である、金出先生が語るAI研究のあり方について。AI冬の時代の原因について「人工的に作られた“問題”を“手段”に押し込めようとすることが引き起こした」とし、解けて意味のある具体的な問題に取り組むことが必要としている。
+* [スタートアップのための製品要求仕様書(MRD & PRD)の書き方](https://medium.com/@hirokishimada_80077/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E8%A3%BD%E5%93%81%E8%A6%81%E6%B1%82%E4%BB%95%E6%A7%98%E6%9B%B8-mrd-prd-%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9-d5088d795ba5)
+  * 作るべきものの決め方についての資料。エレベーターピッチの内容は参考になる。
+* [クックパッドにおける推薦（と検索）の取り組み](https://speakerdeck.com/chie8842/kutukupatudoniokerutui-jian-tojian-suo-falsequ-rizu-mi)
+  * 機械学習に限らず、アルゴリズムをビジネスKPIの向上につなげるための地道な努力がつづられたスライド。
+  * チーム作りや、小さい施策のポートフォリオで始めるなど、実践的な話がもりだくさん。
 * [Guidelines for Human-AI Interaction](https://www.microsoft.com/en-us/research/publication/guidelines-for-human-ai-interaction/)
   * マイクロソフトが発行した、人間とのインタラクションを行う機械学習システムについてのデザインガイドライン。
   * ECサイトや音声アシスタントなど様々なプロダクトから得られたフィードバックを参考に、インタラクションのフェーズごとにガイドラインを設定している。
+* [ITエンジニアに易しいUI/UXデザイン](https://www.slideshare.net/ksc1213/ituiux-16732374)
+* [Material Design](https://material.io/)
+  * Material Designのガイドライン。データの可視化など、機械学習に関わる箇所についても文書があり参考になる。
+* [People + AI Guidebook](https://pair.withgoogle.com/)
+  * AIシステム開発における、にユーザーとのコミュニケーションの取り方について重点的に書かれた資料。なにをどの程度説明してどう関係を築いていくべきか、かなり実践的な内容。
+  * [日本語訳はこちら](http://storywriter.jp/pair/)
 
-## Application Development
+### Project Planning
 
-最近の機械学習界隈では、単純にモデルを作成するだけでなくそれをデモとして仕上げる力も求められている印象があります。  
-そのため、アプリケーション開発について学ぶために有用な資料についてもここにまとめておきます。
+* [現代的システム開発概論](https://speakerdeck.com/rtechkouhou/xian-dai-de-sisutemukai-fa-gai-lun)
+  * プロジェクトの計画、修正について体系的に書かれた資料。機械学習を使うか否かに関わらず、システム開発を行う前にまず参照しておくべき資料。
 
-### Git
+### Architecture
 
-アプリケーションの開発だけでなく、機械学習モデルのソースコードの管理にもバージョン管理ツールは欠かせません。  
-ここでは、数あるバージョン管理ツールのうちGitに絞り資料を紹介します。
+* [Web Application Tutorial](https://docs.google.com/presentation/d/1whFnASJKNTblT6o2vF84Cd0j8vhICouXcJAnBdGmMCw/edit?usp=sharing)
+  * 基本的なMVCのアーキテクチャとそれを利用する際の注意点について解説しています。
+* [Applied machine learning at facebook a datacenter infrastructure perspective (HPCA18)](https://research.fb.com/publications/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective/)
+  * Facebookで ML as a Service(MLaaS)をどのように提供しており、FB内の機械学習のパイプラインのデザインについて解説している。
+  * [解説スライド](https://www.slideshare.net/shunyaueta/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective-hpca18)
 
-* [使い始める Git](https://qiita.com/icoxfog417/items/617094c6f9018149f41f)
-  * 特定のファイルをバージョン管理対象外にする`.gitignore`は必ず確認しましょう。よく、`.pyc`ファイルや`.ipynb_checkpoints`がリポジトリに入ってしまっている例を見ます。[こちら](https://github.com/github/gitignore)で言語や開発環境に応じたファイルを確認できます。
-* [Try Git](https://try.github.io/levels/1/challenges/1)
-  * GitHubオフィシャルのGitチュートリアルです
+### Team Management
 
-### Coding
+* [Machine Teaching: A New Paradigm for Building Machine Learning Systems](https://arxiv.org/abs/1707.06742)
+  * 機械学習を利用したいというニーズに応えていくには、機械学習モデルの構築作業を分業していく必要があるという提言。現在は一人の職人がデータ収集から前処理、モデルの構築まで全部を行い、そのプロセスが属人的になることが多い。なので、最低限アルゴリズム構築と学習は分けようという。
+
+### Development
+
+#### Coding
 
 * [python_exercises](https://github.com/icoxfog417/python_exercises)
   * Pythonのトレーニング用リポジトリです
@@ -394,31 +394,17 @@
   * 実験(prototyping)か本格的なコンポーネント設計かきちんとわけ、前者ならスクラッチから始めず人のコードを借り修正するところから始めるべし、としている。テストや実験結果記録などにも触れておりかなり実践的。後者で行うべきCIなども解説している。
   * 実際に深層学習系のコードを書く前に、必ず目を通しておきたい。
 
-### Web
+#### Git
 
-* [Web Application Tutorial](https://docs.google.com/presentation/d/1whFnASJKNTblT6o2vF84Cd0j8vhICouXcJAnBdGmMCw/edit?usp=sharing)
-  * 基本的なMVCのアーキテクチャとそれを利用する際の注意点について解説しています。
+アプリケーションの開発だけでなく、機械学習モデルのソースコードの管理にもバージョン管理ツールは欠かせません。  
+ここでは、数あるバージョン管理ツールのうちGitに絞り資料を紹介します。
 
-### Visualization
+* [使い始める Git](https://qiita.com/icoxfog417/items/617094c6f9018149f41f)
+  * 特定のファイルをバージョン管理対象外にする`.gitignore`は必ず確認しましょう。よく、`.pyc`ファイルや`.ipynb_checkpoints`がリポジトリに入ってしまっている例を見ます。[こちら](https://github.com/github/gitignore)で言語や開発環境に応じたファイルを確認できます。
+* [Try Git](https://try.github.io/levels/1/challenges/1)
+  * GitHubオフィシャルのGitチュートリアルです
 
-* [DataVisualization](https://github.com/neerjad/DataVisualization)
-  * 実際のデータを利用した、データ可視化チュートリアル。各種ライブラリ(Seaborn/Bokeh/Plotly/Igraph)ごとに用意されていて使い方を比較できる。
-* [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/)
-  * データの可視化を行う技法を、可視化したいメトリクス(差なのか共起なのかetc)に応じて分類、紹介してくれているサイト。
-* [UW Interactive Data Lab](https://idl.cs.washington.edu/)
-  * データの可視化による情報伝達について、実例などをまとめているサイト。
-
-### UI/UX
-
-* [ITエンジニアに易しいUI/UXデザイン](https://www.slideshare.net/ksc1213/ituiux-16732374)
-* [Material Design](https://material.io/)
-  * Material Designのガイドライン。データの可視化など、機械学習に関わる箇所についても文書があり参考になる。
-* [People + AI Guidebook](https://pair.withgoogle.com/)
-  * AIシステム開発における、にユーザーとのコミュニケーションの取り方について重点的に書かれた資料。なにをどの程度説明してどう関係を築いていくべきか、かなり実践的な内容。
-  * [日本語訳はこちら](http://storywriter.jp/pair/)
-
-
-### Docker
+#### Docker
 
 機械学習エンジニアにとってDockerはもはや欠かせないツールになっているので、理解しておくとよいです。
 
@@ -426,7 +412,25 @@
   * VMからDocker、Kubernetesに到るまでの過程と周辺技術要素がとてもよくまとめられた資料。この資料だけで、仕組みの理解は済んでしまうと思う。
 * [プログラマのためのDocker教科書 インフラの基礎知識＆コードによる環境構築の自動化](https://www.amazon.co.jp/dp/B017UGA7NG)
 
-### Scraping
+#### Model Development
+
+* [Rules of Machine Learning: Best Practices for ML Engineering](http://martin.zinkevich.org/rules_of_ml/rules_of_ml.pdf)
+  * GoogleのMartinさんが書かれた、機械学習のベストプラクティスについて。単に手順だけでなく、学習が進まないときどうすればいいかなども書かれている。なお、ベストプラクティスその1は「機械学習を使わないことを恐れるな」
+* [Best Practices for Applying Deep Learning to Novel Applications](https://arxiv.org/abs/1704.01568)
+  * 深層学習をアプリケーションで利用する際のすすめ方や注意点についての話。問題の定義(inとout)をしっかり行うこと、検証が済んでいるモデル(公開されているコードetc)からはじめること、結果の見える化をしとくこと、などが書かれている
+  * 読みやすい[Web版が公開された](https://developers.google.com/machine-learning/rules-of-ml/)
+* [Applying Deep Learning To Airbnb Search](https://github.com/arXivTimes/arXivTimes/issues/989)
+  * Airbnbにおける検索ランキングの改善に、ニューラルネットを適用したプロジェクトの記録資料。
+  * どんなモデルから始めるべきか、モデルの性能/状況をどう測るか、特徴エンジニアリングとどう組み合わせるのか、といった機械学習のプロジェクトを進める上で重要な知見が丁寧に書かれている。失敗談についても記載されている。
+* [What’s your ML test score? A rubric for ML production systems](https://ai.google/research/pubs/pub45742)
+  * 機械学習モデルのテストに関するチェックリスト。特徴量/データセット、モデルの開発・評価プロセス、モデルの運用保守インフラ、パフォーマンス監視の4つの観点でまとめられており、実運用を行う際は3-4ポイントでギリ、5ポイント-の獲得が望ましいとのこと。
+* [実用化のための 機械学習の評価尺度の色々](https://docs.google.com/presentation/d/1r1dOVqfQaHh-vyemFO4Vzf5qFMomrf4-CdTYj7OwELE/edit#slide=id.g43c73f7812_0_11)
+  * 機械学習活用プロジェクトでよくある「精度が高ければ使える」といった話について、適用業務に合わせた「精度」の測り方をしようという話。
+  * 具体例を提示しながら解説されており、イメージがつきやすい。実際にモデルを作る前に目を通しておくと良い。
+
+### Data Collection
+
+#### Scraping
 
 機械学習エンジニアにとって、データを取得するためのスクレイピング技術は欠かせないものになっているため、身に着けておくとよいです。
 
@@ -435,15 +439,19 @@
   * スクレイピングの技術的な面だけでなく、法律的な面についても触れられています。
   * 著作権法については、2019/1/1からの施行で大幅な緩和が行われます。端的には、スクレイピングで収集したデータを著作権者の害にならない範囲で配布・販売を行うことが可能になります。詳細はこちらをご参考。[改正著作権法が日本のAI開発を加速するワケ　弁護士が解説 ](http://www.itmedia.co.jp/news/articles/1809/06/news017_4.html)。
 
-### Product Design
+#### Visualization
 
-* [役にたちインパクトのある実世界AIを](http://ibisml.org/ibis2018/files/2018/11/kanade.pdf)
-  * コンピュータービジョンの大家である、金出先生が語るAI研究のあり方について。AI冬の時代の原因について「人工的に作られた“問題”を“手段”に押し込めようとすることが引き起こした」とし、解けて意味のある具体的な問題に取り組むことが必要としている。
-* [スタートアップのための製品要求仕様書(MRD & PRD)の書き方](https://medium.com/@hirokishimada_80077/%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%88%E3%82%A2%E3%83%83%E3%83%97%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AE%E8%A3%BD%E5%93%81%E8%A6%81%E6%B1%82%E4%BB%95%E6%A7%98%E6%9B%B8-mrd-prd-%E3%81%AE%E6%9B%B8%E3%81%8D%E6%96%B9-d5088d795ba5)
-  * 作るべきものの決め方についての資料。エレベーターピッチの内容は参考になる。
-* [クックパッドにおける推薦（と検索）の取り組み](https://speakerdeck.com/chie8842/kutukupatudoniokerutui-jian-tojian-suo-falsequ-rizu-mi)
-  * 機械学習に限らず、アルゴリズムをビジネスKPIの向上につなげるための地道な努力がつづられたスライド。
-  * チーム作りや、小さい施策のポートフォリオで始めるなど、実践的な話がもりだくさん。
+* [DataVisualization](https://github.com/neerjad/DataVisualization)
+  * 実際のデータを利用した、データ可視化チュートリアル。各種ライブラリ(Seaborn/Bokeh/Plotly/Igraph)ごとに用意されていて使い方を比較できる。
+* [Visual Vocabulary](https://gramener.github.io/visual-vocabulary-vega/)
+  * データの可視化を行う技法を、可視化したいメトリクス(差なのか共起なのかetc)に応じて分類、紹介してくれているサイト。
+* [UW Interactive Data Lab](https://idl.cs.washington.edu/)
+  * データの可視化による情報伝達について、実例などをまとめているサイト。
+
+### Operation
+
+* [Machine Learning: The High Interest Credit Card of Technical Debt](https://ai.google/research/pubs/pub43146)
+  * 機械学習を使い始めた「後」に問題になる点がまとめられた資料。ハイパーパラメーターやデータへの依存、特徴量の劣化/散在に対応する必要性などが書かれている。
 
 ### Others
 
