@@ -60,6 +60,9 @@
 * [Large-scale Fashion (DeepFashion) Database](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion.html)
   * ファッションの画像を集めたデータセット。画像数は80万、カテゴリ数は50で、これに加え1000の属性(同じ服でも、素材が皮かツイードかなど)が付与されている。
   * これに加え、衣服のキーポイントをかなり細かくアノテーションした[DeepFashion2](https://github.com/switchablenorms/DeepFashion2)がリリースされている。
+* [Brno Mobile OCR Dataset](https://pero.fit.vutbr.cz/brno_mobile_ocr_dataset)
+  * OCR in the Wildといった趣のデータセット。2113の科学論文のページに対し、様々な人が様々なデバイス(23種)で撮影した画像とテキストが収録されている。
+  * 画像数19728、対応する行テキストが50万と大規模なデータセット。
 
 ## Video
 
