@@ -485,6 +485,8 @@
 * [Recent Advances on Transfer Learning and Related Topics](https://www.slideshare.net/KotaMatsui/recent-advances-on-transfer-learning-and-related-topics)
   * 転移学習の手法とその理論的な解説がなされている資料。
   * 混乱しがちなメタラーニングやFew-shotとの違いについても言及されており、この資料だけで転移学習周りの研究がかなりすっきりと整理できるようになっている。
+* [組合せ最適化問題に対する実用的なアルゴリズムとその応用](https://speakerdeck.com/umepon/a-practical-approach-for-hard-combinatorial-optimization-problems-in-real-applications)
+  * 制約条件の中で効用を最適化する最適化問題の事例と手法がまとめられた記事。実例が豊富でとても参考になる。
 
 ### XGBoost
 
