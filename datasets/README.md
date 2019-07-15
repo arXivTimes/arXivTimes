@@ -68,6 +68,7 @@
 
 * [YouTube-8M](https://research.google.com/youtube8m/)
   * Googleが公開した800万にも上る動画のデータセット。コンピューター資源が少ない環境でも活用できるように、動画フレームからInception-V3で特徴抽出済みのデータも公開。これがあればTensorFlow(GPU(single))で1日で学習できるらしい。
+  * 時間セグメントごとのラベルがアノテーションされた、[YouTube-8M Segments](https://research.google.com/youtube8m/download.html)もリリースされた。
 * [YouTube-BoundingBoxes](https://research.google.com/youtube-bb/)
   * 物体認識/トラッキングのための大規模なデータセット。YouTubeの動画データを基にしており、時間的に連続した画像に対し物体領域(とクラス)のアノテーションがされている
 * [Moments in Time Dataset](http://moments.csail.mit.edu/)
