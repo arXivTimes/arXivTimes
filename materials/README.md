@@ -487,6 +487,9 @@
   * 混乱しがちなメタラーニングやFew-shotとの違いについても言及されており、この資料だけで転移学習周りの研究がかなりすっきりと整理できるようになっている。
 * [組合せ最適化問題に対する実用的なアルゴリズムとその応用](https://speakerdeck.com/umepon/a-practical-approach-for-hard-combinatorial-optimization-problems-in-real-applications)
   * 制約条件の中で効用を最適化する最適化問題の事例と手法がまとめられた記事。実例が豊富でとても参考になる。
+* [深層学習の原理を明らかにする理論の試み](https://drive.google.com/file/d/1bNN6VjsgdpJAqxvZ4EKAPpMGq9wfjHqf/view?fbclid=IwAR0u2MNbv2k9lXDKG6BZPr-G5U5uLS-RMK9gtwa86zcp99q2iVyPJB6ai-0)
+  * DNNでなぜうまくいく？の理論的な検証についての解説。
+  * なぜ層を増やすと上手くいくのか、パラメーターを増やしても過適合しない・・・どころか精度が上がる理由はなんなのか、という点についてわかりやすい流れで近年の研究が整理されている。
 
 ### XGBoost
 
