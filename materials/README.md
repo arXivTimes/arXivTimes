@@ -264,6 +264,7 @@
 * [Evolutional Strategy](http://blog.otoro.net/2017/10/29/visual-evolution-strategies/)
   * 進化戦略を強化学習に適用する手法について、仕組みと実装を交えながら解説してくれている。
   * 遺伝的アルゴリズムについては、こちらが実装付きで解説を行っている: [Evolution of a salesman: A complete genetic algorithm tutorial for Python](https://towardsdatascience.com/evolution-of-a-salesman-a-complete-genetic-algorithm-tutorial-for-python-6fe5d2b3ca35s)
+  * 進化戦略/遺伝的アルゴリズムに特化したカンファレンスGECCOのチュートリアルも参考になる([GECCO2019 Tutorial](https://gecco-2019.sigevo.org/index.html/Tutorials))。
 * [Deep Reinforcement Learning: An Overview](https://arxiv.org/abs/1701.07274)
   * 2017時点での深層学習による強化学習のまとめ。自然言語処理や音楽生成などの今後の適用領域についての紹介もされており、また教材リストも付属というお得なサマリ
 * [Deep Learning for Video Game Playing](https://arxiv.org/pdf/1708.07902.pdf)
