@@ -340,6 +340,9 @@
   * [自然言語処理の前処理・素性いろいろ](http://yukinoi.hatenablog.com/entry/2018/05/29/120000)
 * 画像
   * [画像検索 (特定物体認識) — 古典手法、マッチング、深層学習、Kaggle](https://speakerdeck.com/smly/hua-xiang-jian-suo-te-ding-wu-ti-ren-shi-gu-dian-shou-fa-matutingu-shen-ceng-xue-xi-kaggle)
+* [データ分析における特徴量エンジニアリング / feature engineering recipes](https://speakerdeck.com/s_uryu/feature-engineering-recipes)
+  * 特徴エンジニアリングの必要性とプロセスがまとまった資料。演習問題もついており、しかもRとPython両方のコードで解説されている。保存版の資料。
+  * [解説資料も執筆されている。](https://uribo.github.io/practical-ds/intro.html)
 
 ## Engineering
 
