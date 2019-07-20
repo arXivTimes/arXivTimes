@@ -214,6 +214,7 @@
   * 協調するマルチエージェントの学習に特化した学習プラットフォーム。
   * Microsoftが公開しており、Minecraftの上で動く
   * Python、Lua、C#、C++、Javaなど多様なインタフェースを持つ
+  * NeurIPS 2019のコンペティションに際して、Malmoをベースに使いやすくした[MineRL](https://github.com/minerllabs/minerl)が公開された。
 * [VINE](https://github.com/uber-common/deep-neuroevolution)
   * Uberが公開した進化戦略の学習過程を可視化するためのツール
   * 各世代のスコア、また挙動の変化を確認できる。
