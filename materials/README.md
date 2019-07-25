@@ -327,6 +327,8 @@
   * 関連して、確率モデルを作成する際のワークフロー[A Principled Bayesian Workflow](https://betanalpha.github.io/assets/case_studies/principled_bayesian_workflow.html)も参考になる
 * [Tutorial on Causal Inference and Counterfactual Reasoning](https://causalinference.gitlab.io/kdd-tutorial/)
   * DoWhyを使った、因果推論のチュートリアル(at [KDD2018](https://causalinference.gitlab.io/kdd-tutorial/))。
+* [【点と矢印で因果関係を考える】因果関係がないときにデータから関連が生じるパターンとその対策まとめ：因果ダイアグラム（DAG）によるバイアスの視覚的整理](https://www.krsk-phs.com/entry/structural_bias)
+  * 「相関関係はあるが因果関係はない」とは具体的にどんなパターンなのかがまとめられた記事。データ分析を行う際はまず目を通しておきたい。
 
 ## Preprocessing/Feature Engineering
 
