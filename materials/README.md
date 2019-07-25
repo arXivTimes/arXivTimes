@@ -212,6 +212,8 @@
   * 自然言語処理におけるAdversarial Trainingの解説＋研究の紹介を行なっている資料。適用が成功しているのは今の所対話ぐらいだが、まだ可能性は広がっているという内容。
 * [NLI with Deep Learning](https://nlitutorial.github.io/)
   * 文関係推論(NLI)に関するデータセットと研究の紹介。SNLIなどで指摘されてるAnnotation Artifact(片方の文だけで推論できるなど)の問題も言及されている。
+* [How To Label Data](https://www.lighttag.io/how-to-label-data/)
+  * 自然言語処理におけるデータ作成プロセス(アノテーション)をどう進めるのか、ストーリー仕立てで解説している記事。ピザのオーダー受付を自動化するプロジェクトを題材に、目指すべきKPIとの紐付けや精度分析など様々なシーンを解説している。
 
 ### Not Recommend :droplet:
 
