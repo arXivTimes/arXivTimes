@@ -287,6 +287,9 @@
 * [MURA](https://stanfordmlgroup.github.io/competitions/mura/)
   * 骨のX線画像のデータセット。
   * 画像数は40,561で、肘、指など7つの部分に分かれる。正常/異常の判定がアノテーションされている。
+* [Optos images dataset](https://tsukazaki-ai.github.io/optos_dataset/)
+  * 姫路にあるツカザキ病院から、眼底画像のデータセットが公開。
+  * 5389名の患者から撮影した13,000ほどの画像が収録されており、患者の性別、右目or左目、疾患(全9種類)がラベル付けされている。
 
 ## Art
 
