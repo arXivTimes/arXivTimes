@@ -887,7 +887,7 @@
 * [自然言語/音声認識学習用データのまとめ](http://qiita.com/icoxfog417/items/44aeb9486ce1b7130f76)
 * [Microsoft Azure Marketplace](https://datamarket.azure.com/browse/data)
   * NFLの試合結果や人口統計など、様々なデータが提供されている(有料なものもあるたが、無料も多い)。
-* [ikegami-yukino/dataset-list](https://github.com/ikegami-yukino/dataset-list/blob/master/free_corpus.md)
+* [ikegami-yukino/dataset-list](https://github.com/ikegami-yukino/dataset-list/blob/master/free_text_corpus.md)
   * 日本語・英語のテキストコーパスのまとめ
 * [beamandrew/medical-data](https://github.com/beamandrew/medical-data)
   * 機械学習のための化学系のデータセットのまとめ
