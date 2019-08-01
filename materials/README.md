@@ -370,6 +370,8 @@
 * [People + AI Guidebook](https://pair.withgoogle.com/)
   * AIシステム開発における、にユーザーとのコミュニケーションの取り方について重点的に書かれた資料。なにをどの程度説明してどう関係を築いていくべきか、かなり実践的な内容。
   * [日本語訳はこちら](http://storywriter.jp/pair/)
+* [Explainable Artificial Intelligence (XAI)](https://www.darpa.mil/attachments/XAIProgramUpdate.pdf)
+  * DARPAの、説明可能なAIに関する研究の計画資料。えげつないクオリティで書かれていて、研究計画書のお手本ともいえる内容。
 
 ### Project Planning
 
