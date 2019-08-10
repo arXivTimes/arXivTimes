@@ -180,7 +180,9 @@
 * [Lyft Level 5 AV Dataset 2019](https://level5.lyft.com/dataset/)
   * 自動運転のためのデータセット。
   * Ford FusionにLiDAR(3台)/カメラ(7台)を搭載し記録したデータを基にしており、レーンや横断歩道、信号、駐車位置など細かなセグメントがアノテーションされている。
-
+* [LVIS: A Dataset for Large Vocabulary Instance Segmentation](https://arxiv.org/abs/1908.03195)
+  * 16万4千点の画像に対して1200カテゴリ・200万以上のセグメント情報を付与したデータセット。
+  * まれにしか出現しないオブジェクトもセグメント情報を持ち、ロングテールなデータセットとなっている。
 
 ## 3D
 
