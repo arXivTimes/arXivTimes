@@ -751,6 +751,9 @@
 * [Groove MIDI Dataset](https://magenta.tensorflow.org/datasets/groove)
   * ドラム音源のデータセット。
   * 8割プロで構成された総勢10名のドラマーによる音源が収録されており、総収録時間は13.6時間、MIDIファイル数は1150にもなる。
+* [ToyADMOS: A Dataset of Miniature-Machine Operating Sounds for Anomalous Sound Detection](https://github.com/YumaKoizumi/ToyADMOS-dataset)
+  * 異常音を検知するためのデータセットToyADMOSが公開(Toyの名の通り、おもちゃを音の収録に使っている)。
+  * 固定機器としてベルトコンベア、移動機器として電車、また検査機器を使った場合として車を検査機器上で走らせた音の3種類が収録されている。
 
 ## Speech
 
