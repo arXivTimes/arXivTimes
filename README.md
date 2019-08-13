@@ -1,38 +1,19 @@
-# arXivTimes
+# arXivTimesQuantum
 
-![arXivTimesLogo.PNG](./arXivTimesLogo.PNG)
+[logo]
 
-機械学習関係の論文を調査し、共有するためのリポジトリです。
+量子情報関係の論文を調査し、共有するためのリポジトリです。
 
 **Follow Me on the Twitter!**
 
-[@arxivtimes](https://twitter.com/arxivtimes)
-
-論文輪講も併せて実施しています。輪講の内容はこちらから
-
-[arXivTimes Medium](https://medium.com/@arxivtimes)
+@kenjikun__
 
 # Contents
 
-* [Article Summaries](https://github.com/arXivTimes/arXivTimes/issues)
+* [Article Summaries](https://github.com/kenjikun/arXivTimes/issues)
   * 論文の一言まとめ、また概要をIssueで管理しています。
-* [Datasets](https://github.com/arXivTimes/arXivTimes/tree/master/datasets)
-  * 機械学習に利用可能なデータセットをまとめています。
-* [Tools](https://github.com/arXivTimes/arXivTimes/tree/master/tools)
-  * 機械学習モデルの実装に役立つツールをまとめています。
-* Conference Related Papers
-  * arXivTimesに投稿された論文のうち、学会に提出された論文を年代ごとにまとめています。
-  * [NIPS](https://github.com/arXivTimes/arXivTimes/projects/1)
-  * [ICLR](https://github.com/arXivTimes/arXivTimes/projects/2)
-  * [ICML](https://github.com/arXivTimes/arXivTimes/projects/3)
-  * [CVPR](https://github.com/arXivTimes/arXivTimes/projects/6)
-  * [ACL](https://github.com/arXivTimes/arXivTimes/projects/4)
-  * [AAAI](https://github.com/arXivTimes/arXivTimes/projects/5)
-
-Conference Information
-
-* 各学会の締め切り: [AI Conference Deadlines](https://aideadlin.es/)
-* 各学会のBest Paper: [Best Paper Awards in Computer Science](https://jeffhuang.com/best_paper_awards.html)
+* [Tools](https://github.com/kenjikun/arXivTimes/tree/master/tools)
+  * 量子アルゴリズムの実装に役立つツールをまとめています。
 
 # How to Contribute
 
@@ -50,11 +31,6 @@ Conference Information
 * コメントには、論文を読んでの所感や評価、また理解が難しい点などがあったらその旨を記載してください
 * 論文が学会に採択された場合、投稿した論文のコメントにてご連絡ください。Projectページに反映します。
 
-なお、まとめについて内容に自信がない、という場合はコメントで@arxivtimesbotに対してメンションでレビューを依頼できます。
-
-![mention](https://user-images.githubusercontent.com/544269/29446756-d88b8daa-8428-11e7-8ff1-e4f938d94e0c.png)
-
-レビューの依頼が行われると、arXivtimesのメンバーがレビューします。
 
 タグを増やしたい、テンプレートを変えたい、という要望は`proposal`のタグをつけてIssueにあげてください。
 
