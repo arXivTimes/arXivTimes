@@ -541,6 +541,8 @@
 * [Interpretable Machine Learning](https://christophm.github.io/interpretable-ml-book/)
   * 機械学習において、説明力の高いモデルとモデルを外から解釈(診断)するための手法をまとめた書籍(ただ、ディープ系の話題はあまりカバーしていない)。
   * 販売も行われているが、全文をWebで読むことができる。
+* [Explainable AI in Industry (KDD 2019 Tutorial)](https://www.slideshare.net/KrishnaramKenthapadi/explainable-ai-in-industry-kdd-2019-tutorial)
+  * KDD2019で行われた、説明可能AIに関するチュートリアル。説明可能性が求められる背景と代表的な手法、また実務での事例が掲載されている。事例が掲載されている資料は珍しい。
 
 ### Adversarial Attack
 
