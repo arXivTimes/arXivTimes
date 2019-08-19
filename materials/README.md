@@ -557,6 +557,8 @@
 * [Deep Generative Models for Graphs: Methods & Applications](http://i.stanford.edu/~jure/pub/talks2/graph_gen-iclr-may19-long.pdf)
   * グラフ生成に関するチュートリアル資料(ICLR2019)。与えられたデータが持つグラフ構造に似たグラフを生成する方式と、特定性質を持つグラフを生成する方式(化学物質など)の2種類にわけ解説されている。
   * 前者は系列生成(RNN)ベース、後者はGraph Conv+強化学習ベース。
+* [グラフ信号処理 ～基礎から応用まで～](https://d65bdd9a-a-61a7baef-s-sites.googlegroups.com/a/msp-lab.org/tanaka/index_j/GSP_MIRU_2019.pdf)
+  * グラフ信号処理に関する解説資料。グラフを信号として捉えるとはどういうことか、それに対するフーリエ変換とは?という点がわかりやすく解説されている。
 
 ### Network Optimization
 
