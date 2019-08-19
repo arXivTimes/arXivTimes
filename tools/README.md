@@ -258,6 +258,9 @@
 * [purdue-biorobotics/flappy](https://github.com/purdue-biorobotics/flappy)
   * 昆虫やハチドリのような、細かい羽ばたきによる飛行を学習するシミュレーター。空中を飛ぶ小型のロボットには不可欠だが、羽ばたき(=Action)が多い一方安定的な飛行を要求される。
   * 実際にロボットを製作し、その挙動を再現している。
+* [PHYRE: A new AI benchmark for physical reasoning](https://phyre.ai/)
+  * 物理法則を利用して目的を達成するタスクを集めた環境。
+  * タスクでは下にあるカップへボールを入れるために、坂を傾けてボールを転がす、といった行動をとることが求められる。タスクは基本一手~数手でクリア可能で、物理法則に関する事前知識が求められる内容になっている。
 
 # Others
 
