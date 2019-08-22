@@ -164,6 +164,9 @@
   * 自然言語でQAを行う手法について、未だかったないほどに手法がまとめられた資料。LinkedInでの取り組みについても書いてあるというおまけ付き。
 * [Advancing the State of the Art in Open Domain Dialog Systems through the Alexa Prize](https://arxiv.org/abs/1812.10757)
   * 対話ボットの開発コンテストであるAmazon Alexa Prizeの中で生まれた開発ツールキット(CoBot)と、研究成果の紹介。対話システムにおける手法だけでなく、実践的なインフラ構成についてまで知ることができる良い資料。
+* [What makes a good conversation?](https://ai.stanford.edu/blog/controllable-dialogue/)
+  * 「良い」対話システムをどう作るかを解説した記事。
+  * 一般的な質問(どれくらい発話内容をコントロールできるかなど)への端的な回答をまず示し、その背景技術を解説している。手法は学習データがある程度ある場合/ない場合に使える手法がそれぞれ紹介されており、実践的。
 
 ### Representation
 
