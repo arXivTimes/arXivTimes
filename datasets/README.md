@@ -183,6 +183,11 @@
 * [LVIS: A Dataset for Large Vocabulary Instance Segmentation](https://arxiv.org/abs/1908.03195)
   * 16万4千点の画像に対して1200カテゴリ・200万以上のセグメント情報を付与したデータセット。
   * まれにしか出現しないオブジェクトもセグメント情報を持ち、ロングテールなデータセットとなっている。
+* [Waymo Open Dataset](https://waymo.com/open/)
+  * [Waymo](https://waymo.com) が公開した自動運転のためのデータセット。
+  * LiDAR(5台)/カメラ(5台)を使い様々な天候や都市、時間帯を収録した20秒の動画(10Hz)に、合計120万個の2Dラベルと1200万個の3Dラベルがアノテーションされている。
+  * [Google Colablatory で実行できるチュートリアル](https://colab.sandbox.google.com/github/waymo-research/waymo-open-dataset/blob/r1.0/tutorial/tutorial.ipynb) が用意されている。
+
 
 ## 3D
 
