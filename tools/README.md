@@ -264,6 +264,9 @@
 * [Spriteworld](https://github.com/deepmind/spriteworld)
   * 複数オブジェクトを操作する環境を簡単に作成できるツール。
   * 「四角をセンターに」「青色をまとめる」といった、色や形状に基づくゴールを設定した環境を作成することができる。
+* [OpenSpiel](https://github.com/deepmind/open_spiel)
+  * マルチプレイヤー/不完全情報ゲームが搭載された環境。
+  * 囲碁やチェス、またポーカーなどが実装されている。試験的にSwiftでの実装も公開されており、将来的にデバイスへの搭載を見据えているよう。
 
 # Others
 
