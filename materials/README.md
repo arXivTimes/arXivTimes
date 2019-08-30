@@ -101,6 +101,9 @@
   * 画像キャプションの自動生成について、歴史や研究、評価手法などについてまとめられた資料。
 * [三次元点群を取り扱うニューラルネットワークのサーベイ Ver. 2 / Point Cloud Deep Learning Survey Ver. 2](https://speakerdeck.com/nnchiba/point-cloud-deep-learning-survey-ver-2)
   * 点群(Point Cloud)を扱う研究をまとめたサーベイ。基礎からカテゴリ別に膨大な量の論文が網羅されており、応用についてもまとめられている。
+* [Deep Metric Learning: A Survey](https://www.researchgate.net/publication/335314481_Deep_Metric_Learning_A_Survey)
+  * 深層学習によるMetric Learningのサーベイ。Metric Learningの重要な要素として学習データのサンプリング、ネットワーク構成、lossの3点を挙げており、特にサンプリングは(注目されがちな)他2つと同等に重要であるとしている。
+
 
 ### Not Recommend :droplet:
 
