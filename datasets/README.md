@@ -526,6 +526,10 @@
   * 文書類似度のタスクのためのデータセット(SemEval2012~2017で使用されたもの)。画像のキャプションやニュース記事などが含まれる。
 * [The SICK data set](http://clic.cimec.unitn.it/composes/sick.html)
   * 1万の英語の文書について、文間の類似性や関係性をアノテーションしたデータセット。
+* [MultiFC: A Real-World Multi-Domain Dataset for Evidence-Based Fact Checking of Claims](https://copenlu.github.io/publication/2019_emnlp_augenstein/)
+  * ファクトチェックを行うためのデータセット。
+  * 26のファクトチェックサイトのデータを収集して作成されており、合計36,534のチェック結果が収録されている。
+  * ただ、ラベル数がサイトによって異なる(AサイトのデータのラベルとBサイトのラベルは異なる)。
 
 ## Sentiment
 
