@@ -267,6 +267,9 @@
 * [OpenSpiel](https://github.com/deepmind/open_spiel)
   * マルチプレイヤー/不完全情報ゲームが搭載された環境。
   * 囲碁やチェス、またポーカーなどが実装されている。試験的にSwiftでの実装も公開されており、将来的にデバイスへの搭載を見据えているよう。
+* [metaworld](https://github.com/rlworkgroup/metaworld)
+  * 強化学習でメタラーニング/マルチタスクを行う際のベンチマーク環境。
+  * 1タスク内のゴール転移(ML1)と、複数タスクからの転移(ML10/45)という2種類のタスクが提供されている。
 
 # Others
 
