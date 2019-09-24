@@ -763,6 +763,9 @@
 * [ToyADMOS: A Dataset of Miniature-Machine Operating Sounds for Anomalous Sound Detection](https://github.com/YumaKoizumi/ToyADMOS-dataset)
   * 異常音を検知するためのデータセットToyADMOSが公開(Toyの名の通り、おもちゃを音の収録に使っている)。
   * 固定機器としてベルトコンベア、移動機器として電車、また検査機器を使った場合として車を検査機器上で走らせた音の3種類が収録されている。
+* [MIMII Dataset: Sound Dataset for Malfunctioning Industrial Machine Investigation and Inspection](https://zenodo.org/record/3384388#.XYmS_ij7SUk)
+  * 工場機械の異常検知を、音から行うためのデータセットMIMIIが公開。バルブやポンプ、ファンといった工場内の機械の音が収録されている。
+  * 異常も、漏れやこすれなど様々なタイプをそろえている。
 
 ## Speech
 
