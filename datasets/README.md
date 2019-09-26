@@ -63,6 +63,9 @@
 * [Brno Mobile OCR Dataset](https://pero.fit.vutbr.cz/brno_mobile_ocr_dataset)
   * OCR in the Wildといった趣のデータセット。2113の科学論文のページに対し、様々な人が様々なデバイス(23種)で撮影した画像とテキストが収録されている。
   * 画像数19728、対応する行テキストが50万と大規模なデータセット。
+* [FaceForensics](https://github.com/ondyari/FaceForensics/)
+  * 画像生成技術の発展で懸念されるFake画像を検知するためのデータセット。
+  * 977のYouTube動画をオリジナルとする1000の動画データセットとなっている(ただし顔部分のみ)。生成手法はDeepfakes/Face2Face/FaceSwap /NeuralTexturesの4つ。
 
 ## Video
 
