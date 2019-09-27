@@ -270,6 +270,8 @@
 * [metaworld](https://github.com/rlworkgroup/metaworld)
   * 強化学習でメタラーニング/マルチタスクを行う際のベンチマーク環境。
   * 1タスク内のゴール転移(ML1)と、複数タスクからの転移(ML10/45)という2種類のタスクが提供されている。
+* [RLBench](https://github.com/stepjam/RLBench)
+  * ロボットを使ったタスクのベンチマーク環境。Few-ShotやMeta Learning、Imitation Learningなど様々なタスクを行うことができる。
 
 # Others
 
