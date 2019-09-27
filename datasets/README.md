@@ -471,7 +471,9 @@
 * [MLDoc](https://github.com/facebookresearch/MLDoc)
   * 文書分類のデータセットであるReuters corpusを加工して作成されたデータセット。
   * 各クラスのバランスがとられているほか、英語を含めた8言語への翻訳テキストも含んでいる(日本語も含まれる)。
-
+* [CodeSearchNet](https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge/)
+  * コード検索を改善するためのデータセット。
+  * コード(メソッド)とコメント、メタデータを合わせたコーパスと、検索結果についてプログラマーや研究者が関連度をアノテーションしたデータの2つが公開されている。
 
 ## Parallel Corpus
 
