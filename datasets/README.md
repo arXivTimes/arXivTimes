@@ -190,7 +190,8 @@
   * [Waymo](https://waymo.com) が公開した自動運転のためのデータセット。
   * LiDAR(5台)/カメラ(5台)を使い様々な天候や都市、時間帯を収録した20秒の動画(10Hz)に、合計120万個の2Dラベルと1200万個の3Dラベルがアノテーションされている。
   * [Google Colablatory で実行できるチュートリアル](https://colab.sandbox.google.com/github/waymo-research/waymo-open-dataset/blob/r1.0/tutorial/tutorial.ipynb) が用意されている。
-
+* [PFN Visuo-Tactile Dataset (PFN-VT)](https://github.com/pfnet-research/Deep_visuo-tactile_learning_ICRA2019)
+  * 画像と触覚センサーの値をペアにして収録したデータセット。物体の硬さなどを学習するために使える。
 
 ## 3D
 
