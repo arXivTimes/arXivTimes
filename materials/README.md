@@ -466,6 +466,8 @@
   * データの可視化を行う技法を、可視化したいメトリクス(差なのか共起なのかetc)に応じて分類、紹介してくれているサイト。
 * [UW Interactive Data Lab](https://idl.cs.washington.edu/)
   * データの可視化による情報伝達について、実例などをまとめているサイト。
+* [from Data to Viz](https://www.data-to-viz.com/)
+  * データの形式を選択していくと、それを表すのに適切なグラフを提案してくれるサイト。そのグラフを表示するためのPython/Rのコードも教えてくれる。
 
 ### Operation
 
