@@ -185,6 +185,9 @@
 * [Learning with Latent Linguistic Structure](http://www.phontron.com/slides/neubig18blackbox.pdf)
   * 自然言語における構造を学ぶ手法についての解説資料。
   * 論理推論やプログラムなどの複雑な構造をもつドメインではアノテーションを行うのが難しいため、潜在構造を推定しつつ半教師ありの手法を適用するStructVAEについて解説されている。
+* [Disentanglement Survey:Can You Explain How Much Are Generative models Disentangled?](https://www.slideshare.net/HidekiTsunashima/disentanglement-surveycan-you-explain-how-much-are-generative-models-disentangled)
+  * Disentanglementの研究動向についてまとめられた資料。手法、また評価についてどのように研究が進展していっているのか理解できる。
+
 
 ### Named Entity Recognition (NER)
 
