@@ -272,6 +272,8 @@
   * 1タスク内のゴール転移(ML1)と、複数タスクからの転移(ML10/45)という2種類のタスクが提供されている。
 * [RLBench](https://github.com/stepjam/RLBench)
   * ロボットを使ったタスクのベンチマーク環境。Few-ShotやMeta Learning、Imitation Learningなど様々なタスクを行うことができる。
+* [TorchBeast](https://github.com/facebookresearch/torchbeast)
+  * PyTorch製の強化学習実行フレームワーク(実装はIMPALAベース)。ほぼPurePythonで開発しやすいMonoBeastと、分散学習に対応したPolyBeastに分かれている。
 
 # Others
 
