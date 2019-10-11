@@ -270,6 +270,8 @@
 * [PythonRobotics](https://atsushisakai.github.io/PythonRobotics/)
   * ロボティクスに関わるアルゴリズムと実装が学べるリポジトリ
   * ロボットの操作では強化学習より既存のアルゴリズムが使われることが多いので、それを学ぶのに有用。
+* [CS234: Reinforcement Learning Winter 2019](http://web.stanford.edu/class/cs234/index.html)
+  * Stanfordの強化学習コース。基本的なところをしっかりとさらっている印象。
 
 ### Additional
 
