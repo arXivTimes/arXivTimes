@@ -252,6 +252,8 @@
 
 * [UCL Course on RL](http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html)
   * 最もわかりやすい。強化学習の基礎から知るならこれが一番
+* [CS234: Reinforcement Learning Winter 2019](http://web.stanford.edu/class/cs234/index.html)
+  * Stanfordの強化学習コース。UCLのコースをベースに作られている。こちらはLecture Noteがついているので、わからない所の補足に使える。
 * [6.S094: Deep Learning for Self-Driving Cars](http://selfdrivingcars.mit.edu/)
   * MITの自動運転車のコース。初歩からかなりわかりやすく解説してくれている
 * [techcircle_openai_handson](https://github.com/icoxfog417/techcircle_openai_handson)
@@ -270,8 +272,6 @@
 * [PythonRobotics](https://atsushisakai.github.io/PythonRobotics/)
   * ロボティクスに関わるアルゴリズムと実装が学べるリポジトリ
   * ロボットの操作では強化学習より既存のアルゴリズムが使われることが多いので、それを学ぶのに有用。
-* [CS234: Reinforcement Learning Winter 2019](http://web.stanford.edu/class/cs234/index.html)
-  * Stanfordの強化学習コース。基本的なところをしっかりとさらっている印象。
 
 ### Additional
 
