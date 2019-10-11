@@ -274,6 +274,9 @@
   * ロボットを使ったタスクのベンチマーク環境。Few-ShotやMeta Learning、Imitation Learningなど様々なタスクを行うことができる。
 * [TorchBeast](https://github.com/facebookresearch/torchbeast)
   * PyTorch製の強化学習実行フレームワーク(実装はIMPALAベース)。ほぼPurePythonで開発しやすいMonoBeastと、分散学習に対応したPolyBeastに分かれている。
+* [ROBEL](https://sites.google.com/view/roboticsbenchmarks/getting-started)
+  * ロボット操作の性能を検証するためのベンチマークを。ロボット(ハード)自体も作成方法が公開されており、パーツを注文して仕様書通りに組み立ててOpenAI Gymライクなツールで動かすところまで一気通貫でサポートしている。
+
 
 # Others
 
