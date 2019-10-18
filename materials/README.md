@@ -516,6 +516,9 @@
 * [深層学習の原理を明らかにする理論の試み](https://drive.google.com/file/d/1bNN6VjsgdpJAqxvZ4EKAPpMGq9wfjHqf/view?fbclid=IwAR0u2MNbv2k9lXDKG6BZPr-G5U5uLS-RMK9gtwa86zcp99q2iVyPJB6ai-0)
   * DNNでなぜうまくいく？の理論的な検証についての解説。
   * なぜ層を増やすと上手くいくのか、パラメーターを増やしても過適合しない・・・どころか精度が上がる理由はなんなのか、という点についてわかりやすい流れで近年の研究が整理されている。
+* [Uncertainty Quantification in Deep Learning](https://www.inovex.de/blog/uncertainty-quantification-deep-learning/)
+  * 機械学習モデルの不確実性を解説した記事。
+  * 出力確率=不確実性ではない点(「わからないもの」を確率50%で出してくれるとは限らない)、不確実性の種類として学習データの不足に起因するもの(epistemic)と出力の揺らぎ(aleatory)の2種類を上げ解説してくれている。
 
 ### XGBoost
 
