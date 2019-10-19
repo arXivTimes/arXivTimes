@@ -670,6 +670,9 @@
 * [Commonsense Explanations (CoS-E) Dataset](https://github.com/salesforce/cos-e)
   * 常識(Commonsense)を学習させるためのデータセット。多肢選択問題の形式をとっており、質問数は1万ほど。
   * 「なぜ人はゴシップ誌を読むのか?」=>「学習のため」「娯楽のため」「情報を得るため」・・・などといった質問が収録されている。
+* [MLQA: Evaluating Cross-lingual Extractive Question Answering](https://github.com/facebookresearch/MLQA)
+  * 質問回答のモデルを多言語で評価するデータセット。
+  * EnglishのQAが12,000あり、他言語(6言語)のQAが各5,000ある(Englishから多言語への転移という現実的な状況を想定している)。平均4言語で同じ質問があり、これにより質問の難しさと言語の難しさを分けて評価できる。
 
 ## Reasoning
 
