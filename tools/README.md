@@ -275,7 +275,9 @@
 * [TorchBeast](https://github.com/facebookresearch/torchbeast)
   * PyTorch製の強化学習実行フレームワーク(実装はIMPALAベース)。ほぼPurePythonで開発しやすいMonoBeastと、分散学習に対応したPolyBeastに分かれている。
 * [ROBEL](https://sites.google.com/view/roboticsbenchmarks/getting-started)
-  * ロボット操作の性能を検証するためのベンチマークを。ロボット(ハード)自体も作成方法が公開されており、パーツを注文して仕様書通りに組み立ててOpenAI Gymライクなツールで動かすところまで一気通貫でサポートしている。
+  * ロボット操作の性能を検証するためのベンチマーク。ロボット(ハード)自体も作成方法が公開されており、パーツを注文して仕様書通りに組み立ててOpenAI Gymライクなツールで動かすところまで一気通貫でサポートしている。
+* [REPLAB](https://sites.google.com/view/replab/)
+  * ロボット操作の性能を検証するためのベンチマーク。ロボットアームによるGraspのタスクにフォーカスしており、$2000程度で作成可能。ロボット/学習環境以外に、既存手法の実装/評価も行っている。
 
 
 # Others
