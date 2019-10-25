@@ -848,6 +848,8 @@
   * ただ、著作権の問題からか国語の問題、またいくつかの科目での画像が含まれない。
 * [CRCNS - Collaborative Research in Computational Neuroscience](https://crcns.org/data-sets)
   * 脳の神経活動を記録したデータセットの公開サイト。
+* [RoboNet: Large-Scale Multi-Robot Learning](https://github.com/SudeepDasari/RoboNet)
+  * 7種類のロボットで記録した1500万のビデオフレームのデータセット。様々なロボットの軌跡データから表現学習(次フレーム予測/過去フレーム予測)を行うことで、Zero/Few shotが可能な転移性能の高いモデルを構築できる。
 
 ## Chemical
 
