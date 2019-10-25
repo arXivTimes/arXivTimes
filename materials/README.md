@@ -580,6 +580,8 @@
   * 前者は系列生成(RNN)ベース、後者はGraph Conv+強化学習ベース。
 * [グラフ信号処理 ～基礎から応用まで～](https://d65bdd9a-a-61a7baef-s-sites.googlegroups.com/a/msp-lab.org/tanaka/index_j/GSP_MIRU_2019.pdf)
   * グラフ信号処理に関する解説資料。グラフを信号として捉えるとはどういうことか、それに対するフーリエ変換とは?という点がわかりやすく解説されている。
+* [生成モデルを中心としたAI創薬最前線](https://speakerdeck.com/elix/elix-cbi-2019)
+  * 生成モデルによる分子生成(創薬)について丁寧にまとめられた資料。インプットとなるデータの形式(Fingerprint/SMILES/Graph)、よく使用されるモデル(GAN/RNN/RL/VAE、Graph NN)などについて解説されている。
 
 ### Network Optimization
 
