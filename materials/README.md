@@ -386,6 +386,8 @@
   * [日本語訳はこちら](http://storywriter.jp/pair/)
 * [Explainable Artificial Intelligence (XAI)](https://www.darpa.mil/attachments/XAIProgramUpdate.pdf)
   * DARPAの、説明可能なAIに関する研究の計画資料。えげつないクオリティで書かれていて、研究計画書のお手本ともいえる内容。
+* [150 successful machine learning models: 6 lessons learned at Booking.com](https://blog.acolyer.org/2019/10/07/150-successful-machine-learning-models/)
+  * Booking.comにおける150の機械学習プロジェクトからえられた6つの知見がまとめられた記事(もとはKDD2019の論文)。活用の費用対効果は平均的に高い点、しかしモデルの精度と価値が比例するとは限らない点、モデル/KPIを早めにテストする必要性など挙げられている
 
 ### Project Planning
 
