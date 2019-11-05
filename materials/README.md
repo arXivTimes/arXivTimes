@@ -393,6 +393,8 @@
 
 * [現代的システム開発概論](https://speakerdeck.com/rtechkouhou/xian-dai-de-sisutemukai-fa-gai-lun)
   * プロジェクトの計画、修正について体系的に書かれた資料。機械学習を使うか否かに関わらず、システム開発を行う前にまず参照しておくべき資料。
+* [Google's New Manager Training Slides](https://www.frankmireault.com/blog/googles-new-manager-training-slides)
+  * Googleのマネジメント研修で使用されている資料。課題を把握する能力(Cognitive Intelligence)、技術スキルに加えて、自身/チームの感情変化を把握してマネジメント活動に活かすスキル(Emotion Intelligence)が必要とされている。
 
 ### Architecture
 
