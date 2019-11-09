@@ -187,6 +187,8 @@
   * 論理推論やプログラムなどの複雑な構造をもつドメインではアノテーションを行うのが難しいため、潜在構造を推定しつつ半教師ありの手法を適用するStructVAEについて解説されている。
 * [Disentanglement Survey:Can You Explain How Much Are Generative models Disentangled?](https://www.slideshare.net/HidekiTsunashima/disentanglement-surveycan-you-explain-how-much-are-generative-models-disentangled)
   * Disentanglementの研究動向についてまとめられた資料。手法、また評価についてどのように研究が進展していっているのか理解できる。
+* [EMNLP2019-Spec-Tutorial](https://docs.google.com/presentation/d/1QwD6Vd-SWJJWdR-QmAHWYDlxfHHeKTmEznDdIZg5aag/edit#slide=id.g706653db9c_0_80)
+  * 分散表現を文脈に合わせてチューニングする手法をまとめた資料。同じ文脈で出てくる単語は分散表現上距離が近くなるので、(価格の)高い/安い、地名などは意味が異なるものの距離は近くなってしまう。そこで、外部知識などを用いてチューニングしようという研究。
 
 
 ### Named Entity Recognition (NER)
