@@ -88,6 +88,8 @@
   * 単語の分散表現を簡単にダウンロードできるツール。こちらも探してくるのが面倒なので、これを利用すれば簡単に利用できる。
 * [neulab/compare-mt](https://github.com/neulab/compare-mt)
   * 自然言語処理における、生成系のタスクのスコアを測れるライブラリ。機械翻訳がメインターゲットだが、要約や対話生成の評価も可能なよう。
+* [Cornell-Conversational-Analysis-Toolkit](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit)
+  * scikit-learnライクなインタフェースで対話の分析ができるツールConvoKitが公開。個人間/グループ内における発話のインパクト評価や、形態素などの情報にもとづく丁寧さ評価などの分析が可能。
 
 **Additional**
 
