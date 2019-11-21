@@ -132,7 +132,9 @@
   * 簡単にゲームが作れてOpenAI Gymと統合できるツール。
   * これにより、強化学習のテストを行う際目的に応じたゲームを作成することができる。
   * ただゲームはJavaで作る必要がある。同じ目的なら[Python Learning Environment](https://github.com/ntasfi/PyGame-Learning-Environment)を模してPyGameで作ってほうがましかもしれない。
-
+* [Safety Gym](https://openai.com/blog/safety-gym/)
+  * 安全性制約を導入したGym環境。具体的には、危険エリアや接触不可オブジェクトを配置した環境となっている。自作も可能。
+  
 ### gym envs
 
 * [Gym Retro](https://blog.openai.com/gym-retro/)
