@@ -153,6 +153,8 @@
 
 * [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/)
   * 情報抽出に関する教科書。わかりやすさに定評のあるCristopher先生の本
+* [サービス特性にあった検索システムの設計戦略](https://techlife.cookpad.com/entry/2019/11/18/110000)
+  * 開発期間、メンテナンスコスト、また検索特性に応じた検索システムの構築を解説した記事。インフラとしてAWSを使うかどうか、DB(インデックス)を含めた構成はどうするか、検索に利用するテキスト、検索の評価指標は、など各ポイントについて検討内容がしっかりと書かれている。
 
 ### Dialog
 
