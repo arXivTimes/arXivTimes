@@ -293,6 +293,9 @@
   * モデルベースの強化学習の解説資料。基本的なところから近年の手法まで解説されている。モデルベースはモデルフリーに比べ資料が少ないため、貴重。
 * [Meta-Learning in 50 Lines of JAX](https://blog.evjang.com/2019/02/maml-jax.html)
   * メタラーニングのチュートリアルの記事。メタラーニングは色んな意味で使われているため、まず扱う対象の「メタラーニング」をきちんと定義してくれている。その後、Numpy+勾配計算といった趣のシンプルなライブラリ[JAX](https://github.com/google/jax)を使って実際に実装を行っている。
+* [Randomization and the reality gap: how to transfer robotic policies from sim to real](http://josh-tobin.com/assets/pdf/randomization_and_the_reality_gap.pdf)
+  * 強化学習 x ロボットの難しさについて解説したスライド。どんなアルゴリズムでも実ロボットの制御と結びついた瞬間に性能が劣化する、データを取ろうにもロボット高い、シミュレーションは正確性に問題あり、という中で複数のシミュレーション学習を複合するマルチタスク/メタラーニングに注目している
+  * 強化学習 on ロボットの現場より、という感じでスライド内の文言一つ一つに現場感がある。
 
 ### Not Recommend :droplet:
 
