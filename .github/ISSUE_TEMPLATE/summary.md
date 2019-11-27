@@ -1,5 +1,5 @@
 ---
-name: summary
+name: Summary
 about: Submit a paper summary
 title: ''
 labels: ''
