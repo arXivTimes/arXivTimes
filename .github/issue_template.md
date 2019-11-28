@@ -1,12 +1,3 @@
----
-name: Summary
-about: Submit a paper summary
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ## 一言でいうと
 
 ### 論文リンク
