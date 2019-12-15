@@ -296,6 +296,8 @@
 * [Randomization and the reality gap: how to transfer robotic policies from sim to real](http://josh-tobin.com/assets/pdf/randomization_and_the_reality_gap.pdf)
   * 強化学習 x ロボットの難しさについて解説したスライド。どんなアルゴリズムでも実ロボットの制御と結びついた瞬間に性能が劣化する、データを取ろうにもロボット高い、シミュレーションは正確性に問題あり、という中で複数のシミュレーション学習を複合するマルチタスク/メタラーニングに注目している
   * 強化学習 on ロボットの現場より、という感じでスライド内の文言一つ一つに現場感がある。
+* [Quality-Diversity optimisation algorithms](https://quality-diversity.github.io/tutorials)
+  * 最適な戦略ただ1つを見つけるのでなく、多様かつ同等のパフォーマンスを持つ戦略を見つけようというQuality-Diversityのチュートリアル。人、動物、昆虫etcが形は違うもののそれぞれ環境に最適化された行動を取るように、最適行動は局所に散在するという考えから新規性/局所最適曲線状の戦略を探索する
 
 ### Not Recommend :droplet:
 
