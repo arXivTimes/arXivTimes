@@ -611,11 +611,15 @@
 * [機械学習モデルのハイパパラメータ最適化](https://www.slideshare.net/greetech/ss-110811527/)
   * ハイパーパラメータサーチの手法に関するまとめ。サーベイの量に圧倒される
 
-### How to Write
+### How to Write / Read
 
 * [松尾ぐみの論文の書き方](http://ymatsuo.com/japanese/ronbun_jpn.html)
   * 論文を書く前に、まずはこちらに目を通しておいた方が良い。
 * [Stanford大学流科学技術論文の書き方](http://hontolab.org/tips-for-research-activity/tips-for-writing-technical-papers/)
 * [Good Citizen of CVPR](https://www.cc.gatech.edu/~parikh/citizenofcvpr/)
   * CVPRで行われた、良き研究者になるためのガイド的なワークショップの資料。論文の書き方からTodoの管理といった細かいところまで、多くの資料がある。
-
+* [How to Read a Paper](http://blizzard.cs.uwaterloo.ca/keshav/home/Papers/data/07/paper-reading.pdf)
+  * 論文の読み方をまとめた論文。読む深さに応じて3段階にわけている。
+  * 1. 論文のカテゴリや位置づけ、結論の把握(5~10分)
+  * 2. 論文の主張を根拠を基に語れるようになる(~1時間)
+  * 3. 著者をトレースして欠けている実験や仮定を発見する(初心者は数時間、ベテランでも1~2時間)
