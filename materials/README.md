@@ -561,8 +561,9 @@
   * 医療データに対する機械学習の適用についてまとめた記事。医療への適用を考える際には、まず見ておくとよい。
 * [メディカルAIコース オンライン講義資料](https://japan-medical-ai.github.io/medical-ai-course-materials/)
   * 医療従事者のためのAI講座資料。CT/MRI画像のセグメンテーションや、心電図の時系列解析といった実践的な内容が解説されている。
-* [AI×医用画像の現状と可能性](https://speakerdeck.com/tdys13/aixyi-yong-hua-xiang-falsexian-zhuang-toke-neng-xing?slide=96)
+* [AI×医用画像の現状と可能性](https://speakerdeck.com/tdys13/aixyi-yong-hua-xiang-falsexian-zhuang-toke-neng-xing)
   * 医療画像に対する機械学習の適用について、近年の研究と市場の動向がまとめられた資料。
+  * [2019版も公開された](https://speakerdeck.com/tdys13/aixmedical-imaging-in-japan-2019)
 * [セキュリティエンジニアのための機械学習入門の入門](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Security_and_MachineLearning)
   * セキュリティエンジニアのための機械学習入門記事。
   * 侵入/スパム検知、通信ログの解析について基本的な機械学習手法を適用する方法が解説されている。
