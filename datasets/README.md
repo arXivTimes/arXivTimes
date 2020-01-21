@@ -800,6 +800,8 @@
 * [AVSpeech: Audio Visual Speech dataset](https://looking-to-listen.github.io/avspeech/explore.html)
   * YouTubeの講義動画などから収集した、15万人以上、4700時間分の明瞭な発話及び話者動画データセット。
   * 1つの動画は3~10秒からなり、単一の話者の顔が映りこんでいてかつ背景の雑音がない明瞭な音声のものが選ばれている。
+* [JVS-MuSiC](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_music)
+  * 100名の歌唱者による歌唱コーパス。各歌唱者の発話データは[JVS corpus](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_corpus)に収録されている。
 
 ## Music
 
