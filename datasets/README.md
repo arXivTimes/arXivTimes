@@ -493,6 +493,9 @@
   * TED Talkをベースにしたパラレルコーパス。対応言語が非常に多く、109言語のリソースが収録されている。
 * [JParaCrawl](http://www.kecl.ntt.co.jp/icl/lirg/jparacrawl/)
   * 数多のWebサイトからツールを駆使して対訳文を検出し作成したデータセット。1000万の英日、8万3千の中日文が収録されている。
+* [OPUS](http://opus.nlpl.eu/)
+  * オープンに使える、様々な言語のパラレルコーパス集。有志によりWeb上のフリーなコンテンツから作成されている。
+
 
 ## Classification
 
