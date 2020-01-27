@@ -111,6 +111,9 @@
   * 独自開発されたC++ベースの機械学習ライブラリ[flashlight](https://github.com/facebookresearch/flashlight)上で動作する。
 * [nnmnkwii](https://github.com/r9y9/nnmnkwii)
   * 音声合成システムの開発を支援するライブラリ(PyTorchベース)。既存の[Merlin](https://github.com/CSTR-Edinburgh/merlin)に比べて、モデルのカスタマイズが行いやすいよう設計されている。
+* [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter)
+  * 音声の種別と区間を検出できるライブラリ。音声・音楽・ノイズの3区間を検出できる。機能としては音声の検出がメインで、音声の背後に音楽が鳴っている場合は音声判定が優先される。
+  * 音声の男性/女性の判定も行ってくれるが、現在はフランス語話者に特化している。
 
 # Reinforcement Learning
 
