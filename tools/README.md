@@ -185,6 +185,8 @@
 * [stable-baselines](https://github.com/hill-a/stable-baselines)
   * よりユーザーフレンドリーなOpenAI Baselineの実装。
   * 各アルゴリズムについて、きちんとドキュメント化されていたりカスタムの実装と比較したりできる。また、学習済みのエージェントも提供されている。
+* [rex-gym](https://github.com/nicrusso7/rex-gym)
+  * オープンソースの四脚ロボットSpotmicroを学習する環境。Spotmicroの基盤はArduino megaで、3Dプリントしたパーツを組み合わせて作成する。シミュレーションから実機に転移できるよう意識されている。君もBoston Dynamicsを目指そう!
 
 ## Simulator Integration
 
