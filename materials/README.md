@@ -588,6 +588,9 @@
   * 販売も行われているが、全文をWebで読むことができる。
 * [Explainable AI in Industry (KDD 2019 Tutorial)](https://www.slideshare.net/KrishnaramKenthapadi/explainable-ai-in-industry-kdd-2019-tutorial)
   * KDD2019で行われた、説明可能AIに関するチュートリアル。説明可能性が求められる背景と代表的な手法、また実務での事例が掲載されている。事例が掲載されている資料は珍しい。
+* [tidymodels+DALEXによる解釈可能な機械学習 / Tokyo.R83](https://speakerdeck.com/dropout009/tokyo-dot-r83)
+  * 機械学習モデルの判断根拠を解析する手法をまとめた記事。タイトルはRのパッケージ紹介となっているが、解釈手法の分類・出力された解釈の用途分類、また各手法の解説/参考文献までまとまっている。解釈手法を導入したい場合の良いスタート地点になると思う。
+
 
 ### Adversarial Attack
 
