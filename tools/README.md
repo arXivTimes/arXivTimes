@@ -187,6 +187,8 @@
   * 各アルゴリズムについて、きちんとドキュメント化されていたりカスタムの実装と比較したりできる。また、学習済みのエージェントも提供されている。
 * [rex-gym](https://github.com/nicrusso7/rex-gym)
   * オープンソースの四脚ロボットSpotmicroを学習する環境。Spotmicroの基盤はArduino megaで、3Dプリントしたパーツを組み合わせて作成する。シミュレーションから実機に転移できるよう意識されている。君もBoston Dynamicsを目指そう!
+* [ml-fairness-gym](https://github.com/google/ml-fairness-gym)
+  * バイアスのかかったモデルの長期的な影響を調べるための環境。例として、信用スコアが異なる2群に対して貸付リターンを最大化する事例が使われている。普通にやると信用が低い=そもそも貸さないとなるが、機会平等の戦略を取ると逆にリターンが高くなることを確認できる
 
 ## Simulator Integration
 
