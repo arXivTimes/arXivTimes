@@ -678,6 +678,9 @@
 * [MLQA: Evaluating Cross-lingual Extractive Question Answering](https://github.com/facebookresearch/MLQA)
   * 質問回答のモデルを多言語で評価するデータセット。
   * EnglishのQAが12,000あり、他言語(6言語)のQAが各5,000ある(Englishから多言語への転移という現実的な状況を想定している)。平均4言語で同じ質問があり、これにより質問の難しさと言語の難しさを分けて評価できる。
+* [TyDi QA: A Multilingual Question Answering Benchmark](https://google-research-datasets.github.io/tydiqa/tydiqa.html)
+  * Googleが多言語の質問回答データセットを公開。表記や構造が異なる様々な言語を収録している。
+  * データを作る際は翻訳でなくオリジナルの言語で文章を提示する、質問する内容は文章に関係なくても想起されるものであればOKなど、自然なQAに近づけるための工夫が取られている。
 
 ## Reasoning
 
