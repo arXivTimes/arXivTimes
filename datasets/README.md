@@ -348,8 +348,6 @@
 * [KaoKore Dataset](https://github.com/rois-codh/kaokore)
   * 日本画の中にある顔画像のデータセット。主に室町時代末～近世初期に作られた絵本・絵巻物から顔画像を抽出しメタデータをアノテーションしたデータセット([顔コレ](http://codh.rois.ac.jp/face/))から5552画像を抽出し、256x256にリサイズし性別/社会ステータスなどのラベルを振っている。
 
-https://github.com/rois-codh/kaokore
-
 ## Image Captioning/Visual QA
 
 * [VQA](http://www.visualqa.org/index.html)
