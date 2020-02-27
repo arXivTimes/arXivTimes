@@ -900,7 +900,7 @@
   * 悪意あるWindowsのPortable Executable file(PE file)を検知するためのデータセット。件数は100万近くあり、特徴抽出済み。
   * 特徴抽出のスクリプトは公開されており、このため自分で集めたデータで拡張することが可能。
 
-## Game
+## Reinforcement Learning
 
 * [GoGoD](http://senseis.xmp.net/?GoGoDCD)
   * プロの囲碁棋士の対局データセット。85,000局分が含まれており、お値段は15USD
@@ -908,6 +908,10 @@
   * プロの囲碁棋士の対局データセット。GitHub上でフリーで公開されており、約25万局が収録されている。
 * [TorchCraft/StarData](https://github.com/TorchCraft/StarData)
   * StarCraftのプレイデータ。約6万5千プレイ、フレーム数にして15億(!!)という大規模なデータセット。
+* [RoboTurk](http://roboturk.stanford.edu/realrobotdataset.html)
+  * ロボットアームによるマニピュレーションを記録したデータセット。教師あり学習や模倣学習などに使用することができる。
+  * 既存のデータセットは自己教師のものが多かったが、こちらは実際人が操作した画像、54名による2114の物体移動/配置デモが記録されている。収録時間はのべ111時間にも及ぶ。
+
 
 # Dataset Summary Page
 
