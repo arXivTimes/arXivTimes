@@ -234,6 +234,8 @@
 * [Tellus Data Catalog](https://www.tellusxdp.com/ja/dev/data)
   * 衛星データプラットフォームであるTellusで公開されているデータセットの一覧。
   * 衛星画像はもちろん、標高、地表面温度、降雨量、また携帯電話の基地局アクセスを元にした人口統計情報など興味深いデータが多く公開されている。
+* [AGRICULTURE-VISION DATABASE](https://www.agriculture-vision.com/dataset)
+  * 農地の衛星画像データセット。雲の影や農地境界の種別?、水路などといった農業にとって重要なラベルのアノテーションがされている。
 
 ## BodyParts
 
