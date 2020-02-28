@@ -195,6 +195,9 @@
   * Disentanglementの研究動向についてまとめられた資料。手法、また評価についてどのように研究が進展していっているのか理解できる。
 * [EMNLP2019-Spec-Tutorial](https://docs.google.com/presentation/d/1QwD6Vd-SWJJWdR-QmAHWYDlxfHHeKTmEznDdIZg5aag/edit#slide=id.g706653db9c_0_80)
   * 分散表現を文脈に合わせてチューニングする手法をまとめた資料。同じ文脈で出てくる単語は分散表現上距離が近くなるので、(価格の)高い/安い、地名などは意味が異なるものの距離は近くなってしまう。そこで、外部知識などを用いてチューニングしようという研究。
+* [学習済み日本語word2vecとその評価について](https://blog.hoxo-m.com/entry/2020/02/20/090000)
+  * 適当に使ってしまいがちな分散表現をしっかりと評価した記事。類似度とアナロジー2つのタスクについて、いずれも日本語の評価データセットを使って評価している。
+  * 形態素が評価データセットのものと合わないなど細かいエラーを丁寧につぶしている。chiVeが良いがfastTextも手ごろか。
 
 
 ### Named Entity Recognition (NER)
