@@ -48,6 +48,8 @@
   * UC Berkeleyの、DNNを効率的に実行するための手法についての講義。実行の工夫として分散環境やネットワーク構造のコンパイル、モデル側の工夫として構造探索や蒸留(主に枝刈り)の話題が取り上げられている。
 * [Parameter optimization in neural networks](https://www.deeplearning.ai/ai-notes/optimization/)
   * Neural Netの最適化に関する解説記事。数式の説明・理解を助けるインタラクティブなデモ・手早く引けるOptimizer選択のチートシート、と至れり尽くせりな内容になっている。
+* [fastai/fastbook](https://github.com/fastai/fastbook)
+  * FastAIの講座が教科書に。Jupyter形式で書かれており、読みつつすぐに実践できる。
 
 ### Not Recommend :droplet:
 
