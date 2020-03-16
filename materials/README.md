@@ -307,6 +307,8 @@
   * 強化学習 on ロボットの現場より、という感じでスライド内の文言一つ一つに現場感がある。
 * [Quality-Diversity optimisation algorithms](https://quality-diversity.github.io/tutorials)
   * 最適な戦略ただ1つを見つけるのでなく、多様かつ同等のパフォーマンスを持つ戦略を見つけようというQuality-Diversityのチュートリアル。人、動物、昆虫etcが形は違うもののそれぞれ環境に最適化された行動を取るように、最適行動は局所に散在するという考えから新規性/局所最適曲線状の戦略を探索する
+* [box2d-lite](https://github.com/erincatto/box2d-lite/blob/master/docs/HowDoPhysicsEnginesWork.pdf)
+  * StarCraftを開発するBlizzardの方がまとめた、物理エンジンBox2Dの挙動に関する資料。コード・数式・図の3点セットで説明されており、とてもわかりやすい。
 
 ### Not Recommend :droplet:
 
