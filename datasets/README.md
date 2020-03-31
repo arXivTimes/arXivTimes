@@ -955,7 +955,9 @@
   * Googleが公開するデータセットを検索するためのサービス。
 * [VisualData](https://www.visualdata.io/)
   * 画像系のデータセットがまとめられたサイト。カテゴリやキーワードで検索することができる。
-  
+* [The Big Bad NLP Database](https://datasets.quantumstat.com/)
+  * 自然言語処理のデータセットをまとめたサイト。SQL-to-Textなど細かいタスクのデータセットも掲載されている。
+
 # To make your own
 
 * [ヒューマンコンピュテーションとクラウドソーシング ](https://www.amazon.co.jp/dp/4061529137)
