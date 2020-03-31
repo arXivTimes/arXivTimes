@@ -303,6 +303,9 @@
 * [Optos images dataset](https://tsukazaki-ai.github.io/optos_dataset/)
   * 姫路にあるツカザキ病院から、眼底画像のデータセットが公開。
   * 5389名の患者から撮影した13,000ほどの画像が収録されており、患者の性別、右目or左目、疾患(全9種類)がラベル付けされている。
+* [COVID-19 Image Data Collection](https://github.com/ieee8023/covid-chestxray-dataset)
+  * 新型コロナウィルス患者の胸部X線画像(公開時点では正面画像123枚)。
+  * データは公開論文や放射線画像リファレンスサイト([Radiopaedia](https://radiopaedia.org/))から取得されている。重複削除等についての言及はないが、現在進行形でブラッシュアップされているよう。
 
 ## Art
 
