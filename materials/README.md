@@ -50,6 +50,8 @@
   * Neural Netの最適化に関する解説記事。数式の説明・理解を助けるインタラクティブなデモ・手早く引けるOptimizer選択のチートシート、と至れり尽くせりな内容になっている。
 * [fastai/fastbook](https://github.com/fastai/fastbook)
   * FastAIの講座が教科書に。Jupyter形式で書かれており、読みつつすぐに実践できる。
+* [A Survey of Deep Learning for Scientific Discover](https://arxiv.org/abs/2003.11755)
+  * DNNの研究・活用全体をガイドした資料。基本的な仕組み・タスク、効率的な学習方法・解釈性など近年の話題も含めて幅広いトピックが整理されて書かれている。実装に使えるOSSの紹介も行われている。
 
 ### Not Recommend :droplet:
 
