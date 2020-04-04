@@ -200,7 +200,9 @@
 * [学習済み日本語word2vecとその評価について](https://blog.hoxo-m.com/entry/2020/02/20/090000)
   * 適当に使ってしまいがちな分散表現をしっかりと評価した記事。類似度とアナロジー2つのタスクについて、いずれも日本語の評価データセットを使って評価している。
   * 形態素が評価データセットのものと合わないなど細かいエラーを丁寧につぶしている。chiVeが良いがfastTextも手ごろか。
-
+* [Embeddings in Natural Language Processing](http://josecamachocollados.com/book_embNLP_draft.pdf)
+  * 分散表現特化の解説本。単語/文の表現、BERTに代表される文脈考慮の表現はもちろん、グラフベースの分散表現も解説されている。
+  * 近年問題とされているバイアスの問題にも触れられており、かなりの良書。
 
 ### Named Entity Recognition (NER)
 
