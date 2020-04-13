@@ -317,6 +317,8 @@
   * 最適な戦略ただ1つを見つけるのでなく、多様かつ同等のパフォーマンスを持つ戦略を見つけようというQuality-Diversityのチュートリアル。人、動物、昆虫etcが形は違うもののそれぞれ環境に最適化された行動を取るように、最適行動は局所に散在するという考えから新規性/局所最適曲線状の戦略を探索する
 * [box2d-lite](https://github.com/erincatto/box2d-lite/blob/master/docs/HowDoPhysicsEnginesWork.pdf)
   * StarCraftを開発するBlizzardの方がまとめた、物理エンジンBox2Dの挙動に関する資料。コード・数式・図の3点セットで説明されており、とてもわかりやすい。
+* [実践カルマンフィルタ](https://speakerdeck.com/motokimura/shi-jian-karumanhuiruta)
+  * 時系列で変化する状態を推定するカルマンフィルタの解説スライド。カルマンフィルタはロボットなどの自己位置推定に使用されており、実際KITTI(自動運転車)のデータセットでその有効性を確認している(実験コードも公開されている)。
 
 ### Not Recommend :droplet:
 
