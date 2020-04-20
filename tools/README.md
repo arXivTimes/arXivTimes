@@ -293,6 +293,8 @@
   * ロボット操作の性能を検証するためのベンチマーク。ロボットアームによるGraspのタスクにフォーカスしており、$2000程度で作成可能。ロボット/学習環境以外に、既存手法の実装/評価も行っている。
 * [Google Research Football](https://github.com/google-research/football)
   * マルチエージェントの強化学習を行うための、サッカーゲーム環境。GameplayFootballというエンジンをベースにしており、異なる難易度設定も用意されている。
+* [PyBoy](https://github.com/Baekalfen/PyBoy)
+  * Python製ゲームボーイエミュレーター。強化学習などで使用できるようAPIも整備されている。Raspberry Piでも動かせる。
 
 # Others
 
