@@ -308,6 +308,8 @@
 * [COVID-19 Image Data Collection](https://github.com/ieee8023/covid-chestxray-dataset)
   * 新型コロナウィルス患者の胸部X線画像(公開時点では正面画像123枚)。
   * データは公開論文や放射線画像リファレンスサイト([Radiopaedia](https://radiopaedia.org/))から取得されている。重複削除等についての言及はないが、現在進行形でブラッシュアップされているよう。
+* [4CE Consortium for Clinical Characterization of COVID-19 by EHR](https://covidclinical.net/index.html)
+  * i2b2とOMOPの呼びかけで、世界各国の病院(アメリカ、イタリア、ドイツ、シンガポール、フランス、計96の病院)から新型コロナウィルスの電子カルテデータを集めて統合。計27,927件で検査値の総量は187,802件に上る。医療機関(国?)によりやはり違いがあるよう。
 
 ## Art
 
