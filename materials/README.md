@@ -563,6 +563,8 @@
   * 出力確率=不確実性ではない点(「わからないもの」を確率50%で出してくれるとは限らない)、不確実性の種類として学習データの不足に起因するもの(epistemic)と出力の揺らぎ(aleatory)の2種類を上げ解説してくれている。
 * [Time Series Prediction - A short introduction for pragmatists](https://www.liip.ch/en/blog/time-series-prediction-a-short-comparison-of-best-practices)
   * 時系列予測のチュートリアル記事。基礎的な手法の解説からおためしデータセット、そこでの検証まで紹介されている。基本はシンプルな手法で十分で、Prophetを使えばだいぶ十分という結論。
+* [microsoft/forecasting](https://github.com/microsoft/forecasting)
+  * 時系列モデルを構築する際のベストプラクティス集。Python/R双方のJupyter Notebookつき。
 
 ### XGBoost
 
