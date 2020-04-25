@@ -694,6 +694,9 @@
 * [TyDi QA: A Multilingual Question Answering Benchmark](https://google-research-datasets.github.io/tydiqa/tydiqa.html)
   * Googleが多言語の質問回答データセットを公開。表記や構造が異なる様々な言語を収録している。
   * データを作る際は翻訳でなくオリジナルの言語で文章を提示する、質問する内容は文章に関係なくても想起されるものであればOKなど、自然なQAに近づけるための工夫が取られている。
+* [JAQKET](https://www.nlp.ecei.tohoku.ac.jp/projects/jaqket/)
+  * 日本語でのクイズデータセット。質問・回答以外に回答候補が提供されている。回答はWikipediaの記事名になるように設定されている。
+  * 問題文の数は13061、dev1が995、dev2が997。
 
 ## Reasoning
 
