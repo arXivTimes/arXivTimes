@@ -486,6 +486,9 @@
 * [CodeSearchNet](https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge/)
   * コード検索を改善するためのデータセット。
   * コード(メソッド)とコメント、メタデータを合わせたコーパスと、検索結果についてプログラマーや研究者が関連度をアノテーションしたデータの2つが公開されている。
+* [ToTTo](https://github.com/google-research-datasets/totto)
+  * テーブルからデータを読み取り文にするデータセット。
+  * テーブルの情報と指定セルを入力に、読み取れる結果の文がアノテーションされている(東京都の人口のテーブルで江東区のセルがハイライトされていた場合、「東京江東区の人口はxx人です」が回答文になるなど)。
 
 ## Parallel Corpus
 
