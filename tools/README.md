@@ -295,6 +295,9 @@
   * マルチエージェントの強化学習を行うための、サッカーゲーム環境。GameplayFootballというエンジンをベースにしており、異なる難易度設定も用意されている。
 * [PyBoy](https://github.com/Baekalfen/PyBoy)
   * Python製ゲームボーイエミュレーター。強化学習などで使用できるようAPIも整備されている。Raspberry Piでも動かせる。
+* [Animal AI](https://github.com/beyretb/AnimalAI-Olympics)
+  * 動物の認知能力を検証するための実験環境を強化学習の学習環境として再現するプロジェクト。実装はUnityのML Agentsを使っている(ちょっと重い)。
+  * 900という膨大な実験を試すことができる。
 
 # Others
 
