@@ -319,6 +319,8 @@
   * StarCraftを開発するBlizzardの方がまとめた、物理エンジンBox2Dの挙動に関する資料。コード・数式・図の3点セットで説明されており、とてもわかりやすい。
 * [実践カルマンフィルタ](https://speakerdeck.com/motokimura/shi-jian-karumanhuiruta)
   * 時系列で変化する状態を推定するカルマンフィルタの解説スライド。カルマンフィルタはロボットなどの自己位置推定に使用されており、実際KITTI(自動運転車)のデータセットでその有効性を確認している(実験コードも公開されている)。
+* [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/abs/2005.01643)
+  * 獲得済みの軌跡のみから(環境で新規にデータを取得せずに)学習するオフライン強化学習のチュートリアル資料。問題設定から課題、応用事例まで幅広く解説されている。
 
 ### Not Recommend :droplet:
 
