@@ -245,6 +245,8 @@
   * 自然言語処理におけるデータ作成プロセス(アノテーション)をどう進めるのか、ストーリー仕立てで解説している記事。ピザのオーダー受付を自動化するプロジェクトを題材に、目指すべきKPIとの紐付けや精度分析など様々なシーンを解説している。
 * [How to generate text: using different decoding methods for language generation with Transformers](https://huggingface.co/blog/how-to-generate)
   * 言語モデルで実際文を生成するときに必要なDecodingについて、各種手法とTransformernによる実装を紹介している記事。単純に一番確率が高い単語をとっていくGreedy Searchから代表的なBeam Searchなどが、実装付きで解説されている。
+* [A Visual Survey of Data Augmentation in NLP](https://amitness.com/2020/05/data-augmentation-for-nlp/)
+  * 自然言語処理におけるData Augmentationのまとめ。シンプルな言い換え(同義語/分散表現が近い単語への置き換え)以外に、Back Translationや言語モデルによる穴埋め、分散表現のMixupなど比較的最近の手法も紹介されている。
 
 ### Not Recommend :droplet:
 
