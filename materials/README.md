@@ -109,7 +109,8 @@
   * 点群(Point Cloud)を扱う研究をまとめたサーベイ。基礎からカテゴリ別に膨大な量の論文が網羅されており、応用についてもまとめられている。
 * [Deep Metric Learning: A Survey](https://www.researchgate.net/publication/335314481_Deep_Metric_Learning_A_Survey)
   * 深層学習によるMetric Learningのサーベイ。Metric Learningの重要な要素として学習データのサンプリング、ネットワーク構成、lossの3点を挙げており、特にサンプリングは(注目されがちな)他2つと同等に重要であるとしている。
-
+* [第126回 RSJロボット工学セミナー「 Visual SLAMと深層学習を用いた３Dモデリング」](https://www.slideshare.net/KenSakurada/126-rsj2020522)
+  * 3Dモデリング、さらに時間軸を加えた4Dモデリングの研究動向、基本的な手法(SfM/SLAM・V-SLAM)の解説がまとめられた資料。実装に使えるライブラリまで紹介されている。
 
 ### Not Recommend :droplet:
 
