@@ -88,8 +88,8 @@
 * [Deep Learning for Generic Object Detection: A Survey](https://arxiv.org/abs/1809.02165)
   * 物体検知の手法のまとめで、手法だけでなく物体検知というタスク自体についてもその歴史をたどり系統図にまとめている。そのため単純に近年の手法だけでなく、体系的な系譜を学ぶことができる。
   * 図解も豊富で分かりやすく、まさに"Survey"の名を冠するにふさわしい出来。
-* [畳み込みニューラルネットワークの研究動向](https://www.slideshare.net/ren4yu/ss-84282514)
-  * CNNの進化の歴史がまとめられている。これでCNNを学ぶというものではないが、学んだ後背後にある研究系統を体系的に知るには最適な資料。
+* [画像認識と深層学習](https://www.slideshare.net/ren4yu/ss-234439652)
+  * 画像認識モデルの進化がまとめられた資料。モジュール開発競争の過程と果てのAutoML、また枝刈り/蒸留等による軽量化など幅広い領域の歴史が網羅されている(物体検出もついている)。
 
 ### Additional
 
@@ -103,12 +103,12 @@
   * 分類ではなく、ベクトル表現間の距離を学習するMetric Learningの手法についての記事(距離学習は、顔認証など分類数が不定/事前のサンプルが難しいケースで有効)。
   * 距離を直接学習する手法が主流だったが、最近は分類問題を解きつつ学習できるようになってきたよう。既存の距離学習について解説された記事へのリンクもある。
   * 基本的な手法であるTriplet Lossについてはこちらが詳しい: [Deep Metric Learning の定番⁈ Triplet Lossを徹底解説](https://qiita.com/tancoro/items/35d0925de74f21bfff14)
+* [Deep Metric Learning: A Survey](https://www.researchgate.net/publication/335314481_Deep_Metric_Learning_A_Survey)
+  * 深層学習によるMetric Learningのサーベイ。Metric Learningの重要な要素として学習データのサンプリング、ネットワーク構成、lossの3点を挙げており、特にサンプリングは(注目されがちな)他2つと同等に重要であるとしている。
 * [画像キャプションの自動生成](https://www.slideshare.net/YoshitakaUshiku/ss-57148161)
   * 画像キャプションの自動生成について、歴史や研究、評価手法などについてまとめられた資料。
 * [三次元点群を取り扱うニューラルネットワークのサーベイ Ver. 2 / Point Cloud Deep Learning Survey Ver. 2](https://speakerdeck.com/nnchiba/point-cloud-deep-learning-survey-ver-2)
   * 点群(Point Cloud)を扱う研究をまとめたサーベイ。基礎からカテゴリ別に膨大な量の論文が網羅されており、応用についてもまとめられている。
-* [Deep Metric Learning: A Survey](https://www.researchgate.net/publication/335314481_Deep_Metric_Learning_A_Survey)
-  * 深層学習によるMetric Learningのサーベイ。Metric Learningの重要な要素として学習データのサンプリング、ネットワーク構成、lossの3点を挙げており、特にサンプリングは(注目されがちな)他2つと同等に重要であるとしている。
 * [第126回 RSJロボット工学セミナー「 Visual SLAMと深層学習を用いた３Dモデリング」](https://www.slideshare.net/KenSakurada/126-rsj2020522)
   * 3Dモデリング、さらに時間軸を加えた4Dモデリングの研究動向、基本的な手法(SfM/SLAM・V-SLAM)の解説がまとめられた資料。実装に使えるライブラリまで紹介されている。
 
