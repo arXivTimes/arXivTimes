@@ -192,6 +192,9 @@
   * [Google Colablatory で実行できるチュートリアル](https://colab.sandbox.google.com/github/waymo-research/waymo-open-dataset/blob/r1.0/tutorial/tutorial.ipynb) が用意されている。
 * [PFN Visuo-Tactile Dataset (PFN-VT)](https://github.com/pfnet-research/Deep_visuo-tactile_learning_ICRA2019)
   * 画像と触覚センサーの値をペアにして収録したデータセット。物体の硬さなどを学習するために使える。
+* [Pandaset](https://scale.com/open-datasets/pandaset#overview)
+  * LiDARセンサーメーカーのHesaiとアノテーションプラットフォームのScaleAIが共同で構築した自動運転車のためのデータセット。
+  * 都市部での運転を意識しており、急勾配の坂や歩道、様々な時間帯で収録を行っている(場所はシリコンバレー)。
 
 ## 3D
 
