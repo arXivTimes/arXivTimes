@@ -631,7 +631,11 @@
   * 大規模な関係認識のデータセット。アノテーションはNewswireなどのニュース記事やその他Web上の記事に対して行われている。
   * 主語・述語をはじめとした様々な関係が付与されている。データ総数は約10万。
   * ただし有料(LDC memberは無料、それ以外は$25)。
-  
+* [S2ORC: The Semantic Scholar Open Research Corpus](https://github.com/allenai/s2orc/)
+  * Semantic Scholarのデータを基にした、8100万の論文Node、3億8千万の論文間リファレンスEdgeという膨大なグラフデータセット。
+  * 論文は7300万はAbstract、800万は全文が取得できる。
+
+
 ## Q&A
 
 * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
