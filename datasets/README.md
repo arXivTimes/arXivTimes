@@ -313,6 +313,9 @@
   * データは公開論文や放射線画像リファレンスサイト([Radiopaedia](https://radiopaedia.org/))から取得されている。重複削除等についての言及はないが、現在進行形でブラッシュアップされているよう。
 * [4CE Consortium for Clinical Characterization of COVID-19 by EHR](https://covidclinical.net/index.html)
   * i2b2とOMOPの呼びかけで、世界各国の病院(アメリカ、イタリア、ドイツ、シンガポール、フランス、計96の病院)から新型コロナウィルスの電子カルテデータを集めて統合。計27,927件で検査値の総量は187,802件に上る。医療機関(国?)によりやはり違いがあるよう。
+* [DELVE Global COVID-19 Dataset](https://rs-delve.github.io/data_software/global-dataset.html)
+  * 様々な新型コロナウィルスに関するデータをまとめたデータセット。各国の対策、検査/死亡率、また気候データなど国横断で差異を意識しながら分析できるようまとめらている。pandasですぐに読み込めるようになっており、扱いやすい。
+
 
 ## Art
 
