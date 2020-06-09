@@ -195,6 +195,9 @@
 * [Pandaset](https://scale.com/open-datasets/pandaset#overview)
   * LiDARセンサーメーカーのHesaiとアノテーションプラットフォームのScaleAIが共同で構築した自動運転車のためのデータセット。
   * 都市部での運転を意識しており、急勾配の坂や歩道、様々な時間帯で収録を行っている(場所はシリコンバレー)。
+* [MSeg](https://github.com/mseg-dataset/mseg-api)
+  * 複数のSemantic Segmentationのデータセットをマージしたデータセット。
+  * 単に合わせるとアノテーションのポリシーやラベルの差異が発生するため、それらを合わせ80,000画像の220,000マスクを調整している。
 
 ## 3D
 
