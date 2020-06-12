@@ -248,6 +248,10 @@
   * 言語モデルで実際文を生成するときに必要なDecodingについて、各種手法とTransformernによる実装を紹介している記事。単純に一番確率が高い単語をとっていくGreedy Searchから代表的なBeam Searchなどが、実装付きで解説されている。
 * [A Visual Survey of Data Augmentation in NLP](https://amitness.com/2020/05/data-augmentation-for-nlp/)
   * 自然言語処理におけるData Augmentationのまとめ。シンプルな言い換え(同義語/分散表現が近い単語への置き換え)以外に、Back Translationや言語モデルによる穴埋め、分散表現のMixupなど比較的最近の手法も紹介されている。
+* [CS520: Knowledge Graph](https://web.stanford.edu/class/cs520/)
+  * Stanfordで行われているKnowledge Graphの講座。体系的なコースというよりは様々なトピックのアラカルトになっていて、Neo4j(グラフDB)や実用の知識グラフで問題になる不完全Edgeの補完(トリプルのEmbeddingや強化学習で推論する)などの話題が取り上げられている。
+
+https://web.stanford.edu/class/cs520/
 
 ### Not Recommend :droplet:
 
