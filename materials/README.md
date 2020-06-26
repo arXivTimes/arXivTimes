@@ -504,6 +504,8 @@ https://web.stanford.edu/class/cs520/
 * [実用化のための 機械学習の評価尺度の色々](https://docs.google.com/presentation/d/1r1dOVqfQaHh-vyemFO4Vzf5qFMomrf4-CdTYj7OwELE/edit#slide=id.g43c73f7812_0_11)
   * 機械学習活用プロジェクトでよくある「精度が高ければ使える」といった話について、適用業務に合わせた「精度」の測り方をしようという話。
   * 具体例を提示しながら解説されており、イメージがつきやすい。実際にモデルを作る前に目を通しておくと良い。
+* [Trends and Our Activities in Quality Management and Assurance of Machine Learning](https://www.slideshare.net/sfchaos/trends-and-our-activities-in-quality-management-and-assurance-of-machine-learning)
+  * 機械学習モデルの品質保証についてまとめられたスライド。入力=>出力の再現性確認や、テストデータのカバレッジを担保する手法、またAdversarialへの防衛などについて解説されている。
 
 ### Data Collection
 
