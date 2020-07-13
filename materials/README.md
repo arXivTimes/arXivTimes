@@ -489,6 +489,8 @@ https://web.stanford.edu/class/cs520/
 * [コンテナ未経験新人が学ぶコンテナ技術入門](https://www.slideshare.net/KoheiTokunaga/ss-122754942)
   * VMからDocker、Kubernetesに到るまでの過程と周辺技術要素がとてもよくまとめられた資料。この資料だけで、仕組みの理解は済んでしまうと思う。
 * [プログラマのためのDocker教科書 インフラの基礎知識＆コードによる環境構築の自動化](https://www.amazon.co.jp/dp/B017UGA7NG)
+* [AWSによるクラウド入門](https://tomomano.gitlab.io/intro-aws/#_%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
+  * 東京大学の計数工学科で使用されているAWS入門の講義資料。科学・エンジニアリングの学生向けで、AWSでGPUの計算を行う方法(Jupyterの立ち上げ方含む)、サーバーレスでのインフラ構築を主に取り上げている。
 
 #### Model Development
 
