@@ -329,6 +329,9 @@ https://web.stanford.edu/class/cs520/
 * [Offline Reinforcement Learning: Tutorial, Review, and Perspectives on Open Problems](https://arxiv.org/abs/2005.01643)
   * 獲得済みの軌跡のみから(環境で新規にデータを取得せずに)学習するオフライン強化学習のチュートリアル資料。問題設定から課題、応用事例まで幅広く解説されている。
   * [日本語解説スライド](https://www.slideshare.net/DeepLearningJP2016/offline-reinforcement-learning-tutorial-review-and-perspectives-on-open-problems)
+* [Tutorial on Model-Based Methods in Reinforcement Learning](https://sites.google.com/view/mbrl-tutorial)
+  * ICML2020でのモデルベース強化学習の解説スライド。モデルフリーとの違い、モデル構築の手法による違いなど体系的にまとめてくれている。
+
 
 ### Not Recommend :droplet:
 
