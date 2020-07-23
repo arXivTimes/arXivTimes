@@ -842,6 +842,8 @@
   * 1つの動画は3~10秒からなり、単一の話者の顔が映りこんでいてかつ背景の雑音がない明瞭な音声のものが選ばれている。
 * [JVS-MuSiC](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_music)
   * 100名の歌唱者による歌唱コーパス。各歌唱者の発話データは[JVS corpus](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_corpus)に収録されている。
+* [CoVoST V2](https://ai.facebook.com/blog/covost-v2-expanding-the-largest-most-diverse-multilingual-speech-to-text-translation-data-set/)
+  * 多言語の音声認識データセット。Mozilla’sの公開するCommon Voiceデータセットをもとに、21言語=>英語、英語=>15言語のコーパスを作成している(収録時間は2,900時間)。
 
 ## Music
 
