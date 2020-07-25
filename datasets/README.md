@@ -941,6 +941,8 @@
 * [RoboTurk](http://roboturk.stanford.edu/realrobotdataset.html)
   * ロボットアームによるマニピュレーションを記録したデータセット。教師あり学習や模倣学習などに使用することができる。
   * 既存のデータセットは自己教師のものが多かったが、こちらは実際人が操作した画像、54名による2114の物体移動/配置デモが記録されている。収録時間はのべ111時間にも及ぶ。
+* [RL Unplugged: Benchmarks for Offline Reinforcement Learning](https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged)
+  * (実環境にアクセスしない)オフライン強化学習のベンチマークデータセット。複雑な連続値コントロールからAtariまで幅広い行動空間、探索難易度の環境のデータが収録されている。
 
 
 # Dataset Summary Page
