@@ -515,6 +515,8 @@ https://web.stanford.edu/class/cs520/
   * 具体例を提示しながら解説されており、イメージがつきやすい。実際にモデルを作る前に目を通しておくと良い。
 * [Trends and Our Activities in Quality Management and Assurance of Machine Learning](https://www.slideshare.net/sfchaos/trends-and-our-activities-in-quality-management-and-assurance-of-machine-learning)
   * 機械学習モデルの品質保証についてまとめられたスライド。入力=>出力の再現性確認や、テストデータのカバレッジを担保する手法、またAdversarialへの防衛などについて解説されている。
+* [Building ML Pipelines](https://www.buildingmlpipelines.com/)
+  * TensorFlowのエコシステムを使用し機械学習パイプラインを構築する方法を書いた本。TensorFlow Extendedの各パーツ紹介以外にApache BEAM/Airflow、Kubeflowによるパイプラインのホスティングについても書かれている。レシピ本の印象で個々のトピックはあまり深くなさそうだが全体感を掴むのによさそう
 
 ### Data Collection
 
