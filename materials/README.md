@@ -164,6 +164,9 @@
   * 開発期間、メンテナンスコスト、また検索特性に応じた検索システムの構築を解説した記事。インフラとしてAWSを使うかどうか、DB(インデックス)を含めた構成はどうするか、検索に利用するテキスト、検索の評価指標は、など各ポイントについて検討内容がしっかりと書かれている。
 * [検索体験を向上する Query Understanding とは](https://recruit-tech.co.jp/blog/2019/12/25/query-understanding-overview/)
   * Query Understanding(イメージ的には検索のUX)について解説された記事。検索者の意図に応じて(既知の情報を補完したいのか、未知の情報を見つけたいのか)、検索システムができること(検索者への働きかけ/検索システム側で意図を理解する方法)は何か、という点がまとめられている。
+* [Building a Better Search Engine for Semantic Scholar](https://medium.com/ai2-blog/building-a-better-search-engine-for-semantic-scholar-ea23a0b661e7)
+  * 検索を機械学習で改善する難しさを解説した記事。一般的にデータ(ログ)が多ければ多いほど精度が改善されるはずだが、1/3ほどは役に立たなかったとしている。例として検索したときすでに知っているページはクリックしないことがままあるが、こうしたユーザーの挙動は機械学習的にはノイズになるなど。
+
 
 ### Dialog
 
