@@ -278,6 +278,8 @@ https://web.stanford.edu/class/cs520/
   * 音声に対するDNNの適用についてまとめられた資料。音声と画像の性質的な違い(時系列/周波数という相関のない2軸で表現される点、時系列のため順次処理が必要など)を示しその違いを各手法がどう扱っているのかという観点からまとめられている。概要的な資料だが問題設定と手法が上手くまとめられている
 * [Generating music in the waveform domain](https://benanne.github.io/2020/03/24/audio-generation.html)
   * 波形ベースの音楽生成のチュートリアル。初歩的な解説から始まり、主要な生成方法(WaveNet、GAN、Glowなど)が全て押さえられており、よくまとまっている。
+* [音楽のテンポ分析を行う手法を解説した記事。librosaによる実装も掲載されている。](https://www.wizard-notes.com/entry/music-analysis/tempogram)
+  * 音楽のテンポ分析を行う手法を解説した記事。librosaによる実装も掲載されている。
 
 ## Reinforcement Learning
 
