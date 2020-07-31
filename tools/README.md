@@ -92,6 +92,8 @@
   * 自然言語処理における、生成系のタスクのスコアを測れるライブラリ。機械翻訳がメインターゲットだが、要約や対話生成の評価も可能なよう。
 * [Cornell-Conversational-Analysis-Toolkit](https://github.com/CornellNLP/Cornell-Conversational-Analysis-Toolkit)
   * scikit-learnライクなインタフェースで対話の分析ができるツールConvoKitが公開。個人間/グループ内における発話のインパクト評価や、形態素などの情報にもとづく丁寧さ評価などの分析が可能。
+* [awesome-bert-japanese](https://github.com/himkt/awesome-bert-japanese/blob/master/README.md)
+  * 日本語BERTモデルについて、単語分割/単語のサブワード化がそれぞれどのように行われているのかをまとめた記事。HuggingFaceのBertJapaneseTokenizerのおかげで使いやすくはなったが、MeCab辞書どれを使っているかなどは要注意。
 
 **Additional**
 
