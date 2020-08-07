@@ -713,6 +713,9 @@
 * [JAQKET](https://www.nlp.ecei.tohoku.ac.jp/projects/jaqket/)
   * 日本語でのクイズデータセット。質問・回答以外に回答候補が提供されている。回答はWikipediaの記事名になるように設定されている。
   * 問題文の数は13061、dev1が995、dev2が997。
+* [MKQA: Multilingual Knowledge Questions & Answers](https://github.com/apple/ml-mkqa/)
+  * 多言語の質問回答データセット(日本語も入っている)。解答はYes/No/テキストスパンだけでなく「回答無し」も含んだいずれかから行うようになっている。
+  * 解答には可能な場合WikipediaのQIDが付与されており、知識グラフへの活用や(存在する場合)他言語への翻訳ができるようになっている
 
 ## Reasoning
 
