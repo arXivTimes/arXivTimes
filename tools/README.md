@@ -198,6 +198,8 @@
 * [Slime Volleyball](https://github.com/hardmaru/slimevolleygym)
   * 高速・シンプル・マルチエージェント対応の学習環境。
   * デフォルトのシングルプレイでは120パラメーターのNNと対戦する(=120パラメーターでもそこそこ賢く動く)ので、手軽に学習を回すことができる。
+* [ai-economist](https://github.com/salesforce/ai-economist)
+  * 機械学習(強化学習)を使用した税制学習の研究で使用された実装。戦略シミュレーションゲームに近く、通常の強化学習環境とはかなり毛色が違った環境。
 
 ## Simulator Integration
 
