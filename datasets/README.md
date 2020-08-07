@@ -896,7 +896,8 @@
   * 7種類のロボットで記録した1500万のビデオフレームのデータセット。様々なロボットの軌跡データから表現学習(次フレーム予測/過去フレーム予測)を行うことで、Zero/Few shotが可能な転移性能の高いモデルを構築できる。
 * [LEAF](https://leaf.cmu.edu/)
   * 分散学習(Federated Learning)のためのベンチマークデータセット。MNISTやTwitterのSentiment Analysisの学習を複数分散デバイス(ユーザー)想定で行ってみることができる。
-
+* [Geolonia 住所データ](https://github.com/geolonia/japanese-addresses)
+  * 日本の正式住所名のデータセット。緯度経度情報が付属しているので、名寄せを行うことで地図上に配置することができる。
 
 ## Chemical
 
