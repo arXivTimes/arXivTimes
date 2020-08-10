@@ -141,7 +141,10 @@
   * ただゲームはJavaで作る必要がある。同じ目的なら[Python Learning Environment](https://github.com/ntasfi/PyGame-Learning-Environment)を模してPyGameで作ってほうがましかもしれない。
 * [Safety Gym](https://openai.com/blog/safety-gym/)
   * 安全性制約を導入したGym環境。具体的には、危険エリアや接触不可オブジェクトを配置した環境となっている。自作も可能。
-  
+* [PettingZoo](http://www.pettingzoo.ml/#)
+  * マルチエージェント版OpenAI Gymともいえる環境。
+  * Atariのゲームのうちマルチプレイ可能なものと、追加でいくつかのマルチプレイゲームが搭載されている。公開時点ではWindowsはサポートされていなので注意。
+
 ### gym envs
 
 * [Gym Retro](https://blog.openai.com/gym-retro/)
