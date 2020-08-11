@@ -228,6 +228,7 @@
 * [SpaceNet](https://github.com/SpaceNetChallenge/utilities/tree/master/content/download_instructions)
   * 衛星写真のデータセット。建物の領域などがラベル付けされている
   * データを提供しているリポジトリで、可視化のためのツールなども提供されている
+  * [SpaceNet7](https://medium.com/the-downlinq/the-spacenet-7-multi-temporal-urban-development-challenge-dataset-release-9e6e5f65c8d5): Planet社の画像を使用したことで解像度が4m単位に高まり、1月ごと2年間の時系列遷移も収録している。建物のfootprintも取られているため、時系列での追跡が可能。]
 * [ABCD (AIST Building Change Detection) dataset](https://github.com/faiton713/ABCDdataset)
   * 津波の被害を受けた建物について、無事だったもの(surviving)と洗い流されたもの(washed-away)それぞれについて津波前後の衛星画像を収めたデータセット。
   * 画像は東日本大震災での被害が対象となっており、建物のダメージの判定は震災後の国土交通省の調査に基づいている。
