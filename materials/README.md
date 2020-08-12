@@ -541,6 +541,9 @@ https://web.stanford.edu/class/cs520/
   * データの可視化による情報伝達について、実例などをまとめているサイト。
 * [from Data to Viz](https://www.data-to-viz.com/)
   * データの形式を選択していくと、それを表すのに適切なグラフを提案してくれるサイト。そのグラフを表示するためのPython/Rのコードも教えてくれる。
+* [CS 448B Visualization](https://magrawala.github.io/cs448b-wi20/)
+  * Stanford大で行われているデータ可視化の講義(CS 448B)。
+  * 空間/インタラクション/アニメーションの使い方、またネットワークやテキストなどデータ構造に応じた可視化の手法が解説されている。実装のサンプル(JavaScriptはObservable、PythonはColab)も提供されている。
 
 ### Operation
 
