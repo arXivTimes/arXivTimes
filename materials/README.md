@@ -380,6 +380,9 @@ https://web.stanford.edu/class/cs520/
 
 * [Introduction to Causal Inference](http://www.ucbbiostat.com/)
   * UC Berkeley 生物統計学部の講義資料。初歩的なところから、実際に利用できるまでが丁寧に解説されている。Rを使った演習問題つき。
+* [Introduction to Causal Inference](https://www.bradyneal.com/causal-inference-course)
+  * Bengio先生が率いるMILA研究所が開講する因果推論の講座。
+  * 必須となるのは基本的な確率の知識のみで、疫学や経済など様々な分野における因果推論を幅広く扱うよう。使用している教科書も公開されている。
 * [Causal inference and the data-fusion problem](https://www.pnas.org/content/113/27/7345)
   * 因果推論に関する基本的な内容がまとめられたチュートリアル。異なる出自のデータを統合して推論を行う過程について、課題と課題解決のための手法がきっちりまとめられている。
 * [Model-Based Machine Learning](http://www.mbmlbook.com/index.html)
