@@ -66,6 +66,8 @@
 * [FaceForensics](https://github.com/ondyari/FaceForensics/)
   * 画像生成技術の発展で懸念されるFake画像を検知するためのデータセット。
   * 977のYouTube動画をオリジナルとする1000の動画データセットとなっている(ただし顔部分のみ)。生成手法はDeepfakes/Face2Face/FaceSwap /NeuralTexturesの4つ。
+* [HJDataset : A Large Dataset of Historical Japanese Documents with Complex Layouts](https://dell-research-harvard.github.io/HJDataset/)
+  * 日本の歴史文書からテキストの抽出を行うためのデータセット。縦書きや段組みなど特殊なレイアウトがあり、チャレンジングなデータセットになっている。
 
 ## Video
 
