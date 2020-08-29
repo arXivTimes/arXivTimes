@@ -449,6 +449,9 @@ https://web.stanford.edu/class/cs520/
   * ゲームデザインの話ではあるが、サービスにおけるコンセプト開発にとってもとても参考になる内容になっている。
 * [どんな機械学習が広告効果を改善するのか](https://speakerdeck.com/qiringji/donnaji-jie-xue-xi-gaguang-gao-xiao-guo-wogai-shan-surufalseka)
   * 広告効果改善のために研究チームとプロダクトチームがタッグを組んで成果を出した軌跡。リーチ率/インプレッション数で有意な効果を出しつつ研究結果がAdKDDに採択されている。
+* [Airbnbの機械学習導入から学ぶ](https://speakerdeck.com/pacocat/airbnbfalseji-jie-xue-xi-dao-ru-karaxue-bu)
+  * Airbnbでの検索改善の軌跡をまとめたスライド(順次発表された3本の論文が収録されている)。内容が正直すぎて身につまされる思いがするが、その分実践的でとても参考になる。
+
 
 ### Project Planning
 
