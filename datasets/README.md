@@ -904,6 +904,8 @@
   * 分散学習(Federated Learning)のためのベンチマークデータセット。MNISTやTwitterのSentiment Analysisの学習を複数分散デバイス(ユーザー)想定で行ってみることができる。
 * [Geolonia 住所データ](https://github.com/geolonia/japanese-addresses)
   * 日本の正式住所名のデータセット。緯度経度情報が付属しているので、名寄せを行うことで地図上に配置することができる。
+* [Climate Change Laws of the World](https://climate-laws.org/)
+  * 気候変動に関する法律や訴訟の文書データセット。法律での規制に意味があるのか?の検証に使用できる。データの可視化では、法律が多いほど排出量は抑えられているように見える。
 
 ## Chemical
 
