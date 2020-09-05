@@ -143,6 +143,8 @@
 * [[最新版] JSAI2018 チュートリアル「"深層学習時代の" ゼロから始める自然言語処理」](https://www.slideshare.net/yukiarase/jsai2018-101054060/yukiarase/jsai2018-101054060)
   * 人工知能学会2018でのチュートリアル資料。DNN以降の自然言語処理の基礎が入力データ(単語等)の「ベクトル化」であるとして、ではベクトル化の手法としてどんなものがあるのか、といった形で解説がされている。
   * 学習データが少ない時や前処理の必要性などにも触れられている。
+* [NLP Course | For You](https://lena-voita.github.io/nlp_course.html)
+  * Yandex School of Data Analysis (YSDA) で開講されている自然言語処理のコースの補足資料。(かわいい)図解が豊富で理解しやすい内容になっている。
 * [Document Clustering with Python](http://brandonrose.org/clustering)
   * 自然言語の基本的な特徴量の抽出方法から、各クラスタリングのアルゴリズムを実際試してみるところまでを紹介している。
 * [SAILORS 2017 NLP project](https://github.com/abisee/sailors2017)
