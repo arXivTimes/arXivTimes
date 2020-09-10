@@ -501,6 +501,8 @@
 * [ToTTo](https://github.com/google-research-datasets/totto)
   * テーブルからデータを読み取り文にするデータセット。
   * テーブルの情報と指定セルを入力に、読み取れる結果の文がアノテーションされている(東京都の人口のテーブルで江東区のセルがハイライトされていた場合、「東京江東区の人口はxx人です」が回答文になるなど)。
+* [KILT](https://github.com/facebookresearch/KILT)
+  * 知識ベースに基づく複数タスクでの性能を測るためのベンチマークデータセット。元データはWikipediaで、QAや対話、Entity Link、ファクトチェックといったタスクが収録されている。
 
 ## Parallel Corpus
 
