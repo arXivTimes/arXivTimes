@@ -315,6 +315,11 @@
 
 * [dgl](https://github.com/dmlc/dgl/)
   * Graph Convolution/Neural Networkを簡単に使えるライブラリ。主要なアルゴリズムがサポートされている。PyTorch/MXNetバックエンドで作成されており、パフォーマンスも意識されている。
+* [DeepSpeed](https://github.com/microsoft/DeepSpeed)
+  * 深層学習モデルの学習を効率化するためのライブラリ(PyTorchのモデルが対象でTensorFlowはサポートされていない)。
+  * データ・プロセス・モデルの3つをすべて並列にする3次元並列処理で学習時間だけでなく省メモリでの学習を可能にする。
+
+https://github.com/microsoft/DeepSpeed
 
 ## Annotation Tool
 
