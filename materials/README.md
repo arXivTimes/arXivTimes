@@ -111,6 +111,8 @@
   * 点群(Point Cloud)を扱う研究をまとめたサーベイ。基礎からカテゴリ別に膨大な量の論文が網羅されており、応用についてもまとめられている。
 * [第126回 RSJロボット工学セミナー「 Visual SLAMと深層学習を用いた３Dモデリング」](https://www.slideshare.net/KenSakurada/126-rsj2020522)
   * 3Dモデリング、さらに時間軸を加えた4Dモデリングの研究動向、基本的な手法(SfM/SLAM・V-SLAM)の解説がまとめられた資料。実装に使えるライブラリまで紹介されている。
+* [2020.09.30 NL研 招待講演 Vision&Languageの研究動向](https://speakerdeck.com/sei88888/2020-dot-09-dot-30-nlyan-zhao-dai-jiang-yan-vision-and-languagefalseyan-jiu-dong-xiang)
+  * Vision&Languageの研究動向に関するまとめ。最新の研究だけでなく、1970~1980年代の萌芽的な研究から紹介されており、歴史的な流れが概観できる資料となっている。
 
 ### Not Recommend :droplet:
 
