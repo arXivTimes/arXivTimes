@@ -852,6 +852,9 @@
   * 100名の歌唱者による歌唱コーパス。各歌唱者の発話データは[JVS corpus](https://sites.google.com/site/shinnosuketakamichi/research-topics/jvs_corpus)に収録されている。
 * [CoVoST V2](https://ai.facebook.com/blog/covost-v2-expanding-the-largest-most-diverse-multilingual-speech-to-text-translation-data-set/)
   * 多言語の音声認識データセット。Mozilla’sの公開するCommon Voiceデータセットをもとに、21言語=>英語、英語=>15言語のコーパスを作成している(収録時間は2,900時間)。
+* [JSSS: Japanese speech corpus for summarization and simplification](https://sites.google.com/site/shinnosuketakamichi/research-topics/jsss_corpus)
+  * 比較的長い文/平易な文などの音声が収録された日本語音声コーパス。
+  * 時間制約付きの音声要約・平易な日本語・短い文・長文の4種類が収録されている。それぞれライセンスが異なるため扱う際は要チェック。
 
 ## Music
 
