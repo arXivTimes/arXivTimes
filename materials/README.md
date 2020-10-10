@@ -22,6 +22,8 @@
   * ニューラルネットワークを基礎的な部分から自分で作成していくことで動作について理解できる書籍。ただ、機械学習全般を扱っているわけではないのでその点は注意。
 * [How to build a Recurrent Neural Network in TensorFlow](https://medium.com/@erikhallstrm/hello-world-rnn-83cd7105b767)
   * ゼロから作るRNNといった趣の記事。TensorFlowで素の状態からRNNを作るところから、実際にRNNのモジュールを使って構築するところまでを完全にカバーしている。 
+* [DEEP LEARNING NYU CENTER FOR DATA SCIENCE](https://atcold.github.io/pytorch-Deep-Learning/)
+  * PyTorchを使用したDNNの講座。Energy-BasedやGraph Convolutionについて解説があるのは珍しいと思う。GitHubでJupyterも公開されており、日本語翻訳も提供されている。
 
 ### Additional
 
