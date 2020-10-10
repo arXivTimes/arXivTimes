@@ -115,6 +115,8 @@
   * 3Dモデリング、さらに時間軸を加えた4Dモデリングの研究動向、基本的な手法(SfM/SLAM・V-SLAM)の解説がまとめられた資料。実装に使えるライブラリまで紹介されている。
 * [2020.09.30 NL研 招待講演 Vision&Languageの研究動向](https://speakerdeck.com/sei88888/2020-dot-09-dot-30-nlyan-zhao-dai-jiang-yan-vision-and-languagefalseyan-jiu-dong-xiang)
   * Vision&Languageの研究動向に関するまとめ。最新の研究だけでなく、1970~1980年代の萌芽的な研究から紹介されており、歴史的な流れが概観できる資料となっている。
+* [Deep Learningを用いた経路予測の研究動向](https://speakerdeck.com/himidev/deep-learningwoyong-itajing-lu-yu-ce-falseyan-jiu-dong-xiang)
+  * DNNを用いた経路予測の手法のサーベイ。衝突(インタラクション)を避けることができる経路を予測するタスクで、空間範囲の情報をまとめるPoolingや、この分野でもAttentionが用いられている。
 
 ### Not Recommend :droplet:
 
