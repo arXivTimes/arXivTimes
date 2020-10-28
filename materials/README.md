@@ -673,6 +673,8 @@ https://web.stanford.edu/class/cs520/
   * Adversarial Exampleの発見から現在までの経緯と今後の展望がまとめられた記事。攻撃/防衛側の果てなき戦いは現在も続いている。資料は画像がメインだが、自然言語・音声でも研究が行われている。
 * [機械学習セキュリティのベストプラクティス - Draft NISTIR 8269: A Taxonomy and Terminology of Adversarial Machine Learning -](https://jpsec.ai/nist/sp800-30/guideline/2020/07/08/NISTIR8269.html)
   * 米国のNIST(米国標準技術研究所)で検討されている機械学習モデルのセキュリティ対策をまとめた論文の紹介。既存の研究を「攻撃」「防御」「影響」の3観点に分けて整理している。影響が実際の障害で、信頼性低下・可用性低下・機密性低下などが挙げられている。
+* [Adversarial ML Threat Matrix](https://github.com/mitre/advmlthreatmatrix)
+  * 機械学習モデルへの攻撃手法を整理したマトリックス。各パターンにおけるケーススタディも提供されている。
 
 ### Graph Structure
 
