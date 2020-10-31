@@ -646,6 +646,8 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-m
   * 酵母の細胞周期の同定や、転写因子結合の有無といったタスクを機械学習で予測する方法が紹介されている。
 * [初心者向けスポーツ分析チュートリアル「目標達成に導くデータ分析」/ Sports Analysis Tutorial](https://speakerdeck.com/upura/sports-analysis-tutorial)
   * スポーツXデータサイエンスについての資料。単にテクニックだけでなく、アスリート/チームとのコミュニケーション方法などについてまで言及されている。また、iOSのヘルスケアのデータを使った実践チュートリアルもあり、とても参考になる。
+* [Coding for Sports Analytics: Resources to Get Started](https://brendankent.com/2020/09/15/coding-for-sports-analytics-resources-to-get-started/)
+  * スポーツ解析を行うためのコード集。ラグビーや野球、サッカーやバスケットボールなど様々なスポーツをR/Pythonで解析する実例が集められている。
 
 ### Understanding DNN
 
