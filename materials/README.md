@@ -634,6 +634,10 @@ https://web.stanford.edu/class/cs520/
   * [2019版も公開された](https://speakerdeck.com/tdys13/aixmedical-imaging-in-japan-2019)
 * [How to develop machine learning models for healthcare](https://www.slideshare.net/DeepLearningJP2016/dlhow-to-develop-machine-learning-models-for-healthcare)
   * 医療分野で機械学習を適用する際の全体の流れと各プロセスの注意点がまとめられた資料。医療分野独自の注意点(データの収集におけるプライバシー、モデル評価における対象群の調整etc)についても言及されている。
+* [Machine Learning for Healthcare](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-machine-learning-for-healthcare-spring-2019/)
+  * 医療のための機械学習のコース。CNNで診断、という技術からのアプローチでなく患者のリスク判定や心臓病、診断チャートへの応用といった医療側の課題から組み立てられており実践的。
+  * バイアスや解釈性の問題も扱っており、先進的な内容になっている。
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-machine-learning-for-healthcare-spring-2019/
 * [セキュリティエンジニアのための機械学習入門の入門](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Security_and_MachineLearning)
   * セキュリティエンジニアのための機械学習入門記事。
   * 侵入/スパム検知、通信ログの解析について基本的な機械学習手法を適用する方法が解説されている。
