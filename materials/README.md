@@ -592,6 +592,9 @@ https://web.stanford.edu/class/cs520/
   * DNNのモデルを構築する際に、上手くいかない場合の対応策をまとめた資料。実装の問題、ハイパーパラメーターの問題、学習の問題、データの問題という4つの観点から解説を行っている。
 * [Deep Learning for Anomaly Detection: A Survey](https://arxiv.org/abs/1901.03407)
   * 異常検知に深層学習を使用した研究のサーベイ。既存のサーベイは特定領域にフォーカスしたものが多かったが(動画や医療画像など)、本サーベイでは包括的なまとめを行い、また研究だけでなく産業などでの適用事例についてもまとめている。
+ * [A Unifying Review of Deep and Shallow Anomaly Detection](https://arxiv.org/abs/2009.11732)
+  * 異常検知 x 深層学習のサーベイ論文をまとめた資料。そもそも異常とは(猫のデータで犬が出てきたら異常だけどスキフトイボブテイルは「外れ値」であり異常でないなど)、という点を定義したうえで各種手法を紹介し統合的なフレームワークも提唱している。ベンチマークの不足といった問題点も挙げている
+  * [解説スライド](https://www.slideshare.net/ssuser9eb780/anomaly-detection-survey-239043099)
 * [ann-benchmarks](https://github.com/erikbern/ann-benchmarks)
   * クラスタリングなどに用いられる、近似最近傍探索を行なってくれるライブラリをまとめたリポジトリ。理論はわかったので、実際導入したい、という場合にとても参考になる資料。
   * [日本語の解説記事はこちら](https://qiita.com/wasnot/items/20c4f30a529ae3ed5f52)
