@@ -362,6 +362,8 @@ Auto MLについては、こちらの記事を参照。今後は、まずは基�
 
 * [featuretools](https://github.com/Featuretools/featuretools)
   * データを渡すと、平均/最大/最小などをはじめとした各種統計量の特徴量を自動的に生成してくれるツール。
+* [ML Reproducibility Tools and Best Practices](https://www.cs.mcgill.ca/~ksinha4/practices_for_reproducibility/)
+  * Reproducibility Challengeでまとめられている、機械学習の再現性担保に使用できるツールの一覧。実験管理やデータマネジメントのツールなどが紹介されている。
 
 ## Benchimark Implementation
 
