@@ -436,6 +436,9 @@
   * 動画数は2万で、一動画あたり約3.65パートに文が付与されている。
 * [YouCook2 Dataset](http://youcook2.eecs.umich.edu/)
   * 料理動画のデータセット。89のレシピ X 22動画/1レシピ = 計2000本ほどが収録されている。動画はYouTubeから取得され、手順に対しキャプションがつけられている。
+* [VFD Dataset](https://github.com/yahoojapan/VFD-Dataset)
+  * 日本語の画像つき対話データセット。エージェントの一人称視点画像・人間話者の視線に対し、人間の発話とそれに対するエージェントの言語/非言語の反応がアノテーションされている(アノテーションはすべてテキスト)。
+  * 画像は[GazeFollow](http://gazefollow.csail.mit.edu/index.html)のデータが使用されている。
 
 
 # NLP
