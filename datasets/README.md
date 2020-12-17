@@ -439,7 +439,8 @@
 * [VFD Dataset](https://github.com/yahoojapan/VFD-Dataset)
   * 日本語の画像つき対話データセット。エージェントの一人称視点画像・人間話者の視線に対し、人間の発話とそれに対するエージェントの言語/非言語の反応がアノテーションされている(アノテーションはすべてテキスト)。
   * 画像は[GazeFollow](http://gazefollow.csail.mit.edu/index.html)のデータが使用されている。
-
+* [open-mantra-dataset](https://github.com/mantra-inc/open-mantra-dataset)
+  * 漫画の翻訳を学習するためのデータセット。漫画の画像に加えて、コマの位置・吹き出しの位置(x, y, w, h)・吹き出し内のテキスト(日英中)がアノテーションされている。
 
 # NLP
 
