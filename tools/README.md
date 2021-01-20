@@ -99,6 +99,8 @@
 
 * [日本語自動品詞分解ツール](http://tool.konisimple.net/text/hinshi_keitaiso)
   * オンラインでさっと品詞分解ができるツール。手軽なのでよく使う
+* [Robustness Gym](https://github.com/robustness-gym/robustness-gym)
+  * 自然言語処理モデルの頑健性を調べるためのツール。切り取り、言い換え、不正単語挿入計3つの操作と評価用データセットを提供している。これら4つを兼ね備えたツールとしては初。
 
 # Audio
 
