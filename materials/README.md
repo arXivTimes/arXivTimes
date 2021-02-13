@@ -366,6 +366,8 @@ https://web.stanford.edu/class/cs520/
   * 最適化の手法について、図解付きの解説。
 * [A Recipe for Training Neural Networks](https://karpathy.github.io/2019/04/25/recipe/)
   * Andrej Karpathy先生による、ニューラルネットを学習させるときの心構えと手順についての解説記事。まずデータを徹底的に調べることから開始し、小さく(乱数固定・1バッチへのオーバーフィット確認など)/予測結果を可視化しながら学習を進めていくのが良いとしている。
+* [Exploring hyperparameter meta-loss landscapes with Jax](http://lukemetz.com/exploring-hyperparameter-meta-loss-landscapes-with-jax/)
+  * JAXを使用したメタラーニングのチュートリアル。非常にシンプルなコードと図で解説されており、進化戦略による最適化についても紹介されている。
 
 ## Probabilistic Modeling
 
