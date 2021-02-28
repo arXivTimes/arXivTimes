@@ -569,6 +569,8 @@ https://web.stanford.edu/class/cs520/
 
 * [Machine Learning: The High Interest Credit Card of Technical Debt](https://ai.google/research/pubs/pub43146)
   * 機械学習を使い始めた「後」に問題になる点がまとめられた資料。ハイパーパラメーターやデータへの依存、特徴量の劣化/散在に対応する必要性などが書かれている。
+* [Dynamic Data Testing](https://medium.com/anomalo-hq/dynamic-data-testing-f831435dba90)
+  * データをテストする手法の解説記事。ソフトウェアが稼働する前提となるデータをきちんとテストできていますか?という問いかけよりはじまる。ルールベース(NULLにならない)、固定範囲(x~yの間の値)、動的範囲(95％信頼区間に収まる)、異常検知、の4つに分けて解説している。
 
 ### Others
 
