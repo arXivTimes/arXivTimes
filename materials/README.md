@@ -464,7 +464,6 @@ https://web.stanford.edu/class/cs520/
 * [Airbnbの機械学習導入から学ぶ](https://speakerdeck.com/pacocat/airbnbfalseji-jie-xue-xi-dao-ru-karaxue-bu)
   * Airbnbでの検索改善の軌跡をまとめたスライド(順次発表された3本の論文が収録されている)。内容が正直すぎて身につまされる思いがするが、その分実践的でとても参考になる。
 
-
 ### Project Planning
 
 * [現代的システム開発概論](https://speakerdeck.com/rtechkouhou/xian-dai-de-sisutemukai-fa-gai-lun)
@@ -484,6 +483,8 @@ https://web.stanford.edu/class/cs520/
 
 * [Machine Teaching: A New Paradigm for Building Machine Learning Systems](https://arxiv.org/abs/1707.06742)
   * 機械学習を利用したいというニーズに応えていくには、機械学習モデルの構築作業を分業していく必要があるという提言。現在は一人の職人がデータ収集から前処理、モデルの構築まで全部を行い、そのプロセスが属人的になることが多い。なので、最低限アルゴリズム構築と学習は分けようという。
+* [2020.06.01 M1勉強会 論文の読み方・書き方・研究室の過ごし方](https://speakerdeck.com/sei88888/2020-dot-06-dot-01-m1mian-qiang-hui-lun-wen-falsedu-mifang-shu-kifang-yan-jiu-shi-falseguo-gosifang)
+  * 研究生活を送るためのアドバイス集。中心となる論文を読む/執筆する活動だけでなく、研究室での過ごし方やメンタル・スケジュールコントロールのコツも書かれている。
 
 ### Development
 
