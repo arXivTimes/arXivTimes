@@ -535,7 +535,8 @@
   * オープンに使える、様々な言語のパラレルコーパス集。有志によりWeb上のフリーなコンテンツから作成されている。
 * [CCMatrix: A billion-scale bitext data set for training translation models](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix)
   * 576言語のパラレルコーパス。文はCommonCrawlから収集されており、文数は45億にもおよぶ。異なる言語の類似度判定には[LASER](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix)が使われているよう。
-
+* [The Business Scene Dialogue corpus](https://github.com/tsuruoka-lab/BSD)
+  * ビジネスシーンの対話を収録した日英の対訳コーパスが公開。電話や会議、研修やプレゼンといったシーンを定めそれぞれに対話が作成されている。
 
 ## Classification
 
