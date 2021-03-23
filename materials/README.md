@@ -465,6 +465,8 @@ https://web.stanford.edu/class/cs520/
   * 広告効果改善のために研究チームとプロダクトチームがタッグを組んで成果を出した軌跡。リーチ率/インプレッション数で有意な効果を出しつつ研究結果がAdKDDに採択されている。
 * [Airbnbの機械学習導入から学ぶ](https://speakerdeck.com/pacocat/airbnbfalseji-jie-xue-xi-dao-ru-karaxue-bu)
   * Airbnbでの検索改善の軌跡をまとめたスライド(順次発表された3本の論文が収録されている)。内容が正直すぎて身につまされる思いがするが、その分実践的でとても参考になる。
+* [主観と客観を切り替える鍛錬](https://note.com/hebereke/n/n56f6fe99740e)
+  * 開発者やデザイナーなど担当としての自分の意見をわきに置いて、ユーザーの客観的な視点に切り替えるために使うフレームワークの紹介。実践的でとても分かりやすい。
 
 ### Project Planning
 
