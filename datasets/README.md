@@ -733,6 +733,12 @@
   * 多言語の質問回答データセット(日本語も入っている)。解答はYes/No/テキストスパンだけでなく「回答無し」も含んだいずれかから行うようになっている。
   * 解答には可能な場合WikipediaのQIDが付与されており、知識グラフへの活用や(存在する場合)他言語への翻訳ができるようになっている
 
+
+
+* [TripClick](https://tripdatabase.github.io/tripclick/)
+  * 臨床研究を検索できる[Trip](https://www.tripdatabase.com/)で収集されたデータセット。検索クエリ/結果のログだけでなく、MEDLINEに登録されている文献についてタイトル/概要をセットにしたIR用のデーセット、それをDNNのモデル学習用に加工したデータセットが提供されている。
+
+
 ## Reasoning
 
 * [HolStep](http://cl-informatik.uibk.ac.at/cek/holstep/)
