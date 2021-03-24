@@ -499,9 +499,6 @@
 * [MLDoc](https://github.com/facebookresearch/MLDoc)
   * 文書分類のデータセットであるReuters corpusを加工して作成されたデータセット。
   * 各クラスのバランスがとられているほか、英語を含めた8言語への翻訳テキストも含んでいる(日本語も含まれる)。
-* [CodeSearchNet](https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge/)
-  * コード検索を改善するためのデータセット。
-  * コード(メソッド)とコメント、メタデータを合わせたコーパスと、検索結果についてプログラマーや研究者が関連度をアノテーションしたデータの2つが公開されている。
 * [ToTTo](https://github.com/google-research-datasets/totto)
   * テーブルからデータを読み取り文にするデータセット。
   * テーブルの情報と指定セルを入力に、読み取れる結果の文がアノテーションされている(東京都の人口のテーブルで江東区のセルがハイライトされていた場合、「東京江東区の人口はxx人です」が回答文になるなど)。
@@ -657,7 +654,6 @@
   * Semantic Scholarのデータを基にした、8100万の論文Node、3億8千万の論文間リファレンスEdgeという膨大なグラフデータセット。
   * 論文は7300万はAbstract、800万は全文が取得できる。
 
-
 ## Q&A
 
 * [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
@@ -733,11 +729,13 @@
   * 多言語の質問回答データセット(日本語も入っている)。解答はYes/No/テキストスパンだけでなく「回答無し」も含んだいずれかから行うようになっている。
   * 解答には可能な場合WikipediaのQIDが付与されており、知識グラフへの活用や(存在する場合)他言語への翻訳ができるようになっている
 
+## IR
 
-
+* [CodeSearchNet](https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge/)
+  * コード検索を改善するためのデータセット。
+  * コード(メソッド)とコメント、メタデータを合わせたコーパスと、検索結果についてプログラマーや研究者が関連度をアノテーションしたデータの2つが公開されている。
 * [TripClick](https://tripdatabase.github.io/tripclick/)
   * 臨床研究を検索できる[Trip](https://www.tripdatabase.com/)で収集されたデータセット。検索クエリ/結果のログだけでなく、MEDLINEに登録されている文献についてタイトル/概要をセットにしたIR用のデーセット、それをDNNのモデル学習用に加工したデータセットが提供されている。
-
 
 ## Reasoning
 
