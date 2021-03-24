@@ -166,6 +166,14 @@
   * 時系列の流れと、マイルストンとなった論文がまとまっており発展の流れを概観するのにとても良い。
   * スライドの資料がこちから参照できる: [Frontiers of Natural Language Processing](https://www.slideshare.net/SebastianRuder/frontiers-of-natural-language-processing)
 
+## Classification
+
+* [Reducing Toxicity in Language Models](https://lilianweng.github.io/lil-log/2021/03/21/reducing-toxicity-in-language-models.html)
+  * 有害なコンテンツを検出/無害化する研究をまとめた記事。「有害」の定義、検出(単純には文書分類)、テキスト生成(Decode)時に言い方をマイルドにする無害化の研究が紹介されている(データセットも掲載されている)。
+* [Best Research articles on Deep Learning for Text classification (2015–2016)](https://medium.com/towards-data-science/best-research-articles-on-deep-learning-for-text-classification-2015-2016-aaa7950af775)
+  * テキスト分類におけるDNNの適用についてのサーベイ集。RNN/CNNを利用する際は目を通すとよい。
+* [Deep Learning for Sentiment Analysis : A Survey](https://arxiv.org/abs/1801.07883)
+
 ### Information Retrieval
 
 * [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/)
@@ -227,10 +235,7 @@
 
 ### Others
 
-* [Best Research articles on Deep Learning for Text classification (2015–2016)](https://medium.com/towards-data-science/best-research-articles-on-deep-learning-for-text-classification-2015-2016-aaa7950af775)
-  * テキスト分類におけるDNNの適用についてのサーベイ集。RNN/CNNを利用する際は目を通すとよい。
 * [Survey of the State of the Art in Natural Language Generation: Core tasks, applications and evaluation](https://github.com/arXivTimes/arXivTimes/issues/563)
-* [Deep Learning for Sentiment Analysis : A Survey](https://arxiv.org/abs/1801.07883)
 * [Machine Learning on Source Code](https://ml4code.github.io/)
   * 機械学習をシステム開発に役立てる研究のサーベイ。List of Papersには2007年のからの研究がずらりと並ぶ。コードの補完や訂正に関するものが多いが、コミットメッセージやコメントの生成、画面からのコード生成といった珍しいものもある。
 * [トピックモデル (機械学習プロフェッショナルシリーズ)](https://www.amazon.co.jp/dp/4061529048)
@@ -263,8 +268,6 @@
   * 自然言語処理におけるData Augmentationのまとめ。シンプルな言い換え(同義語/分散表現が近い単語への置き換え)以外に、Back Translationや言語モデルによる穴埋め、分散表現のMixupなど比較的最近の手法も紹介されている。
 * [CS520: Knowledge Graph](https://web.stanford.edu/class/cs520/)
   * Stanfordで行われているKnowledge Graphの講座。体系的なコースというよりは様々なトピックのアラカルトになっていて、Neo4j(グラフDB)や実用の知識グラフで問題になる不完全Edgeの補完(トリプルのEmbeddingや強化学習で推論する)などの話題が取り上げられている。
-
-https://web.stanford.edu/class/cs520/
 
 ### Not Recommend :droplet:
 
@@ -370,6 +373,8 @@ https://web.stanford.edu/class/cs520/
   * Andrej Karpathy先生による、ニューラルネットを学習させるときの心構えと手順についての解説記事。まずデータを徹底的に調べることから開始し、小さく(乱数固定・1バッチへのオーバーフィット確認など)/予測結果を可視化しながら学習を進めていくのが良いとしている。
 * [Exploring hyperparameter meta-loss landscapes with Jax](http://lukemetz.com/exploring-hyperparameter-meta-loss-landscapes-with-jax/)
   * JAXを使用したメタラーニングのチュートリアル。非常にシンプルなコードと図で解説されており、進化戦略による最適化についても紹介されている。
+* [深層学習の原理を明らかにする理論の試み](https://drive.google.com/file/d/1bNN6VjsgdpJAqxvZ4EKAPpMGq9wfjHqf/view)
+  * 従来の理論と矛盾する深層学習の精度を、理論的に説明する研究を紹介したスライド。なぜ多層にするとよいのか、多層でパラメーターが多くなるのになぜ過適合しないのか、どうして学習ができるのか、の3点について近年の研究で明らかになったことがわかりやすく解説されている。
 
 ## Probabilistic Modeling
 
