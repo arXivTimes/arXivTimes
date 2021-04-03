@@ -8,9 +8,13 @@
 
 [@arxivtimes](https://twitter.com/arxivtimes)
 
-論文輪講も併せて実施しています。輪講の内容はこちらから
+論文輪講も併せて実施しています。輪講の内容はこちらから。
 
 [arXivTimes Medium](https://medium.com/@arxivtimes)
+
+`#arXivTimes`タグをつけている、GitHubで論文をまとめているリポジトリはこちら。
+
+[arXivTimes family](https://github.com/arXivTimes/arXivTimes)
 
 # Contents
 
