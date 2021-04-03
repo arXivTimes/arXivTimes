@@ -14,7 +14,7 @@
 
 `#arXivTimes`タグをつけている、GitHubで論文をまとめているリポジトリはこちら。
 
-[arXivTimes family](https://github.com/arXivTimes/arXivTimes)
+[arXivTimes family](https://github.com/topics/arxivtimes)
 
 # Contents
 
