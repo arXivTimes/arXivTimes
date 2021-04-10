@@ -227,6 +227,8 @@
 * [Embeddings in Natural Language Processing](http://josecamachocollados.com/book_embNLP_draft.pdf)
   * 分散表現特化の解説本。単語/文の表現、BERTに代表される文脈考慮の表現はもちろん、グラフベースの分散表現も解説されている。
   * 近年問題とされているバイアスの問題にも触れられており、かなりの良書。
+* [Representation Learning and NLP](https://link.springer.com/chapter/10.1007/978-981-15-5573-2_1)
+  * 自然言語処理の表現学習の本が公開。BERTのあたりまで扱ってくれている。OpenAccessなのでフリーで読むことが可能。
 
 ### Named Entity Recognition (NER)
 
