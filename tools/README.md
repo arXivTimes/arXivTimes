@@ -95,7 +95,9 @@
 * [awesome-bert-japanese](https://github.com/himkt/awesome-bert-japanese/blob/master/README.md)
   * 日本語BERTモデルについて、単語分割/単語のサブワード化がそれぞれどのように行われているのかをまとめた記事。HuggingFaceのBertJapaneseTokenizerのおかげで使いやすくはなったが、MeCab辞書どれを使っているかなどは要注意。
 * [rust-bert](https://github.com/guillaume-be/rust-bert)
-  * RustベースのTransformerの実装。様々なモデルが使えるだけでなく、翻訳・要約・QAといった各タスクが簡単に扱えるようになっている。
+  * RustベースのTransformerの実装。様々なモデルが使えるだけでなく、翻訳・要約・QAといった各タスクが簡単に扱えるようになっている
+* [Language Interpretability Tool (LIT)](https://github.com/PAIR-code/lit)
+  *  自然言語処理モデルが可視化できるオープンソースのツール。モデルの判断根拠やパフォーマンスが出ていないデータの抽出、表現変更に対する耐性などが調べられる。
 
 **Additional**
 
