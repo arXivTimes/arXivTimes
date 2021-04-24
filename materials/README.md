@@ -165,6 +165,8 @@
   * ニューラルネットで自然言語処理を扱う手法が発展してきた歴史を解説した記事。
   * 時系列の流れと、マイルストンとなった論文がまとまっており発展の流れを概観するのにとても良い。
   * スライドの資料がこちから参照できる: [Frontiers of Natural Language Processing](https://www.slideshare.net/SebastianRuder/frontiers-of-natural-language-processing)
+* [全日本CV勉強会発表資料 Learning Transformer in 40 Minutes](https://speakerdeck.com/sei88888/quan-ri-ben-cvmian-qiang-hui-fa-biao-zi-liao-learning-transformer-in-40-minutes)
+  * Transformerの速習ができるスライド。メリット・デメリットから基本ブロックの解説、学習形式までコンパクトにまとめられている。
 
 ## Classification
 
