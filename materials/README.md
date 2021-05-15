@@ -493,6 +493,8 @@
 * [Applied machine learning at facebook a datacenter infrastructure perspective (HPCA18)](https://research.fb.com/publications/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective/)
   * Facebookで ML as a Service(MLaaS)をどのように提供しており、FB内の機械学習のパイプラインのデザインについて解説している。
   * [解説スライド](https://www.slideshare.net/shunyaueta/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective-hpca18)
+* [Machine Learning Engineering for Production (MLOps)](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
+  * MLOpsを学べる講座。解説に加え、TensorFlow Extendedを使用した実践もある。
 
 ### Team Management
 
