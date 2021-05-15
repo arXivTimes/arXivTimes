@@ -674,6 +674,8 @@ https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-m
 
 ### Understanding DNN
 
+* [Interpretable Machine Learning](https://hacarus.github.io/interpretable-ml-book-ja/index.html)
+  * 解釈可能な機械学習モデルについて解説された書籍の日本語訳。HACARUSの有志の方が翻訳された。口語に近い読みやすい文書で、解説だけでなく実例も掲載されている。
 * [Methods for Interpreting and Understanding Deep Neural Networks](https://arxiv.org/abs/1706.07979)
   * DNNの判断を理解するための研究のまとめ。ネットワークが反応する入力を見つける方法(Activation Maximizationなど)、判断根拠となった特徴を入力にマップする方法(Relevance Propagationなど)などを紹介、説明力の比較方法についても記載している
 * [Tutorial on Methods for Interpreting and Understanding Deep Neural Networks](http://iphome.hhi.de/samek/pdf/ICASSP2017_T9_3.pdf)
