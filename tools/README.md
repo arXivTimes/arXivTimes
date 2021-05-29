@@ -316,6 +316,9 @@
 * [Animal AI](https://github.com/beyretb/AnimalAI-Olympics)
   * 動物の認知能力を検証するための実験環境を強化学習の学習環境として再現するプロジェクト。実装はUnityのML Agentsを使っている(ちょっと重い)。
   * 900という膨大な実験を試すことができる。
+* [AndroidEnv](https://deepmind.com/research/publications/androidenv)
+  * Android端末を強化学習環境として使えるライブラリ。エージェントにブラウザを開く、Google Mapを開く、YouTubeを見るといった行動をさせることができる。
+
 
 # Others
 
