@@ -536,6 +536,8 @@
   * 576言語のパラレルコーパス。文はCommonCrawlから収集されており、文数は45億にもおよぶ。異なる言語の類似度判定には[LASER](https://github.com/facebookresearch/LASER/tree/master/tasks/CCMatrix)が使われているよう。
 * [The Business Scene Dialogue corpus](https://github.com/tsuruoka-lab/BSD)
   * ビジネスシーンの対話を収録した日英の対訳コーパスが公開。電話や会議、研修やプレゼンといったシーンを定めそれぞれに対話が作成されている。
+* [FLORES-101](https://github.com/facebookresearch/flores?fbclid=IwAR0TO2pdTMqf8LphTgNYPAHtuwHgDpfBP1-V3g6EtAyZwMOYWYGq5lmLeF0)
+  * 多言語翻訳モデルのモデルを評価するためのベンチマーク。さまざまなトピックのWikipediaから抽出した3001文をプロの翻訳家が101言語に翻訳した文を収録している。
 
 ## Classification
 
