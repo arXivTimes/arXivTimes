@@ -76,6 +76,8 @@
   * 画像認識で有名なCS231nにおける、Numpyのチュートリアル資料。線形代数的な解説はないが、Numpyの基本的な使い方が把握できる
 * [Mathematics for Machine Learning](https://mml-book.github.io/)
   * 機械学習のための数学を学ぶ本。なんと無料で公開されている。基礎となる数学をきっちり学びたい人、実務で必要な箇所を学びたい人、それぞれが読者として想定されており、基礎パートと実応用パートがコンポーネント化されて書かれている。
+* [The Modern Mathematics of Deep Learning](https://arxiv.org/abs/2105.04026)
+  * DeepLeraningの成功を数学的に解析する研究をまとめたサーベイ。汎化する理由、深さの役割、次元の呪いの克服といったテーマについて、最新の研究がまとめられている。
 
 ## Vision
 
