@@ -600,6 +600,13 @@
   * ライフサイエンス・ヘルスケア業界の未来像について、当時の数値などから予想を行なった資料。
   * 想像される世界像を提示し、そこで配信されているであろうニュース、具体的なシナリオ、標準化などの世界動向、という形でまとめていて調査資料としてとてもよくできている。
 
+## ESG
+
+### Environment
+
+* [Welcome to the Climate Change AI Wiki](https://wiki.climatechange.ai/wiki/Welcome_to_the_Climate_Change_AI_Wiki)
+  * 気候変動問題と機械学習を組み合わせた事例や学習リソースなどをまとめたWikiがオープン。Adaptationのセクションでは、生物多様性や気候変動への対応のため機械学習がどのように使われているか解説されている(リスクアセスメントなど)。
+
 ## Others
 
 * [LEARNING WITH LIMITED LABELED DATA: WEAK SUPERVISION AND BEYOND](https://lld-workshop.github.io/#about)
