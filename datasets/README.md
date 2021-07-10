@@ -928,8 +928,6 @@
   * 分散学習(Federated Learning)のためのベンチマークデータセット。MNISTやTwitterのSentiment Analysisの学習を複数分散デバイス(ユーザー)想定で行ってみることができる。
 * [Geolonia 住所データ](https://github.com/geolonia/japanese-addresses)
   * 日本の正式住所名のデータセット。緯度経度情報が付属しているので、名寄せを行うことで地図上に配置することができる。
-* [Climate Change Laws of the World](https://climate-laws.org/)
-  * 気候変動に関する法律や訴訟の文書データセット。法律での規制に意味があるのか?の検証に使用できる。データの可視化では、法律が多いほど排出量は抑えられているように見える。
 * [WILDS](https://wilds.stanford.edu/)
   * 現実世界で起こる特徴シフトへの対応を評価するためのベンチマーク。画像では建物がなくなる、農地が団地になる、動物が現れるといった変化、自然言語ではレビューやコメントの変化などが扱われている。(学習外の)分子構造の予測などもある。
 
@@ -979,6 +977,14 @@
 * [RL Unplugged: Benchmarks for Offline Reinforcement Learning](https://github.com/deepmind/deepmind-research/tree/master/rl_unplugged)
   * (実環境にアクセスしない)オフライン強化学習のベンチマークデータセット。複雑な連続値コントロールからAtariまで幅広い行動空間、探索難易度の環境のデータが収録されている。
 
+## Climate Change
+
+* [Climate Change Laws of the World](https://climate-laws.org/)
+  * 気候変動に関する法律や訴訟の文書データセット。法律での規制に意味があるのか?の検証に使用できる。データの可視化では、法律が多いほど排出量は抑えられているように見える。
+* [PyRain](https://github.com/FrontierDevelopmentLab/PyRain)
+  * 降水量に関わるデータセットを素早くロードできるライブラリ。ヨーロッパ中期予報センター(ECMWF)が公開するSimSatとERA5、NASAが公開するIMERG、の3つが使用可能で、高速にデータロード可能+異なるデータを組み合わせたモデルが作成できる。
+* [OGNet](https://stanfordmlgroup.github.io/projects/ognet/)
+  * 衛星画像(NAIP: National Agriculture Imagery Program)を500 x 500ピクセルに切り分け、石油精製施設かどうかを判定したデータセット。画像数7,066のうち、石油精製施設が149が含まれる。
 
 # Dataset Summary Page
 
