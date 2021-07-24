@@ -318,7 +318,8 @@
   * 900という膨大な実験を試すことができる。
 * [AndroidEnv](https://deepmind.com/research/publications/androidenv)
   * Android端末を強化学習環境として使えるライブラリ。エージェントにブラウザを開く、Google Mapを開く、YouTubeを見るといった行動をさせることができる。
-
+* [BRAX](https://github.com/google/brax)
+  * Googleが微分可能な物理エンジンをOSSで公開。JAXで書かれており、GPU/TPU上で高速に動作する。
 
 # Others
 
