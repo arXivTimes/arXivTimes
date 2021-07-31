@@ -509,6 +509,9 @@
 
 ### Development
 
+* [2021年のエンジニア新人研修の講義資料を公開しました](https://blog.cybozu.io/entry/2021/07/20/100000)
+  * サイボウズで使用されている新人研修資料。DevOpsに関連する技術を一通り学ぶことができる。
+
 #### Coding
 
 * [python_exercises](https://github.com/icoxfog417/python_exercises)
