@@ -321,7 +321,8 @@
   * i2b2とOMOPの呼びかけで、世界各国の病院(アメリカ、イタリア、ドイツ、シンガポール、フランス、計96の病院)から新型コロナウィルスの電子カルテデータを集めて統合。計27,927件で検査値の総量は187,802件に上る。医療機関(国?)によりやはり違いがあるよう。
 * [DELVE Global COVID-19 Dataset](https://rs-delve.github.io/data_software/global-dataset.html)
   * 様々な新型コロナウィルスに関するデータをまとめたデータセット。各国の対策、検査/死亡率、また気候データなど国横断で差異を意識しながら分析できるようまとめらている。pandasですぐに読み込めるようになっており、扱いやすい。
-
+* [CLIP: A Dataset for Extracting Action Items for Physicians from Hospital Discharge Notes](https://physionet.org/content/mimic-iii-clinical-action/1.0.0/)
+  * 退院記録をアノテーションしたデータセット。専門医療センターで測定した患者のバイタルサイン、投薬、検査結果等のデータセットMIMIC-IIIに対し行っている。退院後の患者のケアへの活用を企図している。
 
 ## Art
 
