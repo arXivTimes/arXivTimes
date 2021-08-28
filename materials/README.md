@@ -651,6 +651,8 @@
   * 時系列予測のチュートリアル記事。基礎的な手法の解説からおためしデータセット、そこでの検証まで紹介されている。基本はシンプルな手法で十分で、Prophetを使えばだいぶ十分という結論。
 * [microsoft/forecasting](https://github.com/microsoft/forecasting)
   * 時系列モデルを構築する際のベストプラクティス集。Python/R双方のJupyter Notebookつき。
+* [ADVANCES IN FINANCIAL MACHINE LEARNING](https://www.quantresearch.org/Lectures.htm)
+  * 金融分野における機械学習を学ぶ講座の資料。ポートフォリオ構築やバックテストなどクオンツ運用への活用が中心になっている。2012年から開講されているようで、各年で行われた講座中の講演資料も掲載されている(新型コロナへの対応もある)。
 
 ### XGBoost
 
