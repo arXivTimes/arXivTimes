@@ -328,8 +328,8 @@
 * [DeepSpeed](https://github.com/microsoft/DeepSpeed)
   * 深層学習モデルの学習を効率化するためのライブラリ(PyTorchのモデルが対象でTensorFlowはサポートされていない)。
   * データ・プロセス・モデルの3つをすべて並列にする3次元並列処理で学習時間だけでなく省メモリでの学習を可能にする。
-
-https://github.com/microsoft/DeepSpeed
+* [MatDeepLearn](https://github.com/vxfung/MatDeepLearn)
+  * Graph Neural Networkで材料科学タスクを解くためのフレームワーク。主に原子の構成から物質の特性を予測するタスクを想定している。データの前処理や学習(ハイパーパラメーター探索)を行ってくれる。
 
 ## Annotation Tool
 
