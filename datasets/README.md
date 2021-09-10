@@ -733,6 +733,9 @@
 * [MKQA: Multilingual Knowledge Questions & Answers](https://github.com/apple/ml-mkqa/)
   * 多言語の質問回答データセット(日本語も入っている)。解答はYes/No/テキストスパンだけでなく「回答無し」も含んだいずれかから行うようになっている。
   * 解答には可能な場合WikipediaのQIDが付与されており、知識グラフへの活用や(存在する場合)他言語への翻訳ができるようになっている
+* [自治体における「子育てAIチャットボット」の普及に向けたオープンデータ](https://linecorp.com/ja/csr/newslist/ja/2020/260)
+  * LINEが参画している子育てオープンデータ協議会が公開している、渋谷区のFAQを基にどの自治体でも活用できるようにしたFAQデータセット。
+  * ライセンスは、クリエイティブ・コモンズ・ライセンスの表示4.0国際（https://creativecommons.org/licenses/by/4.0/legalcode.ja に規定される著作権利用許諾条件を指す。）による。
 
 ## IR
 
