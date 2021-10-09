@@ -489,6 +489,8 @@
   * プロジェクトの計画、修正について体系的に書かれた資料。機械学習を使うか否かに関わらず、システム開発を行う前にまず参照しておくべき資料。
 * [Google's New Manager Training Slides](https://www.frankmireault.com/blog/googles-new-manager-training-slides)
   * Googleのマネジメント研修で使用されている資料。課題を把握する能力(Cognitive Intelligence)、技術スキルに加えて、自身/チームの感情変化を把握してマネジメント活動に活かすスキル(Emotion Intelligence)が必要とされている。
+* [Operationalizing machine learning in processes](https://www.mckinsey.com/business-functions/operations/our-insights/operationalizing-machine-learning-in-processes)
+  * 機械学習で業務改善を行うための4ステップをまとめた記事。1.単一の業務ではなくプロセス全体をEnd2Endで改善する方法に焦点を当てる、2.その時に必要な技術要素を選定する、3.OJTのように実環境で検証する、4.機械学習導入プロセスの標準化、のステップとなっている。
 
 ### Architecture
 
