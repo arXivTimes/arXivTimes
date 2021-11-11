@@ -123,6 +123,8 @@
   * Vision&Languageの研究動向に関するまとめ。最新の研究だけでなく、1970~1980年代の萌芽的な研究から紹介されており、歴史的な流れが概観できる資料となっている。
 * [Deep Learningを用いた経路予測の研究動向](https://speakerdeck.com/himidev/deep-learningwoyong-itajing-lu-yu-ce-falseyan-jiu-dong-xiang)
   * DNNを用いた経路予測の手法のサーベイ。衝突(インタラクション)を避けることができる経路を予測するタスクで、空間範囲の情報をまとめるPoolingや、この分野でもAttentionが用いられている。
+* [Visual SLAM入門 ～発展の歴史と基礎の習得～](http://cvim.ipsj.or.jp/index.php?id=tutorial)
+  * ロボットやARで空間を認識するために使用されるVisual SLAMを基礎から解説したチュートリアル資料。定義から代表的な3つの手法（特徴点、直接法、DNN）、3次元の推定まで幅広く解説されている。また、近年課題となっているプライバシーの問題にも言及されている。
 
 ### Not Recommend :droplet:
 
