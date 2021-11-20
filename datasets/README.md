@@ -746,6 +746,8 @@
   * コード(メソッド)とコメント、メタデータを合わせたコーパスと、検索結果についてプログラマーや研究者が関連度をアノテーションしたデータの2つが公開されている。
 * [TripClick](https://tripdatabase.github.io/tripclick/)
   * 臨床研究を検索できる[Trip](https://www.tripdatabase.com/)で収集されたデータセット。検索クエリ/結果のログだけでなく、MEDLINEに登録されている文献についてタイトル/概要をセットにしたIR用のデーセット、それをDNNのモデル学習用に加工したデータセットが提供されている。
+* [Amazon Multilingual Counterfactual Dataset (AMCD)](https://github.com/amazon-research/amazon-multilingual-counterfactual-dataset)
+  * もし〜だったら、という半事実を含む商品レビューのデータセット。英語、ドイツ語、日本語が対象。割合は1~2%程度だが、事実に基づかないレビューのためユーザー体験が悪くなる。半事実を含む文の構文からデータを収集し、半事実ではないが似ている文をBERTの類似度で収集している。
 
 ## Reasoning
 
