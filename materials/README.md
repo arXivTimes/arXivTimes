@@ -658,6 +658,14 @@
 * [ADVANCES IN FINANCIAL MACHINE LEARNING](https://www.quantresearch.org/Lectures.htm)
   * 金融分野における機械学習を学ぶ講座の資料。ポートフォリオ構築やバックテストなどクオンツ運用への活用が中心になっている。2012年から開講されているようで、各年で行われた講座中の講演資料も掲載されている(新型コロナへの対応もある)。
 
+### Security
+
+* [Differential Privacy Blog Series](https://www.nist.gov/itl/applied-cybersecurity/privacy-engineering/collaboration-space/focus-areas/de-id/dp-blog)
+  * NISTが差分プライバシーを解説したブログ記事を公開。技術者だけでなく、事業責任者などプライバシーを意識しなければならない関係者全員で共有できる内容をまとめていくことを目指している。1記事はコンパクトで説明もわかりやすいので、ここから読み進めていくのはお勧め。
+* [セキュリティエンジニアのための機械学習入門の入門](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Security_and_MachineLearning)
+  * セキュリティエンジニアのための機械学習入門記事。
+  * 侵入/スパム検知、通信ログの解析について基本的な機械学習手法を適用する方法が解説されている。
+
 ### XGBoost
 
 * [A Kaggle Master Explains Gradient Boosting](http://blog.kaggle.com/2017/01/23/a-kaggle-master-explains-gradient-boosting/)
@@ -683,9 +691,6 @@
   * 医療のための機械学習のコース。CNNで診断、という技術からのアプローチでなく患者のリスク判定や心臓病、診断チャートへの応用といった医療側の課題から組み立てられており実践的。
   * バイアスや解釈性の問題も扱っており、先進的な内容になっている。
 https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s897-machine-learning-for-healthcare-spring-2019/
-* [セキュリティエンジニアのための機械学習入門の入門](https://github.com/13o-bbr-bbq/machine_learning_security/tree/master/Security_and_MachineLearning)
-  * セキュリティエンジニアのための機械学習入門記事。
-  * 侵入/スパム検知、通信ログの解析について基本的な機械学習手法を適用する方法が解説されている。
 * [生命情報向けの機械学習入門](https://github.com/HumanomeLab/mlcourse)
   * ゲノムの解析など生命情報分野の研究における機械学習の活用について解説したリポジトリ。
   * 酵母の細胞周期の同定や、転写因子結合の有無といったタスクを機械学習で予測する方法が紹介されている。
