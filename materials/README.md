@@ -503,6 +503,8 @@
   * [解説スライド](https://www.slideshare.net/shunyaueta/applied-machine-learning-at-facebook-a-datacenter-infrastructure-perspective-hpca18)
 * [Machine Learning Engineering for Production (MLOps)](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
   * MLOpsを学べる講座。解説に加え、TensorFlow Extendedを使用した実践もある。
+* [OpenMLOps](https://github.com/datarevenue-berlin/OpenMLOps)
+  * OSSを組み合わせてMLOps基盤を構築する方法を解説した記事。実験はJupyterHub、データフローはPrefect、実験管理はMLFlow、モデルホスティングはSeldon、データ管理にFeast、分散実行基盤にDaskを利用している。Data RevenueというAI創薬を手掛ける企業が公開している。
 
 ### Team Management
 
