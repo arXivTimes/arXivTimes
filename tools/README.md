@@ -320,6 +320,8 @@
   * Android端末を強化学習環境として使えるライブラリ。エージェントにブラウザを開く、Google Mapを開く、YouTubeを見るといった行動をさせることができる。
 * [BRAX](https://github.com/google/brax)
   * Googleが微分可能な物理エンジンをOSSで公開。JAXで書かれており、GPU/TPU上で高速に動作する。
+* [ShinRL](https://github.com/omron-sinicx/ShinRL)
+  * JAXベースの強化学習ライブラリShinRLが公開。他のライブラリに比べて理論どうりにエージェントが動いているかデバッグするための機能が豊富で、学習して得られたQ-Tableや状態への到達頻度と、理論上こうなってほしいOracleとの差異を比較することができる。
 
 # Others
 
