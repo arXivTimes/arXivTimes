@@ -512,6 +512,10 @@
   * 機械学習を利用したいというニーズに応えていくには、機械学習モデルの構築作業を分業していく必要があるという提言。現在は一人の職人がデータ収集から前処理、モデルの構築まで全部を行い、そのプロセスが属人的になることが多い。なので、最低限アルゴリズム構築と学習は分けようという。
 * [2020.06.01 M1勉強会 論文の読み方・書き方・研究室の過ごし方](https://speakerdeck.com/sei88888/2020-dot-06-dot-01-m1mian-qiang-hui-lun-wen-falsedu-mifang-shu-kifang-yan-jiu-shi-falseguo-gosifang)
   * 研究生活を送るためのアドバイス集。中心となる論文を読む/執筆する活動だけでなく、研究室での過ごし方やメンタル・スケジュールコントロールのコツも書かれている。
+* [Loon での事後検証: 迅速な開発のための指針](https://cloud.google.com/blog/ja/products/devops-sre/loon-sre-use-postmortems-to-launch-and-iterate)
+  * シャットダウンしたLoonから、スタートアップでも早期から導入すべき「事後検証の文化」が公開。インシデントを組織全体に学びを蓄積するチャンスとする文化。スーパーヒーローに頼るのでなく、標準化した学びのプロセスと過失を責めない文化が必要としている。
+
+https://cloud.google.com/blog/ja/products/devops-sre/loon-sre-use-postmortems-to-launch-and-iterate
 
 ### Development
 
