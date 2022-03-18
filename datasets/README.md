@@ -741,6 +741,8 @@
 * [JaQuAD](https://github.com/SkelterLabsInc/JaQuAD)
   * SQuADを模した、日本語のQ&Aデータセット。
 
+[日本語のQ&Aデータセットの比較についてはこちらのスプレッドシートにまとめられている](https://docs.google.com/spreadsheets/d/1uwuqM4i4-4UO-RxSeN1twwTaDwq8KaMB/edit#gid=1737466371)
+
 ## IR
 
 * [CodeSearchNet](https://github.blog/2019-09-26-introducing-the-codesearchnet-challenge/)
