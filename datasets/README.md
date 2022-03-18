@@ -738,6 +738,8 @@
   * ライセンスは、クリエイティブ・コモンズ・ライセンスの表示4.0国際（https://creativecommons.org/licenses/by/4.0/legalcode.ja に規定される著作権利用許諾条件を指す。）による。
 * [BeerQA](https://beerqa.github.io/)
   * 回答するためのステップ数が決まっていないQAデータセットBeerQAが公開。1stepとしてSQuAD、2stepとしてHotpotQA、3step以上の文書検索が必要な質問として新たにQAを作成し3つ複合したデータセットとなっている。ベースラインとしてTransformer型のモデルも提案。
+* [JaQuAD](https://github.com/SkelterLabsInc/JaQuAD)
+  * SQuADを模した、日本語のQ&Aデータセット。
 
 ## IR
 
