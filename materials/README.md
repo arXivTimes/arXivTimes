@@ -173,6 +173,8 @@
   * スライドの資料がこちから参照できる: [Frontiers of Natural Language Processing](https://www.slideshare.net/SebastianRuder/frontiers-of-natural-language-processing)
 * [全日本CV勉強会発表資料 Learning Transformer in 40 Minutes](https://speakerdeck.com/sei88888/quan-ri-ben-cvmian-qiang-hui-fa-biao-zi-liao-learning-transformer-in-40-minutes)
   * Transformerの速習ができるスライド。メリット・デメリットから基本ブロックの解説、学習形式までコンパクトにまとめられている。
+* [より良いTransformerをつくる](https://speakerdeck.com/butsugiri/yoriliang-itransformerwotukuru)
+  * Transformerの改善研究を概観できるスライド。Positional Encoding, Attention, Layer Normalization, Feed Forwardの4点について工夫研究がまとめられている。
 
 ## Classification
 
