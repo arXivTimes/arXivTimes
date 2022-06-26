@@ -536,6 +536,8 @@ https://cloud.google.com/blog/ja/products/devops-sre/loon-sre-use-postmortems-to
   * 実際に深層学習系のコードを書く前に、必ず目を通しておきたい。
 * [RDBMS in Action](https://speakerdeck.com/saiya_moebius/rdbms-in-action)
   * RDBについての基礎知識。ここに書かれている内容が把握できてればほぼ問題がないと思う。
+* [農学生命情報科学特論I](https://www.iu.a.u-tokyo.ac.jp/lectures/AG11/)
+  * 東京大学 アグリバイオインフォマティクス教育研究ユニットで行っている「農学生命情報科学特論I」の講義資料。スマート農業を実現するためのプログラムを学ぶという立て付けで、初学者向けにPythonからNumpy/pandas/Matplotlib(seaborn)の使い方まで解説されている。
 
 #### Git
 
