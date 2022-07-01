@@ -447,8 +447,6 @@
 
 * [自然言語処理のためのリソース](http://nlp.ist.i.kyoto-u.ac.jp/index.php?NLP%E3%83%AA%E3%82%BD%E3%83%BC%E3%82%B9#g63a7f30)
   * 京都大学から提供されている自然言語処理のためのデータセット。毎日新聞のデータに対する各種言語情報である[京都大学テキストコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?%E4%BA%AC%E9%83%BD%E5%A4%A7%E5%AD%A6%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88%E3%82%B3%E3%83%BC%E3%83%91%E3%82%B9)(※本文データは別途入手する必要がある)、さまざまなウェブ文書のリード文に対し各種言語情報のアノテーションを行った[京都大学ウェブ文書リードコーパス](http://nlp.ist.i.kyoto-u.ac.jp/index.php?KWDLC)等がある。
-* [解析済みブログコーパス](http://nlp.ist.i.kyoto-u.ac.jp/kuntt/)
-  * 京都大学と、NTTコミュニケーションの共同研究ユニットで作成されたコーパス。4テーマ（京都観光、携帯電話、スポーツ、グルメ）、249記事、4,186文の解析済みブログコーパス。形態素、構文、格・省略・照応、評判情報がアノテーションされている。
 * [Stanford Rare Word (RW) Similarity Dataset](https://nlp.stanford.edu/~lmthang/morphoNLM/)
   * 文中にあまり登場しない低頻度語について、余りレアではない単語とペアにして、その類似度を付けたデータセット
   * 類似度の評価は、クラウドソーシングで0-10の11段階で評価をしてもらい、つけている。
@@ -458,8 +456,6 @@
   * 動詞・形容詞・名詞・副詞が対象となっており、クラウドソーシングを利用し10名のアノテータに11段階で単語ペアの類似度をスコアしてもらっている。
 * [The Japanese Bigger Analogy Test Set (jBATS)](http://vecto.space/projects/jBATS/)
   * 日本語のアナロジータスク(王様-男+女=女王、など)のデータセット。本家のBATSに乗っ取り、4つの言語関係が収録されている。
-* [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
-  * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。
 * [WikiSQL](https://github.com/salesforce/WikiSQL)
   * 自然言語をSQLに対応づけたデータセット。なお、SQLは選択用(SELECT)のみ。
   * 自然言語とSQLの条件・列選択・集計対象列との対応データと、テーブルの定義が提供されている。
@@ -471,15 +467,6 @@
   * 各データの学習/評価データについては、結果として同じSQLになるものが互いに含まれないようにしている。
 * [Spider 1.0](https://yale-lily.github.io/spider)
   * Text to SQLのデータセット。質問数は10,181で、対応付けられるSQL数は5,693。これらのSQLは、138の異なるドメインの200のデータベースに対するアクセスを行うものになる。
-* [青空文庫](http://www.aozora.gr.jp/)
-  * 著作権の消滅した作品、また「自由に読んでもらってかまわない」とされたものをテキストとXHTML(一部HTML)形式に電子化した上で揃えている
-  * [GitHubからダウンロードが可能になった](https://github.com/aozorabunko/aozorabunko)。
-* [青空文庫形態素解析データ集](http://aozora-word.hahasoha.net/index.html)
-  * 青空文庫に収録されている作品に対し形態素解析を行ったデータ。CCライセンスで、商用利用も可能。
-  * 対象の作品は2012/12時点で公開されており、著作権フラグのない11,176作品。
-* [BookCorpus](http://yknzhu.wixsite.com/mbweb)
-  * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
-  * こちらはさすがに利用申請が必要で、また研究用途のみOK。
 * [csi-corpus](https://github.com/EdinburghNLP/csi-corpus)
   * 実世界における自然言語タスク、をテーマに作成されたデータセット。具体的には会話から犯人を推定するもので、CSI:科学捜査班の発話文と文中の犯人・容疑者・その他の人、また実際人がそのシーンで思っていた犯人がアノテーションされている
   * なお、実際のドラマのシーンを確認するには当然購入が必要。
@@ -488,8 +475,6 @@
   * 自然言語理解を行うモデルの性能測定プラットフォームGLUE(データセットを含む)。
   * 内容としては、質問回答や感情分類、テキスト間の関係推定などのタスクからなり、単一のモデルがこれら複数のタスクをどれだけこなせるかを測定する。
   * [GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding](https://arxiv.org/abs/1804.07461)
-* [PeerRead](https://github.com/allenai/PeerRead)
-  * ACL/NIPS/ICLRの論文の概要と、それに対するレビューを集めたデータセット(accept/rejectされたもの双方が含まれる)。論文数は14,000で、レビュー数は10,000。
 * [kanjivg-radical](https://github.com/yagays/kanjivg-radical)
   * 漢字の部首、そして部首と漢字を対応付けたデータセット。
   * 「脳」なら「月」「⺍」「凶」、また「月」という部首からなら「肝」「育」などが取れる。詳細は[記事](https://yag-ays.github.io/project/kanjivg-radical/)を参照。
@@ -513,6 +498,26 @@
   * 商取引の契約書にアノテーションを行ったデータセット。500超の契約書文について、組織名などの契約者情報、トラブルになりそうな箇所、コスト負担になりそうな箇所の3種類41ラベルが専門家によりアノテーションされている。
 * [Dynabench](https://dynabench.org/)
   * 自然言語処理の性能を評価するために「動く」ベンチマーク。敵対サンプルの考えを使い、モデルが間違えるサンプルを人間が登録していくことでベンチマークを更新していく。サンプル作成は実際サイト上で試すことができる。
+  
+## Corpus
+
+* [WikiText](https://metamind.io/research/the-wikitext-long-term-dependency-language-modeling-dataset/)
+  * 言語モデル学習用のデータセットWikiText-2/WikiText-103の公開。それぞれPenn Treebankよりも2倍&110倍のデータ量。
+* [解析済みブログコーパス](http://nlp.ist.i.kyoto-u.ac.jp/kuntt/)
+  * 京都大学と、NTTコミュニケーションの共同研究ユニットで作成されたコーパス。4テーマ（京都観光、携帯電話、スポーツ、グルメ）、249記事、4,186文の解析済みブログコーパス。形態素、構文、格・省略・照応、評判情報がアノテーションされている。
+* [青空文庫](http://www.aozora.gr.jp/)
+  * 著作権の消滅した作品、また「自由に読んでもらってかまわない」とされたものをテキストとXHTML(一部HTML)形式に電子化した上で揃えている
+  * [GitHubからダウンロードが可能になった](https://github.com/aozorabunko/aozorabunko)。
+* [青空文庫形態素解析データ集](http://aozora-word.hahasoha.net/index.html)
+  * 青空文庫に収録されている作品に対し形態素解析を行ったデータ。CCライセンスで、商用利用も可能。
+  * 対象の作品は2012/12時点で公開されており、著作権フラグのない11,176作品。
+* [BookCorpus](http://yknzhu.wixsite.com/mbweb)
+  * 10,000以上の書籍のデータのコーパス(ただ、1/4は重複あり)。また、うち11については映画との対応も提供されている(MovieBook dataset)。
+  * こちらはさすがに利用申請が必要で、また研究用途のみOK。
+* [PeerRead](https://github.com/allenai/PeerRead)
+  * ACL/NIPS/ICLRの論文の概要と、それに対するレビューを集めたデータセット(accept/rejectされたもの双方が含まれる)。論文数は14,000で、レビュー数は10,000。
+* 国会議案データベース([衆議院](https://github.com/smartnews-smri/house-of-representatives)、[参議院](https://github.com/smartnews-smri/house-of-councillors))
+  * 衆議院/参議院の公式ウェブサイトから国会に提出された議案をデータベース化したデータセット。
 
 ## Parallel Corpus
 
